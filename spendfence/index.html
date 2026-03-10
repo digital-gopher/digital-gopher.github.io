@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpendFence – GopheR Apps</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
+    nav { background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+    .nav-left { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; }
+    .nav-left a { color: #7dd3b0; text-decoration: none; }
+    .nav-left a:hover { text-decoration: underline; }
+    .nav-sep { color: #4a4a60; }
+    .nav-current { color: #a0a0b0; }
+    .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; }
+    .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .lang-btn.active { background: #7dd3b0; color: #111318; }
+
+    .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+    .app-hero { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
+    .app-icon { width: 72px; height: 72px; border-radius: 16px; overflow: hidden; background: #2a2b38; flex-shrink: 0; }
+    .app-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .app-title { font-size: 1.5rem; font-weight: 700; }
+    .app-subtitle { color: #7a7a90; font-size: 0.88rem; margin-top: 0.3rem; }
+
+    .section-title { font-size: 0.78rem; font-weight: 600; color: #7dd3b0; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; margin-top: 2rem; }
+
+    .desc-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.3rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
+    .desc-box p + p { margin-top: 0.7rem; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.75rem; padding: 0.25rem 0.7rem; border-radius: 100px; }
+
+    .links-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.8rem; margin-top: 1rem; }
+    .link-card {
+      background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px;
+      padding: 1.1rem 1.3rem; text-decoration: none; color: inherit;
+      display: flex; align-items: center; gap: 0.8rem; transition: border-color 0.2s;
+    }
+    .link-card:hover { border-color: #7dd3b0; }
+    .link-icon { font-size: 1.3rem; }
+    .link-label { font-size: 0.78rem; color: #7a7a90; }
+    .link-title { font-size: 0.92rem; font-weight: 600; margin-top: 0.1rem; }
+
+    .play-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: #7dd3b0; color: #111318; font-weight: 600; font-size: 0.9rem;
+      padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem;
+      transition: opacity 0.2s;
+    }
+    .play-btn:hover { opacity: 0.85; }
+
+    footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
+    footer a { color: #4a4a60; text-decoration: none; }
+    footer a:hover { color: #7dd3b0; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <a href="../index.html">GopheR Apps</a>
+    <span class="nav-sep">/</span>
+    <span class="nav-current">SpendFence</span>
+  </div>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('hu')">HU</button>
+  </div>
+</nav>
+
+<div class="content">
+
+  <div class="app-hero">
+    <div class="app-icon">
+      <img src="https://play-lh.googleusercontent.com/hPcyfph4NljmSl-1_OQsvYaVk5cjyPKQO51autv56EiUayaWq0xkOX3WE9G6OC68bxxD9yOO_wVS4mTez810tQ=w120-h120" alt="SpendFence" />
+    </div>
+    <div>
+      <div class="app-title">SpendFence</div>
+      <div class="app-subtitle" data-en="Finance · by GopheR" data-hu="Pénzügy · GopheR-től">Finance · by GopheR</div>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="About the app" data-hu="Az alkalmazásról">About the app</div>
+  <div class="desc-box">
+    <p data-en="SpendFence is a subscription manager and expense tracker. Keep all your recurring payments in one place and never miss a payment deadline again." data-hu="A SpendFence egy előfizetés-kezelő és kiadáskövető alkalmazás. Tartsd számon az összes előfizetésedet egy helyen, és soha ne felejts el egy fizetési határidőt sem.">SpendFence is a subscription manager and expense tracker. Keep all your recurring payments in one place and never miss a payment deadline again.</p>
+    <p data-en="The app works completely offline – your data never leaves your device." data-hu="Az alkalmazás teljesen offline működik – az adataid soha nem hagyják el az eszközödet.">The app works completely offline – your data never leaves your device.</p>
+  </div>
+
+  <div class="tags">
+    <span class="tag">100% Offline</span>
+    <span class="tag" data-en="No ads" data-hu="Reklámok nélkül">No ads</span>
+    <span class="tag" data-en="No data collection" data-hu="Nincs adatgyűjtés">No data collection</span>
+    <span class="tag" data-en="Multi-currency" data-hu="Több valuta">Multi-currency</span>
+    <span class="tag" data-en="Biometric lock" data-hu="Biometrikus zár">Biometric lock</span>
+  </div>
+
+  <div class="section-title" data-en="Download" data-hu="Letöltés">Download</div>
+  <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gopher.spendfence" target="_blank">
+    ▶ Google Play
+  </a>
+
+  <div class="section-title" data-en="Links" data-hu="Hivatkozások">Links</div>
+  <div class="links-grid">
+    <a class="link-card" href="privacy.html">
+      <div class="link-icon">🔒</div>
+      <div>
+        <div class="link-label" data-en="Legal" data-hu="Jogi">Legal</div>
+        <div class="link-title" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</div>
+      </div>
+    </a>
+    <a class="link-card" href="mailto:gopher.pocok@gmail.com">
+      <div class="link-icon">✉️</div>
+      <div>
+        <div class="link-label" data-en="Get in touch" data-hu="Kapcsolat">Get in touch</div>
+        <div class="link-title" data-en="Send email" data-hu="Email küldése">Send email</div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <a href="../index.html" data-en="← Back to all apps" data-hu="← Vissza az összes apphoz">← Back to all apps</a>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+  const savedLang = localStorage.getItem('lang') || 'en';
+  setLang(savedLang);
+</script>
+</body>
+</html>
