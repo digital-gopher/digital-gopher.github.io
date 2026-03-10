@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BreakIt – GopheR Apps</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
+    nav { background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+    .nav-left { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; }
+    .nav-left a { color: #7dd3b0; text-decoration: none; }
+    .nav-left a:hover { text-decoration: underline; }
+    .nav-sep { color: #4a4a60; }
+    .nav-current { color: #a0a0b0; }
+    .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; }
+    .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .lang-btn.active { background: #7dd3b0; color: #111318; }
+
+    .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+    .app-hero { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
+    .app-icon { width: 72px; height: 72px; border-radius: 16px; background: #2a2b38; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; color: #7dd3b0; flex-shrink: 0; }
+    .app-title { font-size: 1.5rem; font-weight: 700; }
+    .app-subtitle { color: #7a7a90; font-size: 0.88rem; margin-top: 0.3rem; }
+
+    .notice { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #f59e0b; border-radius: 10px; padding: 0.9rem 1.2rem; font-size: 0.88rem; color: #8a8aa0; margin-bottom: 1.5rem; }
+
+    .section-title { font-size: 0.78rem; font-weight: 600; color: #7dd3b0; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; margin-top: 2rem; }
+    .desc-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.3rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
+    .desc-box p { margin-bottom: 0.6rem; }
+    .desc-box p:last-child { margin-bottom: 0; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.75rem; padding: 0.25rem 0.7rem; border-radius: 100px; }
+
+    .links-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.8rem; margin-top: 1rem; }
+    .link-card { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.1rem 1.3rem; text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.8rem; transition: border-color 0.2s; }
+    .link-card:hover { border-color: #7dd3b0; }
+    .link-icon { font-size: 1.3rem; }
+    .link-label { font-size: 0.78rem; color: #7a7a90; }
+    .link-title { font-size: 0.92rem; font-weight: 600; margin-top: 0.1rem; }
+
+    .play-btn { display: inline-flex; align-items: center; gap: 0.5rem; background: #7dd3b0; color: #111318; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem; transition: opacity 0.2s; }
+    .play-btn:hover { opacity: 0.85; }
+    .play-btn-ghost { display: inline-flex; align-items: center; gap: 0.5rem; background: #1a1b23; border: 1px solid #2a2b38; color: #7a7a90; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem; margin-left: 0.7rem; }
+
+    footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
+    footer a { color: #4a4a60; text-decoration: none; }
+    footer a:hover { color: #7dd3b0; }
+
+    @media (max-width: 480px) { .play-btn-ghost { margin-left: 0; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <a href="../index.html">GopheR Apps</a>
+    <span class="nav-sep">/</span>
+    <span class="nav-current">BreakIt</span>
+  </div>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('hu')">HU</button>
+  </div>
+</nav>
+
+<div class="content">
+
+  <div class="app-hero">
+    <div class="app-icon">BI</div>
+    <div>
+      <div class="app-title">BreakIt</div>
+      <div class="app-subtitle" data-en="Health & Lifestyle · by GopheR" data-hu="Egészség és életmód · GopheR-től">Health & Lifestyle · by GopheR</div>
+    </div>
+  </div>
+
+  <div class="notice" data-en="⚠️ This app is currently in testing. It will be available on Google Play soon." data-hu="⚠️ Ez az alkalmazás jelenleg tesztelés alatt áll. Hamarosan elérhető lesz a Google Play-en.">⚠️ This app is currently in testing. It will be available on Google Play soon.</div>
+
+  <div class="section-title" data-en="About the app" data-hu="Az alkalmazásról">About the app</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>Take Control of Your Life with BreakIt</p>
+      <p>Are you trying to quit smoking, stop drinking, cut down on sugar, or break free from social media addiction? BreakIt is your personal companion designed to help you overcome bad habits, track your recovery, and stay motivated every single day.</p>
+      <p>Whether you want to save money, improve your health, or regain your time, BreakIt provides the tools you need to succeed — completely offline and privately.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>Vedd kézbe az életedet a BreakIt-tel!</p>
+      <p>Megpróbálsz leszokni a dohányzásról, az alkoholról, csökkenteni a cukorfogyasztást, vagy megszabadulni a közösségi média függőségtől? A BreakIt a személyes társad, amely segít leküzdeni a rossz szokásokat, nyomon követni a fejlődést, és minden nap motiváltan maradni.</p>
+      <p>Akár pénzt szeretnél megtakarítani, javítani az egészségeden, vagy visszanyerni az idődet, a BreakIt biztosítja az összes szükséges eszközt – teljesen offline és privát módon.</p>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="Key Features" data-hu="Főbb funkciók">Key Features</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>🚀 <strong>Advanced Habit Tracking:</strong> Track your clean time down to the second. Whether you are quitting one habit or multiple addictions at once, visualize your progress with clear counters and milestones.</p>
+      <p>💰 <strong>Savings & Time Calculator:</strong> See exactly how much money and time you have saved by not giving in to your habit. Watch your savings grow and use it as motivation to stay strong.</p>
+      <p>🔐 <strong>Secure & Private (Biometric Lock):</strong> Your journey is personal. Protect your data with a Biometric Lock (Fingerprint or Face ID) and a PIN code. Your secrets stay safe on your device.</p>
+      <p>📅 <strong>Mood Journal & Patterns:</strong> Understanding your triggers is key to recovery. Log your daily mood and write notes in the built-in journal. Analyze your emotional patterns to prevent relapses before they happen.</p>
+      <p>📊 <strong>Smart Analysis & Health Timeline:</strong> Get insights into your behavior. See which time of day is hardest for you and track how your body recovers over time with the built-in health timeline.</p>
+      <p>📄 <strong>PDF Export:</strong> Need to share your progress with a therapist, doctor, or accountability partner? Export your full history, journal entries, and statistics into a clean, professional PDF report with just one tap.</p>
+      <p>🆘 <strong>SOS Mode:</strong> Panic button with breathing exercises and motivational tips for hard moments.</p>
+      <p>🌙 <strong>Light & Dark Mode:</strong> Beautiful, modern interface that looks great day or night.</p>
+      <p>💬 <strong>Daily Motivation:</strong> Get greeted with encouraging quotes and milestones.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>🚀 <strong>Fejlett szokáskövetés:</strong> Kövesd a tiszta idődet másodpercre pontosan. Akár egy, akár több szokással küzdesz egyszerre, követheted a fejlődést világos számlálókkal és mérföldkövekkel.</p>
+      <p>💰 <strong>Megtakarítás- és időkalkulátor:</strong> Lásd pontosan, mennyi pénzt és időt takarítottál meg azzal, hogy nem engedtél a kísértésnek. Figyeld, ahogy a megtakarításod növekszik!</p>
+      <p>🔐 <strong>Biztonságos és privát (biometrikus zár):</strong> Az utad személyes. Védd meg az adataidat biometrikus zárral (ujjlenyomat vagy Face ID) és PIN-kóddal.</p>
+      <p>📅 <strong>Hangulat-napló és mintázatok:</strong> A visszaesés megelőzéséhez fontos megérteni a kiváltó okokat. Jegyezd fel a napi hangulatodat, és írj feljegyzéseket a beépített naplóba.</p>
+      <p>📊 <strong>Okos elemzés és egészség-idősor:</strong> Szerezz betekintést a viselkedésedbe. Lásd, a nap melyik szakasza a legnehezebb, és kövesd nyomon, hogyan regenerálódik a szervezeted.</p>
+      <p>📄 <strong>PDF exportálás:</strong> Meg kell osztanod a fejlődésed egy terapeutával, orvossal? Egyetlen koppintással exportálhatod a teljes előzményedet és statisztikáidat professzionális PDF-be.</p>
+      <p>🆘 <strong>SOS mód:</strong> Pánikgomb légzőgyakorlatokkal és motivációs tippekkel a nehéz pillanatokra.</p>
+      <p>🌙 <strong>Világos és sötét mód:</strong> Gyönyörű, modern felület, amely nappal és éjjel is remekül néz ki.</p>
+      <p>💬 <strong>Napi motiváció:</strong> Bíztató idézetekkel és mérföldkövekkel köszöntheted minden nap.</p>
+    </div>
+  </div>
+
+  <div class="tags">
+    <span class="tag">100% Offline</span>
+    <span class="tag" data-en="No ads" data-hu="Reklámok nélkül">No ads</span>
+    <span class="tag" data-en="No data collection" data-hu="Nincs adatgyűjtés">No data collection</span>
+    <span class="tag" data-en="Biometric lock" data-hu="Biometrikus zár">Biometric lock</span>
+    <span class="tag" data-en="PDF Export" data-hu="PDF exportálás">PDF Export</span>
+    <span class="tag" data-en="Multi-habit" data-hu="Több szokás">Multi-habit</span>
+  </div>
+
+  <div class="section-title" data-en="Download" data-hu="Letöltés">Download</div>
+  <div>
+    <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gopher.breakit" target="_blank">▶ Google Play</a>
+    <a class="play-btn-ghost" href="https://play.google.com/store/apps/details?id=com.gopher.breakit" target="_blank" data-en="🧪 Join beta test" data-hu="🧪 Csatlakozz a bétateszthez">🧪 Join beta test</a>
+  </div>
+
+  <div class="section-title" data-en="Links" data-hu="Hivatkozások">Links</div>
+  <div class="links-grid">
+    <a class="link-card" href="privacy.html">
+      <div class="link-icon">🔒</div>
+      <div>
+        <div class="link-label" data-en="Legal" data-hu="Jogi">Legal</div>
+        <div class="link-title" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</div>
+      </div>
+    </a>
+    <a class="link-card" href="mailto:breakitappdev@gmail.com">
+      <div class="link-icon">✉️</div>
+      <div>
+        <div class="link-label" data-en="Get in touch" data-hu="Kapcsolat">Get in touch</div>
+        <div class="link-title" data-en="Send email" data-hu="Email küldése">Send email</div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <a href="../index.html" data-en="← Back to all apps" data-hu="← Vissza az összes apphoz">← Back to all apps</a>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-lang-block]').forEach(el => {
+      el.style.display = el.getAttribute('data-lang-block') === lang ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+  const savedLang = localStorage.getItem('lang') || 'en';
+  setLang(savedLang);
+</script>
+</body>
+</html>
