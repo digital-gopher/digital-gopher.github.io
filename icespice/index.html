@@ -78,8 +78,32 @@
 
   <div class="section-title" data-en="About the app" data-hu="Az alkalmazásról">About the app</div>
   <div class="desc-box">
-    <p data-en="Ice & Spice is a freezer and storage list app. Keep track of what's in your freezer and pantry, so you always know what you have at home." data-hu="Az Ice & Spice egy fagyasztó és tároló lista alkalmazás. Kövesd nyomon mi van a fagyasztódban és a kamrádban, hogy mindig tudd mi van otthon.">Ice & Spice is a freezer and storage list app. Keep track of what's in your freezer and pantry, so you always know what you have at home.</p>
-    <p data-en="The app contains ads provided by Google AdMob." data-hu="Az alkalmazás Google AdMob hirdetéseket tartalmaz.">The app contains ads provided by Google AdMob.</p>
+    <div data-lang-block="en">
+      <p>Want to know what's in your freezer and pantry without having to open the door? Ice & Spice helps you organize your food, track expiration dates, and reduce waste.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>Szeretnéd tudni, mi van a fagyasztódban és a kamrádban anélkül, hogy kinyitnád az ajtót? Az Ice & Spice segít rendszerezni az élelmiszereidet, követni a lejárati dátumokat és csökkenteni a pazarlást.</p>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="Key Features" data-hu="Főbb funkciók">Key Features</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>🧊 <strong>Complete inventory:</strong> Organize your food by drawers and shelves.</p>
+      <p>📸 <strong>Photos and Emojis:</strong> Take photos of your food or choose icons for easy recognition.</p>
+      <p>📅 <strong>Expiration monitoring:</strong> Never throw food away again! See in advance what's about to expire.</p>
+      <p>🔎 <strong>Quick search:</strong> Find everything in seconds with the barcode scanner and search engine.</p>
+      <p>📊 <strong>Statistics:</strong> Track how much money you've saved through conscious planning.</p>
+      <p>🏆 <strong>Gamification:</strong> Collect ranks and achievements for waste-free days!</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>🧊 <strong>Teljes leltár:</strong> Rendszerezd az élelmiszereidet fiókók és polcok szerint.</p>
+      <p>📸 <strong>Fotók és Emojik:</strong> Fényképezd le az ételt, vagy válassz ikonokat a könnyű felismeréshez.</p>
+      <p>📅 <strong>Lejárati dátum figyelés:</strong> Soha többé ne dobd ki az ételt! Lásd előre, mi fog hamarosan lejárni.</p>
+      <p>🔎 <strong>Gyors keresés:</strong> Találj meg mindent másodpercek alatt a vonalkód-szkennerrel és a keresővel.</p>
+      <p>📊 <strong>Statisztikák:</strong> Kövesd nyomon, mennyi pénzt takarítottál meg a tudatos tervezéssel.</p>
+      <p>🏆 <strong>Gamifikáció:</strong> Gyűjts rangokat és eredményeket a pazarlásmentes napokért!</p>
+    </div>
   </div>
 
   <div class="tags">
@@ -123,6 +147,9 @@
   function setLang(lang) {
     document.querySelectorAll('[data-en]').forEach(el => {
       el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-lang-block]').forEach(el => {
+      el.style.display = el.getAttribute('data-lang-block') === lang ? '' : 'none';
     });
     document.querySelectorAll('.lang-btn').forEach(btn => {
       btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
