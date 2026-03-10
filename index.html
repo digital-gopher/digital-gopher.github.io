@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GopheR Apps</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
+
+    nav {
+      background: #1a1b23; border-bottom: 1px solid #2a2b38;
+      padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 10;
+    }
+    .nav-logo { font-weight: 700; font-size: 1.1rem; color: #7dd3b0; text-decoration: none; }
+    .nav-right { display: flex; align-items: center; gap: 1.5rem; }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a { color: #a0a0b0; text-decoration: none; font-size: 0.9rem; }
+    .nav-links a:hover { color: #7dd3b0; }
+    .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; }
+    .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .lang-btn.active { background: #7dd3b0; color: #111318; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+    .hamburger span { display: block; width: 22px; height: 2px; background: #e0e0e8; }
+    .mobile-menu { display: none; background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; flex-direction: column; gap: 1rem; }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { color: #e0e0e8; text-decoration: none; font-size: 0.95rem; }
+
+    .hero { padding: 4rem 1.5rem 3rem; max-width: 700px; margin: 0 auto; text-align: center; }
+    .hero h1 { font-size: clamp(1.8rem, 5vw, 2.4rem); font-weight: 700; margin-bottom: 1rem; line-height: 1.2; }
+    .hero h1 span { color: #7dd3b0; }
+    .hero p { color: #7a7a90; font-size: 1rem; line-height: 1.7; }
+
+    section { max-width: 900px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+    .section-title { font-size: 0.8rem; font-weight: 600; color: #7dd3b0; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.5rem; }
+    hr { border: none; border-top: 1px solid #2a2b38; }
+
+    .apps-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+    .app-card {
+      background: #1a1b23; border: 1px solid #2a2b38; border-radius: 14px;
+      padding: 1.3rem; display: flex; flex-direction: column; gap: 0.8rem;
+      text-decoration: none; color: inherit; transition: border-color 0.2s, transform 0.2s;
+    }
+    .app-card:hover { border-color: #7dd3b0; transform: translateY(-2px); }
+    .app-card-top { display: flex; align-items: center; gap: 0.9rem; }
+    .app-icon { width: 52px; height: 52px; border-radius: 12px; background: #2a2b38; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; color: #7dd3b0; flex-shrink: 0; overflow: hidden; }
+    .app-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .app-name { font-weight: 600; font-size: 1rem; }
+    .app-category { font-size: 0.78rem; color: #7a7a90; margin-top: 0.15rem; }
+    .app-desc { color: #8a8aa0; font-size: 0.88rem; line-height: 1.6; }
+    .app-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.72rem; padding: 0.2rem 0.6rem; border-radius: 100px; }
+    .app-card-arrow { margin-top: auto; color: #7dd3b0; font-size: 0.82rem; font-weight: 500; }
+
+    .about-box, .contact-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 14px; padding: 1.5rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
+    .about-box p + p { margin-top: 0.8rem; }
+    .contact-box a { color: #7dd3b0; text-decoration: none; }
+
+    footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
+    footer a { color: #4a4a60; }
+
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .apps-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">GopheR Apps</a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#apps" data-en="Apps" data-hu="Appok">Apps</a></li>
+      <li><a href="#about" data-en="About" data-hu="Rólam">About</a></li>
+      <li><a href="#contact" data-en="Contact" data-hu="Kapcsolat">Contact</a></li>
+    </ul>
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('hu')">HU</button>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#apps" onclick="toggleMenu()" data-en="Apps" data-hu="Appok">Apps</a>
+  <a href="#about" onclick="toggleMenu()" data-en="About" data-hu="Rólam">About</a>
+  <a href="#contact" onclick="toggleMenu()" data-en="Contact" data-hu="Kapcsolat">Contact</a>
+</div>
+
+<div class="hero">
+  <h1><span>GopheR</span> Apps</h1>
+  <p data-en="Hobby Android developer from Hungary. Here you can find all my apps." data-hu="Hobbi Android fejlesztő Magyarországról. Itt megtalálod az összes alkalmazásomat.">Hobby Android developer from Hungary. Here you can find all my apps.</p>
+</div>
+
+<hr>
+
+<section id="apps">
+  <div class="section-title" data-en="Applications" data-hu="Alkalmazások">Applications</div>
+  <div class="apps-grid">
+
+    <!-- SpendFence -->
+    <a class="app-card" href="spendfence/index.html">
+      <div class="app-card-top">
+        <div class="app-icon">
+          <img src="https://play-lh.googleusercontent.com/hPcyfph4NljmSl-1_OQsvYaVk5cjyPKQO51autv56EiUayaWq0xkOX3WE9G6OC68bxxD9yOO_wVS4mTez810tQ=w120-h120" alt="SpendFence" onerror="this.parentElement.textContent='SF'" />
+        </div>
+        <div>
+          <div class="app-name">SpendFence</div>
+          <div class="app-category" data-en="Finance" data-hu="Pénzügy">Finance</div>
+        </div>
+      </div>
+      <div class="app-desc" data-en="Subscription manager and expense tracker. Keep all your recurring payments in one place." data-hu="Előfizetés-kezelő és kiadáskövető. Tartsd számon az összes előfizetésedet egy helyen.">Subscription manager and expense tracker. Keep all your recurring payments in one place.</div>
+      <div class="app-tags">
+        <span class="tag">Offline</span>
+        <span class="tag" data-en="Finance" data-hu="Pénzügy">Finance</span>
+        <span class="tag" data-en="Subscriptions" data-hu="Előfizetések">Subscriptions</span>
+      </div>
+      <div class="app-card-arrow" data-en="View app →" data-hu="Megnyitás →">View app →</div>
+    </a>
+
+    <!-- Ice & Spice -->
+    <a class="app-card" href="icespice/index.html">
+      <div class="app-card-top">
+        <div class="app-icon">IS</div>
+        <div>
+          <div class="app-name">Ice & Spice</div>
+          <div class="app-category" data-en="Lifestyle" data-hu="Életmód">Lifestyle</div>
+        </div>
+      </div>
+      <div class="app-desc" data-en="Freezer and storage list app. Track what's in your freezer and pantry." data-hu="Fagyasztó és tároló lista. Kövesd nyomon mi van a fagyasztódban és a kamrádban.">Freezer and storage list app. Track what's in your freezer and pantry.</div>
+      <div class="app-tags">
+        <span class="tag" data-en="List" data-hu="Lista">List</span>
+        <span class="tag" data-en="Freezer" data-hu="Fagyasztó">Freezer</span>
+        <span class="tag" data-en="Ads" data-hu="Reklámok">Ads</span>
+      </div>
+      <div class="app-card-arrow" data-en="View app →" data-hu="Megnyitás →">View app →</div>
+    </a>
+
+    <!-- ÚJ APP IDE: másold le az egyik app-card blokkot és töltsd ki az adatokkal -->
+
+  </div>
+</section>
+
+<hr>
+
+<section id="about">
+  <div class="section-title" data-en="About me" data-hu="Rólam">About me</div>
+  <div class="about-box">
+    <p data-en="I'm a hobby Android developer from Hungary. In my free time I build apps that solve everyday problems." data-hu="Hobbi Android fejlesztő vagyok Magyarországról. Szabadidőmben olyan appokat fejlesztek, amelyek a mindennapokban hasznosak.">I'm a hobby Android developer from Hungary. In my free time I build apps that solve everyday problems.</p>
+    <p data-en="I'm not a professional developer, but I try to make my apps simple and easy to use." data-hu="Nem vagyok profi fejlesztő, de igyekszem egyszerű és könnyen használható appokat készíteni.">I'm not a professional developer, but I try to make my apps simple and easy to use.</p>
+  </div>
+</section>
+
+<hr>
+
+<section id="contact">
+  <div class="section-title" data-en="Contact" data-hu="Kapcsolat">Contact</div>
+  <div class="contact-box">
+    <span data-en="If you have any questions, feel free to reach out:" data-hu="Ha kérdésed van, írj emailt:">If you have any questions, feel free to reach out:</span><br><br>
+    <a href="mailto:gopher.pocok@gmail.com">gopher.pocok@gmail.com</a>
+  </div>
+</section>
+
+<footer>© 2025 GopheR Apps · <a href="../app-ads.txt">app-ads.txt</a></footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+  document.addEventListener('click', function(e) {
+    const menu = document.getElementById('mobileMenu');
+    const hb = document.getElementById('hamburger');
+    if (menu && hb && !menu.contains(e.target) && !hb.contains(e.target)) menu.classList.remove('open');
+  });
+  function setLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+  const savedLang = localStorage.getItem('lang') || 'en';
+  setLang(savedLang);
+</script>
+</body>
+</html>
