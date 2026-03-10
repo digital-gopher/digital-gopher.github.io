@@ -86,8 +86,36 @@
 
   <div class="section-title" data-en="About the app" data-hu="Az alkalmazásról">About the app</div>
   <div class="desc-box">
-    <p data-en="SpendFence is a subscription manager and expense tracker. Keep all your recurring payments in one place and never miss a payment deadline again." data-hu="A SpendFence egy előfizetés-kezelő és kiadáskövető alkalmazás. Tartsd számon az összes előfizetésedet egy helyen, és soha ne felejts el egy fizetési határidőt sem.">SpendFence is a subscription manager and expense tracker. Keep all your recurring payments in one place and never miss a payment deadline again.</p>
-    <p data-en="The app works completely offline – your data never leaves your device." data-hu="Az alkalmazás teljesen offline működik – az adataid soha nem hagyják el az eszközödet.">The app works completely offline – your data never leaves your device.</p>
+    <div data-lang-block="en">
+      <p>Take control of your recurring expenses with SpendFence!</p>
+      <p>SpendFence is a privacy-focused subscription manager and expense tracker designed to help you organize your financial life. Never miss a payment or lose track of a trial period again.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>Vedd kézbe az ismétlődő kiadásaidat a SpendFence-szel!</p>
+      <p>A SpendFence egy adatvédelemre összpontosító előfizetés-kezelő és kiadáskövető, amely segít rendszerezni pénzügyi életedet. Soha többé ne maradj le egy fizetési határidőről, és ne veszítsd szem elől a próbaidőszakokat!</p>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="Key Features" data-hu="Főbb funkciók">Key Features</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>📋 <strong>Subscription Management:</strong> Keep all your recurring payments in one place.</p>
+      <p>🔔 <strong>Smart Notifications:</strong> Get notified before a payment is due.</p>
+      <p>📊 <strong>Expense Tracking:</strong> Visualize your spending with detailed statistics and charts.</p>
+      <p>🔒 <strong>100% Offline & Secure:</strong> Your data never leaves your device. No cloud sync, no accounts required.</p>
+      <p>💱 <strong>Multi-Currency Support:</strong> Handle subscriptions in different currencies with automatic conversion estimates.</p>
+      <p>👆 <strong>Biometric Lock:</strong> Protect your financial data with PIN or fingerprint authentication.</p>
+      <p>💾 <strong>Backup & Restore:</strong> Keep your data safe with encrypted backups.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>📋 <strong>Előfizetés-kezelés:</strong> Tartsd nyilván az összes ismétlődő fizetésedet egy helyen.</p>
+      <p>🔔 <strong>Okos értesítések:</strong> Kapj értesítést, mielőtt egy fizetés esedékessé válik.</p>
+      <p>📊 <strong>Kiadáskövetés:</strong> Jelenítsd meg a kiadásaidat részletes statisztikákkal és diagramokkal.</p>
+      <p>🔒 <strong>100% Offline és biztonságos:</strong> Az adataid soha nem hagyják el az eszközödet. Nincs felhőszinkronizáció, nincs fiók szükséges.</p>
+      <p>💱 <strong>Több valuta támogatása:</strong> Kezelj előfizetéseket különböző pénznemekben, automatikus átváltási becsléssel.</p>
+      <p>👆 <strong>Biometrikus zár:</strong> Védd pénzügyi adataidat PIN-kóddal vagy ujjlenyomattal.</p>
+      <p>💾 <strong>Biztonsági mentés és visszaállítás:</strong> Tartsd biztonságban adataidat titkosított mentésekkel.</p>
+    </div>
   </div>
 
   <div class="tags">
@@ -131,6 +159,9 @@
   function setLang(lang) {
     document.querySelectorAll('[data-en]').forEach(el => {
       el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-lang-block]').forEach(el => {
+      el.style.display = el.getAttribute('data-lang-block') === lang ? '' : 'none';
     });
     document.querySelectorAll('.lang-btn').forEach(btn => {
       btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
