@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BreakIt – Privacy Policy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
+    nav { background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.8rem; }
+    .nav-left { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; flex-wrap: wrap; }
+    .nav-left a { color: #7dd3b0; text-decoration: none; }
+    .nav-left a:hover { text-decoration: underline; }
+    .nav-sep { color: #4a4a60; }
+    .nav-current { color: #a0a0b0; }
+    .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; flex-shrink: 0; }
+    .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .lang-btn.active { background: #7dd3b0; color: #111318; }
+    .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .page-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem; }
+    .page-sub { color: #7a7a90; font-size: 0.88rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
+    h2 { font-size: 1rem; font-weight: 600; color: #7dd3b0; margin: 2rem 0 0.7rem; }
+    p { color: #8a8aa0; font-size: 0.92rem; line-height: 1.75; margin-bottom: 0.8rem; }
+    ul { color: #8a8aa0; font-size: 0.92rem; line-height: 1.75; padding-left: 1.4rem; margin-bottom: 0.8rem; }
+    ul li { margin-bottom: 0.4rem; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.88rem; }
+    th { background: #1a1b23; color: #7dd3b0; padding: 0.6rem 0.8rem; text-align: left; border: 1px solid #2a2b38; }
+    td { color: #8a8aa0; padding: 0.6rem 0.8rem; border: 1px solid #2a2b38; vertical-align: top; }
+    td code { background: #22232f; padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.82rem; color: #7dd3b0; }
+    a { color: #7dd3b0; }
+    hr { border: none; border-top: 1px solid #2a2b38; margin: 2rem 0; }
+    .effective { font-size: 0.85rem; color: #5a5a70; font-style: italic; }
+    .short-version { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #7dd3b0; border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.9rem; color: #8a8aa0; margin-bottom: 1.5rem; }
+    footer { text-align: center; padding: 1.5rem; color: #4a4a60; font-size: 0.82rem; }
+    footer a { color: #4a4a60; text-decoration: none; }
+    footer a:hover { color: #7dd3b0; }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="nav-left">
+    <a href="../index.html">GopheR Apps</a>
+    <span class="nav-sep">/</span>
+    <a href="index.html">BreakIt</a>
+    <span class="nav-sep">/</span>
+    <span class="nav-current" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</span>
+  </div>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('hu')">HU</button>
+  </div>
+</nav>
+
+<div class="content">
+  <div class="page-title">BreakIt</div>
+  <div class="page-sub" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</div>
+
+  <!-- ENGLISH - eredeti szöveg, változtatás nélkül -->
+  <div data-lang="en">
+    <p>We built BreakIt to help you break bad habits — not to collect your data.</p>
+    <p class="effective">Last updated: June 2025</p>
+
+    <h2>1. Overview</h2>
+    <div class="short-version"><strong>Short version:</strong> All your personal data stays on your device. We do not collect, transmit, sell, or share any personal information with third parties.</div>
+    <p>BreakIt ("the App", "we", "us") is a personal habit-tracking application developed by <strong>GopheR</strong> (<a href="mailto:breakitappdev@gmail.com">breakitappdev@gmail.com</a>). This Privacy Policy explains how the App handles your information.</p>
+    <p>By installing or using BreakIt you agree to the terms described in this document. If you do not agree, please uninstall the App.</p>
+
+    <h2>2. Data We Collect (Locally Only)</h2>
+    <p>The App stores the following data <strong>exclusively on your device</strong>, using Android SharedPreferences and local file storage. None of this data is transmitted to any server.</p>
+    <ul>
+      <li><strong>Habit data</strong> – names, categories, start dates, daily cost/time values, goal types</li>
+      <li><strong>Reset / slip-up logs</strong> – date, optional reason text, optional lost amount</li>
+      <li><strong>Mood logs</strong> – mood entries linked to habits or daily check-ins</li>
+      <li><strong>Achievement records</strong> – which milestones you have unlocked and when</li>
+      <li><strong>App settings</strong> – theme preference, language, selected currency, notification times</li>
+      <li><strong>Security settings</strong> – a hashed (SHA-256) PIN code; the plain PIN is never stored after the first launch that applies the hash</li>
+      <li><strong>Notification schedule</strong> – chosen times for morning and evening reminders</li>
+    </ul>
+
+    <h2>3. What We Do Not Collect</h2>
+    <ul>
+      <li>🚫 <strong>No analytics or tracking.</strong> BreakIt contains no analytics SDK, no crash-reporting service, and no advertising library.</li>
+      <li>🚫 <strong>No personal identity.</strong> We never ask for your name, email address, phone number, or any account credentials.</li>
+      <li>🚫 <strong>No location data.</strong> The App never accesses GPS or location services.</li>
+      <li>🚫 <strong>No camera or microphone.</strong> The App never accesses your camera or microphone.</li>
+      <li>🚫 <strong>No server-side storage.</strong> There is no BreakIt server, no cloud database, and no user account system.</li>
+      <li>🚫 <strong>No biometric data stored.</strong> Biometric authentication (Face ID / fingerprint) is handled entirely by the operating system. BreakIt never receives or stores biometric templates.</li>
+    </ul>
+
+    <h2>4. App Permissions Explained</h2>
+    <table>
+      <tr><th>Permission</th><th>Why It Is Needed</th></tr>
+      <tr><td><code>USE_BIOMETRIC</code></td><td>Optional PIN/biometric lock screen. Only invoked if you choose to enable it in Settings.</td></tr>
+      <tr><td><code>POST_NOTIFICATIONS</code></td><td>Required on Android 13+ to display your optional morning and evening reminder notifications.</td></tr>
+      <tr><td><code>VIBRATE</code></td><td>Vibration feedback for notifications.</td></tr>
+      <tr><td><code>WAKE_LOCK / RECEIVE_BOOT_COMPLETED</code></td><td>Ensures scheduled notifications are re-registered after the device reboots.</td></tr>
+      <tr><td><code>INTERNET</code></td><td>Used by the Google Fonts library to download fonts on first launch (display only). No personal data is sent.</td></tr>
+      <tr><td><code>READ_EXTERNAL_STORAGE</code> (API ≤ 32)</td><td>Allows you to select a backup file to restore. Only triggered when you tap "Import Backup".</td></tr>
+      <tr><td><code>WRITE_EXTERNAL_STORAGE</code> (API ≤ 28)</td><td>Allows saving backup files on older Android versions. Not used on Android 10+.</td></tr>
+    </table>
+
+    <h2>5. Data Storage & Security</h2>
+    <ul>
+      <li>All App data is stored in Android <strong>SharedPreferences</strong> and the App's private documents directory — both protected by Android's application sandbox.</li>
+      <li>Your PIN code is stored as a <strong>SHA-256 hash</strong> (salted). The plain-text PIN is discarded immediately after hashing.</li>
+      <li>Biometric data (fingerprint/face) is <strong>never accessed or stored</strong> by BreakIt — authentication is delegated entirely to the Android BiometricPrompt API.</li>
+      <li>Uninstalling the App removes all locally stored data from your device.</li>
+    </ul>
+
+    <h2>6. Backup & Export Features</h2>
+    <p>BreakIt includes an optional manual backup feature that creates an <strong>encrypted, XOR-obfuscated JSON file</strong> on your device. You control where this file goes — you can save it to Google Drive, send it via email, or store it locally.</p>
+    <p><strong>Important:</strong> When you share a backup file (e.g. to Google Drive or via messaging), you are responsible for the security of that file. BreakIt cannot control how third-party cloud services handle your data once you share it with them.</p>
+    <p>The PDF export feature generates a summary report on-device and shares it via the standard Android share sheet. Again, BreakIt does not receive or store this file — you choose the destination.</p>
+
+    <h2>7. Third-Party Services</h2>
+    <p>BreakIt uses the following third-party libraries. Each is used locally on your device:</p>
+    <ul>
+      <li><strong>Google Fonts</strong> – Downloads font files over the internet on first launch. See <a href="https://developers.google.com/fonts/faq/privacy" target="_blank">Google Fonts Privacy FAQ</a>.</li>
+      <li><strong>flutter_local_notifications</strong> – Schedules on-device notifications. No network activity.</li>
+      <li><strong>local_auth</strong> – Interfaces with Android BiometricPrompt. No data leaves the device.</li>
+      <li><strong>share_plus / file_picker</strong> – Uses the standard Android share sheet and file picker. Data destination is chosen by you.</li>
+      <li><strong>PayPal / Revolut</strong> – The "Buy Me a Coffee" links in the Info screen are optional donation links that open your browser. BreakIt does not process any payment information.</li>
+    </ul>
+    <p>No advertising networks, analytics platforms, or data brokers are integrated into the App.</p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>BreakIt is not directed at children under the age of 13. We do not knowingly collect personal information from children. Because all data is stored locally and no accounts are created, the risk of inadvertent collection is minimal. If you are a parent and have concerns, please contact us.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>If we make material changes to this Privacy Policy, we will update the "Last updated" date at the top of this page and, where appropriate, notify users through an in-app message with the next update.</p>
+    <p>Continued use of the App after changes are posted constitutes acceptance of the revised policy.</p>
+
+    <h2>10. Contact</h2>
+    <p>If you have any questions about this Privacy Policy or how BreakIt handles your data, reach out directly: <a href="mailto:breakitappdev@gmail.com">breakitappdev@gmail.com</a></p>
+  </div>
+
+  <!-- HUNGARIAN -->
+  <div data-lang="hu" style="display:none;">
+    <p>A BreakIt-et azért fejlesztettük, hogy segítsünk leszokni a rossz szokásokról – nem azért, hogy adatokat gyűjtsünk.</p>
+    <p class="effective">Utoljára frissítve: 2025. június</p>
+
+    <h2>1. Áttekintés</h2>
+    <div class="short-version"><strong>Röviden:</strong> Minden személyes adatod az eszközödön marad. Nem gyűjtünk, nem továbbítunk, nem adunk el és nem osztunk meg semmilyen személyes adatot harmadik felekkel.</div>
+    <p>A BreakIt („az Alkalmazás", „mi") egy személyes szokáskövető alkalmazás, amelyet a <strong>GopheR</strong> fejlesztett (<a href="mailto:breakitappdev@gmail.com">breakitappdev@gmail.com</a>). Ez az adatvédelmi nyilatkozat elmagyarázza, hogyan kezeli az Alkalmazás az adataidat.</p>
+    <p>A BreakIt telepítésével vagy használatával elfogadod az ebben a dokumentumban leírt feltételeket. Ha nem értesz egyet, kérjük, távolítsd el az Alkalmazást.</p>
+
+    <h2>2. Gyűjtött adatok (csak helyben)</h2>
+    <p>Az Alkalmazás a következő adatokat tárolja <strong>kizárólag az eszközödön</strong>, Android SharedPreferences és helyi fájlrendszer segítségével. Ezek az adatok semmilyen szerverre nem kerülnek továbbításra.</p>
+    <ul>
+      <li><strong>Szokásadatok</strong> – nevek, kategóriák, kezdési dátumok, napi költség/idő értékek, céltípusok</li>
+      <li><strong>Visszaesési naplók</strong> – dátum, opcionális indoklás, opcionális elveszített összeg</li>
+      <li><strong>Hangulat-naplók</strong> – szokásokhoz vagy napi bejelentkezésekhez kapcsolt hangulat bejegyzések</li>
+      <li><strong>Eredményrekordok</strong> – mely mérföldköveket érted el és mikor</li>
+      <li><strong>Alkalmazásbeállítások</strong> – témaválasztás, nyelv, kiválasztott valuta, értesítési időpontok</li>
+      <li><strong>Biztonsági beállítások</strong> – kivonatos (SHA-256) PIN-kód; a PIN szövegesen soha nem kerül tárolásra a kivonatolás után</li>
+      <li><strong>Értesítési ütemezés</strong> – reggeli és esti emlékeztetők időpontjai</li>
+    </ul>
+
+    <h2>3. Amit nem gyűjtünk</h2>
+    <ul>
+      <li>🚫 <strong>Nincs analitika vagy nyomon követés.</strong> A BreakIt nem tartalmaz analitikai SDK-t, hibajelentő szolgáltatást vagy reklámkönyvtárat.</li>
+      <li>🚫 <strong>Nincs személyes azonosító adat.</strong> Soha nem kérjük a neved, email-címed, telefonszámod vagy bármilyen fiókadatodat.</li>
+      <li>🚫 <strong>Nincs helyadat.</strong> Az Alkalmazás soha nem fér hozzá a GPS-hez vagy a helymeghatározáshoz.</li>
+      <li>🚫 <strong>Nincs kamera vagy mikrofon.</strong> Az Alkalmazás soha nem fér hozzá a kamerához vagy a mikrofonhoz.</li>
+      <li>🚫 <strong>Nincs szerveres tárolás.</strong> Nincs BreakIt szerver, nincs felhős adatbázis, nincs felhasználói fiókrendszer.</li>
+      <li>🚫 <strong>Nincs biometrikus adattárolás.</strong> A biometrikus hitelesítést (Face ID / ujjlenyomat) teljes egészében az operációs rendszer kezeli. A BreakIt soha nem kap és nem tárol biometrikus sablonokat.</li>
+    </ul>
+
+    <h2>4. Alkalmazásengedélyek magyarázata</h2>
+    <table>
+      <tr><th>Engedély</th><th>Miért szükséges</th></tr>
+      <tr><td><code>USE_BIOMETRIC</code></td><td>Opcionális PIN/biometrikus zárolási képernyő. Csak akkor aktiválódik, ha engedélyezed a Beállításokban.</td></tr>
+      <tr><td><code>POST_NOTIFICATIONS</code></td><td>Android 13+ esetén szükséges az opcionális reggeli és esti emlékeztetők megjelenítéséhez.</td></tr>
+      <tr><td><code>VIBRATE</code></td><td>Rezgéses visszajelzés értesítéseknél.</td></tr>
+      <tr><td><code>WAKE_LOCK / RECEIVE_BOOT_COMPLETED</code></td><td>Gondoskodik arról, hogy az ütemezett értesítések az eszköz újraindítása után is regisztrálva maradjanak.</td></tr>
+      <tr><td><code>INTERNET</code></td><td>A Google Fonts könyvtár használja betűtípusok letöltéséhez az első indításkor (csak megjelenítési célból). Személyes adat nem kerül elküldésre.</td></tr>
+      <tr><td><code>READ_EXTERNAL_STORAGE</code> (API ≤ 32)</td><td>Lehetővé teszi a mentési fájl kiválasztását visszaállításhoz. Csak a „Mentés importálása" megérintésekor aktiválódik.</td></tr>
+      <tr><td><code>WRITE_EXTERNAL_STORAGE</code> (API ≤ 28)</td><td>Régebbi Android verziók esetén engedélyezi a mentési fájlok mentését. Android 10+ esetén nem használt.</td></tr>
+    </table>
+
+    <h2>5. Adattárolás és biztonság</h2>
+    <ul>
+      <li>Minden alkalmazásadat az Android <strong>SharedPreferences</strong>-ben és az alkalmazás privát dokumentumkönyvtárában tárolódik – mindkettőt az Android alkalmazás-sandbox védi.</li>
+      <li>A PIN-kódod <strong>SHA-256 kivonatként</strong> (sózva) tárolódik. A szöveges PIN-t a kivonatolás után azonnal eldobjuk.</li>
+      <li>A biometrikus adatokat (ujjlenyomat/arc) a BreakIt <strong>soha nem éri el és nem tárolja</strong> – a hitelesítést teljes egészében az Android BiometricPrompt API végzi.</li>
+      <li>Az Alkalmazás eltávolítása törli az összes helyileg tárolt adatot az eszközről.</li>
+    </ul>
+
+    <h2>6. Biztonsági mentés és exportálás</h2>
+    <p>A BreakIt tartalmaz egy opcionális kézi biztonsági mentési funkciót, amely egy <strong>titkosított, XOR-obfuszkált JSON fájlt</strong> hoz létre az eszközödön. Te döntöd el, hová kerül ez a fájl – mentheted Google Drive-ra, elküldheted emailben, vagy helyileg tárolhatod.</p>
+    <p><strong>Fontos:</strong> Amikor megosztasz egy mentési fájlt (pl. Google Drive-ra vagy üzenetküldőn keresztül), te vagy felelős a fájl biztonságáért. A BreakIt nem tudja befolyásolni, hogyan kezelik az adataidat a harmadik fél felhőszolgáltatások, miután megosztottad velük.</p>
+    <p>A PDF exportálási funkció az eszközön generál összefoglaló jelentést, amelyet a szabványos Android megosztási lapon keresztül oszt meg. A BreakIt nem kapja meg és nem tárolja ezt a fájlt – te választod meg a célhelyet.</p>
+
+    <h2>7. Harmadik fél szolgáltatások</h2>
+    <p>A BreakIt a következő harmadik fél könyvtárakat használja, mindegyiket helyben, az eszközödön:</p>
+    <ul>
+      <li><strong>Google Fonts</strong> – Betűtípusfájlokat tölt le az interneten keresztül az első indításkor. Lásd: <a href="https://developers.google.com/fonts/faq/privacy" target="_blank">Google Fonts adatvédelmi GYIK</a>.</li>
+      <li><strong>flutter_local_notifications</strong> – Eszközön belüli értesítéseket ütemez. Nincs hálózati aktivitás.</li>
+      <li><strong>local_auth</strong> – Az Android BiometricPrompt API-val kommunikál. Nem kerül adat az eszközön kívülre.</li>
+      <li><strong>share_plus / file_picker</strong> – A szabványos Android megosztási lapot és fájlválasztót használja. Az adatok célhelyét te választod.</li>
+      <li><strong>PayPal / Revolut</strong> – Az Info képernyőn található „Buy Me a Coffee" linkek opcionális adományozási linkek, amelyek a böngészőt nyitják meg. A BreakIt semmilyen fizetési adatot nem dolgoz fel.</li>
+    </ul>
+    <p>Az Alkalmazásba nincs integrálva semmilyen reklámhálózat, analitikai platform vagy adatközvetítő.</p>
+
+    <h2>8. Gyermekek adatvédelme</h2>
+    <p>A BreakIt nem szól 13 év alatti gyermekeknek. Nem gyűjtünk szándékosan személyes adatot gyermekektől. Mivel minden adat helyileg tárolódik és nem hoznak létre fiókokat, a véletlenszerű adatgyűjtés kockázata minimális. Ha szülő vagy és aggályaid vannak, kérjük, lépj kapcsolatba velünk.</p>
+
+    <h2>9. A szabályzat változásai</h2>
+    <p>Ha lényeges változtatásokat eszközlünk ezen az adatvédelmi nyilatkozaton, frissítjük az oldal tetején található „Utoljára frissítve" dátumot, és adott esetben alkalmazáson belüli üzenettel értesítjük a felhasználókat a következő frissítéssel.</p>
+    <p>A változások közzétételét követő folyamatos használat a módosított szabályzat elfogadásának minősül.</p>
+
+    <h2>10. Kapcsolat</h2>
+    <p>Ha bármilyen kérdésed van ezzel az adatvédelmi nyilatkozattal vagy azzal kapcsolatban, hogyan kezeli a BreakIt az adataidat, lépj kapcsolatba velünk közvetlenül: <a href="mailto:breakitappdev@gmail.com">breakitappdev@gmail.com</a></p>
+  </div>
+</div>
+
+<footer>
+  <a href="index.html" data-en="← Back to BreakIt" data-hu="← Vissza a BreakIt-hez">← Back to BreakIt</a>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-lang]').forEach(el => {
+      el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+  const savedLang = localStorage.getItem('lang') || 'en';
+  setLang(savedLang);
+</script>
+</body>
+</html>
