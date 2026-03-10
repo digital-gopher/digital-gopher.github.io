@@ -8,7 +8,7 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
-    nav { background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+    nav { background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.8rem; }
     .nav-left { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; flex-wrap: wrap; }
     .nav-left a { color: #7dd3b0; text-decoration: none; }
     .nav-left a:hover { text-decoration: underline; }
@@ -17,30 +17,30 @@
     .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; flex-shrink: 0; }
     .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
     .lang-btn.active { background: #7dd3b0; color: #111318; }
-
-    .content { max-width: 700px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
-    .page-title { font-size: 1.3rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .page-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem; }
     .page-sub { color: #7a7a90; font-size: 0.88rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
-
-    h2 { font-size: 0.85rem; font-weight: 600; color: #7dd3b0; text-transform: uppercase; letter-spacing: 0.08em; margin: 2rem 0 0.7rem; }
-    p { color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
+    h2 { font-size: 1rem; font-weight: 600; color: #7dd3b0; margin: 2rem 0 0.7rem; }
+    p { color: #8a8aa0; font-size: 0.92rem; line-height: 1.75; margin-bottom: 0.8rem; }
+    ul { color: #8a8aa0; font-size: 0.92rem; line-height: 1.75; padding-left: 1.4rem; margin-bottom: 0.8rem; }
+    ul li { margin-bottom: 0.3rem; }
     a { color: #7dd3b0; }
-
-    .last-updated { font-size: 0.8rem; color: #4a4a60; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #2a2b38; }
+    hr { border: none; border-top: 1px solid #2a2b38; margin: 2rem 0; }
+    .effective { font-size: 0.85rem; color: #5a5a70; font-style: italic; }
+    .generator-note { font-size: 0.78rem; color: #4a4a60; }
     footer { text-align: center; padding: 1.5rem; color: #4a4a60; font-size: 0.82rem; }
     footer a { color: #4a4a60; text-decoration: none; }
     footer a:hover { color: #7dd3b0; }
   </style>
 </head>
 <body>
-
 <nav>
   <div class="nav-left">
     <a href="../index.html">GopheR Apps</a>
     <span class="nav-sep">/</span>
     <a href="index.html">Ice & Spice</a>
     <span class="nav-sep">/</span>
-    <span class="nav-current" data-en="Privacy Policy" data-hu="Adatvédelem">Privacy Policy</span>
+    <span class="nav-current" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</span>
   </div>
   <div class="lang-toggle">
     <button class="lang-btn active" onclick="setLang('en')">EN</button>
@@ -52,53 +52,131 @@
   <div class="page-title">Ice & Spice</div>
   <div class="page-sub" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</div>
 
-  <!-- ENGLISH -->
+  <!-- ENGLISH - eredeti szöveg, változtatás nélkül -->
   <div data-lang="en">
-    <p>This privacy policy describes how the <strong>Ice & Spice</strong> app handles user data.</p>
+    <p>This privacy policy applies to the Ice & Spice app (hereby referred to as "Application") for mobile devices that was created by GopheR (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".</p>
 
-    <h2>Data Collection</h2>
-    <p>Ice & Spice <strong>does not collect any personal data.</strong> All lists and item data you enter are stored only on your device.</p>
+    <h2>Information Collection and Use</h2>
+    <p>The Application collects information when you download and use it. This information may include information such as</p>
+    <ul>
+      <li>Your device's Internet Protocol address (e.g. IP address)</li>
+      <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
+      <li>The time spent on the Application</li>
+      <li>The operating system you use on your mobile device</li>
+    </ul>
+    <p>The Application does not gather precise information about the location of your mobile device.</p>
+    <p>The Application collects your device's location, which helps the Service Provider determine your approximate geographical location and make use of in below ways:</p>
+    <ul>
+      <li>Geolocation Services: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services.</li>
+      <li>Analytics and Improvements: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.</li>
+      <li>Third-Party Services: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings.</li>
+    </ul>
+    <p>The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.</p>
+    <p>For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to None. The information that the Service Provider request will be retained by them and used as described in this privacy policy.</p>
 
-    <h2>Advertising</h2>
-    <p>The app uses <strong>Google AdMob</strong> to display ads. AdMob may use certain non-personally identifiable information (such as device type and language) to show relevant ads. For more information, see the <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.</p>
+    <h2>Third Party Access</h2>
+    <p>Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.</p>
+    <p>Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:</p>
+    <ul>
+      <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
+      <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">AdMob</a></li>
+    </ul>
+    <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
+    <ul>
+      <li>as required by law, such as to comply with a subpoena, or similar legal process;</li>
+      <li>when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;</li>
+      <li>with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.</li>
+    </ul>
 
-    <h2>Internet Connection</h2>
-    <p>The core features of the app work offline. An internet connection is only required for displaying ads.</p>
+    <h2>Opt-Out Rights</h2>
+    <p>You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.</p>
 
-    <h2>Third Parties</h2>
-    <p>The app does not share personal data with third parties, except for Google AdMob as described above.</p>
+    <h2>Data Retention Policy</h2>
+    <p>The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at <a href="mailto:ice.spice.app.dev@gmail.com">ice.spice.app.dev@gmail.com</a> and they will respond in a reasonable time.</p>
 
-    <h2>Data Deletion</h2>
-    <p>To delete all locally stored data, simply uninstall the app from your device.</p>
+    <h2>Children</h2>
+    <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.</p>
+    <p>The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (<a href="mailto:ice.spice.app.dev@gmail.com">ice.spice.app.dev@gmail.com</a>) so that they will be able to take the necessary actions.</p>
 
-    <h2>Contact</h2>
-    <p>If you have any questions, contact us at: <a href="mailto:gopher.pocok@gmail.com">gopher.pocok@gmail.com</a></p>
+    <h2>Security</h2>
+    <p>The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.</p>
+
+    <h2>Changes</h2>
+    <p>This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.</p>
+    <p class="effective">This privacy policy is effective as of 2026-02-05</p>
+
+    <h2>Your Consent</h2>
+    <p>By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at <a href="mailto:ice.spice.app.dev@gmail.com">ice.spice.app.dev@gmail.com</a>.</p>
+
+    <hr>
+    <p class="generator-note">This privacy policy page was generated by <a href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank">App Privacy Policy Generator</a></p>
   </div>
 
   <!-- HUNGARIAN -->
   <div data-lang="hu" style="display:none;">
-    <p>Ez az adatvédelmi nyilatkozat leírja, hogyan kezeli az <strong>Ice & Spice</strong> alkalmazás a felhasználók adatait.</p>
+    <p>Ez az adatvédelmi nyilatkozat a GopheR (továbbiakban: „Szolgáltató") által ingyenes szolgáltatásként létrehozott Ice & Spice mobilalkalmazásra (továbbiakban: „Alkalmazás") vonatkozik. Ez a szolgáltatás „JELENLEGI ÁLLAPOTÁBAN" kerül felhasználásra.</p>
 
-    <h2>Adatgyűjtés</h2>
-    <p>Az Ice & Spice <strong>nem gyűjt személyes adatot.</strong> Az alkalmazásba bevitt listák és termékadatok kizárólag a te eszközödön tárolódnak.</p>
+    <h2>Adatgyűjtés és felhasználás</h2>
+    <p>Az Alkalmazás adatokat gyűjt, amikor letöltöd és használod. Ezek az adatok a következőket foglalhatják magukban:</p>
+    <ul>
+      <li>Az eszközöd internetprotokoll-címe (pl. IP-cím)</li>
+      <li>Az Alkalmazás azon oldalai, amelyeket meglátogatsz, a látogatás időpontja és dátuma, az azokon töltött idő</li>
+      <li>Az Alkalmazásban töltött idő</li>
+      <li>A mobileszközödön használt operációs rendszer</li>
+    </ul>
+    <p>Az Alkalmazás nem gyűjt pontos helyadatokat a mobileszközödről.</p>
+    <p>Az Alkalmazás gyűjti az eszközöd helyadatait, amelyek segítenek a Szolgáltatónak meghatározni a hozzávetőleges földrajzi helyzetedet, a következő módokon:</p>
+    <ul>
+      <li>Helymeghatározási szolgáltatások: A Szolgáltató a helyadatokat személyre szabott tartalmak, releváns ajánlások és helyalapú szolgáltatások nyújtásához használja.</li>
+      <li>Elemzés és fejlesztés: Az összesített és anonimizált helyadatok segítik a Szolgáltatót a felhasználói viselkedés elemzésében, trendek azonosításában, valamint az Alkalmazás teljesítményének és funkcionalitásának javításában.</li>
+      <li>Harmadik fél szolgáltatások: A Szolgáltató időszakosan anonimizált helyadatokat továbbíthat külső szolgáltatásokhoz, amelyek segítik az Alkalmazás fejlesztését és ajánlataik optimalizálását.</li>
+    </ul>
+    <p>A Szolgáltató időnként felhasználhatja az általad megadott adatokat, hogy fontos információkkal, szükséges értesítésekkel és marketing-ajánlatokkal keressen meg.</p>
+    <p>A jobb felhasználói élmény érdekében az Alkalmazás használata során a Szolgáltató bizonyos személyazonosításra alkalmas adatok megadását kérheti, beleértve, de nem kizárólag: Nincs. A Szolgáltató által kért adatokat megőrzik, és az ebben az adatvédelmi nyilatkozatban leírtak szerint használják fel.</p>
 
-    <h2>Reklámok</h2>
-    <p>Az alkalmazás <strong>Google AdMob</strong> hirdetéseket használ. Az AdMob a hirdetések megjelenítéséhez bizonyos nem személyazonosító adatokat (pl. eszköztípus, nyelv) felhasználhat. Erről bővebben: <a href="https://policies.google.com/privacy" target="_blank">Google Adatvédelmi irányelvek</a>.</p>
+    <h2>Harmadik felek általi hozzáférés</h2>
+    <p>Csak összesített, anonimizált adatokat továbbítanak időszakosan külső szolgáltatásokhoz, hogy segítsék a Szolgáltatót az Alkalmazás és a szolgáltatás fejlesztésében. A Szolgáltató az ebben a nyilatkozatban leírt módokon oszthatja meg adataidat harmadik felekkel.</p>
+    <p>Felhívjuk a figyelmet, hogy az Alkalmazás harmadik felek szolgáltatásait veszi igénybe, amelyek saját adatvédelmi szabályzattal rendelkeznek. Az Alkalmazás által használt harmadik fél szolgáltatók adatvédelmi szabályzatainak linkjei:</p>
+    <ul>
+      <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
+      <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">AdMob</a></li>
+    </ul>
+    <p>A Szolgáltató közzéteheti a felhasználó által megadott és az automatikusan gyűjtött adatokat:</p>
+    <ul>
+      <li>ha azt jogszabály írja elő, például idézésnek vagy hasonló jogi eljárásnak való megfelelés céljából;</li>
+      <li>ha jóhiszeműen úgy vélik, hogy a közzététel szükséges jogaik védelméhez, a te vagy mások biztonságának megóvásához, a csalás kivizsgálásához, vagy egy kormányzati kérésre való válaszadáshoz;</li>
+      <li>olyan megbízható szolgáltatóknak, akik a nevükben dolgoznak, nem használják fel önállóan a nekik átadott adatokat, és megállapodtak az ebben a nyilatkozatban foglalt szabályok betartásában.</li>
+    </ul>
 
-    <h2>Internetkapcsolat</h2>
-    <p>Az app alapfunkciói offline is működnek. Internetkapcsolat csak a hirdetések megjelenítéséhez szükséges.</p>
+    <h2>Leiratkozási jog</h2>
+    <p>Az Alkalmazás általi adatgyűjtést egyszerűen leállíthatod az eltávolításával. A szokásos eltávolítási folyamatot használhatod, amely elérhető a mobileszközödön vagy a mobilalkalmazás-piactéren keresztül.</p>
 
-    <h2>Harmadik felek</h2>
-    <p>Az alkalmazás nem oszt meg személyes adatot harmadik felekkel, a Google AdMob kivételével (lásd fent).</p>
+    <h2>Adatmegőrzési szabályzat</h2>
+    <p>A Szolgáltató az Alkalmazás használatának ideje alatt és azt követő ésszerű ideig megőrzi a felhasználó által megadott adatokat. Ha szeretnéd, hogy töröljék az Alkalmazáson keresztül megadott adataidat, kérjük, lépj kapcsolatba velük a <a href="mailto:ice.spice.app.dev@gmail.com">ice.spice.app.dev@gmail.com</a> e-mail-címen, és ésszerű időn belül válaszolnak.</p>
 
-    <h2>Adatok törlése</h2>
-    <p>Az összes helyi adat törléséhez elegendő az alkalmazást eltávolítani az eszközről.</p>
+    <h2>Gyermekek</h2>
+    <p>A Szolgáltató nem használja az Alkalmazást arra, hogy szándékosan adatokat gyűjtsön 13 év alatti gyermekektől, vagy nekik reklámozzon.</p>
+    <p>Az Alkalmazás nem szól 13 év alattiaknak. A Szolgáltató nem gyűjt szándékosan személyazonosításra alkalmas adatokat 13 év alatti gyermekektől. Ha a Szolgáltató felismeri, hogy egy 13 év alatti gyermek személyes adatokat adott meg, azokat azonnal törli a szervereiről. Ha szülő vagy gyám vagy, és tudomásod van arról, hogy gyermeked személyes adatokat adott meg, kérjük, lépj kapcsolatba a Szolgáltatóval (<a href="mailto:ice.spice.app.dev@gmail.com">ice.spice.app.dev@gmail.com</a>), hogy megtehessék a szükséges intézkedéseket.</p>
+
+    <h2>Biztonság</h2>
+    <p>A Szolgáltató fontosnak tartja az adataid bizalmas kezelését. A Szolgáltató fizikai, elektronikai és eljárási biztosítékokat nyújt az általa feldolgozott és kezelt adatok védelme érdekében.</p>
+
+    <h2>Változások</h2>
+    <p>Ez az adatvédelmi nyilatkozat bármikor, bármilyen okból frissülhet. A Szolgáltató az oldal frissítésével értesít az adatvédelmi nyilatkozat változásairól. Javasoljuk, hogy rendszeresen tekintsd meg ezt az adatvédelmi nyilatkozatot, mivel a folyamatos használat az összes változás elfogadásának minősül.</p>
+    <p class="effective">Ez az adatvédelmi nyilatkozat 2026-02-05 óta érvényes.</p>
+
+    <h2>Hozzájárulásod</h2>
+    <p>Az Alkalmazás használatával hozzájárulsz az adataid jelen adatvédelmi nyilatkozatban, illetve annak módosításaiban meghatározott módon történő feldolgozásához.</p>
 
     <h2>Kapcsolat</h2>
-    <p>Kérdés esetén írj emailt: <a href="mailto:gopher.pocok@gmail.com">gopher.pocok@gmail.com</a></p>
-  </div>
+    <p>Ha bármilyen adatvédelmi kérdésed van az Alkalmazás használatával kapcsolatban, kérjük, lépj kapcsolatba a Szolgáltatóval e-mailben: <a href="mailto:ice.spice.app.dev@gmail.com">ice.spice.app.dev@gmail.com</a>.</p>
 
-  <div class="last-updated" data-en="Last updated: 2025" data-hu="Utoljára frissítve: 2025">Last updated: 2025</div>
+    <hr>
+    <p class="generator-note">Ezt az adatvédelmi nyilatkozatot az <a href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank">App Privacy Policy Generator</a> segítségével hozták létre.</p>
+  </div>
 </div>
 
 <footer>
