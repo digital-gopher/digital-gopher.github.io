@@ -42,14 +42,17 @@
       background: #1a1b23; border: 1px solid #2a2b38; border-radius: 14px;
       padding: 1.3rem; display: flex; flex-direction: column; gap: 0.8rem;
       text-decoration: none; color: inherit; transition: border-color 0.2s, transform 0.2s;
-      flex: 1 1 260px; min-width: 260px;
+      flex: 1 1 260px; min-width: 260px; max-width: calc(33.333% - 0.67rem);
+      box-sizing: border-box;
     }
     .app-card:hover { transform: translateY(-2px); }
     .app-card.live { border-color: #2a5a42; order: 1; }
     .app-card.live:hover { border-color: #7dd3b0; }
     .app-card.beta { border-color: #5a4a1a; order: 2; }
     .app-card.beta:hover { border-color: #f59e0b; }
+
     .app-card-top { display: flex; align-items: center; gap: 0.9rem; }
+
     .status-badge {
       display: inline-flex; align-items: center; gap: 0.35rem;
       font-size: 0.7rem; font-weight: 600; padding: 0.2rem 0.6rem;
@@ -57,13 +60,14 @@
     }
     .status-badge.live { background: #0d2e1f; color: #4ade80; border: 1px solid #2a5a42; }
     .status-badge.beta { background: #2d2000; color: #fbbf24; border: 1px solid #5a4a1a; }
-    .status-badge::before { content: ''; display: inline-block; width: 6px; height: 6px; border-radius: 50%; }
+    .status-badge::before { content: ''; display: inline-block; width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
     .status-badge.live::before { background: #4ade80; box-shadow: 0 0 5px #4ade80; animation: pulse-green 2s infinite; }
     .status-badge.beta::before { background: #fbbf24; }
     @keyframes pulse-green {
       0%, 100% { opacity: 1; }
       50% { opacity: 0.4; }
     }
+
     .app-icon { width: 52px; height: 52px; border-radius: 12px; background: #2a2b38; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; color: #7dd3b0; flex-shrink: 0; overflow: hidden; }
     .app-icon img { width: 100%; height: 100%; object-fit: cover; }
     .app-name { font-weight: 600; font-size: 1rem; }
@@ -80,10 +84,13 @@
     footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
     footer a { color: #4a4a60; }
 
+    @media (max-width: 860px) {
+      .app-card { max-width: calc(50% - 0.5rem); }
+    }
     @media (max-width: 600px) {
       .nav-links { display: none; }
       .hamburger { display: flex; }
-      .app-card { min-width: 100%; }
+      .app-card { max-width: 100%; min-width: 100%; }
     }
   </style>
 </head>
@@ -132,7 +139,7 @@
         <div>
           <div class="app-name">SpendFence</div>
           <div class="app-category" data-en="Finance" data-hu="Pénzügy">Finance</div>
-          <div class="status-badge live" data-en="Live on Play Store" data-hu="Elérhető a Play Store-ban">Live on Play Store</div>
+          <div class="status-badge live"><span data-en="Live on Play Store" data-hu="Elérhető a Play Store-ban">Live on Play Store</span></div>
         </div>
       </div>
       <div class="app-desc" data-en="Subscription manager and expense tracker. Keep all your recurring payments in one place." data-hu="Előfizetés-kezelő és kiadáskövető. Tartsd számon az összes előfizetésedet egy helyen.">Subscription manager and expense tracker. Keep all your recurring payments in one place.</div>
@@ -144,7 +151,7 @@
       <div class="app-card-arrow" data-en="View app →" data-hu="Megnyitás →">View app →</div>
     </a>
 
-    <!-- Ice & Spice -->
+    <!-- Ice & Spice (live) -->
     <a class="app-card live" href="icespice/index.html">
       <div class="app-card-top">
         <div class="app-icon">
@@ -153,7 +160,7 @@
         <div>
           <div class="app-name">Ice &amp; Spice</div>
           <div class="app-category" data-en="Food &amp; Drink" data-hu="Étel &amp; Ital">Food &amp; Drink</div>
-          <div class="status-badge live" data-en="Live on Play Store" data-hu="Elérhető a Play Store-ban">Live on Play Store</div>
+          <div class="status-badge live"><span data-en="Live on Play Store" data-hu="Elérhető a Play Store-ban">Live on Play Store</span></div>
         </div>
       </div>
       <div class="app-desc" data-en="Freezer and storage list app. Track what's in your freezer and pantry." data-hu="Fagyasztó és tároló lista. Kövesd nyomon mi van a fagyasztódban és a kamrádban.">Freezer and storage list app. Track what's in your freezer and pantry.</div>
@@ -165,14 +172,14 @@
       <div class="app-card-arrow" data-en="View app →" data-hu="Megnyitás →">View app →</div>
     </a>
 
-    <!-- TasteLog -->
+    <!-- TasteLog (beta) -->
     <a class="app-card beta" href="tastelog/index.html">
       <div class="app-card-top">
         <div class="app-icon">TL</div>
         <div>
           <div class="app-name">TasteLog</div>
           <div class="app-category" data-en="Food &amp; Drink" data-hu="Étel &amp; Ital">Food &amp; Drink</div>
-          <div class="status-badge beta" data-en="Closed Beta" data-hu="Zárt béta">Closed Beta</div>
+          <div class="status-badge beta"><span data-en="Closed Beta" data-hu="Zárt béta">Closed Beta</span></div>
         </div>
       </div>
       <div class="app-desc" data-en="Your ultimate tasting journal. Log wines, coffees, beers, and more — with stats, maps and OCR scanning." data-hu="A személyes kóstolónaplód. Rögzíts borokat, kávékat, söröket és még sok mást – statisztikákkal, térképpel és OCR szkennerrel.">Your ultimate tasting journal. Log wines, coffees, beers, and more — with stats, maps and OCR scanning.</div>
@@ -184,14 +191,14 @@
       <div class="app-card-arrow" data-en="View app →" data-hu="Megnyitás →">View app →</div>
     </a>
 
-    <!-- BreakIt -->
+    <!-- BreakIt (beta) -->
     <a class="app-card beta" href="breakit/index.html">
       <div class="app-card-top">
         <div class="app-icon">BI</div>
         <div>
           <div class="app-name">BreakIt</div>
           <div class="app-category" data-en="Health &amp; Lifestyle" data-hu="Egészség és életmód">Health &amp; Lifestyle</div>
-          <div class="status-badge beta" data-en="Closed Beta" data-hu="Zárt béta">Closed Beta</div>
+          <div class="status-badge beta"><span data-en="Closed Beta" data-hu="Zárt béta">Closed Beta</span></div>
         </div>
       </div>
       <div class="app-desc" data-en="Break bad habits, track your recovery, and stay motivated. Quit smoking, alcohol, sugar, or any custom habit — completely offline." data-hu="Szabadulj meg a rossz szokásoktól, kövesd a fejlődésed és maradj motivált. Dohányzás, alkohol, cukor, vagy egyéni szokás – teljesen offline.">Break bad habits, track your recovery, and stay motivated. Quit smoking, alcohol, sugar, or any custom habit — completely offline.</div>
@@ -223,13 +230,13 @@
   <div class="section-title" data-en="Contact" data-hu="Kapcsolat">Contact</div>
   <div class="contact-box">
     <span data-en="If you have any questions, feel free to reach out:" data-hu="Ha kérdésed van, írj emailt:">If you have any questions, feel free to reach out:</span><br><br>
-    <a href="/cdn-cgi/l/email-protection#c9ada0aea0bda8a5e7aea6b9a1acbbe7a8b9b989aea4a8a0a5e7aaa6a4"><span class="__cf_email__" data-cfemail="98fcf1fff1ecf9f4b6fff7e8f0fdeab6f9e8e8d8fff5f9f1f4b6fbf7f5">[email&#160;protected]</span></a>
+    <a href="mailto:digital.gopher.app@gmail.com">digital.gopher.app@gmail.com</a>
   </div>
 </section>
 
 <footer>© 2026 Digital GopheR · <a href="../app-ads.txt">app-ads.txt</a></footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
   function toggleMenu() {
     document.getElementById('mobileMenu').classList.toggle('open');
   }
@@ -242,4 +249,13 @@
     document.querySelectorAll('[data-en]').forEach(el => {
       el.textContent = el.getAttribute('data-' + lang);
     });
-    document.querySelectorAll('.lan
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+  const savedLang = localStorage.getItem('lang') || 'en';
+  setLang(savedLang);
+</script>
+</body>
+</html>
