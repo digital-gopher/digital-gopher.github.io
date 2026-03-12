@@ -21,13 +21,13 @@
     .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
 
     .app-hero { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
-    .app-icon { width: 72px; height: 72px; border-radius: 16px; background: #2a2b38; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; color: #7dd3b0; flex-shrink: 0; }
+    .app-icon { width: 72px; height: 72px; border-radius: 16px; overflow: hidden; background: #2a2b38; flex-shrink: 0; }
+    .app-icon img { width: 100%; height: 100%; object-fit: cover; }
     .app-title { font-size: 1.5rem; font-weight: 700; }
     .app-subtitle { color: #7a7a90; font-size: 0.88rem; margin-top: 0.3rem; }
 
-    .notice { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #f59e0b; border-radius: 10px; padding: 0.9rem 1.2rem; font-size: 0.88rem; color: #8a8aa0; margin-bottom: 1.5rem; }
-
     .section-title { font-size: 0.78rem; font-weight: 600; color: #7dd3b0; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; margin-top: 2rem; }
+
     .desc-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.3rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
     .desc-box p + p { margin-top: 0.7rem; }
 
@@ -35,15 +35,23 @@
     .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.75rem; padding: 0.25rem 0.7rem; border-radius: 100px; }
 
     .links-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.8rem; margin-top: 1rem; }
-    .link-card { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.1rem 1.3rem; text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.8rem; transition: border-color 0.2s; }
+    .link-card {
+      background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px;
+      padding: 1.1rem 1.3rem; text-decoration: none; color: inherit;
+      display: flex; align-items: center; gap: 0.8rem; transition: border-color 0.2s;
+    }
     .link-card:hover { border-color: #7dd3b0; }
     .link-icon { font-size: 1.3rem; }
     .link-label { font-size: 0.78rem; color: #7a7a90; }
     .link-title { font-size: 0.92rem; font-weight: 600; margin-top: 0.1rem; }
 
-    .play-btn { display: inline-flex; align-items: center; gap: 0.5rem; background: #7dd3b0; color: #111318; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem; transition: opacity 0.2s; }
+    .play-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: #7dd3b0; color: #111318; font-weight: 600; font-size: 0.9rem;
+      padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem;
+      transition: opacity 0.2s;
+    }
     .play-btn:hover { opacity: 0.85; }
-    .play-btn-ghost { display: inline-flex; align-items: center; gap: 0.5rem; background: #1a1b23; border: 1px solid #2a2b38; color: #7a7a90; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem; margin-left: 0.7rem; }
 
     footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
     footer a { color: #4a4a60; text-decoration: none; }
@@ -56,7 +64,7 @@
   <div class="nav-left">
     <a href="../index.html">Digital GopheR</a>
     <span class="nav-sep">/</span>
-    <span class="nav-current">Ice & Spice</span>
+    <span class="nav-current">Ice &amp; Spice</span>
   </div>
   <div class="lang-toggle">
     <button class="lang-btn active" onclick="setLang('en')">EN</button>
@@ -67,22 +75,24 @@
 <div class="content">
 
   <div class="app-hero">
-    <div class="app-icon">IS</div>
+    <div class="app-icon">
+      <img src="https://play-lh.googleusercontent.com/oFeLlNDf4BKr08Wle9Pq0vIaoN4_WVpCIHpVmD8dfbGgGQomJ8O306VMRwlI1hmTwAumnW_3TZFSpC7mK4akQg=w120-h120" alt="Ice &amp; Spice" onerror="this.parentElement.textContent='IS'" />
+    </div>
     <div>
-      <div class="app-title">Ice & Spice</div>
-      <div class="app-subtitle" data-en="Lifestyle · by GopheR" data-hu="Életmód · GopheR-től">Lifestyle · by GopheR</div>
+      <div class="app-title">Ice &amp; Spice</div>
+      <div class="app-subtitle" data-en="Food &amp; Drink · by GopheR" data-hu="Étel &amp; Ital · GopheR-től">Food &amp; Drink · by GopheR</div>
     </div>
   </div>
-
-  <div class="notice" data-en="⚠️ This app is currently in testing. It will be available on Google Play soon." data-hu="⚠️ Ez az alkalmazás jelenleg tesztelés alatt áll. Hamarosan elérhető lesz a Google Play-en.">⚠️ This app is currently in testing. It will be available on Google Play soon.</div>
 
   <div class="section-title" data-en="About the app" data-hu="Az alkalmazásról">About the app</div>
   <div class="desc-box">
     <div data-lang-block="en">
-      <p>Want to know what's in your freezer and pantry without having to open the door? Ice & Spice helps you organize your food, track expiration dates, and reduce waste.</p>
+      <p>Want to know what's in your freezer and pantry without having to open the door?</p>
+      <p>Ice &amp; Spice helps you organize your food, track expiration dates, and reduce waste — so you always know what you have and what needs to be used up soon.</p>
     </div>
     <div data-lang-block="hu">
-      <p>Szeretnéd tudni, mi van a fagyasztódban és a kamrádban anélkül, hogy kinyitnád az ajtót? Az Ice & Spice segít rendszerezni az élelmiszereidet, követni a lejárati dátumokat és csökkenteni a pazarlást.</p>
+      <p>Szeretnéd tudni, mi van a fagyasztódban és a kamrádban anélkül, hogy kinyitnád az ajtót?</p>
+      <p>Az Ice &amp; Spice segít rendszerezni az ételeidet, nyomon követni a lejárati dátumokat és csökkenteni a pazarlást – hogy mindig tudd, mi van otthon és mit kell hamarosan felhasználni.</p>
     </div>
   </div>
 
@@ -97,27 +107,27 @@
       <p>🏆 <strong>Gamification:</strong> Collect ranks and achievements for waste-free days!</p>
     </div>
     <div data-lang-block="hu">
-      <p>🧊 <strong>Teljes leltár:</strong> Rendszerezd az élelmiszereidet fiókók és polcok szerint.</p>
-      <p>📸 <strong>Fotók és Emojik:</strong> Fényképezd le az ételt, vagy válassz ikonokat a könnyű felismeréshez.</p>
-      <p>📅 <strong>Lejárati dátum figyelés:</strong> Soha többé ne dobd ki az ételt! Lásd előre, mi fog hamarosan lejárni.</p>
-      <p>🔎 <strong>Gyors keresés:</strong> Találj meg mindent másodpercek alatt a vonalkód-szkennerrel és a keresővel.</p>
-      <p>📊 <strong>Statisztikák:</strong> Kövesd nyomon, mennyi pénzt takarítottál meg a tudatos tervezéssel.</p>
+      <p>🧊 <strong>Teljes leltár:</strong> Rendezd az ételeidet fiókokba és polcokra.</p>
+      <p>📸 <strong>Fotók és emojik:</strong> Fotózd le az ételeidet, vagy válassz ikonokat az egyszerű felismeréshez.</p>
+      <p>📅 <strong>Lejárati dátum figyelés:</strong> Soha többé ne dobj ki ételt! Lásd előre, mi fog hamarosan lejárni.</p>
+      <p>🔎 <strong>Gyors keresés:</strong> Találj meg mindent másodpercek alatt a vonalkód-olvasóval és a keresővel.</p>
+      <p>📊 <strong>Statisztikák:</strong> Kövesd nyomon, mennyit spóroltál a tudatos tervezéssel.</p>
       <p>🏆 <strong>Gamifikáció:</strong> Gyűjts rangokat és eredményeket a pazarlásmentes napokért!</p>
     </div>
   </div>
 
   <div class="tags">
-    <span class="tag" data-en="List" data-hu="Lista">List</span>
-    <span class="tag" data-en="Freezer" data-hu="Fagyasztó">Freezer</span>
-    <span class="tag" data-en="Storage" data-hu="Tárolás">Storage</span>
-    <span class="tag" data-en="Contains ads" data-hu="Reklámokat tartalmaz">Contains ads</span>
+    <span class="tag" data-en="Freezer &amp; Pantry" data-hu="Fagyasztó &amp; Kamra">Freezer &amp; Pantry</span>
+    <span class="tag" data-en="Expiry Tracking" data-hu="Lejárat figyelés">Expiry Tracking</span>
+    <span class="tag" data-en="Barcode Scanner" data-hu="Vonalkód olvasó">Barcode Scanner</span>
+    <span class="tag" data-en="Ads" data-hu="Reklámok">Ads</span>
+    <span class="tag" data-en="Free" data-hu="Ingyenes">Free</span>
   </div>
 
   <div class="section-title" data-en="Download" data-hu="Letöltés">Download</div>
-  <div>
-    <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gopher.ice_and_spice" target="_blank">▶ Google Play</a>
-    <a class="play-btn-ghost" href="https://play.google.com/store/apps/details?id=com.gopher.ice_and_spice" target="_blank" data-en="🧪 Join beta test" data-hu="🧪 Csatlakozz a bétateszthez">🧪 Join beta test</a>
-  </div>
+  <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gopher.ice_and_spice" target="_blank">
+    ▶ Google Play
+  </a>
 
   <div class="section-title" data-en="Links" data-hu="Hivatkozások">Links</div>
   <div class="links-grid">
