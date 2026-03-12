@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TasteLog – Digital GopheR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
+    nav { background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+    .nav-left { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; }
+    .nav-left a { color: #7dd3b0; text-decoration: none; }
+    .nav-left a:hover { text-decoration: underline; }
+    .nav-sep { color: #4a4a60; }
+    .nav-current { color: #a0a0b0; }
+    .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; }
+    .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .lang-btn.active { background: #7dd3b0; color: #111318; }
+
+    .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+    .app-hero { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
+    .app-icon { width: 72px; height: 72px; border-radius: 16px; background: #2a2b38; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; color: #7dd3b0; flex-shrink: 0; overflow: hidden; }
+    .app-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .app-title { font-size: 1.5rem; font-weight: 700; }
+    .app-subtitle { color: #7a7a90; font-size: 0.88rem; margin-top: 0.3rem; }
+
+    .notice { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #f59e0b; border-radius: 10px; padding: 0.9rem 1.2rem; font-size: 0.88rem; color: #8a8aa0; margin-bottom: 1.5rem; }
+
+    .section-title { font-size: 0.78rem; font-weight: 600; color: #7dd3b0; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; margin-top: 2rem; }
+    .desc-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.3rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
+    .desc-box p { margin-bottom: 0.6rem; }
+    .desc-box p:last-child { margin-bottom: 0; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.75rem; padding: 0.25rem 0.7rem; border-radius: 100px; }
+
+    .links-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.8rem; margin-top: 1rem; }
+    .link-card { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.1rem 1.3rem; text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.8rem; transition: border-color 0.2s; }
+    .link-card:hover { border-color: #7dd3b0; }
+    .link-icon { font-size: 1.3rem; }
+    .link-label { font-size: 0.78rem; color: #7a7a90; }
+    .link-title { font-size: 0.92rem; font-weight: 600; margin-top: 0.1rem; }
+
+    .play-btn { display: inline-flex; align-items: center; gap: 0.5rem; background: #7dd3b0; color: #111318; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem; transition: opacity 0.2s; }
+    .play-btn:hover { opacity: 0.85; }
+    .play-btn-ghost { display: inline-flex; align-items: center; gap: 0.5rem; background: #1a1b23; border: 1px solid #2a2b38; color: #7a7a90; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem; margin-left: 0.7rem; }
+
+    footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
+    footer a { color: #4a4a60; text-decoration: none; }
+    footer a:hover { color: #7dd3b0; }
+
+    @media (max-width: 480px) { .play-btn-ghost { margin-left: 0; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <a href="../index.html">Digital GopheR</a>
+    <span class="nav-sep">/</span>
+    <span class="nav-current">TasteLog</span>
+  </div>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('hu')">HU</button>
+  </div>
+</nav>
+
+<div class="content">
+
+  <div class="app-hero">
+    <div class="app-icon">TL</div>
+    <div>
+      <div class="app-title">TasteLog</div>
+      <div class="app-subtitle" data-en="Food &amp; Drink · by GopheR" data-hu="Étel &amp; Ital · GopheR-től">Food &amp; Drink · by GopheR</div>
+    </div>
+  </div>
+
+  <div class="notice" data-en="⚠️ This app is currently in closed testing. It will be available on Google Play soon." data-hu="⚠️ Ez az alkalmazás jelenleg zárt tesztelés alatt áll. Hamarosan elérhető lesz a Google Play-en.">⚠️ This app is currently in closed testing. It will be available on Google Play soon.</div>
+
+  <div class="section-title" data-en="About the app" data-hu="Az alkalmazásról">About the app</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>Remember every flavor. TasteLog is a highly customizable, all-in-one tasting diary designed for foodies, connoisseurs, and everyday explorers.</p>
+      <p>Whether you are sipping specialty coffee, rating fine wines, exploring craft beers, or discovering niche perfumes, TasteLog helps you organize your experiences beautifully. Your data stays on your phone. Build your collection, track your inventory, and dive deep into your personal flavor statistics.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>Emlékezz minden ízre! A TasteLog egy teljesen testreszabható, sokoldalú kóstolónapló, amelyet ínyenceknek és a mindennapi felfedezőknek terveztünk.</p>
+      <p>Legyen szó különleges kávék kortyolgatásáról, borok értékeléséről, kézműves sörök teszteléséről vagy parfümök felfedezéséről, a TasteLog segít gyönyörűen rendszerezni az élményeidet. Az adataid a telefonodon maradnak. Építsd a gyűjteményed, kövesd a hazai raktárkészleted, és merülj el a saját íz-statisztikáidban!</p>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="Key Features" data-hu="Főbb funkciók">Key Features</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>🍷 <strong>10 Built-in Categories:</strong> Pre-configured fields for Wine, Coffee, Beer, Tea, Chocolate, Whisky, Perfume, Cigar, Chili, and Cheese.</p>
+      <p>✨ <strong>Fully Customizable:</strong> Create your own custom categories (with unique icons and colors) or edit existing fields to track exactly what matters to you.</p>
+      <p>📸 <strong>Smart Logging with OCR:</strong> Add photos and let the built-in Text Recognition (OCR) automatically read the name from the label.</p>
+      <p>📦 <strong>Stash &amp; Wishlist:</strong> Track how many bottles/items you have left at home, or add things you want to try later to your Wishlist.</p>
+      <p>🗺️ <strong>Tasting Map:</strong> Save GPS coordinates and view all your culinary discoveries on an interactive world map.</p>
+      <p>📊 <strong>Advanced Statistics:</strong> Discover your "All-Time Best", "Weekly Favorite", view rating histograms, and analyze flavor profiles with Radar Charts.</p>
+      <p>📅 <strong>Streak &amp; Monthly Summaries:</strong> Visualize your tasting habits on a calendar and get detailed monthly breakdowns.</p>
+      <p>⚖️ <strong>Head-to-Head Comparison:</strong> Compare two items side-by-side to see exactly which one performed better across all attributes.</p>
+      <p>💰 <strong>Best Value Tracker:</strong> Automatically calculates the price-to-quality ratio to find your best deals.</p>
+      <p>🎉 <strong>Tasting Events:</strong> Group multiple tastings together (e.g., "Scotland Trip", "Friday Wine Tasting") and find the winner of the night.</p>
+      <p>📚 <strong>Flavor Encyclopedia:</strong> Built-in knowledge base explaining professional tasting terms (e.g., what is "tannin" or "sillage").</p>
+      <p>📤 <strong>Share &amp; Export:</strong> Generate beautiful, shareable tasting cards for social media, or export your entire database to CSV (Excel) and JSON.</p>
+      <p>🎨 <strong>Personalized UI:</strong> Choose from Light/Dark modes, multiple accent colors, and 3 different view layouts (Card, List, Compact).</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>🍷 <strong>10 Beépített Kategória:</strong> Előre beállított profi mezők: Bor, Kávé, Sör, Tea, Csokoládé, Whisky, Parfüm, Szivar, Chili és Sajt.</p>
+      <p>✨ <strong>Teljes Testreszabhatóság:</strong> Hozz létre saját kategóriákat (egyedi ikonnal és színnel), vagy módosítsd a meglévő mezőket úgy, ahogy neked tetszik.</p>
+      <p>📸 <strong>Okos Rögzítés OCR-rel:</strong> Készíts fotót, és hagyd, hogy a beépített Szövegfelismerő (OCR) automatikusan kiolvassa a nevet a címkéről!</p>
+      <p>📦 <strong>Raktár és Kívánságlista:</strong> Kövesd nyomon, miből mennyi van még otthon a polcon, vagy mentsd el a "Kívánságlistára", amit később meg szeretnél kóstolni.</p>
+      <p>🗺️ <strong>Kóstolás Térkép:</strong> Mentsd el a GPS koordinátákat, és nézd meg az összes gasztronómiai felfedezésed egy interaktív világtérképen.</p>
+      <p>📊 <strong>Részletes Elemzések:</strong> Tudd meg, mi az "Örök klasszisod" vagy a "Heti kedvenced", nézz értékelési hisztogramokat, és elemezd az ízprofilokat Radar diagramokon.</p>
+      <p>📅 <strong>Naptár és Havi Összegző:</strong> Vizualizáld a kóstolásaidat naptár nézetben, és nézd meg a havi statisztikáidat (pl. kategóriák eloszlása).</p>
+      <p>⚖️ <strong>Összehasonlítás:</strong> Tegyél egymás mellé két tételt, és hasonlítsd össze a tulajdonságaikat sorról sorra.</p>
+      <p>💰 <strong>Legjobb Vételek:</strong> Az app automatikusan kiszámolja az ár-érték arányt, hogy megtaláld a legjobb vételeket.</p>
+      <p>🎉 <strong>Események:</strong> Csoportosítsd a kóstolásokat eseményekbe (pl. "Skóciai túra", "Pénteki borkóstoló"), és hirdess győztest az est végén!</p>
+      <p>📚 <strong>Íz-Enciklopédia:</strong> Beépített tudástár, ami elmagyarázza a szakmai fogalmakat (pl. mi az a "tannin" vagy a "sillage").</p>
+      <p>📤 <strong>Megosztás és Exportálás:</strong> Generálj gyönyörű, megosztható kóstolókártyákat a közösségi médiába, vagy exportáld az adataidat CSV (Excel) és JSON formátumba.</p>
+      <p>🎨 <strong>Személyre Szabott Dizájn:</strong> Válassz a Világos/Sötét módok, rengeteg témaszín és 3 különböző nézet (Kártya, Lista, Kompakt) közül.</p>
+    </div>
+  </div>
+
+  <div class="tags">
+    <span class="tag">100% Offline</span>
+    <span class="tag" data-en="No data collection" data-hu="Nincs adatgyűjtés">No data collection</span>
+    <span class="tag" data-en="OCR Scanner" data-hu="OCR Szkenner">OCR Scanner</span>
+    <span class="tag" data-en="Tasting Map" data-hu="Kóstolás Térkép">Tasting Map</span>
+    <span class="tag" data-en="10 Categories" data-hu="10 Kategória">10 Categories</span>
+    <span class="tag" data-en="CSV Export" data-hu="CSV Export">CSV Export</span>
+    <span class="tag" data-en="Coming soon" data-hu="Hamarosan">Coming soon</span>
+  </div>
+
+  <div class="section-title" data-en="Download" data-hu="Letöltés">Download</div>
+  <div>
+    <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gopher.tastelog" target="_blank">▶ Google Play</a>
+    <a class="play-btn-ghost" href="https://play.google.com/store/apps/details?id=com.gopher.tastelog" target="_blank" data-en="🧪 Join beta test" data-hu="🧪 Csatlakozz a bétateszthez">🧪 Join beta test</a>
+  </div>
+
+  <div class="section-title" data-en="Links" data-hu="Hivatkozások">Links</div>
+  <div class="links-grid">
+    <a class="link-card" href="privacy.html">
+      <div class="link-icon">🔒</div>
+      <div>
+        <div class="link-label" data-en="Legal" data-hu="Jogi">Legal</div>
+        <div class="link-title" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</div>
+      </div>
+    </a>
+    <a class="link-card" href="mailto:digital.gopher.app@gmail.com">
+      <div class="link-icon">✉️</div>
+      <div>
+        <div class="link-label" data-en="Get in touch" data-hu="Kapcsolat">Get in touch</div>
+        <div class="link-title" data-en="Send email" data-hu="Email küldése">Send email</div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <a href="../index.html" data-en="← Back to all apps" data-hu="← Vissza az összes apphoz">← Back to all apps</a>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-lang-block]').forEach(el => {
+      el.style.display = el.getAttribute('data-lang-block') === lang ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+  const savedLang = localStorage.getItem('lang') || 'en';
+  setLang(savedLang);
+</script>
+</body>
+</html>
