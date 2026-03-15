@@ -17,36 +17,27 @@
     .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; }
     .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
     .lang-btn.active { background: #7dd3b0; color: #111318; }
-
     .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
-
     .app-hero { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
     .app-icon { width: 72px; height: 72px; border-radius: 16px; background: #2a2b38; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; color: #7dd3b0; flex-shrink: 0; }
     .app-title { font-size: 1.5rem; font-weight: 700; }
     .app-subtitle { color: #7a7a90; font-size: 0.88rem; margin-top: 0.3rem; }
-
     .notice { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #f59e0b; border-radius: 10px; padding: 0.9rem 1.2rem; font-size: 0.88rem; color: #8a8aa0; margin-bottom: 1.5rem; }
-
     .section-title { font-size: 0.78rem; font-weight: 600; color: #7dd3b0; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; margin-top: 2rem; }
     .desc-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.3rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
     .desc-box p { margin-bottom: 0.6rem; }
     .desc-box p:last-child { margin-bottom: 0; }
-
     .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
     .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.75rem; padding: 0.25rem 0.7rem; border-radius: 100px; }
-
     .links-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.8rem; margin-top: 1rem; }
     .link-card { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.1rem 1.3rem; text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.8rem; transition: border-color 0.2s; }
     .link-card:hover { border-color: #7dd3b0; }
     .link-icon { font-size: 1.3rem; }
     .link-label { font-size: 0.78rem; color: #7a7a90; }
     .link-title { font-size: 0.92rem; font-weight: 600; margin-top: 0.1rem; }
-
-    .play-btn { display: inline-flex; align-items: center; gap: 0.5rem; background: #7dd3b0; color: #111318; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem; transition: opacity 0.2s; }
-    .play-btn:hover { opacity: 0.85; }
-    .play-btn-ghost { display: inline-flex; align-items: center; gap: 0.5rem; background: #1a1b23; border: 1px solid #2a2b38; color: #7a7a90; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem; margin-left: 0.7rem; }
-
-    /* Beta box */
+    .play-btn-disabled { display: inline-flex; align-items: center; gap: 0.5rem; background: #22232f; border: 1px solid #2a2b38; color: #5a5a70; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; margin-top: 1rem; cursor: not-allowed; position: relative; user-select: none; }
+    .play-btn-disabled .tooltip { visibility: hidden; opacity: 0; background: #2a2b38; color: #c0c0d0; font-size: 0.78rem; font-weight: 500; padding: 0.35rem 0.75rem; border-radius: 6px; position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%); white-space: nowrap; transition: opacity 0.2s; pointer-events: none; border: 1px solid #3a3b50; }
+    .play-btn-disabled:hover .tooltip { visibility: visible; opacity: 1; }
     .beta-box { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #7dd3b0; border-radius: 12px; padding: 1.4rem 1.5rem; margin-top: 1rem; }
     .beta-box-title { font-size: 1rem; font-weight: 700; color: #e0e0e8; margin-bottom: 0.4rem; }
     .beta-box-sub { font-size: 0.88rem; color: #8a8aa0; margin-bottom: 1.1rem; line-height: 1.6; }
@@ -55,13 +46,9 @@
     .beta-step-num { background: #2a2b38; color: #7dd3b0; font-weight: 700; font-size: 0.75rem; border-radius: 50%; width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
     .beta-steps a { color: #7dd3b0; text-decoration: none; word-break: break-all; }
     .beta-steps a:hover { text-decoration: underline; }
-    .beta-coming { display: inline-flex; align-items: center; gap: 0.4rem; background: #22232f; border: 1px solid #2a2b38; color: #7a7a90; font-size: 0.82rem; font-weight: 600; padding: 0.45rem 1rem; border-radius: 100px; margin-top: 0.3rem; }
-
     footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
     footer a { color: #4a4a60; text-decoration: none; }
     footer a:hover { color: #7dd3b0; }
-
-    @media (max-width: 480px) { .play-btn-ghost { margin-left: 0; } }
   </style>
 </head>
 <body>
@@ -141,13 +128,13 @@
 
   <div class="section-title" data-en="Download" data-hu="Letöltés">Download</div>
   <div>
-    <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gopher.breakit" target="_blank">▶ Google Play</a>
-    <a class="play-btn-ghost" href="https://play.google.com/store/apps/details?id=com.gopher.breakit" target="_blank" data-en="🧪 Join beta test" data-hu="🧪 Csatlakozz a bétateszthez">🧪 Join beta test</a>
+    <span class="play-btn-disabled">
+      ▶ Google Play
+      <span class="tooltip" data-tooltip-en="Coming soon" data-tooltip-hu="Hamarosan">Coming soon</span>
+    </span>
   </div>
 
-  <!-- BETA SIGNUP SECTION -->
   <div class="section-title" data-en="Join Beta Test" data-hu="Csatlakozz a bétateszthez">Join Beta Test</div>
-
   <div class="beta-box">
     <div data-lang-block="en">
       <div class="beta-box-title">🧪 Help us test BreakIt!</div>
@@ -164,7 +151,7 @@
           </span>
         </li>
       </ol>
-      <div style="font-size:0.85rem; color:#8a8aa0;">Thank you for your feedback and bug reports! 🙏</div>
+      <div style="font-size:0.85rem;color:#8a8aa0;">Thank you for your feedback and bug reports! 🙏</div>
     </div>
     <div data-lang-block="hu">
       <div class="beta-box-title">🧪 Segíts tesztelni a BreakIt-et!</div>
@@ -181,10 +168,9 @@
           </span>
         </li>
       </ol>
-      <div style="font-size:0.85rem; color:#8a8aa0;">Minden visszajelzést és hibajelentést előre is köszönök! 🙏</div>
+      <div style="font-size:0.85rem;color:#8a8aa0;">Minden visszajelzést és hibajelentést előre is köszönök! 🙏</div>
     </div>
   </div>
-  <!-- END BETA SIGNUP SECTION -->
 
   <div class="section-title" data-en="Links" data-hu="Hivatkozások">Links</div>
   <div class="links-grid">
@@ -212,19 +198,24 @@
 
 <script>
   function setLang(lang) {
-    document.querySelectorAll('[data-en]').forEach(el => {
+    document.querySelectorAll('[data-en]').forEach(function(el) {
       el.textContent = el.getAttribute('data-' + lang);
     });
-    document.querySelectorAll('[data-lang-block]').forEach(el => {
+    document.querySelectorAll('[data-tooltip-en]').forEach(function(el) {
+      el.textContent = el.getAttribute('data-tooltip-' + lang);
+    });
+    document.querySelectorAll('[data-lang-block]').forEach(function(el) {
       el.style.display = el.getAttribute('data-lang-block') === lang ? '' : 'none';
     });
-    document.querySelectorAll('.lang-btn').forEach(btn => {
+    document.querySelectorAll('.lang-btn').forEach(function(btn) {
       btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
     });
     localStorage.setItem('lang', lang);
   }
-  const savedLang = localStorage.getItem('lang') || 'en';
-  setLang(savedLang);
+  document.addEventListener('DOMContentLoaded', function() {
+    var savedLang = localStorage.getItem('lang') || 'en';
+    setLang(savedLang);
+  });
 </script>
 </body>
 </html>
