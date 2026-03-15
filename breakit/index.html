@@ -46,6 +46,17 @@
     .play-btn:hover { opacity: 0.85; }
     .play-btn-ghost { display: inline-flex; align-items: center; gap: 0.5rem; background: #1a1b23; border: 1px solid #2a2b38; color: #7a7a90; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem; margin-left: 0.7rem; }
 
+    /* Beta box */
+    .beta-box { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #7dd3b0; border-radius: 12px; padding: 1.4rem 1.5rem; margin-top: 1rem; }
+    .beta-box-title { font-size: 1rem; font-weight: 700; color: #e0e0e8; margin-bottom: 0.4rem; }
+    .beta-box-sub { font-size: 0.88rem; color: #8a8aa0; margin-bottom: 1.1rem; line-height: 1.6; }
+    .beta-steps { list-style: none; padding: 0; margin-bottom: 1.2rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .beta-steps li { display: flex; align-items: flex-start; gap: 0.75rem; font-size: 0.9rem; color: #c0c0d0; line-height: 1.5; }
+    .beta-step-num { background: #2a2b38; color: #7dd3b0; font-weight: 700; font-size: 0.75rem; border-radius: 50%; width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+    .beta-steps a { color: #7dd3b0; text-decoration: none; word-break: break-all; }
+    .beta-steps a:hover { text-decoration: underline; }
+    .beta-coming { display: inline-flex; align-items: center; gap: 0.4rem; background: #22232f; border: 1px solid #2a2b38; color: #7a7a90; font-size: 0.82rem; font-weight: 600; padding: 0.45rem 1rem; border-radius: 100px; margin-top: 0.3rem; }
+
     footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
     footer a { color: #4a4a60; text-decoration: none; }
     footer a:hover { color: #7dd3b0; }
@@ -73,7 +84,7 @@
     <div class="app-icon">BI</div>
     <div>
       <div class="app-title">BreakIt</div>
-      <div class="app-subtitle" data-en="Health & Lifestyle · by GopheR" data-hu="Egészség és életmód · GopheR-től">Health & Lifestyle · by GopheR</div>
+      <div class="app-subtitle" data-en="Health &amp; Lifestyle · by GopheR" data-hu="Egészség és életmód · GopheR-től">Health &amp; Lifestyle · by GopheR</div>
     </div>
   </div>
 
@@ -97,13 +108,13 @@
   <div class="desc-box">
     <div data-lang-block="en">
       <p>🚀 <strong>Advanced Habit Tracking:</strong> Track your clean time down to the second. Whether you are quitting one habit or multiple addictions at once, visualize your progress with clear counters and milestones.</p>
-      <p>💰 <strong>Savings & Time Calculator:</strong> See exactly how much money and time you have saved by not giving in to your habit. Watch your savings grow and use it as motivation to stay strong.</p>
-      <p>🔐 <strong>Secure & Private (Biometric Lock):</strong> Your journey is personal. Protect your data with a Biometric Lock (Fingerprint or Face ID) and a PIN code. Your secrets stay safe on your device.</p>
-      <p>📅 <strong>Mood Journal & Patterns:</strong> Understanding your triggers is key to recovery. Log your daily mood and write notes in the built-in journal. Analyze your emotional patterns to prevent relapses before they happen.</p>
-      <p>📊 <strong>Smart Analysis & Health Timeline:</strong> Get insights into your behavior. See which time of day is hardest for you and track how your body recovers over time with the built-in health timeline.</p>
+      <p>💰 <strong>Savings &amp; Time Calculator:</strong> See exactly how much money and time you have saved by not giving in to your habit. Watch your savings grow and use it as motivation to stay strong.</p>
+      <p>🔐 <strong>Secure &amp; Private (Biometric Lock):</strong> Your journey is personal. Protect your data with a Biometric Lock (Fingerprint or Face ID) and a PIN code. Your secrets stay safe on your device.</p>
+      <p>📅 <strong>Mood Journal &amp; Patterns:</strong> Understanding your triggers is key to recovery. Log your daily mood and write notes in the built-in journal. Analyze your emotional patterns to prevent relapses before they happen.</p>
+      <p>📊 <strong>Smart Analysis &amp; Health Timeline:</strong> Get insights into your behavior. See which time of day is hardest for you and track how your body recovers over time with the built-in health timeline.</p>
       <p>📄 <strong>PDF Export:</strong> Need to share your progress with a therapist, doctor, or accountability partner? Export your full history, journal entries, and statistics into a clean, professional PDF report with just one tap.</p>
       <p>🆘 <strong>SOS Mode:</strong> Panic button with breathing exercises and motivational tips for hard moments.</p>
-      <p>🌙 <strong>Light & Dark Mode:</strong> Beautiful, modern interface that looks great day or night.</p>
+      <p>🌙 <strong>Light &amp; Dark Mode:</strong> Beautiful, modern interface that looks great day or night.</p>
       <p>💬 <strong>Daily Motivation:</strong> Get greeted with encouraging quotes and milestones.</p>
     </div>
     <div data-lang-block="hu">
@@ -133,6 +144,47 @@
     <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gopher.breakit" target="_blank">▶ Google Play</a>
     <a class="play-btn-ghost" href="https://play.google.com/store/apps/details?id=com.gopher.breakit" target="_blank" data-en="🧪 Join beta test" data-hu="🧪 Csatlakozz a bétateszthez">🧪 Join beta test</a>
   </div>
+
+  <!-- BETA SIGNUP SECTION -->
+  <div class="section-title" data-en="Join Beta Test" data-hu="Csatlakozz a bétateszthez">Join Beta Test</div>
+
+  <div class="beta-box">
+    <div data-lang-block="en">
+      <div class="beta-box-title">🧪 Help us test BreakIt!</div>
+      <div class="beta-box-sub">The app is currently in testing and not yet publicly available on Google Play. Follow these two steps to join the beta program and install the app:</div>
+      <ol class="beta-steps">
+        <li>
+          <span class="beta-step-num">1</span>
+          <span>Join our tester group on Google Groups:<br><a href="https://groups.google.com/g/breakit-testers" target="_blank">groups.google.com/g/breakit-testers</a></span>
+        </li>
+        <li>
+          <span class="beta-step-num">2</span>
+          <span>After joining the group, install the app via Google Play:<br>
+            <a href="https://play.google.com/apps/testing/com.gopher.breakit" target="_blank">play.google.com/apps/testing/com.gopher.breakit</a>
+          </span>
+        </li>
+      </ol>
+      <div style="font-size:0.85rem; color:#8a8aa0;">Thank you for your feedback and bug reports! 🙏</div>
+    </div>
+    <div data-lang-block="hu">
+      <div class="beta-box-title">🧪 Segíts tesztelni a BreakIt-et!</div>
+      <div class="beta-box-sub">Az alkalmazás jelenleg tesztelés alatt áll, és még nem érhető el nyilvánosan a Google Play-en. Kövesd ezt a két lépést a bétateszthez való csatlakozáshoz és az app telepítéséhez:</div>
+      <ol class="beta-steps">
+        <li>
+          <span class="beta-step-num">1</span>
+          <span>Csatlakozz a tesztelői csoporthoz a Google Csoportokon:<br><a href="https://groups.google.com/g/breakit-testers" target="_blank">groups.google.com/g/breakit-testers</a></span>
+        </li>
+        <li>
+          <span class="beta-step-num">2</span>
+          <span>A csoport csatlakozása után telepítsd az appot a Google Play-ről:<br>
+            <a href="https://play.google.com/apps/testing/com.gopher.breakit" target="_blank">play.google.com/apps/testing/com.gopher.breakit</a>
+          </span>
+        </li>
+      </ol>
+      <div style="font-size:0.85rem; color:#8a8aa0;">Minden visszajelzést és hibajelentést előre is köszönök! 🙏</div>
+    </div>
+  </div>
+  <!-- END BETA SIGNUP SECTION -->
 
   <div class="section-title" data-en="Links" data-hu="Hivatkozások">Links</div>
   <div class="links-grid">
