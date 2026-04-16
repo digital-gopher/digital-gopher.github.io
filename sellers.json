@@ -1,0 +1,14 @@
+{
+  "contact_email": "digital.gopher.app@gmail.com",
+  "contact_address": "Budapest, Magyarország",
+  "version": "1.0",
+  "sellers": [
+    {
+      "seller_id": "pub-8284687312951107",
+      "seller_type": "PUBLISHER",
+      "name": "GopheR",
+      "domain": "digital-gopher.github.io",
+      "is_confidential": 0
+    }
+  ]
+}
