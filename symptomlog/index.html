@@ -1,1 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SymptomLog – Digital GopheR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
+    nav { background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+    .nav-left { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; }
+    .nav-left a { color: #7dd3b0; text-decoration: none; }
+    .nav-left a:hover { text-decoration: underline; }
+    .nav-sep { color: #4a4a60; }
+    .nav-current { color: #a0a0b0; }
+    .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; }
+    .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .lang-btn.active { background: #7dd3b0; color: #111318; }
 
+    .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+    .app-hero { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
+    .app-icon { width: 72px; height: 72px; border-radius: 16px; overflow: hidden; background: #2a2b38; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #7dd3b0; }
+    .app-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .app-title { font-size: 1.5rem; font-weight: 700; }
+    .app-subtitle { color: #7a7a90; font-size: 0.88rem; margin-top: 0.3rem; }
+
+    .section-title { font-size: 0.78rem; font-weight: 600; color: #7dd3b0; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; margin-top: 2rem; }
+
+    .desc-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.3rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
+    .desc-box p + p { margin-top: 0.7rem; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.75rem; padding: 0.25rem 0.7rem; border-radius: 100px; }
+
+    .links-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.8rem; margin-top: 1rem; }
+    .link-card {
+      background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px;
+      padding: 1.1rem 1.3rem; text-decoration: none; color: inherit;
+      display: flex; align-items: center; gap: 0.8rem; transition: border-color 0.2s;
+    }
+    .link-card:hover { border-color: #7dd3b0; }
+    .link-icon { font-size: 1.3rem; }
+    .link-label { font-size: 0.78rem; color: #7a7a90; }
+    .link-title { font-size: 0.92rem; font-weight: 600; margin-top: 0.1rem; }
+
+    .play-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: #7dd3b0; color: #111318; font-weight: 600; font-size: 0.9rem;
+      padding: 0.7rem 1.4rem; border-radius: 100px; text-decoration: none; margin-top: 1rem;
+      transition: opacity 0.2s;
+    }
+    .play-btn:hover { opacity: 0.85; }
+
+    footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
+    footer a { color: #4a4a60; text-decoration: none; }
+    footer a:hover { color: #7dd3b0; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <a href="../index.html">Digital GopheR</a>
+    <span class="nav-sep">/</span>
+    <span class="nav-current">SymptomLog</span>
+  </div>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('hu')">HU</button>
+  </div>
+</nav>
+
+<div class="content">
+
+  <div class="app-hero">
+    <div class="app-icon">
+      <!-- Cseréld ki az src attribútumot a valós ikonod URL-jére! -->
+      <img src="icon.png" alt="SymptomLog" onerror="this.style.display='none'; this.parentElement.textContent='SL'" />
+    </div>
+    <div>
+      <div class="app-title" data-en="SymptomLog" data-hu="TünetNapló">SymptomLog</div>
+      <div class="app-subtitle" data-en="Health &amp; Medical · by GopheR" data-hu="Egészség és orvoslás · GopheR-től">Health &amp; Medical · by GopheR</div>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="About the app" data-hu="Az alkalmazásról">About the app</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>SymptomLog is a private, 100% offline health diary designed to help you track your symptoms, co-factors, and regular daily medications effortlessly.</p>
+      <p>Whether you're managing migraines, joint pain, or pacing your energy for chronic conditions (like ME/CFS or Long-COVID), SymptomLog adapts to your needs. Discover hidden correlations and generate professional medical reports for your next doctor's appointment.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>A TünetNapló egy privát, 100%-ban offline egészségügyi napló, ami segít egyszerűen nyomon követni a tüneteidet, a kiváltó tényezőket és a rendszeres gyógyszereidet.</p>
+      <p>Legyen szó migrénről, ízületi fájdalmakról, vagy az energiaszinted menedzseléséről (pacing) krónikus állapotok esetén (pl. ME/CFS vagy Long-COVID), a TünetNapló hozzád alkalmazkodik. Fedezz fel rejtett összefüggéseket, és generálj profi orvosi jelentéseket a következő konzultációdra.</p>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="Key Features" data-hu="Főbb funkciók">Key Features</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>📊 <strong>Customizable Scales:</strong> Track pain, fatigue, energy levels, or any custom body part on a 1-10 scale.</p>
+      <p>💊 <strong>Medication Tracker:</strong> Quickly log regular and acute medications, complete with smart reminders.</p>
+      <p>⚡ <strong>Triggers & Reliefs:</strong> See what worsens your symptoms and discover which relief methods work best.</p>
+      <p>📑 <strong>Medical Export:</strong> Generate clean, clinical PDF reports or dynamic tabular CSV sheets to share with your doctor.</p>
+      <p>🔒 <strong>100% Offline & Secure:</strong> Your health data never leaves your device. Protect your diary with PIN or Biometric Lock.</p>
+      <p>🎨 <strong>Personalized Themes:</strong> Multiple color themes, including a dark room "Migraine" mode and pure AMOLED mode.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>📊 <strong>Személyre szabott skálák:</strong> Kövesd a fájdalmat, fáradtságot, energiát vagy bármely testrészed állapotát 1-10-es skálán.</p>
+      <p>💊 <strong>Gyógyszernapló:</strong> Rögzítsd egyszerűen az állandó és rohamoldó gyógyszereidet okos emlékeztetőkkel.</p>
+      <p>⚡ <strong>Tényezők és Enyhítők:</strong> Tudd meg, mi ront a helyzeten, és fedezd fel, mely módszerek enyhítik leghatékonyabban a tüneteket.</p>
+      <p>📑 <strong>Orvosi Export:</strong> Készíts letisztult PDF jelentéseket vagy táblázatos CSV fájlokat az orvosod számára.</p>
+      <p>🔒 <strong>100% Offline és Biztonságos:</strong> Az adataid sosem hagyják el a telefont. Védd a naplódat PIN kóddal vagy ujjlenyomattal.</p>
+      <p>🎨 <strong>Személyre szabott témák:</strong> Rengeteg szín-téma, köztük fényérzékenyeknek szánt "Migrén" mód és tiszta AMOLED sötét mód.</p>
+    </div>
+  </div>
+
+  <div class="tags">
+    <span class="tag" data-en="Health Diary" data-hu="Egészségügyi Napló">Health Diary</span>
+    <span class="tag" data-en="Symptom Tracker" data-hu="Tünetkövető">Symptom Tracker</span>
+    <span class="tag" data-en="PDF Report" data-hu="PDF Jelentés">PDF Report</span>
+    <span class="tag" data-en="100% Offline" data-hu="100% Offline">100% Offline</span>
+    <span class="tag" data-en="Freemium" data-hu="Freemium">Freemium</span>
+  </div>
+
+  <div class="section-title" data-en="Download" data-hu="Letöltés">Download</div>
+  <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gopher.kronikus" target="_blank">
+    ▶ Google Play
+  </a>
+
+  <div class="section-title" data-en="Links" data-hu="Hivatkozások">Links</div>
+  <div class="links-grid">
+    <a class="link-card" href="privacy.html">
+      <div class="link-icon">🔒</div>
+      <div>
+        <div class="link-label" data-en="Legal" data-hu="Jogi">Legal</div>
+        <div class="link-title" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</div>
+      </div>
+    </a>
+    <a class="link-card" href="mailto:digital.gopher.app@gmail.com">
+      <div class="link-icon">✉️</div>
+      <div>
+        <div class="link-label" data-en="Get in touch" data-hu="Kapcsolat">Get in touch</div>
+        <div class="link-title" data-en="Send email" data-hu="Email küldése">Send email</div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <a href="../index.html" data-en="← Back to all apps" data-hu="← Vissza az összes apphoz">← Back to all apps</a>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-lang-block]').forEach(el => {
+      el.style.display = el.getAttribute('data-lang-block') === lang ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+  const savedLang = localStorage.getItem('lang') || 'en';
+  setLang(savedLang);
+</script>
+</body>
+</html>
