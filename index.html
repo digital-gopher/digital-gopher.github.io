@@ -38,6 +38,8 @@
     hr { border: none; border-top: 1px solid #2a2b38; }
 
     .apps-grid { display: flex; flex-wrap: wrap; gap: 1rem; }
+    
+    /* A kártyák stílusai változatlanok maradtak */
     .app-card {
       background: #1a1b23; border: 1px solid #2a2b38; border-radius: 14px;
       padding: 1.3rem; display: flex; flex-direction: column; gap: 0.8rem;
@@ -77,16 +79,11 @@
     .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.72rem; padding: 0.2rem 0.6rem; border-radius: 100px; }
     .app-card-arrow { margin-top: auto; color: #7dd3b0; font-size: 0.82rem; font-weight: 500; }
 
-    .about-box, .contact-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 14px; padding: 1.5rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
+    .about-box, .contact-box, .support-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 14px; padding: 1.5rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
     .about-box p + p { margin-top: 0.8rem; }
     .contact-box a { color: #7dd3b0; text-decoration: none; }
-
-    /* Support section */
-    .support-box {
-      background: #1a1b23; border: 1px solid #2a2b38; border-radius: 14px;
-      padding: 1.5rem; margin-top: 1rem;
-      color: #8a8aa0; font-size: 0.92rem; line-height: 1.7;
-    }
+    
+    .support-box { margin-top: 1rem; }
     .support-text { margin-bottom: 1rem; }
     .support-buttons { display: flex; flex-wrap: wrap; gap: 0.75rem; }
     .support-btn {
@@ -102,7 +99,8 @@
     .support-btn svg { width: 20px; height: 20px; flex-shrink: 0; }
 
     footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
-    footer a { color: #4a4a60; }
+    footer a { color: #4a4a60; text-decoration: none; }
+    footer a:hover { color: #7dd3b0; }
 
     @media (max-width: 860px) {
       .app-card { max-width: calc(50% - 0.5rem); }
@@ -133,6 +131,7 @@
     </div>
   </div>
 </nav>
+
 <div class="mobile-menu" id="mobileMenu">
   <a href="#apps" onclick="toggleMenu()" data-en="Apps" data-hu="Appok">Apps</a>
   <a href="#about" onclick="toggleMenu()" data-en="About" data-hu="Rólam">About</a>
@@ -148,110 +147,10 @@
 
 <section id="apps">
   <div class="section-title" data-en="Applications" data-hu="Alkalmazások">Applications</div>
-  <div class="apps-grid">
-
-    <!-- SpendFence (live) -->
-    <a class="app-card live" href="spendfence/index.html">
-      <div class="app-card-top">
-        <div class="app-icon">
-          <img src="https://play-lh.googleusercontent.com/hPcyfph4NljmSl-1_OQsvYaVk5cjyPKQO51autv56EiUayaWq0xkOX3WE9G6OC68bxxD9yOO_wVS4mTez810tQ=w120-h120" alt="SpendFence" onerror="this.parentElement.textContent='SF'" />
-        </div>
-        <div>
-          <div class="app-name">SpendFence</div>
-          <div class="app-category" data-en="Finance" data-hu="Pénzügy">Finance</div>
-          <div class="status-badge live"><span data-en="Live on Play Store" data-hu="Elérhető a Play Store-ban">Live on Play Store</span></div>
-        </div>
-      </div>
-      <div class="app-desc" data-en="Subscription manager and expense tracker. Keep all your recurring payments in one place." data-hu="Előfizetés-kezelő és kiadáskövető. Tartsd számon az összes előfizetésedet egy helyen.">Subscription manager and expense tracker. Keep all your recurring payments in one place.</div>
-      <div class="app-tags">
-        <span class="tag">Offline</span>
-        <span class="tag" data-en="Finance" data-hu="Pénzügy">Finance</span>
-        <span class="tag" data-en="Subscriptions" data-hu="Előfizetések">Subscriptions</span>
-      </div>
-      <div class="app-card-arrow" data-en="View app →" data-hu="Megnyitás →">View app →</div>
-    </a>
-
-    <!-- Ice & Spice (live) -->
-    <a class="app-card live" href="icespice/index.html">
-      <div class="app-card-top">
-        <div class="app-icon">
-          <img src="https://play-lh.googleusercontent.com/oFeLlNDf4BKr08Wle9Pq0vIaoN4_WVpCIHpVmD8dfbGgGQomJ8O306VMRwlI1hmTwAumnW_3TZFSpC7mK4akQg=w120-h120" alt="Ice &amp; Spice" onerror="this.parentElement.textContent='IS'" />
-        </div>
-        <div>
-          <div class="app-name">Ice &amp; Spice</div>
-          <div class="app-category" data-en="Food &amp; Drink" data-hu="Étel &amp; Ital">Food &amp; Drink</div>
-          <div class="status-badge live"><span data-en="Live on Play Store" data-hu="Elérhető a Play Store-ban">Live on Play Store</span></div>
-        </div>
-      </div>
-      <div class="app-desc" data-en="Freezer and storage list app. Track what's in your freezer and pantry." data-hu="Fagyasztó és tároló lista. Kövesd nyomon mi van a fagyasztódban és a kamrádban.">Freezer and storage list app. Track what's in your freezer and pantry.</div>
-      <div class="app-tags">
-        <span class="tag" data-en="List" data-hu="Lista">List</span>
-        <span class="tag" data-en="Freezer" data-hu="Fagyasztó">Freezer</span>
-        <span class="tag" data-en="Ads" data-hu="Reklámok">Ads</span>
-      </div>
-      <div class="app-card-arrow" data-en="View app →" data-hu="Megnyitás →">View app →</div>
-    </a>
-
-    <!-- BreakIt (live) -->
-    <a class="app-card live" href="breakit/index.html">
-      <div class="app-card-top">
-        <div class="app-icon">
-            <img src="https://play-lh.googleusercontent.com/7US1DYi1ZPTDVbcl4oL6RbbJearUKylbvs1duIu_YfwxdIEsj3cquyGwOHEQv-mHY7NB0M3h45XgdjbH66aX=w240-h480-rw" alt="BreakIt" onerror="this.parentElement.textContent='BI'" />
-        </div>
-        <div>
-          <div class="app-name">BreakIt</div>
-          <div class="app-category" data-en="Health &amp; Lifestyle" data-hu="Egészség és életmód">Health &amp; Lifestyle</div>
-          <div class="status-badge live"><span data-en="Live on Play Store" data-hu="Elérhető a Play Store-ban">Live on Play Store</span></div>
-        </div>
-      </div>
-      <div class="app-desc" data-en="Break bad habits, track your recovery, and stay motivated. Quit smoking, alcohol, sugar, or any custom habit — completely offline." data-hu="Szabadulj meg a rossz szokásoktól, kövesd a fejlődésed és maradj motivált. Dohányzás, alkohol, cukor, vagy egyéni szokás – teljesen offline.">Break bad habits, track your recovery, and stay motivated. Quit smoking, alcohol, sugar, or any custom habit — completely offline.</div>
-      <div class="app-tags">
-        <span class="tag">100% Offline</span>
-        <span class="tag" data-en="No ads" data-hu="Reklámok nélkül">No ads</span>
-        <span class="tag" data-en="Habits" data-hu="Szokások">Habits</span>
-      </div>
-      <div class="app-card-arrow" data-en="View app →" data-hu="Megnyitás →">View app →</div>
-    </a>
-
-    <!-- SymptomLog (beta) -->
-    <a class="app-card beta" href="symptomlog/index.html">
-      <div class="app-card-top">
-        <div class="app-icon">SL</div>
-        <div>
-          <div class="app-name">SymptomLog</div>
-          <div class="app-category" data-en="Health &amp; Medical" data-hu="Egészség &amp; Orvoslás">Health &amp; Medical</div>
-          <div class="status-badge beta"><span data-en="Closed Beta" data-hu="Zárt béta">Closed Beta</span></div>
-        </div>
-      </div>
-      <div class="app-desc" data-en="Private, 100% offline health diary. Track symptoms, triggers, medications, and generate PDF reports." data-hu="Privát, 100%-ban offline egészségügyi napló. Rögzíts tüneteket, tényezőket, gyógyszereket és készíts PDF jelentéseket.">Private, 100% offline health diary. Track symptoms, triggers, medications, and generate PDF reports.</div>
-      <div class="app-tags">
-        <span class="tag">100% Offline</span>
-        <span class="tag" data-en="Health Diary" data-hu="Egészségügyi Napló">Health Diary</span>
-        <span class="tag" data-en="PDF Report" data-hu="PDF Jelentés">PDF Report</span>
-      </div>
-      <div class="app-card-arrow" data-en="View app →" data-hu="Megnyitás →">View app →</div>
-    </a>
-    
-    <!-- TasteLog (beta) -->
-    <a class="app-card beta" href="tastelog/index.html">
-      <div class="app-card-top">
-        <div class="app-icon">TL</div>
-        <div>
-          <div class="app-name">TasteLog</div>
-          <div class="app-category" data-en="Food &amp; Drink" data-hu="Étel &amp; Ital">Food &amp; Drink</div>
-          <div class="status-badge beta"><span data-en="Closed Beta" data-hu="Zárt béta">Closed Beta</span></div>
-        </div>
-      </div>
-      <div class="app-desc" data-en="Your ultimate tasting journal. Log wines, coffees, beers, and more — with stats, maps and OCR scanning." data-hu="A személyes kóstolónaplód. Rögzíts borokat, kávékat, söröket és még sok mást – statisztikákkal, térképpel és OCR szkennerrel.">Your ultimate tasting journal. Log wines, coffees, beers, and more — with stats, maps and OCR scanning.</div>
-      <div class="app-tags">
-        <span class="tag">100% Offline</span>
-        <span class="tag" data-en="Tasting Journal" data-hu="Kóstolónapló">Tasting Journal</span>
-        <span class="tag" data-en="Coming soon" data-hu="Hamarosan">Coming soon</span>
-      </div>
-      <div class="app-card-arrow" data-en="View app →" data-hu="Megnyitás →">View app →</div>
-    </a>
-
-  </div>
+  
+  <!-- IDE TÖLTŐDNEK BE A KÁRTYÁK -->
+  <div class="apps-grid" id="apps-container"></div>
+  
 </section>
 
 <hr>
@@ -273,21 +172,16 @@
     <a href="mailto:digital.gopher.app@gmail.com">digital.gopher.app@gmail.com</a>
   </div>
 
-  <!-- Support box -->
   <div class="support-box">
     <div class="support-text" data-en="If you'd like to support my work, you can do so here — thank you! 🙏" data-hu="Ha szeretnéd támogatni a munkámat, itt megteheted — köszönöm! 🙏">If you'd like to support my work, you can do so here — thank you! 🙏</div>
     <div class="support-buttons">
-      <!-- PayPal -->
       <a class="support-btn paypal" href="https://www.paypal.com/paypalme/pocok79" target="_blank" rel="noopener noreferrer">
-        <!-- PayPal logo SVG -->
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106zm14.146-14.42a3.35 3.35 0 0 0-.607-.541c-.013.076-.026.175-.041.254-.93 4.778-4.005 7.201-9.138 7.201h-2.19a.563.563 0 0 0-.556.479l-1.187 7.527h-.506l-.24 1.516a.56.56 0 0 0 .554.647h3.882c.46 0 .85-.334.922-.788.06-.26.76-4.852.816-5.09a.932.932 0 0 1 .923-.788h.58c3.76 0 6.705-1.528 7.565-5.946.36-1.847.174-3.388-.777-4.471z" fill="#fff"/>
         </svg>
         <span data-en="PayPal" data-hu="PayPal">PayPal</span>
       </a>
-      <!-- Revolut -->
       <a class="support-btn revolut" href="https://revolut.me/gopher007" target="_blank" rel="noopener noreferrer">
-        <!-- Revolut logo SVG -->
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M13.48 2H5v20h4.5v-7.5h2.31l3.77 7.5H20l-4.07-7.94C17.7 13.1 19 11.18 19 8.88 19 5.07 16.6 2 13.48 2zm-.26 8.88H9.5V6h3.72c1.33 0 2.28.95 2.28 2.44 0 1.5-.95 2.44-2.28 2.44z" fill="#fff"/>
         </svg>
@@ -308,6 +202,38 @@
     const hb = document.getElementById('hamburger');
     if (menu && hb && !menu.contains(e.target) && !hb.contains(e.target)) menu.classList.remove('open');
   });
+
+  // Itt sorolod fel az összes app kártyájának a fájlját!
+  const appsToLoad = [
+    'cards/spendfence.html',
+    'cards/icespice.html',
+    'cards/breakit.html',
+    'cards/symptomlog.html',
+    'cards/tastelog.html'
+  ];
+
+  async function loadApps() {
+    const container = document.getElementById('apps-container');
+    
+    // Végigmegyünk a fájlokon, és letöltjük a HTML tartalmukat
+    for (const file of appsToLoad) {
+      try {
+        const response = await fetch(file);
+        if (response.ok) {
+          const html = await response.text();
+          container.insertAdjacentHTML('beforeend', html);
+        }
+      } catch (error) {
+        console.error("Hiba a betöltésnél: " + file);
+      }
+    }
+
+    // Miután MINDEN kártya betöltött a dobozba, lefuttatjuk a nyelv-választót, 
+    // hogy a frissen betöltött szövegek is leforduljanak!
+    const savedLang = localStorage.getItem('lang') || 'en';
+    setLang(savedLang);
+  }
+
   function setLang(lang) {
     document.querySelectorAll('[data-en]').forEach(el => {
       el.textContent = el.getAttribute('data-' + lang);
@@ -317,8 +243,10 @@
     });
     localStorage.setItem('lang', lang);
   }
-  const savedLang = localStorage.getItem('lang') || 'en';
-  setLang(savedLang);
+
+  // 1. Lépés: Elindítjuk a kártyák betöltését
+  loadApps();
+
 </script>
 </body>
 </html>
