@@ -39,7 +39,6 @@
 
     .apps-grid { display: flex; flex-wrap: wrap; gap: 1rem; }
     
-    /* A kártyák stílusai változatlanok maradtak */
     .app-card {
       background: #1a1b23; border: 1px solid #2a2b38; border-radius: 14px;
       padding: 1.3rem; display: flex; flex-direction: column; gap: 0.8rem;
@@ -148,7 +147,6 @@
 <section id="apps">
   <div class="section-title" data-en="Applications" data-hu="Alkalmazások">Applications</div>
   
-  <!-- IDE TÖLTŐDNEK BE A KÁRTYÁK -->
   <div class="apps-grid" id="apps-container"></div>
   
 </section>
@@ -203,19 +201,17 @@
     if (menu && hb && !menu.contains(e.target) && !hb.contains(e.target)) menu.classList.remove('open');
   });
 
-  // Itt sorolod fel az összes app kártyájának a fájlját!
   const appsToLoad = [
     'cards/spendfence.html',
     'cards/icespice.html',
     'cards/breakit.html',
-    'cards/symptomlog.html',
+    'cards/chronicly.html',
     'cards/tastelog.html'
   ];
 
   async function loadApps() {
     const container = document.getElementById('apps-container');
     
-    // Végigmegyünk a fájlokon, és letöltjük a HTML tartalmukat
     for (const file of appsToLoad) {
       try {
         const response = await fetch(file);
@@ -228,8 +224,6 @@
       }
     }
 
-    // Miután MINDEN kártya betöltött a dobozba, lefuttatjuk a nyelv-választót, 
-    // hogy a frissen betöltött szövegek is leforduljanak!
     const savedLang = localStorage.getItem('lang') || 'en';
     setLang(savedLang);
   }
@@ -244,7 +238,6 @@
     localStorage.setItem('lang', lang);
   }
 
-  // 1. Lépés: Elindítjuk a kártyák betöltését
   loadApps();
 
 </script>
