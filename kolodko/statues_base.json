@@ -211,15 +211,18 @@
       },
       "eredeti_usanka_01": {
         "coordinates": { "lat": 47.5038, "lng": 19.0506 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "isDestroyed": true
       },
       "piszoar_01": {
         "coordinates": { "lat": 47.5120, "lng": 19.0800 },
-        "yearInstalled": 2017
+        "yearInstalled": 2017,
+        "isDestroyed": true
       },
       "eredeti_lisa_simpson_01": {
         "coordinates": { "lat": 47.5135, "lng": 19.0470 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "isDestroyed": true
       }
     }
   },
