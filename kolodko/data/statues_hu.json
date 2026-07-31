@@ -1,0 +1,557 @@
+{
+  "statues": {
+    "fokukac_01": {
+      "name": "Főkukac",
+      "location": "Bem rakpart 15.",
+      "description": "A Nagy Ho-ho-ho Horgász ikonikus kísérőjének, a Főkukacnak a miniszobra. Kolodko Mihály legelső budapesti köztéri miniszobra, amelyet a művész a gyerekkori kedvenc magyar rajzfilmsorozata (Csukás István és Sajdik Ferenc alkotása) emlékére készített. A szobor eredeti változata Ungváron, az Ung folyó partján áll.",
+      "funFact": "A budapestiek egyik legkedvesebb szobra: hideg téli napokon a járókelők és rajongók rendszeresen horgolt vagy kötött kisméretű sapkát, sálat és néha pulóvert adnak rá. Egyike azon kevés szobroknak, amelyeknek ikertestvére van Kárpátalján.",
+      "howToFind": "A II. kerületi Bem rakparton, a Halász utcai villamosmegállóval szemben lévő kőmellvéd tetején ül. A Duna és a Parlament felé néz, a kerékpárút és a sétaút találkozásánál."
+    },
+    "kockasfulu_01": {
+      "name": "A Kockásfülű Nyúl",
+      "location": "Szent György tér",
+      "description": "Marék Veronika legendás rajzfilmfigurája, A Kockásfülű Nyúl bronz miniszobra. A mesehős a magasból kémleli a várost, pontosan úgy, ahogyan a rajzfilmekben is tette: távcsövével keresi a bajba jutott gyerekeket és a megoldandó kalandokat a pesti oldalon.",
+      "funFact": "A turisták és helyiek körében elterjedt szokás, hogy szerencsehozó céllal megsimogatják a nyuszi fülét vagy a távcsövét, emiatt a bronz felülete ezen a részen fényesebbre kopott. A szoborból csodálatos panoráma nyílik a Lánchídra és a Parlamentre.",
+      "howToFind": "A Budavári Palotanegyedben, a Budavári Sikló felső állomása mellett, a Sándor-palota előtti kőkorlát tetején ül, a Turul-szobor közelében, a pesti oldal felé fordulva."
+    },
+    "rubik_01": {
+      "name": "Rubik Kocka",
+      "location": "Bem rakpart (Batthyány térhez közel)",
+      "description": "Rubik Ernő 1974-es világszabadalmának, a Bűvös Kockának (Rubik-kocka) állít emléket. A miniszobor a magyar kreativitás és mérnöki zsenialitás globális szimbóluma, amelyből a világon több mint 450 millió darabot adtak el.",
+      "funFact": "A szobor felülete olyan kialakítású, mintha egy éppen forgatás alatt lévő, félig kirakott kockát ábrázolna, amely lefelé gurul a rakparti kőlépcső korlátján. Tervezésekor a művész szándékosan a Parlamenttel szemközti oldalt választotta.",
+      "howToFind": "A Bem rakparton, a Batthyány térről a Margit híd felé sétálva, a Vám utca vonalában lévő alsó rakparti kőlépcsősor kőkorlátján fekszik, pontosan a Parlamenttel szemben."
+    },
+    "sad_tank_01": {
+      "name": "Szomorú Tank",
+      "location": "Bem rakpart",
+      "description": "A lekonyuló ágyúcsövű miniatűr harckocsi az 1956-os forradalom és szabadságharc csendes mementója. A tehetetlenné és szomorúvá szelídített katonai gépezet a háború értelmetlenségére és a szabadságvágy erejére hívja fel a figyelmet.",
+      "funFact": "Az oldalán eredetileg a forradalom híres 'Ruszkik haza!' felirata állt. Az első szobrot ellopták, így Kolodko megerősített rögzítéssel újraöntötte és visszahelyezte. A szobor érdekessége, hogy a művész szignója apró betűkkel megtalálható rajta.",
+      "howToFind": "A Bem rakparton, a Batthyány téri villamosmegállótól északra, az egykori Kossuth híd nagy, fehér emlékkövének közvetlen közelében, a kőmellvéd tetején található."
+    },
+    "mekk_elek_01": {
+      "name": "Mekk Elek",
+      "location": "Széll Kálmán tér",
+      "description": "Romhányi József és Nepp József klasszikus bábfilmsorozatának kontár ezermestere, Mekk Elek (Mekk Mester). A szobor kezében egy 'Moszkva tér' feliratú utcatáblát tart, ezzel állítva emléket a Széll Kálmán tér ikonikus korábbi nevének.",
+      "funFact": "A szobor kezéből a Moszkva tér táblát többször is letörték vagy megrongálták, de a művész minden alkalommal pótolta. Télente gyakran adnak rá kis kötött sálat a helyi lakosok.",
+      "howToFind": "A Széll Kálmán térről a Várfok utca (buszmegállók) felé vezető mozgólépcsők melletti gyalogos kőlépcső aljában, a kőfal tövében csücsül."
+    },
+    "kermit_01": {
+      "name": "Breki, a béka",
+      "location": "Szabadság tér",
+      "description": "A Muppet Show zöld békájának, Brekinek a bronz miniszobra. A mesehős úgy ül a kerítés kőalapján, mintha a tér élővilágát és a kávézó teraszán üldögélő embereket figyelné vidáman.",
+      "funFact": "Breki szándékosan a fákhoz és a fűhöz közel kapott helyet, utalva a béka természetes élőhelyére. Hideg téli hónapokban a látogatóktól gyakran kap apró, kézzel kötött sálat vagy sapkát.",
+      "howToFind": "A V. kerületi Szabadság tér közepén lévő füves területet övező alacsony fémkerítés kőtalapzatán ücsörög, a parki kávézó teraszának közelében."
+    },
+    "susu_01": {
+      "name": "Süsü, a sárkány",
+      "location": "Szabadság tér",
+      "description": "Csukás István legendás egyfejű sárkányának, Süsünek a miniszobra. A figura hűen idézi fel a Magyar Televízió klasszikus bábjátékát, amely generációk gyerekkorát határozta meg.",
+      "funFact": "Az első Süsü miniszobrot ismeretlenek ellopták a helyéről, de Kolodko Mihály megerősített rögzítéssel újraöntötte és visszahelyezte. A helyszínválasztás azért szimbolikus, mert a Szabadság téren álló Tőzsdepalota volt évtizedekig a Magyar Televízió székhelye.",
+      "howToFind": "A V. kerületi Szabadság téren, a volt MTV székház (Tőzsdepalota) főlépcsőjének bal oldali kőkorlátján áll, a tér közepe felé fordulva."
+    },
+    "diver_01": {
+      "name": "A Búvár és a kulcs",
+      "location": "Osvát utca és Dohány utca sarka",
+      "description": "Molnár Ferenc híres kávéházi legendáját örökíti meg a szobor. A történet szerint az író a New York kávéház 1894-es megnyitásakor a bejárat kulcsát a Dunába dobta, hogy a kávéház soha többé ne zárhasson be. A régi búvárruhás figura most ezt a kulcsot hozta fel a víz fenekéről.",
+      "funFact": "A szobrász a kulcsot szándékosan csaknem akkora méretűre tervezte, mint maga a búvár figurája. A legendára emlékezve 2014-ben, a kávéház 120. évfordulóján a jelenlegi vezetőség is bedobott egy kulcsot a Dunába.",
+      "howToFind": "A VII. kerületi New York-palota mögött, az Osvát utca és Dohány utca sarkán, egy piros kő/fém tűzcsap beton talapzatán, a földhöz közel található."
+    },
+    "dracula_01": {
+      "name": "Drakula olvas (Lugosi Béla)",
+      "location": "Városliget",
+      "description": "Lugosi Béla hollywoodi magyar színész legendás Drakula-alakjának miniszobra, amint nyugalomban, leeresztett fejjel könyvet olvas. A gótikus stílusú parki környezet tökéletes hátteret biztosít a híres vámpírfigura megidézéséhez.",
+      "funFact": "A szobor elhelyezése nem véletlen: a Vajdahunyad várának falában 2003 óta található egy éjjel elhelyezett Lugosi Béla mellszobor is (Hartmut Zech alkotása). Kolodko Drakulájának köpenyén hátul megtalálható a művész szignója.",
+      "howToFind": "A Városligetben, a Vajdahunyad várának tó felőli oldalában, a Hunyadi-szobor mögötti vármélyedésben, szemmagasság felett egy kőpárkányon ül."
+    },
+    "noah_ark_01": {
+      "name": "Noé Bárkája",
+      "location": "Bethlen Gábor tér",
+      "description": "Noé Bárkájának miniatűr, bronzból készült mása. Az alkotás a bibliai megmenekülés és az állatvilág védelmének szimbóluma, amely tökéletesen illeszkedik az egyetemi környezetbe.",
+      "funFact": "A bárka apró ablakain és nyílásain benézve láthatók benne a párban lévő apró állatfigurák. Napsütéses időben, amikor a fény megfelelő szögben esik a bárka belsejébe, színes fényvisszaverődés (szivárvány-effektus) sejlik fel a szobor belsejében.",
+      "howToFind": "A VII. kerületi Bethlen Gábor téren, az Állatorvostudományi Egyetem felőli oldalon, egy alacsony kőpárkány és díszmedence szélén pihen."
+    },
+    "liszt_ferenc_01": {
+      "name": "Liszt Ferenc várakozik",
+      "location": "Liszt Ferenc Repülőtér",
+      "description": "Liszt Ferenc világhírű zeneszerző és zongoraművész miniszobra. A szobor a repülés és az utazás motívumát ötvözi a komolyzenével: a művész egy csomagon ülve várakozik, miközben éppen egy papírrepülőt hajtogat.",
+      "funFact": "Liszt Ferenc korának igazi 'világsztárja' volt, aki folyamatosan turnézott és beutazta egész Európát. Kolodko ezzel a figurával összekötötte a 19. századi utazásokat a modern légi közlekedéssel és a róla elnevezett nemzetközi repülőtérrel.",
+      "howToFind": "A Liszt Ferenc Nemzetközi Repülőtér 2A Termináljának épülete előtt, a buszmegállók és a gyalogos járda találkozásánál lévő kerek kőoszlop tetején ül."
+    },
+    "herzl_01": {
+      "name": "Herzl Tivadar és a kerékpár",
+      "location": "Dohány utca 1.",
+      "description": "Herzl Tivadar író, újságíró, a cionista mozgalom megálmodójának miniszobra kerékpárral. A szobor a zsidó történelem egyik leghatásosabb alakjának állít emléket szülőháza közvetlen közelében.",
+      "funFact": "A szobor megformálása egy híres korabeli fotón alapul, amelyen Herzl Tivadar kerékpárral látható. A művész úgy rögzítette a szobrot az utcai lámpaoszlopra, mintha a biciklis éppen azon tekerne lefelé.",
+      "howToFind": "A VII. kerületi Dohány utca és Károly körút sarkán, a Dohány utcai Zsinagóga mellett álló vastag fém villanypózna oldalára van rögzítve, derékmagasságban."
+    },
+    "szenes_hanna_01": {
+      "name": "Szenes Hanna",
+      "location": "Szenes Hanna park",
+      "description": "A 23 évesen mártírhalált halt magyar-zsidó költőnő és brit ejtőernyős háborús hős, Szenes Hanna emlékműve. A szobor ejtőernyős felszerelésben, egy sziklafalból kiemelkedve ábrázolja a hősnőt, aki életét áldozta a magyar zsidók megmentéséért.",
+      "funFact": "Kolodko legszomorúbb háttértörténetű szobra, amelyet 2020. március 8-án, Nemzetközi Nőnapon avattak fel a Hosszúlépés. Járunk? szervezettel közösen, felhívva a figyelmet a nők fájó hiányára a köztéri szobrászatban. Szenes Hanna és Szenes Iván dalszövegíró unokatestvérek voltak.",
+      "howToFind": "A VII. kerületi Szenes Hanna parkban (Jósika utca és Rózsa utca sarok), egy kúpszerű kő- és téglarakáson áll."
+    },
+    "seress_rezso_01": {
+      "name": "Seress Rezső",
+      "location": "Akácfa utca 38.",
+      "description": "A világhírű 'Szomorú vasárnap' (Gloomy Sunday) zeneszerzőjének és zongoristájának, Seress Rezsőnek állít emléket. A miniszobor egy pipát formázó kőlapon/zongorán ülve ábrázolja a művészt.",
+      "funFact": "A szobor a hajdani Kispipa vendéglő falán kapott helyet, ahol Seress évtizedeken át minden este zongorázott. Miatta olyan világsztárok látogattak el az Akácfa utcába, mint Louis Armstrong, Spencer Tracy, Marcello Mastroianni vagy John Steinbeck.",
+      "howToFind": "A VII. kerületi Akácfa utca 38. szám alatt, a volt Kispipa étterem téglafalán, egy pipát formázó fémtáblán/kőlapon, szemmagasság felett."
+    },
+    "rejto_car_01": {
+      "name": "A 14 karátos autó",
+      "location": "Hevesi Sándor tér 4.",
+      "description": "Rejtő Jenő (P. Howard) 1940-es 'A 14 karátos autó' című ponyvaregényének ikonikus autóját ábrázolja. A szobor egy éles kanyart vesz be a kőperemen, száguldást szimbolizálva az író egykori lakóhelyének szomszédságában.",
+      "funFact": "A szobor nem tisztán bronz: az ablakai és fényszórói valóban aranyozott fényezést kaptak, utalva a regénybeli aranyból készült autóalkatrészekre. Rejtő Jenő a szomszédos Rejtő Jenő utcában töltötte gyermekkorát.",
+      "howToFind": "A VII. kerületi Hevesi Sándor téren, a Pesti Magyar Színház főbejárata előtt, egy ívelt kő virágágyás szegélyén található."
+    },
+    "mr_bean_teddy_01": {
+      "name": "Teddy, Mr. Bean mackója",
+      "location": "Harmincad utca 6.",
+      "description": "Mr. Bean hűséges játékmackójának, Teddynek a bronz miniszobra. Az apró mackó magasan a falon ülve tekint le az utcán sétálókra, megidézve a brit humor ikonikus alakját.",
+      "funFact": "A szobor elhelyezése szorosan kapcsolódik az épület történetéhez: az ingatlanban működött korábban a Brit Nagykövetség. A miniszobor a brit-magyar kulturális kapcsolatoknak állít kedves emléket.",
+      "howToFind": "A V. kerületi Harmincad utca 6. szám alatt, a volt Brit Nagykövetség épületének bejárata felett, a falban lévő kőkeretes ablakmélyedésben lógatja a lábát."
+    },
+    "ratatouille_01": {
+      "name": "Lecsó (A festékszóró patkány)",
+      "location": "Döbrentei tér",
+      "description": "Lecsó (Remy), a Pixar animációs filmjének zseniális szakács-patkánya festékszóró spray-vel a kezében. A figura a falra szaladva graffitit készít, ötvözve a mese világát a modern utcai művészettel.",
+      "funFact": "A szobor tisztelgés a híres, névtelen brit street art művész, Banksy ikonikus patkány-motívumai előtt is. Kolodko ezzel a munkájával a gerillaművészet és a klasszikus szobrászat határvonalait mossa össze.",
+      "howToFind": "Az Erzsébet híd budai hídfőjénél (Döbrentei tér), a gyalogos feljáró melletti masszív kő hídpillér falán 'mászik' felfelé, szemmagasságban."
+    },
+    "dreher_01": {
+      "name": "Dreher Antal söröshordón",
+      "location": "Jászberényi út 7-11.",
+      "description": "Dreher Antal sörgyáros, a magyar sörfőzés úttörőjének miniatűr portrészobra, amint egy fahordón ülve, sört tartva a kezében büszkén tekint körbe.",
+      "funFact": "Dreher Antal honosította meg Magyarországon a pilseni típusú alsó erjesztésű sörfőzést, és a kőbányai pincendszert kihasználva építette fel Európa egyik legmodernebb sörgyárát. A szobor a gyári hagyományok előtt tiszteleg.",
+      "howToFind": "A X. kerületben, a Jászberényi út 7-11. szám alatti Dreher Sörgyár zárt udvarán, a Sörmúzeum látogatóközpontjánál tekinthető meg egy fahordón."
+    },
+    "soroslovak_01": {
+      "name": "Söröslovak",
+      "location": "Jászberényi út 7-11.",
+      "description": "Két söröskocsit húzó, tradicionális hidegvérű ló bronz miniszobra. A szobor a régi Budapest utcáinak hangulatát és a sörszállítás hagyományos módját idézi meg.",
+      "funFact": "Kőbányán a Dreher-gyárban évtizedekig hatalmas termetű dreher-lovak szállították a söröshordókat a vendéglőkbe. A lovak iránti tiszteletből a gyár saját istállókat és állatorvosi ellátást biztosított számukra.",
+      "howToFind": "A X. kerületi Jászberényi úton, a Dreher Sörgyár főépülete előtt átívelő kis mészkő híd kőkorlátján helyezkedik el."
+    },
+    "skala_kope_01": {
+      "name": "Skála Kópé",
+      "location": "Nyugati tér",
+      "description": "A 80-as évek Magyarországának legnépszerűbb reklámfigurája, a Skála Kópé miniszobra. A golyófejű, szívmelengető figura a hazai retró reklámtörténet ikonikus Kabalája.",
+      "funFact": "Skála Kópé híres szlogenje ez volt: 'Én vagyok a Skála Kópé, reklámom a reklámklip!'. A szobor felavatásának dátuma szándékosan április 1-jére (Bolondok napjára) esett, utalva a figura tréfás természetére.",
+      "howToFind": "A VI. kerületi Nyugati téren, az egykori Skála Metró áruház épülete előtti téren, a lépcsősor melletti virágágyás kőperemén áll."
+    },
+    "vuk_01": {
+      "name": "Himbálózó Vuk",
+      "location": "Szent Gellért rakpart",
+      "description": "Fekete István halhatatlan kisrókája, Vuk, amint egy sziklafalból kiálló világháborús bombán csüng tehetetlenül és játékosan.",
+      "funFact": "A szobor komoly történelmi háttérre utal: a Gellért-hegy a második világháborúban kiemelt stratégiai pont és ostromhelyszín volt. Kolodko a gyermekmese kedvességét állította szembe a háború borzalmaival.",
+      "howToFind": "A I. kerületi Szent Gellért rakparton, a Rudas fürdő melletti sétányon, a Gellért-hegy sziklafalából kiálló 'bombára' felfelé tekintve található."
+    },
+    "houdini_01": {
+      "name": "Harry Houdini",
+      "location": "Király utca 11.",
+      "description": "Harry Houdini (Weisz Erik) budapesti születésű illuzionista és szabadulóművész miniszobra. A figura láncokkal és lakattal megkötözve fekszik, mintha éppen legújabb mutatványára készülne.",
+      "funFact": "Houdini 1874-ben született Budapesten a VII. kerületben, és a világ valaha volt legnagyobb szabadulóművészévé vált. A szobor elhelyezése az Erzsébetvárosi Művelődési Ház belső udvarán a művész gyökereire emlékeztet.",
+      "howToFind": "A VII. kerületi Király utca 11. szám alatti K11 Művészeti Központ belső udvarán, a földön, egy alacsony kőfal tövében tekinthető meg."
+    },
+    "columbo_mokus_01": {
+      "name": "Halott mókus",
+      "location": "Falk Miksa utca",
+      "description": "Egy helyszínelő krétakörvonallal körülvett 'halott' mókus bronz miniszobra a földön. A szobor közvetlen párbeszédben áll a háttérben álló Columbo hadnaggyal.",
+      "funFact": "A szobor művészeti reflexió Maurizio Cattelan kortárs olasz művész híres, öngyilkos mókust ábrázoló installációjára. Kolodko humoros fordulattal Columbo hadnagy (Peter Falk) lábai mögé helyezte a rejtélyes 'bűntény' áldozatát.",
+      "howToFind": "A V. kerületi Falk Miksa utca és Szent István körút sarkán álló életnagyságú Columbo-szobor mögött, közvetlenül az aszfalton található."
+    },
+    "kotrabant_01": {
+      "name": "Kőtrabant",
+      "location": "Margit híd budai hídfő",
+      "description": "Mészkőtömbből kifaragott, felhúzókulccsal ellátott Trabant 601-es miniszobor. Az alkotás a kelet-európai retró életérzés és a nosztalgia ikonikus szimbóluma.",
+      "funFact": "A szobor egyetlen tömb mészkőből készült, kivéve a tetején lévő fém felhúzókulcsot, ami játékautóvá szelídíti a szocialista autóipar szimbólumát. A helyszínválasztás a szocializmusból megmaradt betonépítészetre rímel.",
+      "howToFind": "A III. kerületben, a Margit híd budai hídfőjének északi felhajtója alatti parkoló és sétány szélén lévő mészkőtömbön áll."
+    },
+    "delorean_trabant_01": {
+      "name": "Előre a múltba (DeLorean Trabant)",
+      "location": "Keleti Pályaudvar",
+      "description": "A 'Vissza a jövőbe' című film ikonikus DeLorean időgépének szárnyas ajtóival felszerelt Trabant miniszobra. A retró és a sci-fi zseniális ötvözete.",
+      "funFact": "A Keleti Pályaudvar a Budapestről induló és érkező utazások és az 'időben való utazás' szimbóluma. A szobor a kelet-európai valóságot ötvözi a nyugati populáris kultúra időutazós mítoszával.",
+      "howToFind": "A VIII. kerületben, a Keleti Pályaudvar főbejárata előtti süllyesztett aluljáró-szinten, az egyik kőpárkány szélén parkol."
+    },
+    "among_us_01": {
+      "name": "Sztálin csizmája / Among Us",
+      "location": "Városliget (Dózsa György út)",
+      "description": "Sztálin elpusztult budapesti óriásszobrának maradványát (a híres csizmát) ábrázoló miniszobor, amelyből a népszerű Among Us videojáték egyik figura-karakterének feje bukkan ki.",
+      "funFact": "A szobor az 1956-os forradalom történetét (amikor a pesti nép ledöntötte a Sztálin-szobrot) köti össze a modern digitális popkultúrával. Az 'Among Us' játék lényege az elrejtőzés és az 'impostor' (álinposztor) leleplezése.",
+      "howToFind": "A XIV. kerületben, a Dózsa György úton, az új Néprajzi Múzeum melletti promenádon, egy alacsony kő padka/gördeszkás szegély tetején."
+    },
+    "lufikutya_01": {
+      "name": "Lufikutya csonttal (Libidó)",
+      "location": "Duna korzó",
+      "description": "Jeff Koons kortárs amerikai művész világhírű 'Balloon Dog' (Lufikutya) alkotásának szatirikus magyar változata, amely egy óriási csontot bámul a Duna-parton.",
+      "funFact": "Kolodko elmondása szerint a szobor 'Libidó' címet is viseli, utalva arra, hogy a csont úgy vonzza a kutyát, mint férfi a nőt. A helyszín szorosan kötődik Cicciolinához (Staller Ilona), aki Jeff Koons felesége volt, és karrierje a szomszédos InterContinental szállóban indult.",
+      "howToFind": "A V. kerületben a Duna korzón, az InterContinental Hotel Duna felőli oldalán, egy asztal alakú kőpadon figyelhető meg."
+    },
+    "balta_01": {
+      "name": "Balta díszpárnán",
+      "location": "Szabadság tér",
+      "description": "Díszpárnán fekvő miniatűr balta. A szobor Kolodko szatirikus és művészi válasza arra a politikai incidensre, amikor egy parlamenti képviselő baltával leverte a helyén álló korábbi Usánka-szobrot és a Dunába dobta.",
+      "funFact": "A művész nem sértődött meg a rongáláson, hanem a reakciót beépítette az alkotói folyamatba: felajánlotta a 'szerszámot' a rombolónak. Később, 2023-ban az usánka szobra 'békalábakat növesztett' és 'kimászott' a Dunából a rakpartra.",
+      "howToFind": "A Szabadság tér északi oldalán, a Szovjet katonai emlékművet övező alacsony kovácsoltvas kerítés egyik kőoszlopán fekszik."
+    },
+    "usanka_02": {
+      "name": "Usánka visszatér",
+      "location": "Id. Antall József rakpart",
+      "description": "A korábban Dunába dobott szovjet usánka kistestvére, amely békalábakat növesztve 'kimászott' a folyóból, és visszatért a pesti rakpart lépcsőire.",
+      "funFact": "A szobor közvetlen folytatása a Szabadság téri Usánka-incidensnek. Kolodko ezzel a képregényszerű csavarral mutatta meg a művészet elpusztíthatatlanságát és a közéletre adott humoros válaszát.",
+      "howToFind": "A V. kerületben, az Id. Antall József rakparton, a Parlamenttől délre, a József Attila utca vonalában a vízhez vezető kőlépcsősor alsó fokán áll."
+    },
+    "nincs_kompot_01": {
+      "name": "Nincs kompót!",
+      "location": "Várkert rakpart",
+      "description": "A 'A tizedes meg a többiek' című klasszikus magyar filmvígjáték ikonikus mondatára ('Az oroszok már a spájzban vannak!') és szereplőire utaló apró kompozíció.",
+      "funFact": "A szobor egy kőtámfal mély repedésébe van elrejtve, emiatt a budapesti Kolodko-szobrok közül ezt a legnehezebb megtalálni és lefényképezni. A rejtőzködés maga is a filmbeli bujkálást szimbolizálja.",
+      "howToFind": "A I. kerületi Várkert rakparton, a Várkert Bazár alatt húzódó Duna-parti kő támfal egyik függőleges repedésében, a kövek közé benézve található."
+    },
+    "kutyavasar_01": {
+      "name": "Egyszer volt Budán kutyavásár",
+      "location": "Batthyány utca 65.",
+      "description": "Hat apró, cuki bronz kutyakölyök egy fonott kosárban. A szobor a híres magyar közmondásnak ('Egyszer volt Budán kutyavásár') állít emléket Hunyadi Mátyás király korából.",
+      "funFact": "A monda szerint Mátyás király egyszer drága pénzen vette meg egy szegény ember kutyáit Budán, de mikor a kapzsi gazdagok másnap szintén kutyákat vittek eladni, a király elkergette őket azzal, hogy 'egyszer volt Budán kutyavásár'.",
+      "howToFind": "A I. kerületben, a Hattyú utca és Batthyány utca sarkán (Batthyány u. 65.), egy kifejezetten nekik épült, henger alakú kőoszlop tetején vannak."
+    },
+    "romai_legios_01": {
+      "name": "In vino veritas (Római légiós)",
+      "location": "Óbuda, Nagyszombat utcai amfiteátrum",
+      "description": "Római kori katona (legionárius), aki egy boros amforának dőlve, gondtalanul pihen az ókori amfiteátrum kőmaradványain. A szobor címe: 'In vino veritas' (Borban az igazság).",
+      "funFact": "A szobor Aquincum ókori római örökségét idézi meg. Tervezésekor a művész egy ikertestvért is öntött belőle, amelyet a horvátországi Pula római amfiteátrumánál helyezett el.",
+      "howToFind": "A III. kerületben (Óbuda), a Nagyszombat utcai római katonai amfiteátrum füves küzdőterét övező egyik eredeti római romkövön fekszik."
+    },
+    "aranka_bela_01": {
+      "name": "Aranka néni és Béla bácsi",
+      "location": "Pasaréti tér",
+      "description": "A Pasaréti tér ikonikus és szeretett virágárus házaspárjának, Aranka néninek és Béla bácsinak állít emléket a szobor, akik évtizedeken át árultak virágot a helyi bódéban.",
+      "funFact": "Ez az egyik legmeghatóbb Kolodko-szobor, amely teljes egészében helyi közösségi összefogásból és lakossági adományokból valósult meg a házaspár emléke előtti tisztelgésként.",
+      "howToFind": "A II. kerületi Pasaréti téren, a buszvégállomás és az egykori virágos bódé szomszédságában lévő alacsony kőkerítés szélén található."
+    },
+    "garfield_01": {
+      "name": "Garfield",
+      "location": "Dembinszky utca 4.",
+      "description": "Jim Davis világhírű képregényhősének, a lustálkodó és lasagnét imádó Garfield macskának a miniszobra, amint kényelmesen elnyújtózik a téglafal tetején.",
+      "funFact": "A szobor 2023-ban készült Garfield megalkotásának 45. születésnapja alkalmából. A helyszínválasztás azért esett az Állatorvostudományi Egyetem kerítésére, mert az intézmény a kisállatok gyógyításának központja.",
+      "howToFind": "A VII. kerületi Dembinszky utca 4. szám alatt, az Állatorvostudományi Egyetem vöröstéglás kerítésének kőoszlopán fekszik."
+    },
+    "roth_miksa_01": {
+      "name": "Róth Miksa",
+      "location": "Nefelejcs utca 26.",
+      "description": "Róth Miksa világhírű magyar üvegfestő és mozaikművész miniatűr mellszobra. A szobor egy ólomüveg ablakkeret mögött helyezkedik el, megidézve a mester életművét.",
+      "funFact": "A szobor egy beépített apró lámpával rendelkezik, amely hátulról világítja meg az ablakot, így napszaktól függetlenül pontosan olyan hatást kelt, mintha a napfény sütne át Róth Miksa színezett üvegén.",
+      "howToFind": "A VII. kerületi Nefelejcs utca 26. alatti Róth Miksa Emlékházban (beltéri szobor), a földszinti dolgozószobában egy korabeli bútoron tekinthető meg."
+    },
+    "lisa_simpson_02": {
+      "name": "Liza Simpson (Magyar Sárga)",
+      "location": "Fővám tér 13.",
+      "description": "Lisa Simpson, A Simpson család klímavédő kislányának miniszobra, amint egy sárga villamosmegálló-oszlophoz van láncolva. A szobor címe: 'Magyar Sárga'.",
+      "funFact": "A szobor a környezetvédő aktivisták polgári engedetlenségi akcióira utal szatirikus formában, míg a sárga szín a budapesti ikonikus villamosvonalak (2-es, 4-es, 6-os) előtt tiszteleg.",
+      "howToFind": "A IX. kerületi Fővám téren, a Szabadság híd pesti hídfőjénél, a 2-es villamos megállójának sárga jelzőoszlopának aljánál található."
+    },
+    "ferenc_jozsef_01": {
+      "name": "Ferenc József függőágyban",
+      "location": "Szabadság híd",
+      "description": "Ferenc József osztrák császár és magyar király miniszobra, amint egy kényelmes függőágyban pihen a róla elnevezett híd (a mai Szabadság híd) vasrácsai között.",
+      "funFact": "A szobor a 'Szabihíd' nyári piknikek laza és szabad hangulatát örökíti meg, amikor a lakosság birtokba veszi a lezárt hidat. Ferenc József 1896-ban személyesen verte be az utolsó ezüstszegecset a híd felavatásakor.",
+      "howToFind": "A Szabadság híd pesti hídfőjénél (Fővám tér felől), a zöld fémszerkezet egyik V-alakú tartóelemébe feszített függőágyban fekszik."
+    },
+    "fules_01": {
+      "name": "Füles (Fejhallgató)",
+      "location": "Komor Marcell utca 1. (Müpa)",
+      "description": "Egy bronzból öntött miniatűr fejhallgató (stúdiófejhallgató), amely a Művészetek Palotája (Müpa) korlátján pihen, megidézve a zene és az akusztika világát.",
+      "funFact": "A szobor különlegessége, hogy felavatásakor egy beépített hangsugárzó segítségével valóban zenét sugárzott az arra járóknak. A Müpa és a Nemzeti Színház közötti kulturális negyed szimbóluma.",
+      "howToFind": "A IX. kerületben, a Komor Marcell utca 1. alatti Müpa Duna felőli főbejáratához vezető széles lépcsősor fémkorlátján 'lóg'."
+    },
+    "szurikata_01": {
+      "name": "Szurikáta",
+      "location": "Bókay János utca 51.",
+      "description": "Egy éber, a hátsó lábain álló szurikátacsalád-tag miniszobra. A kedves kisállat őrt áll a gyermekklinika kerítésén, reményt és mosolyt hozva a gyógyuló gyerekeknek.",
+      "funFact": "A szobrot a Szurikáta Alapítvánnyal (a diabéteszes gyermekeket segítő szervezettel) együttműködésben állították fel, hogy felhívják a figyelmet a gyermekkori 1-es típusú cukorbetegségre.",
+      "howToFind": "A VIII. kerületi Bókay János utca 51. szám alatt, az I. sz. Gyermekklinika utcai fémrácsos kerítésének kőalapzatán áll."
+    },
+    "uzenet_01": {
+      "name": "Üzenet (Putyin és az orosz hadihajó)",
+      "location": "Moszkva sétány",
+      "description": "Középső ujjat formázó kőtalpazaton álló miniatűr orosz hadihajó. A szobor címe: 'Üzenet', amely a kígyó-szigeti ukrán határőrök híres ellenállási tettére emlékeztet.",
+      "funFact": "A szobor Kolodko Mihály egyik legélesebb politikai állásfoglalása az Oroszország által Ukrajna ellen indított háború ellen. A szobor felállítása után világszerte bejárta a nemzetközi sajtót.",
+      "howToFind": "A XIII. kerületben, az Árpád híd pesti hídfője alatti Moszkva sétányon, a Duna-parti aszfaltozott út melletti kőoszlop tetején található."
+    },
+    "szent_miklos_01": {
+      "name": "Szerencsehozó Szent Miklós",
+      "location": "Hunyadvár utca 43/c.",
+      "description": "Szerencsehozó Szent Miklós (a gyerekek és utazók védőszentje) apró bronzszobra, amint ajándékos zsákjával a művelődési ház ablakpárkányán pihen.",
+      "funFact": "A helyiek körében gyorsan kialakult az a hiedelem, hogy ha megérintik vagy megsimogatják Szent Miklós szobrát, az szerencsét hoz a vizsgákon és a mindennapokban.",
+      "howToFind": "A XVI. kerületben (Sashalom), a Hunyadvár utca 43/c alatti Corvin Művelődési Ház bejáratánál, a jegypénztár ablakának párkányán."
+    },
+    "chuck_norris_01": {
+      "name": "Gúzsba kötött Chuck Norris",
+      "location": "Megyeri híd",
+      "description": "A gúzsba kötött Chuck Norris akcióhős miniszobra. Az alkotás a Megyeri híd 2006-os internetes névadó szavazására utal humorosan, ahol az internet népe Chuck Norris nevét szavazta meg a hídnak.",
+      "funFact": "Bár a szavazást Chuck Norris nyerte, a törvények szerint élő és külföldi személyről nem lehetett hidat elnevezni, így lett végül Megyeri híd. Kolodko a szobrot bolondok napján (április 1-jén) helyezte ki, és az akcióhős még összekötözve is legyőzhetetlennek tűnik.",
+      "howToFind": "A Megyeri híd pesti hídfőjénél, a gyalogos/kerékpáros járda déli oldalán, a korlátra rögzített 'Pest' feliratú üvegtábla tartószerkezetéhez rögzítve."
+    },
+    "holdjaro_01": {
+      "name": "Holdjáró",
+      "location": "Hold utca és Aulich utca sarka",
+      "description": "Egy apró, űrruhába öltözött asztronautát tartalmazó Holdjáró (Lunar Roving Vehicle) miniszobra, amely egy Holdat formázó betongömbön parkol.",
+      "funFact": "A szobor kettős jelentéssel bír: egyrészt tisztelgés Pavlics Ferenc magyar származású NASA-mérnök előtt, aki a holdjáró kerekét tervezte, másrészt utalás a Hold utcára, ahol Kolodko először lakott Budapestre költözésekor.",
+      "howToFind": "A V. kerületi Hold utca és Aulich utca sarkán, a Batthyány-örökmécses közelében, egy utcai terelő beton oszlop/gömb tetején."
+    },
+    "micimacko_01": {
+      "name": "Micimackó",
+      "location": "Damjanich utca 27.",
+      "description": "A mézesbödönjéből falatozó Micimackó ('Csacsi öreg medvém') miniszobra, amint Karinthy Frigyes emléktáblájánál üldögél a házfalon.",
+      "funFact": "A szobor elhelyezése nyelvtörténeti tisztelgés: Milne világhírű meséjét Karinthy Frigyes testvére, Karinthy Emília (Mici) fordította le nyersfordításban, de Frigyes csiszolta halhatatlan magyar irodalmi remekművé (és róla kapta a Micimackó nevet is).",
+      "howToFind": "A VII. kerületi Damjanich utca 27. szám alatti ház falán, a Karinthy-emléktábla alatti téglafelületen, szemmagasságban."
+    },
+    "yoda_01": {
+      "name": "Yoda mester",
+      "location": "Szent Gellért tér",
+      "description": "A Star Wars univerzum bölcs Jedi mesterének, Yodának a zöld miniszobra, amint meditálva ül a metróaluljáró fém korlátján.",
+      "funFact": "Yoda a bölcsesség és a belső erő szimbóluma. A metróaluljáró nyüzsgő, sietős világában a szobor arra ösztönzi az utazókat, hogy álljanak meg egy pillanatra és leljenek belső békére.",
+      "howToFind": "A XI. kerületi Szent Gellért téri (M4-es metró) aluljáróban, a mozgólépcsők közötti széles fém sín szélén csücsül."
+    },
+    "paddington_01": {
+      "name": "Paddington és Mása medvéje",
+      "location": "Medve utca 5-7.",
+      "description": "Paddington maci, a brit mesefigura, amint Mása medvéjének (a népszerű orosz rajzfilmsorozat hősének) a hátán lovagol a Medve utcában.",
+      "funFact": "A szobor szatirikus geopolitikai üzenetet hordoz: Paddington maci eredeti brit szinkronhangja az ukrán elnök, Volodimir Zelenszkij volt színészi karrierje során. A két medve együttélése a háború és béke témájára reflektál.",
+      "howToFind": "A II. kerületi Medve utca 5-7. szám előtti épület alacsony kőpárkányán tekinthető meg."
+    },
+    "leo_es_fred_01": {
+      "name": "Leo és Fred",
+      "location": "BudaPart (Lágymányosi öböl)",
+      "description": "Reisenbüchler Sándor és Tóth József híres rajzfilmfigurái, Leo az oroszlán és Fred az idomár, amint egy cirkuszi kocsival táboroznak a Duna-parton.",
+      "funFact": "A szobor a Lágymányosi-öböl századfordulós mulatónegyedének, a 'Kis Konstantinápolynak' állít emléket, ahol egykor cirkuszok és mulatók szórakoztatták a pest-budai közönséget.",
+      "howToFind": "A XI. kerületi BudaParton (Lágymányosi-öböl), a Kopaszi-gát és a lakópark találkozásánál lévő sétány kőfalán."
+    },
+    "meditalo_nyul_01": {
+      "name": "Meditáló nyúl (Zen nyuszi)",
+      "location": "Margitsziget (déli csúcs)",
+      "description": "Lótuszülésben, teljes Zen-nyugalomban meditáló nyuszi miniszobra a Margitsziget déli csücskén lévő Duna-lépcsőnél.",
+      "funFact": "A szobor humoros válasz egy korábbi, nagy sajtóvisszhangot kiváltó margitszigeti 'nyúltámadásra', ahol a szigeten elszaporodott nyulak keltettek riadalmat. A művész a nyugalom szigetévé szelídítette a figurát.",
+      "howToFind": "A Margitsziget legdélebbi csücskén (a Margit híd alatti bejáratnál), ahol a sárga lépcsők levezetnek a Duna vizéhez, a lépcső tövében."
+    },
+    "penzfujo_01": {
+      "name": "Pénzfújó kisember",
+      "location": "Szabadság tér",
+      "description": "Egy lombfúvóval régi pengő bankjegyeket terelő miniatűr emberke. A szobor a forint 1946-os bevezetésének és a hiperinfláció legyőzésének állít emléket.",
+      "funFact": "A Magyar Nemzeti Bank épülete előtt álló szobor a világ legdurvább hiperinflációjára utal, amikor a pengő értéke órák alatt feleződött meg, és az utcán söpörték a húszezer milliárdos bankjegyeket.",
+      "howToFind": "A V. kerületi Szabadság téren, a Magyar Nemzeti Bank főbejárata előtti kövezett sétányon, a fűszegély és a kőburkolat találkozásánál."
+    },
+    "targoncas_01": {
+      "name": "Targoncás",
+      "location": "Szabadság tér",
+      "description": "Egy miniatűr munkás, aki targoncájával éppen egy kőtömböt mozgat a vitatott emlékmű szomszédságában.",
+      "funFact": "A szobor Kolodko gerillaakciójaként került ki a Szabadság térre, reflexióként a téren zajló politikai és köztéri emlékmű-vitákra és az állandó átalakításokra.",
+      "howToFind": "A V. kerületi Szabadság téren, a Német Megszállás Áldozatainak Emlékműve hatalmas kőalapzatának egyik sarkánál, a földszinten."
+    },
+    "hanti_vadas_01": {
+      "name": "Hanti vadász",
+      "location": "Rákóczi híd (budai hídfő)",
+      "description": "Szarvast a vállán cipelő finnugor (hanti) vadász apró bronzalakja a híd lábánál.",
+      "funFact": "A szobor a magyar nyelv finnugor gyökereire és a természettel való ősi harmóniára hívja fel a figyelmet a modern Infopark üvegpalotái és irodaházai között.",
+      "howToFind": "A XI. kerületben, a Rákóczi híd budai hídfőjénél, a MOL Campus toronyházzal szembeni gyalogos rámpa kőmellvédjén."
+    },
+    "pinokkio_01": {
+      "name": "Pinokkió",
+      "location": "Széchenyi István tér",
+      "description": "Pinokkió, a hazugság miatt megnőtt orrú mesehős bronz miniszobra a Tudományos Akadémia épülete előtt.",
+      "funFact": "A szobor az álhírek (fake news) korában a tudomány tényszerűségének, az igazság keresésének és az Akadémia szellemiségének a szimbóluma.",
+      "howToFind": "A V. kerületi Széchenyi István téren, a Magyar Tudományos Akadémia főépülete előtt, a fák felőli alacsony díszkerítés kőoszlopán."
+    },
+    "eredeti_usanka_01": {
+      "name": "Szovjet Usánka (Elveszett/Megsemmisült)",
+      "location": "Szabadság tér",
+      "description": "A legelső Szovjet Usánka miniszobor, amely egy katonai sapkát ábrázolt a Szabadság téren.",
+      "funFact": "A szobor politikai vihart kavart: 2020 januárjában egy parlamenti képviselő egy baltával leverte a kőoszlopról és a Dunába dobta. Helyére Kolodko később a 'Balta díszpárnán' szobrot helyezte el.",
+      "howToFind": "Már nem található meg a helyszínen (elpusztult/elveszett, helyén a Balta díszpárnán szobor látható)."
+    },
+    "piszoar_01": {
+      "name": "Piszoár (Marcel Duchamp) (Elveszett/Lopott)",
+      "location": "Városliget",
+      "description": "Marcel Duchamp híres dadaista műalkotásának ('Forrás' / Piszoár) miniatűr bronz változata.",
+      "funFact": "A szobor a kortárs képzőművészet gyökereire utalt, de sajnálatos módon a kihelyezése után néhány héttel ismeretlenek illegálisan eltávolították és ellopták.",
+      "howToFind": "Már nem található meg a helyszínen (a Városligetben, a Vajdahunyad vár környéki parkban állt)."
+    },
+    "eredeti_lisa_simpson_01": {
+      "name": "Lisa Simpson (Eredeti) (Elveszett/Lopott)",
+      "location": "Jászai Mari tér",
+      "description": "Lisa Simpson legelső budapesti miniszobra, amely a 2-es villamos megállójában állt.",
+      "funFact": "A szobrot röviddel a kihelyezése után ellopták a Jászai Mari térről. Kolodko Mihály nem adta fel, hanem a szobor pótlását később a Fővám téren helyezte el 'Magyar Sárga' néven.",
+      "howToFind": "Már nem található meg a helyszínen (a Jászai Mari téren állt a villamosmegállónál)."
+    },
+    "veszprem_erno_01": {
+      "name": "Ernő, az őr",
+      "location": "Veszprém, Vár utca 2.",
+      "description": "Ernő, a Vár őre a történelmi múltat és a védelmet szimbolizálja Veszprémben. A szobor a Magyar Királyi Koronaőrség egyenruháját viseli, emléket állítva annak, hogy 1944-ben egy hónapig Veszprémben őrizték a Szent Koronát és a Szent Jobbot.",
+      "funFact": "A szobor Pajtás Ernő koronaőr parancsnokról kapta a nevét egy lakossági szavazáson. A szobor sapkáján lévő 'B' betű a megrendelő (A1-Sped Kft. tulajdonosának) Balázs nevű fiára utal.",
+      "howToFind": "Veszprémben, a Vár utca elején található Hősök kapuja nyugati pillérének tövében, a kőfal mellett áll."
+    },
+    "veszprem_odon_01": {
+      "name": "Ödön, az utcazenész",
+      "location": "Veszprém, Kossuth Lajos utca",
+      "description": "Ödön, az utcazenész a jelen kornak és Veszprém pezsgő zenei életének állít emléket. A bőröndjén ülő, hangszeres figura a Veszprémi Utcazene Fesztivál és a város UNESCO 'Zene Városa' címének szimbóluma.",
+      "funFact": "A figura sapkáján látható 'A' betű a szobrot megrendelő veszprémi vállalkozó Andrea nevű családtagjának kezdőbetűjét jelöli.",
+      "howToFind": "Veszprém belvárosában, a Kossuth Lajos utca sétálóutcás szakaszán, a Hangvilla rendezvényközpont közelében lévő utcabútoroknál / alacsony kőfalon."
+    },
+    "veszprem_leonora_01": {
+      "name": "LeoNóra, a kislány és az oroszlán",
+      "location": "Veszprém, Kollégium utca",
+      "description": "LeoNóra, az oroszlán hátán ülő, okostelefont nyomkodó kislány a jövőt, a bátorságot és a gyermekkor békéjét jeleníti meg. A szobor utal Árpád-házi Szent Margit veszprémi gyermekéveire is.",
+      "funFact": "A kislány mellkasán látható 'T' betű a megrendelő harmadik gyermekének (Tamás) kezdőbetűje. A szobrot a Margit-romok közvetlen közelében helyezték el.",
+      "howToFind": "Veszprémben, a Séd-patak felett átívelő Kollégium utcai kis híd vas-kő korlátján ücsörög."
+    },
+    "vac_anyam_tyukja_01": {
+      "name": "Anyám tyúkja (Morzsa kutya)",
+      "location": "Vác, Széchenyi utca 42.",
+      "description": "Petőfi Sándor 'Anyám tyúkja' című ikonikus versének főszereplőit (Morzsa kutyát és a tyúkanyót) ábrázolja. Petőfi a verset szülei váci otthonában írta, a szobor pedig a költő vasutazás iránti rajongását is megidézi.",
+      "funFact": "A szobor elhelyezése tudatosan kötődik a vasúthoz: a Váci Vasútállomás előtti téren kapott helyet, összekötve a váci irodalmi emlékeket és a magyar vasúttörténetet (a Pest-Vác vonal volt az első magyar vasútvonal).",
+      "howToFind": "Vácott, a Vasútállomás főbejárata előtti téren (Széchenyi utca 42.), a magasított kő/beton virágágyás peremén ülnek."
+    },
+    "vac_maria_terezia_01": {
+      "name": "Mária Terézia extázisa",
+      "location": "Vác, Kőkapu (Diadalív)",
+      "description": "Mária Terézia magyar királynő megrémült, extatikus pillanatát örökíti meg. A legenda szerint az uralkodónő 1764-es váci látogatásakor a tiszteletére 2 hét alatt emelt Diadalív (Kőkapu) alatt nem mert átmenni, mert félt, hogy az összeomlik, így a szívéhez kapott.",
+      "funFact": "A miniszobor pozicionálása tökéletes fotópontot alkot: ha a megfelelő szögből nézzük, a háttérben pontosan kirajzolódik az eredeti váci Diadalív.",
+      "howToFind": "Vácott, a Kőkapu (Diadalív) melletti kis parkosított rész sétányán, egy alacsony fém vagy kő oszlop tetején."
+    },
+    "vac_csuzli_01": {
+      "name": "Csúzli (Sajdik Ferenc)",
+      "location": "Vác, Március 15. tér",
+      "description": "Sajdik Ferenc Kossuth-díjas grafikus, karikaturista tiszteletére készült miniszobor, amely egy csúzlit feszítő alakot ábrázol.",
+      "funFact": "Sajdik Ferenc ezer szállal kötődik Vác városhoz: a főtéren álló Pannónia Házban található a művész életművét bemutató állandó gyűjtemény és kiállítás.",
+      "howToFind": "Vácott, a Március 15. téren (Főtér), a Pannónia Ház bejárata előtt lévő faragott kőoszlop tetején."
+    },
+    "vac_betoncapak_01": {
+      "name": "Betoncápák (Dunai cápák)",
+      "location": "Vác, Duna-part",
+      "description": "A Duna folyóból kifogott műanyag és fém hulladékok felhasználásával készült környezetbarát 'Betoncápák' szoborcsoport.",
+      "funFact": "A szobor a környezetvédelemre és a Duna tisztaságára hívja fel a figyelmet. A Tragor Ignác Múzeum támogatásával jött létre mint ökológiai művészeti projekt.",
+      "howToFind": "Vácott, a Duna-parti sétány melletti köves/vizes szakaszon, a folyópart közelében található."
+    },
+    "tihany_gomboc_artur_01": {
+      "name": "Gombóc Artúr",
+      "location": "Tihany, Pisky sétány",
+      "description": "Csukás István és Sajdik Ferenc népszerű Pom Pom meséjének csokoládéimádó madara, Gombóc Artúr, szárnyaiban egy Balaton szelettel.",
+      "funFact": "A turisták és gyerekek körében az egyik legnépszerűbb vidéki szobor: az idelátogatók rendszeresen igazi csokoládékat és édességeket hagynak Gombóc Artúr karmai között.",
+      "howToFind": "Tihanyban, az Apátság és a Visszhang-domb közötti Pisky sétányon, a Balaton felé néző bazalt kőfal tetején ül."
+    },
+    "szigliget_kempingezok_01": {
+      "name": "Balatoni kempingezők",
+      "location": "Szigliget, Szigligeti vár",
+      "description": "Egy apró lakókocsit húzó Volkswagen Golf kempingező autó miniszobra magasan a várfalon.",
+      "funFact": "A szobor a balatoni kempingezések 70-es, 80-as évekbeli aranykorát és a retro nyaralások életérzését idézi fel a szigligeti vár szikláin.",
+      "howToFind": "A Szigligeti Vár legfelső szintjén, a Bencés torony Badacsony felé néző kőfalának tetején 'parkol'."
+    },
+    "hortobagy_csontvary_01": {
+      "name": "Csontváry Kosztka Tivadar",
+      "location": "Hortobágy, Kilenclyukú híd",
+      "description": "Csontváry Kosztka Tivadar festőművész miniszobra, amint festékszóró spray-vel alkot a puszta közepén.",
+      "funFact": "Csontváry híres 'Vihar a Hortobágyon' című festményének állít emléket. A szobor része Kolodko nemzetközi Csontváry-sorozatának (München, Mostar, Hortobágy).",
+      "howToFind": "Hortobágyon, a híres Kilenclyukú híd tégla mellvédjén/kőkorlátján sétál a puszta felé fordulva."
+    },
+    "esztergom_pumukli_01": {
+      "name": "Pumukli",
+      "location": "Esztergom, Kis-Duna sétány",
+      "description": "Pumukli, a piros hajú csintalan kobold miniszobra, amint a kőfal mélyedésében bujkál.",
+      "funFact": "A helyszínválasztás oka: Pumukli felejthetetlen magyar szinkronhangja, Pusztaszeri Kornél színművész Esztergom városában született.",
+      "howToFind": "Esztergomban, a Kis-Duna sétányon, a Szent Erzsébet Gimnázium magas kőfalának egyik mélyedésében ül."
+    },
+    "gyula_lo_01": {
+      "name": "Ló a medencében",
+      "location": "Gyula, Gyulai Várfürdő",
+      "description": "Egy termálvízben fürdőző miniatűr bronzló a gyógyfürdő fedett csarnokában.",
+      "funFact": "A szobor a Gyulai Várfürdő egykori Lovarda épületének állít emléket, ahol korábban az almásy-grófok lovai álltak, ma pedig gyógymedence működik benne.",
+      "howToFind": "Gyulán, a Várfürdő fedett Lovarda épületének gyógymedencéjében (csak fürdőbelépővel látogatható)."
+    },
+    "nyirbator_sohordo_01": {
+      "name": "Sókereskedő (Nyírbátor)",
+      "location": "Nyírbátor, Várostörténeti sétány",
+      "description": "A Történelmi Sóút emléke előtt tisztelgő sókereskedő miniszobor, amely egy sóshordót cipel a hátán.",
+      "funFact": "Ez a szobor egy 5 darabos magyarországi (és 5 darabos kárpátaljai) határon átnyúló szoborútvonal része, amely a középkori erdélyi só szállítási útvonalát jelöli ki.",
+      "howToFind": "Az adott települések (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs) belvárosi sétányain és főterein, kőpadkákon elhelyezve."
+    },
+    "nagykallo_sohordo_01": {
+      "name": "Sókereskedő (Nagykálló)",
+      "location": "Nagykálló, Főtér",
+      "description": "A Történelmi Sóút emléke előtt tisztelgő sókereskedő miniszobor, amely egy sóshordót cipel a hátán.",
+      "funFact": "Ez a szobor egy 5 darabos magyarországi (és 5 darabos kárpátaljai) határon átnyúló szoborútvonal része, amely a középkori erdélyi só szállítási útvonalát jelöli ki.",
+      "howToFind": "Az adott települések (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs) belvárosi sétányain és főterein, kőpadkákon elhelyezve."
+    },
+    "vasarosnameny_sohordo_01": {
+      "name": "Sókereskedő (Vásárosnamény)",
+      "location": "Vásárosnamény, Városháza előtti park",
+      "description": "A Történelmi Sóút emléke előtt tisztelgő sókereskedő miniszobor, amely egy sóshordót cipel a hátán.",
+      "funFact": "Ez a szobor egy 5 darabos magyarországi (és 5 darabos kárpátaljai) határon átnyúló szoborútvonal része, amely a középkori erdélyi só szállítási útvonalát jelöli ki.",
+      "howToFind": "Az adott települések (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs) belvárosi sétányain és főterein, kőpadkákon elhelyezve."
+    },
+    "csenger_sohordo_01": {
+      "name": "Sókereskedő (Csenger)",
+      "location": "Csenger, Központ",
+      "description": "A Történelmi Sóút emléke előtt tisztelgő sókereskedő miniszobor, amely egy sóshordót cipel a hátán.",
+      "funFact": "Ez a szobor egy 5 darabos magyarországi (és 5 darabos kárpátaljai) határon átnyúló szoborútvonal része, amely a középkori erdélyi só szállítási útvonalát jelöli ki.",
+      "howToFind": "Az adott települések (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs) belvárosi sétányain és főterein, kőpadkákon elhelyezve."
+    },
+    "tiszabecs_sohordo_01": {
+      "name": "Sókereskedő (Tiszabecs)",
+      "location": "Tiszabecs",
+      "description": "A Történelmi Sóút emléke előtt tisztelgő sókereskedő miniszobor, amely egy sóshordót cipel a hátán.",
+      "funFact": "Ez a szobor egy 5 darabos magyarországi (és 5 darabos kárpátaljai) határon átnyúló szoborútvonal része, amely a középkori erdélyi só szállítási útvonalát jelöli ki.",
+      "howToFind": "Az adott települések (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs) belvárosi sétányain és főterein, kőpadkákon elhelyezve."
+    },
+    "munich_csontvary_01": {
+      "name": "Csontváry Kosztka Tivadar (München)",
+      "location": "München, Németország",
+      "description": "Csontváry Kosztka Tivadar festőművész miniszobra Münchenben, amint graffitisként alkot a bajor fővárosban.",
+      "funFact": "Csontváry ebben a városban kezdte meg művészeti tanulmányait Hollósy Simon híres müncheni magániskolájában, mielőtt bejárta volna a világot.",
+      "howToFind": "Németország, München belvárosában, a Béke Angyala (Friedensengel) műemlék lépcsős teraszának kőkorlátján."
+    },
+    "mostar_csontvary_01": {
+      "name": "Csontváry Kosztka Tivadar (Mostar)",
+      "location": "Mostar, Bosznia-Hercegovina",
+      "description": "Csontváry Kosztka Tivadar festőművész miniszobra Mostarban. A szobor a művészt graffitisként, kezében festékszóró spray-vel ábrázolja, ahogy a híres mostari Öreg hidat megfestő szellemét idézi fel.",
+      "funFact": "Csontváry 1903-ban festette meg híres, 'A római híd Mostarban' című remekművét. Kolodko ezzel a szoborral állított emléket a magyar festőóriás balkáni utazásainak.",
+      "howToFind": "Bosznia-Hercegovina, Mostar belvárosában, a Neretva folyó partján, közvetlenül az Öreg híd (Stari Most) tövében lévő sziklatömbön."
+    },
+    "pula_legionarius_01": {
+      "name": "Római legionárius",
+      "location": "Pula, Horvátország",
+      "description": "Boros amforával hanyagul heverésző római legionárius katona miniszobra az ókori amfiteátrum tövében.",
+      "funFact": "A szobor a budapesti óbudai római katona szobrának pontos ikertestvére, összekötve a két egykori római provinciális várost.",
+      "howToFind": "Horvátország, Pula városában, a Pulai Aréna (római amfiteátrum) külső kőfalán a romok között."
+    },
+    "venice_selfie_01": {
+      "name": "Szelfi Velencében",
+      "location": "Velence, Olaszország",
+      "description": "Szent Márk szárnyas oroszlánja, amint szelfibottal fotózza magát a velencei csatorna felett.",
+      "funFact": "A szobor éles társadalomkritika a modern tömegturizmusra és a Velencét elárasztó szelfiző turistákra vonatkozóan.",
+      "howToFind": "Olaszország, Velence belvárosában, egy kis csatorna felett átívelő téglahíd (ponte) kőkorlátján."
+    },
+    "princeton_einstein_01": {
+      "name": "Albert Einstein",
+      "location": "Princeton, USA",
+      "description": "Albert Einstein elméleti fizikus miniszobra Princetonban. Einstein egy kis padon ülve iránytűt tart a kezében, megidézve azt a gyermekkori pillanatot, amikor édesapjától kapott iránytű felkeltette benne az érdeklődés láthatatlan erők iránt.",
+      "funFact": "Ez Kolodko Mihály legelső tengerentúli (amerikai) miniszobra. Einstein 1933-tól haláláig Princetonban élt és dolgozott, a szobor pedig az egykori lakóházával szembeni parkban kapott helyet.",
+      "howToFind": "USA, New Jersey, Princeton városában, az Einstein-házzal szemben lévő Marquand Park egyik sétaútja melletti alacsony kőpadon/talapzaton."
+    },
+    "stockholm_nobel_01": {
+      "name": "Alfred Nobel",
+      "location": "Stockholm, Svédország",
+      "description": "Alfred Nobel svéd vegyész, a dinamit feltalálója és a Nobel-díj alapítójának miniszobra.",
+      "funFact": "A szobor a svéd-magyar tudományos és kulturális kapcsolatok szimbóluma, amely a diplomáciai épület kerítésén kapott helyet.",
+      "howToFind": "Svédország, Stockholmban, a Magyar Nagykövetség épületének (Dag Hammarskjölds väg 10.) külső kerítésén."
+    },
+    "seoul_liszt_01": {
+      "name": "Liszt Ferenc",
+      "location": "Szöul, Dél-Korea",
+      "description": "Liszt Ferenc zeneszerző miniszobra Szöulban, a Ferihegyen látható szobor kistestvére.",
+      "funFact": "A szobor a magyar komolyzene és kultúra ázsiai jelenlétét ünnepli, mivel Dél-Koreában hatalmas kultusza van Liszt Ferenc munkásságának.",
+      "howToFind": "Dél-Korea, Szöul belvárosában, a Liszt Intézet (Magyar Kulturális Központ) utcai bejáratánál lévő kőpadon."
+    }
+  }
+}

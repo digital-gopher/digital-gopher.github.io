@@ -1,0 +1,557 @@
+{
+  "statues": {
+    "fokukac_01": {
+      "name": "Der Chef-Wurm",
+      "location": "Bem Kai 15.",
+      "description": "Die Mini-Statue des Chef-Wurms, des ikonischen Begleiters des großen Ho-ho-ho-Anglers. Es ist die allererste öffentliche Mini-Statue von Mihály Kolodko in Budapest, die der Künstler in Erinnerung an seine ungarische Lieblings-Zeichentrickserie aus der Kindheit (geschaffen von István Csukás und Ferenc Sajdik) schuf. Die Originalversion der Statue steht am Ufer des Flusses Usch in Uschhorod.",
+      "funFact": "Eine der beliebtesten Statuen bei den Budapestern: An kalten Wintertagen ziehen Passanten und Fans ihm regelmäßig kleine gehäkelte oder gestrickte Mützen, Schals und manchmal Pullover an. Es ist eine der wenigen Statuen, die ein Zwillingsgeschwisterchen in Transkarpatien hat.",
+      "howToFind": "Er sitzt oben auf der Steinbrüstung gegenüber der Straßenbahnhaltestelle Halász Straße am Bem Kai im 2. Bezirk. Er blickt auf die Donau und das Parlament, genau an der Kreuzung von Radweg und Promenade."
+    },
+    "kockasfulu_01": {
+      "name": "Der Hase mit den karierten Ohren",
+      "location": "Szent György Platz",
+      "description": "Die bronzene Mini-Statue von Veronika Maréks legendärer Zeichentrickfigur, dem Hasen mit den karierten Ohren. Der Märchenheld beobachtet die Stadt von oben, genau wie er es in den Cartoons getan hat: Er sucht mit seinem Teleskop nach Kindern in Not und Abenteuern, die auf der Pester Seite gelöst werden müssen.",
+      "funFact": "Es ist bei Touristen und Einheimischen üblich, dem Hasen als Glücksbringer über die Ohren oder das Teleskop zu streicheln, weshalb die Bronzeoberfläche an diesem Teil blank poliert ist. Die Statue bietet einen wunderbaren Panoramablick auf die Kettenbrücke und das Parlament.",
+      "howToFind": "Im Palastviertel der Budaer Burg, neben der Bergstation der Budaer Standseilbahn, sitzt er oben auf dem Steingeländer vor dem Sándor-Palast, in der Nähe der Turul-Statue, mit Blick auf die Pester Seite."
+    },
+    "rubik_01": {
+      "name": "Zauberwürfel",
+      "location": "Bem Kai (in der Nähe des Batthyány Platzes)",
+      "description": "Sie erinnert an das Weltpatent von Ernő Rubik aus dem Jahr 1974, den Zauberwürfel (Rubik-Würfel). Die Mini-Statue ist ein globales Symbol für ungarische Kreativität und Ingenieurskunst, von der weltweit mehr als 450 Millionen Stück verkauft wurden.",
+      "funFact": "Die Oberfläche der Statue ist so gestaltet, als würde sie einen halb gelösten Würfel darstellen, der gerade gedreht wird und über das Steingeländer der Ufertreppe rollt. Bei der Gestaltung wählte der Künstler bewusst die Seite, die dem Parlament gegenüberliegt.",
+      "howToFind": "Am Bem Kai, wenn man vom Batthyány Platz in Richtung Margaretenbrücke geht, liegt er auf dem Steingeländer der unteren Steintreppe auf Höhe der Vám Straße, genau gegenüber dem Parlament."
+    },
+    "sad_tank_01": {
+      "name": "Trauriger Panzer",
+      "location": "Bem Kai",
+      "description": "Der Miniaturpanzer mit dem herabhängenden Kanonenrohr ist ein stilles Memento der Revolution und des Freiheitskampfes von 1956. Die zu Hilflosigkeit und Traurigkeit gezähmte Militärmaschine lenkt die Aufmerksamkeit auf die Sinnlosigkeit des Krieges und die Kraft des Freiheitswunsches.",
+      "funFact": "Ursprünglich stand auf seiner Seite die berühmte Inschrift der Revolution 'Russen geht nach Hause!'. Die erste Statue wurde gestohlen, also goss Kolodko sie mit verstärkter Halterung neu und stellte sie wieder auf. Ein interessantes Merkmal der Statue ist, dass die Signatur des Künstlers in winzigen Buchstaben darauf zu finden ist.",
+      "howToFind": "Am Bem Kai, nördlich der Straßenbahnhaltestelle Batthyány Platz, in unmittelbarer Nähe des großen weißen Gedenksteins der ehemaligen Kossuth-Brücke, oben auf der Steinbrüstung."
+    },
+    "mekk_elek_01": {
+      "name": "Meister Mekk",
+      "location": "Széll Kálmán Platz",
+      "description": "Der stümperhafte Handwerker der klassischen Puppenserie von József Romhányi und József Nepp, Meister Mekk (Mekk Elek). Die Statue hält ein Straßenschild mit der Aufschrift 'Moszkva tér' in der Hand und erinnert damit an den ikonischen früheren Namen des Széll Kálmán Platzes.",
+      "funFact": "Das 'Moszkva tér'-Schild wurde der Statue schon mehrfach aus der Hand gebrochen oder beschädigt, aber der Künstler hat es jedes Mal ersetzt. Im Winter geben ihm die Anwohner oft einen kleinen gestrickten Schal.",
+      "howToFind": "Er sitzt am Fuß der steinernen Fußgängertreppe neben den Rolltreppen, die vom Széll Kálmán Platz in Richtung Várfok Straße (Bushaltestellen) führen, am Fuß der Steinmauer."
+    },
+    "kermit_01": {
+      "name": "Kermit der Frosch",
+      "location": "Szabadság Platz",
+      "description": "Die bronzene Mini-Statue des grünen Frosches aus der Muppet Show, Kermit. Der Märchenheld sitzt auf dem Steinsockel des Zauns, als würde er fröhlich die Tierwelt des Platzes und die Menschen auf der Café-Terrasse beobachten.",
+      "funFact": "Kermit wurde absichtlich in der Nähe von Bäumen und Gras platziert, was auf den natürlichen Lebensraum des Frosches verweist. In den kalten Wintermonaten erhält er oft winzige, handgestrickte Schals oder Mützen von Besuchern.",
+      "howToFind": "Er sitzt auf dem Steinsockel des niedrigen Metallzauns, der die Rasenfläche in der Mitte des Szabadság Platzes im 5. Bezirk umgibt, in der Nähe der Terrasse des Parkcafés."
+    },
+    "susu_01": {
+      "name": "Süsü, der Drache",
+      "location": "Szabadság Platz",
+      "description": "Die Mini-Statue von István Csukás' legendärem einköpfigem Drachen Süsü. Die Figur erinnert originalgetreu an das klassische Puppenspiel des ungarischen Fernsehens, das die Kindheit von Generationen prägte.",
+      "funFact": "Die erste Süsü-Mini-Statue wurde von Unbekannten von ihrem Platz gestohlen, aber Mihály Kolodko goss sie mit verstärkter Halterung neu und stellte sie wieder auf. Die Wahl des Standorts ist symbolisch, da der Börsenpalast am Szabadság Platz jahrzehntelang der Hauptsitz des ungarischen Fernsehens war.",
+      "howToFind": "Auf dem Szabadság Platz im 5. Bezirk steht er auf dem linken Steingeländer der Haupttreppe des ehemaligen MTV-Hauptquartiers (Börsenpalast), dem Zentrum des Platzes zugewandt."
+    },
+    "diver_01": {
+      "name": "Der Taucher und der Schlüssel",
+      "location": "Ecke Osvát Straße und Dohány Straße",
+      "description": "Die Statue verewigt Ferenc Molnárs berühmte Kaffeehaus-Legende. Der Geschichte nach warf der Schriftsteller bei der Eröffnung des New York Café im Jahr 1894 den Schlüssel zum Eingang in die Donau, damit das Café nie wieder schließen konnte. Die Figur in dem alten Taucheranzug hat nun diesen Schlüssel vom Grund des Wassers hochgeholt.",
+      "funFact": "Der Bildhauer entwarf den Schlüssel absichtlich fast so groß wie die Taucherfigur selbst. In Erinnerung an die Legende warf die heutige Geschäftsführung 2014, zum 120-jährigen Jubiläum des Cafés, ebenfalls einen Schlüssel in die Donau.",
+      "howToFind": "Hinter dem New York Palace im 7. Bezirk, an der Ecke Osvát Straße und Dohány Straße, auf dem Betonsockel eines roten Stein-/Metall-Hydranten, nahe dem Boden."
+    },
+    "dracula_01": {
+      "name": "Dracula liest (Béla Lugosi)",
+      "location": "Stadtwäldchen (Városliget)",
+      "description": "Eine Mini-Statue von der legendären Dracula-Figur des Hollywood-ungarischen Schauspielers Béla Lugosi, die friedlich mit gesenktem Kopf ein Buch liest. Die Parkumgebung im gotischen Stil bietet den perfekten Hintergrund, um die berühmte Vampirfigur heraufzubewören.",
+      "funFact": "Die Platzierung der Statue ist kein Zufall: Seit 2003 befindet sich in der Mauer der Burg Vajdahunyad auch eine nachts angebrachte Büste von Béla Lugosi (ein Werk von Hartmut Zech). Die Signatur des Künstlers befindet sich auf der Rückseite von Kolodkos Dracula-Umhang.",
+      "howToFind": "Im Stadtwäldchen, auf der Seeseite der Burg Vajdahunyad, in der Mauernische hinter der Hunyadi-Statue, sitzt er auf einem Steinsims über Augenhöhe."
+    },
+    "noah_ark_01": {
+      "name": "Arche Noah",
+      "location": "Bethlen Gábor Platz",
+      "description": "Eine winzige Nachbildung der Arche Noah aus Bronze. Das Kunstwerk ist ein Symbol der biblischen Errettung und des Schutzes der Tierwelt, das sich perfekt in die universitäre Umgebung einfügt.",
+      "funFact": "Wenn man durch die winzigen Fenster und Öffnungen der Arche schaut, sind im Inneren winzige Tierfiguren in Paaren zu sehen. Bei sonnigem Wetter, wenn das Licht im richtigen Winkel in das Innere der Arche fällt, erscheint eine bunte Lichtreflexion (Regenbogeneffekt) im Inneren der Statue.",
+      "howToFind": "Am Bethlen Gábor Platz im 7. Bezirk, auf der der Universität für Veterinärmedizin zugewandten Seite, ruht sie auf dem Rand eines niedrigen Steinsimses und eines dekorativen Beckens."
+    },
+    "liszt_ferenc_01": {
+      "name": "Franz Liszt wartet",
+      "location": "Flughafen Franz Liszt",
+      "description": "Die Mini-Statue des weltberühmten Komponisten und Pianisten Franz Liszt. Die Statue verbindet das Motiv des Fliegens und Reisens mit klassischer Musik: Der Künstler wartet auf einem Gepäckstück sitzend, während er ein Papierflugzeug faltet.",
+      "funFact": "Franz Liszt war ein wahrer 'Weltstar' seiner Zeit, der ständig tourte und ganz Europa bereiste. Mit dieser Figur verband Kolodko Reisen des 19. Jahrhunderts mit dem modernen Luftverkehr und dem nach ihm benannten internationalen Flughafen.",
+      "howToFind": "Vor dem Gebäude des Terminals 2A des internationalen Flughafens Franz Liszt sitzt er auf einer runden Steinsäule an der Kreuzung der Bushaltestellen und des Fußgängerweges."
+    },
+    "herzl_01": {
+      "name": "Theodor Herzl und das Fahrrad",
+      "location": "Dohány Straße 1.",
+      "description": "Eine Mini-Statue des Schriftstellers, Journalisten und Visionärs der zionistischen Bewegung Theodor Herzl mit einem Fahrrad. Die Statue erinnert an eine der einflussreichsten Persönlichkeiten der jüdischen Geschichte direkt neben seinem Geburtshaus.",
+      "funFact": "Der Entwurf der Statue basiert auf einem berühmten zeitgenössischen Foto, das Theodor Herzl mit einem Fahrrad zeigt. Der Künstler befestigte die Statue so am Straßenlaternenpfahl, als würde der Radfahrer ihn hinunterfahren.",
+      "howToFind": "An der Ecke Dohány Straße und Károly Boulevard im 7. Bezirk ist sie auf Hüfthöhe an der Seite eines dicken Strommastes aus Metall befestigt, der neben der Synagoge in der Dohány Straße steht."
+    },
+    "szenes_hanna_01": {
+      "name": "Hannah Szenes",
+      "location": "Szenes Hanna Park",
+      "description": "Das Denkmal der ungarisch-jüdischen Dichterin und britischen Fallschirmjäger-Kriegsheldin Hannah Szenes, die im Alter von 23 Jahren den Märtyrertod starb. Die Statue zeigt die Heldin in Fallschirmjägerausrüstung, aus einer Felswand aufsteigend, die ihr Leben opferte, um ungarische Juden zu retten.",
+      "funFact": "Dies ist Kolodkos Statue mit der traurigsten Hintergrundgeschichte, die am 8. März 2020, dem Internationalen Frauentag, gemeinsam mit der Organisation 'Hosszúlépés. Járunk?' eingeweiht wurde, um auf das schmerzhafte Fehlen von Frauen in der öffentlichen Skulptur aufmerksam zu machen. Hannah Szenes und der Texter Iván Szenes waren Cousins.",
+      "howToFind": "Im Szenes Hanna Park im 7. Bezirk (Ecke Jósika Straße und Rózsa Straße) steht sie auf einem kegelförmigen Stein- und Ziegelhaufen."
+    },
+    "seress_rezso_01": {
+      "name": "Rezső Seress",
+      "location": "Akácfa Straße 38.",
+      "description": "Sie erinnert an Rezső Seress, den Komponisten und Pianisten des weltberühmten 'Gloomy Sunday' (Trauriger Sonntag). Die Mini-Statue zeigt den Künstler auf einer pfeifenförmigen Steinplatte/Klavier sitzend.",
+      "funFact": "Die Statue wurde an der Wand des ehemaligen Restaurants Kispipa aufgestellt, wo Seress jahrzehntelang jeden Abend Klavier spielte. Seinetwegen besuchten Weltstars wie Louis Armstrong, Spencer Tracy, Marcello Mastroianni oder John Steinbeck die Akácfa Straße.",
+      "howToFind": "In der Akácfa Straße 38 im 7. Bezirk, an der Backsteinmauer des ehemaligen Restaurants Kispipa, auf einem pfeifenförmigen Metallschild/Steinplatte, über Augenhöhe."
+    },
+    "rejto_car_01": {
+      "name": "Das 14-Karat-Auto",
+      "location": "Hevesi Sándor Platz 4.",
+      "description": "Es zeigt das ikonische Auto aus Jenő Rejtős (P. Howard) Groschenroman 'Das 14-Karat-Auto' von 1940. Die Statue macht eine scharfe Kurve auf der Steinkante und symbolisiert die Raserei in der Nachbarschaft der ehemaligen Residenz des Schriftstellers.",
+      "funFact": "Die Statue besteht nicht aus reiner Bronze: Ihre Fenster und Scheinwerfer erhielten tatsächlich ein vergoldetes Finish, das auf die im Roman aus Gold gefertigten Autoteile verweist. Jenő Rejtő verbrachte seine Kindheit in der benachbarten Rejtő Jenő Straße.",
+      "howToFind": "Auf dem Hevesi Sándor Platz im 7. Bezirk, vor dem Haupteingang des Pesti Magyar Színház (Pester Ungarisches Theater), befindet sie sich am Rand eines geschwungenen steinernen Blumenbeetes."
+    },
+    "mr_bean_teddy_01": {
+      "name": "Teddy, Mr. Beans Bär",
+      "location": "Harmincad Straße 6.",
+      "description": "Die bronzene Mini-Statue von Mr. Beans treuem Teddybären, Teddy. Der kleine Bär sitzt hoch an der Wand und blickt auf die Menschen herab, die auf der Straße spazieren gehen, und beschwört so die ikonische Figur des britischen Humors herauf.",
+      "funFact": "Die Platzierung der Statue hängt eng mit der Geschichte des Gebäudes zusammen: In dem Anwesen befand sich früher die britische Botschaft. Die Mini-Statue ist ein schönes Denkmal für die britisch-ungarischen Kulturbeziehungen.",
+      "howToFind": "In der Harmincad Straße 6 im 5. Bezirk, über dem Eingang des ehemaligen Gebäudes der britischen Botschaft, lässt er seine Beine in einer steingefassten Fensternische in der Wand baumeln."
+    },
+    "ratatouille_01": {
+      "name": "Ratatouille (Die sprühende Ratte)",
+      "location": "Döbrentei Platz",
+      "description": "Ratatouille (Remy), die brillante Koch-Ratte aus dem Pixar-Animationsfilm, mit einer Sprühdose in der Hand. Die Figur rennt die Wand hoch, um ein Graffiti zu sprühen, und verbindet so die Welt der Märchen mit moderner Street Art.",
+      "funFact": "Die Statue ist auch eine Hommage an die ikonischen Rattenmotive des berühmten, anonymen britischen Street-Art-Künstlers Banksy. Mit diesem Werk verwischt Kolodko die Grenzen zwischen Guerilla-Kunst und klassischer Skulptur.",
+      "howToFind": "Am Budaer Brückenkopf der Elisabethbrücke (Döbrentei Platz) 'klettert' er auf Augenhöhe die Wand des massiven steinernen Brückenpfeilers neben der Fußgängerrampe hinauf."
+    },
+    "dreher_01": {
+      "name": "Anton Dreher auf einem Bierfass",
+      "location": "Jászberényi Straße 7-11.",
+      "description": "Eine Miniatur-Porträtstatue des Brauers Anton Dreher, dem Pionier der ungarischen Braukunst, der stolz auf einem Holzfass sitzt und sich umschaut, während er ein Bier in der Hand hält.",
+      "funFact": "Anton Dreher bürgerte das untergärige Brauen nach Pilsner Art in Ungarn ein und baute unter Ausnutzung des Kellersystems in Kőbánya eine der modernsten Brauereien Europas. Die Statue ehrt die Fabriktraditionen.",
+      "howToFind": "Im 10. Bezirk, im geschlossenen Innenhof der Dreher Brauerei in der Jászberényi Straße 7-11, kann man ihn auf einem Holzfass im Besucherzentrum des Biermuseums besichtigen."
+    },
+    "soroslovak_01": {
+      "name": "Brauereipferde",
+      "location": "Jászberényi Straße 7-11.",
+      "description": "Eine bronzene Mini-Statue eines traditionellen Kaltblutpferdes, das zwei Bierwagen zieht. Die Statue beschwört die Atmosphäre der Straßen des alten Budapest und die traditionelle Art der Bierlieferung herauf.",
+      "funFact": "In Kőbánya in der Dreher-Fabrik transportierten jahrzehntelang riesige Dreher-Pferde Bierfässer in Restaurants. Aus Respekt vor den Pferden stellte die Fabrik eigene Ställe und tierärztliche Versorgung für sie bereit.",
+      "howToFind": "An der Jászberényi Straße im 10. Bezirk befindet sie sich auf dem Steingeländer der kleinen Kalksteinbrücke, die sich vor dem Hauptgebäude der Dreher Brauerei wölbt."
+    },
+    "skala_kope_01": {
+      "name": "Skála Kópé",
+      "location": "Nyugati Platz",
+      "description": "Die Mini-Statue von Skála Kópé, der beliebtesten Werbefigur Ungarns in den 1980er Jahren. Die rundköpfige, herzerwärmende Figur ist das ikonische Maskottchen der heimischen Retro-Werbegeschichte.",
+      "funFact": "Skála Kópés berühmter Slogan lautete: 'Ich bin Skála Kópé, meine Werbung ist der Werbespot!'. Das Datum der Einweihung der Statue fiel absichtlich auf den 1. April (Aprilscherz) und spielte auf die scherzhafte Natur der Figur an.",
+      "howToFind": "Auf dem Nyugati Platz im 6. Bezirk, auf dem Platz vor dem Gebäude des ehemaligen Kaufhauses Skála Metró, steht sie auf dem steinernen Rand des Blumenbeetes neben der Treppe."
+    },
+    "vuk_01": {
+      "name": "Der baumelnde Vuk",
+      "location": "Szent Gellért Kai",
+      "description": "István Feketes unsterblicher kleiner Fuchs, Vuk, der hilflos und spielerisch an einer aus einer Felswand ragenden Fliegerbombe aus dem Zweiten Weltkrieg hängt.",
+      "funFact": "Die Statue verweist auf einen ernsten historischen Hintergrund: Der Gellértberg war während des Zweiten Weltkriegs ein herausragender strategischer Punkt und Ort einer Belagerung. Kolodko stellte die Freundlichkeit des Kindermärchens den Schrecken des Krieges gegenüber.",
+      "howToFind": "Am Szent Gellért Kai im 1. Bezirk, an der Promenade neben dem Rudas-Bad, blickt man zu der 'Bombe' hinauf, die aus der Felswand des Gellértbergs ragt."
+    },
+    "houdini_01": {
+      "name": "Harry Houdini",
+      "location": "Király Straße 11.",
+      "description": "Die Mini-Statue des in Budapest geborenen Illusionisten und Entfesselungskünstlers Harry Houdini (Erik Weisz). Die Figur liegt mit Ketten und einem Vorhängeschloss gefesselt da, als ob er sich auf seinen neuesten Trick vorbereiten würde.",
+      "funFact": "Houdini wurde 1874 in Budapest im 7. Bezirk geboren und wurde der größte Entfesselungskünstler, den die Welt je gesehen hat. Die Platzierung der Statue im Innenhof des Kulturzentrums Erzsébetváros erinnert an die Wurzeln des Künstlers.",
+      "howToFind": "Im Innenhof des K11 Art Center in der Király Straße 11 im 7. Bezirk ist er auf dem Boden am Fuß einer niedrigen Steinmauer zu sehen."
+    },
+    "columbo_mokus_01": {
+      "name": "Totes Eichhörnchen",
+      "location": "Falk Miksa Straße",
+      "description": "Eine bronzene Mini-Statue eines 'toten' Eichhörnchens, umgeben von einem CSI-Kreideumriss auf dem Boden. Die Statue steht in direktem Dialog mit Inspektor Columbo, der im Hintergrund steht.",
+      "funFact": "Die Statue ist eine künstlerische Reflexion über die berühmte Installation des zeitgenössischen italienischen Künstlers Maurizio Cattelan, die ein suizidales Eichhörnchen darstellt. Mit einem humorvollen Augenzwinkern platzierte Kolodko das Opfer des mysteriösen 'Verbrechens' hinter den Beinen von Inspektor Columbo (Peter Falk).",
+      "howToFind": "Direkt auf dem Asphalt hinter der lebensgroßen Columbo-Statue, die an der Ecke Falk Miksa Straße und Szent István Boulevard im 5. Bezirk steht."
+    },
+    "kotrabant_01": {
+      "name": "Stein-Trabant",
+      "location": "Margaretenbrücke, Budaer Brückenkopf",
+      "description": "Eine aus einem Kalksteinblock gehauene Trabant 601 Mini-Statue, ausgestattet mit einem Aufziehschlüssel. Das Kunstwerk ist ein ikonisches Symbol für den osteuropäischen Retro-Lebensstil und die Nostalgie.",
+      "funFact": "Die Statue wurde aus einem einzigen Kalksteinblock gefertigt, mit Ausnahme des metallenen Aufziehschlüssels auf ihrem Dach, der das Symbol der sozialistischen Autoindustrie in ein Spielzeugauto verwandelt. Die Wahl des Ortes reimt sich auf die vom Sozialismus übrig gebliebene Betonarchitektur.",
+      "howToFind": "Im 3. Bezirk steht er auf einem Kalksteinblock am Rand des Parkplatzes und der Promenade unter der nördlichen Rampe des Budaer Brückenkopfes der Margaretenbrücke."
+    },
+    "delorean_trabant_01": {
+      "name": "Zurück in die Zukunft (DeLorean Trabant)",
+      "location": "Ostbahnhof (Keleti Pályaudvar)",
+      "description": "Eine Mini-Statue eines Trabants, der mit den Flügeltüren der ikonischen DeLorean-Zeitmaschine aus dem Film 'Zurück in die Zukunft' ausgestattet ist. Eine brillante Kombination aus Retro und Sci-Fi.",
+      "funFact": "Der Ostbahnhof ist ein Symbol für Reisen, die in Budapest beginnen und ankommen, und für das 'Reisen in der Zeit'. Die Statue verbindet die osteuropäische Realität mit dem Zeitreise-Mythos der westlichen Populärkultur.",
+      "howToFind": "Im 8. Bezirk, auf der abgesenkten Unterführungsebene vor dem Haupteingang des Ostbahnhofs (Keleti Pályaudvar), parkt er am Rand eines der Steinsimse."
+    },
+    "among_us_01": {
+      "name": "Stalins Stiefel / Among Us",
+      "location": "Stadtwäldchen (Dózsa György Straße)",
+      "description": "Eine Mini-Statue, die die Überreste (die berühmten Stiefel) von Stalins zerstörter Riesenstatue in Budapest darstellt, aus denen der Kopf einer Charakterfigur aus dem beliebten Videospiel Among Us herausragt.",
+      "funFact": "Die Statue verbindet die Geschichte der Revolution von 1956 (als die Menschen in Pest die Stalin-Statue stürzten) mit der modernen digitalen Popkultur. Das Wesen des Spiels 'Among Us' ist das Verstecken und Entlarven des 'Impostors'.",
+      "howToFind": "Im 14. Bezirk, in der Dózsa György Straße, auf der Promenade neben dem neuen Ethnografischen Museum, auf einer niedrigen Steinkante/Skateboard-Kante."
+    },
+    "lufikutya_01": {
+      "name": "Ballonhund mit Knochen (Libido)",
+      "location": "Donaupromenade",
+      "description": "Eine satirische ungarische Version des weltberühmten Kunstwerks 'Balloon Dog' des zeitgenössischen amerikanischen Künstlers Jeff Koons, die am Ufer der Donau auf einen riesigen Knochen starrt.",
+      "funFact": "Laut Kolodko trägt die Statue auch den Titel 'Libido', was sich darauf bezieht, dass der Knochen den Hund so anzieht wie eine Frau einen Mann. Der Ort ist eng mit Cicciolina (Ilona Staller) verbunden, die Jeff Koons' Frau war und deren Karriere im benachbarten InterContinental-Hotel begann.",
+      "howToFind": "Im 5. Bezirk an der Donaupromenade, auf der Donauseite des InterContinental Hotels, ist er auf einer tischförmigen Steinbank zu betrachten."
+    },
+    "balta_01": {
+      "name": "Axt auf einem Kissen",
+      "location": "Szabadság Platz",
+      "description": "Eine Miniatur-Axt, die auf einem dekorativen Kissen ruht. Die Statue ist Kolodkos satirische und künstlerische Antwort auf den politischen Vorfall, als ein Parlamentsabgeordneter die vorherige Uschanka-Statue mit einer Axt von ihrem Platz stieß und in die Donau warf.",
+      "funFact": "Der Künstler war durch den Vandalismus nicht beleidigt, sondern baute die Reaktion in den kreativen Prozess ein: Er bot dem Zerstörer das 'Werkzeug' an. Später, im Jahr 2023, 'wachsen' der Uschanka-Statue Flossen und sie 'kletterte' aus der Donau auf den Kai.",
+      "howToFind": "Auf der Nordseite des Szabadság Platzes liegt sie auf einer der Steinsäulen des niedrigen schmiedeeisernen Zauns, der das sowjetische Militärdenkmal umgibt."
+    },
+    "usanka_02": {
+      "name": "Die Uschanka kehrt zurück",
+      "location": "Id. Antall József Kai",
+      "description": "Der kleine Bruder der zuvor in die Donau geworfenen sowjetischen Uschanka, der Schwimmflossen wachsen ließ, aus dem Fluss 'herauskletterte' und zu den Stufen des Pester Kais zurückkehrte.",
+      "funFact": "Die Statue ist eine direkte Fortsetzung des Uschanka-Vorfalls am Szabadság Platz. Mit dieser comicartigen Wendung zeigte Kolodko die Unzerstörbarkeit der Kunst und seine humorvolle Antwort auf das öffentliche Leben.",
+      "howToFind": "Im 5. Bezirk, am Id. Antall József Kai, südlich des Parlaments, steht sie auf der untersten Stufe der Steintreppe, die in Höhe der József Attila Straße zum Wasser führt."
+    },
+    "nincs_kompot_01": {
+      "name": "Kein Kompott!",
+      "location": "Várkert Kai",
+      "description": "Eine winzige Komposition, die auf den legendären Satz ('Die Russen sind schon in der Speisekammer!') und die Charaktere der klassischen ungarischen Filmkomödie 'Der Korporal und die anderen' anspielt.",
+      "funFact": "Die Statue ist in einem tiefen Riss in einer Stützmauer aus Stein versteckt und ist daher von allen Budapester Kolodko-Statuen am schwersten zu finden und zu fotografieren. Das Verstecken selbst symbolisiert das Verstecken im Film.",
+      "howToFind": "Am Várkert Kai im 1. Bezirk, in einem der vertikalen Risse der steinernen Stützmauer am Donauufer unterhalb des Várkert Bazár, wenn man zwischen die Steine blickt."
+    },
+    "kutyavasar_01": {
+      "name": "Es war einmal ein Hundemarkt in Buda",
+      "location": "Batthyány Straße 65.",
+      "description": "Sechs winzige, niedliche Bronze-Welpen in einem geflochtenen Korb. Die Statue erinnert an das berühmte ungarische Sprichwort ('Es war einmal ein Hundemarkt in Buda') aus der Zeit von König Matthias Corvinus.",
+      "funFact": "Der Legende nach kaufte König Matthias einst in Buda die Hunde eines armen Mannes für gutes Geld, aber als gierige reiche Leute am nächsten Tag ebenfalls Hunde zum Verkauf brachten, jagte der König sie mit den Worten davon, dass 'es nur einmal einen Hundemarkt in Buda gab'.",
+      "howToFind": "Im 1. Bezirk, an der Ecke Hattyú Straße und Batthyány Straße (Batthyány Str. 65), befinden sie sich auf einer zylindrischen Steinsäule, die speziell für sie gebaut wurde."
+    },
+    "romai_legios_01": {
+      "name": "In vino veritas (Römischer Legionär)",
+      "location": "Óbuda, Amphitheater Nagyszombat Straße",
+      "description": "Ein Soldat aus der Römerzeit (Legionär), der sorglos gegen eine Weinamphore gelehnt auf den steinernen Überresten des antiken Amphitheaters ruht. Der Titel der Statue lautet 'In vino veritas' (Im Wein liegt die Wahrheit).",
+      "funFact": "Die Statue beschwört das antike römische Erbe von Aquincum herauf. Bei der Gestaltung goss der Künstler auch einen Zwilling davon, den er beim römischen Amphitheater in Pula, Kroatien, platzierte.",
+      "howToFind": "Im 3. Bezirk (Óbuda) liegt er auf einem der originalen römischen Ruinensteine, die die grasbewachsene Arena des römischen Militäramphitheaters in der Nagyszombat Straße umgeben."
+    },
+    "aranka_bela_01": {
+      "name": "Tante Aranka und Onkel Béla",
+      "location": "Pasaréti Platz",
+      "description": "Die Statue erinnert an das ikonische und beliebte Floristenehepaar vom Pasaréti Platz, Tante Aranka und Onkel Béla, die jahrzehntelang am örtlichen Stand Blumen verkauften.",
+      "funFact": "Dies ist eine der rührendsten Kolodko-Statuen, die als Hommage an das Paar vollständig durch lokale Gemeinschaftsarbeit und Spenden der Bevölkerung realisiert wurde.",
+      "howToFind": "Am Pasaréti Platz im 2. Bezirk befindet sie sich am Rand des niedrigen Steinzauns in der Nähe der Busendstation und des ehemaligen Blumenstands."
+    },
+    "garfield_01": {
+      "name": "Garfield",
+      "location": "Dembinszky Straße 4.",
+      "description": "Die Mini-Statue von Jim Davis' weltberühmtem Comic-Helden, dem faulen, lasagneliebenden Kater Garfield, der sich gemütlich auf der Backsteinmauer ausstreckt.",
+      "funFact": "Die Statue wurde 2023 zum 45. Geburtstag von Garfields Erschaffung angefertigt. Die Wahl des Standorts fiel auf den Zaun der Universität für Veterinärmedizin, da die Einrichtung das Zentrum für die Heilung von Kleintieren ist.",
+      "howToFind": "In der Dembinszky Straße 4 im 7. Bezirk liegt er auf einem Steinpfeiler des roten Backsteinzauns der Universität für Veterinärmedizin."
+    },
+    "roth_miksa_01": {
+      "name": "Miksa Róth",
+      "location": "Nefelejcs Straße 26.",
+      "description": "Eine Miniaturbüste des weltberühmten ungarischen Glasmalers und Mosaikkünstlers Miksa Róth. Die Statue befindet sich hinter einem Buntglas-Fensterrahmen und erinnert an das Lebenswerk des Meisters.",
+      "funFact": "Die Statue hat eine eingebaute winzige Lampe, die das Fenster von hinten beleuchtet, sodass unabhängig von der Tageszeit genau der Eindruck entsteht, als würde Sonnenlicht durch Miksa Róths farbiges Glas scheinen.",
+      "howToFind": "Im Miksa Róth Gedenkhaus in der Nefelejcs Straße 26 im 7. Bezirk (Innenstatue) ist sie auf zeitgenössischen Möbeln im Arbeitszimmer im Erdgeschoss zu besichtigen."
+    },
+    "lisa_simpson_02": {
+      "name": "Lisa Simpson (Magyar Yellow)",
+      "location": "Fővám Platz 13.",
+      "description": "Eine Mini-Statue von Lisa Simpson, dem klimaschützenden kleinen Mädchen aus Die Simpsons, angekettet an einen gelben Straßenbahnhaltestellenpfahl. Der Titel der Statue ist 'Magyar Yellow'.",
+      "funFact": "Die Statue verweist in satirischer Form auf die zivilen Ungehorsamsaktionen von Umweltaktivisten, während die gelbe Farbe den ikonischen Straßenbahnlinien von Budapest (Linien 2, 4, 6) Tribut zollt.",
+      "howToFind": "Am Fővám Platz im 9. Bezirk, am Pester Brückenkopf der Freiheitsbrücke, befindet sie sich am Fuß des gelben Signalpfostens der Haltestelle der Straßenbahnlinie 2."
+    },
+    "ferenc_jozsef_01": {
+      "name": "Franz Joseph in einer Hängematte",
+      "location": "Freiheitsbrücke (Szabadság híd)",
+      "description": "Die Mini-Statue des österreichischen Kaisers und ungarischen Königs Franz Joseph, der in einer bequemen Hängematte zwischen den Eisengittern der nach ihm benannten Brücke (heute Freiheitsbrücke) ruht.",
+      "funFact": "Die Statue verewigt die entspannte und freie Atmosphäre der 'Szabihíd'-Sommerpicknicks, wenn die Bevölkerung die gesperrte Brücke in Besitz nimmt. Franz Joseph schlug 1896 bei der Einweihung der Brücke persönlich die letzte silberne Niete ein.",
+      "howToFind": "Am Pester Brückenkopf der Freiheitsbrücke (vom Fővám Platz kommend) liegt er in einer Hängematte, die auf Brusthöhe in eines der V-förmigen Stützelemente der grünen Metallstruktur gespannt ist."
+    },
+    "fules_01": {
+      "name": "Kopfhörer (Füles)",
+      "location": "Komor Marcell Straße 1. (Müpa)",
+      "description": "Ein in Bronze gegossener Miniaturkopfhörer (Studiokopfhörer), der auf dem Geländer des Palastes der Künste (Müpa) ruht und die Welt von Musik und Akustik heraufbeschwört.",
+      "funFact": "Die Besonderheit der Statue besteht darin, dass sie bei ihrer Einweihung tatsächlich Musik für Passanten über einen eingebauten Lautsprecher abspielte. Er ist das Symbol des Kulturviertels zwischen dem Müpa und dem Nationaltheater.",
+      "howToFind": "Im 9. Bezirk, in der Komor Marcell Straße 1, 'hängt' er am Metallgeländer der breiten Treppe, die von der Donauseite zum Haupteingang des Müpa führt."
+    },
+    "szurikata_01": {
+      "name": "Erdmännchen",
+      "location": "Bókay János Straße 51.",
+      "description": "Eine Mini-Statue eines wachsamen Erdmännchen-Familienmitglieds, das auf seinen Hinterbeinen steht. Das niedliche kleine Tier steht am Zaun der Kinderklinik Wache und bringt genesenden Kindern Hoffnung und ein Lächeln.",
+      "funFact": "Die Statue wurde in Zusammenarbeit mit der Meerkat Foundation (einer Organisation, die diabetischen Kindern hilft) errichtet, um auf Typ-1-Diabetes im Kindesalter aufmerksam zu machen.",
+      "howToFind": "In der Bókay János Straße 51 im 8. Bezirk steht es auf dem Steinsockel des zur Straße zeigenden Metallgitterzauns der Abteilung für Pädiatrie I."
+    },
+    "uzenet_01": {
+      "name": "Botschaft (Putin und das russische Kriegsschiff)",
+      "location": "Moszkva-Promenade",
+      "description": "Ein russisches Miniatur-Kriegsschiff auf einem Steinsockel in Form eines Mittelfingers. Der Titel der Statue lautet 'Botschaft', was an den berühmten Widerstandsakt der ukrainischen Grenzschutzbeamten auf der Schlangeninsel erinnert.",
+      "funFact": "Die Statue ist eine der schärfsten politischen Aussagen von Mihály Kolodko gegen den von Russland gegen die Ukraine begonnenen Krieg. Nach ihrer Errichtung sorgte die Statue weltweit für Schlagzeilen in der internationalen Presse.",
+      "howToFind": "Im 13. Bezirk, auf der Moszkva-Promenade unter dem Pester Brückenkopf der Árpád-Brücke, befindet sie sich oben auf einer Steinsäule neben der Asphaltstraße am Donauufer."
+    },
+    "szent_miklos_01": {
+      "name": "Glücksbringer St. Nikolaus",
+      "location": "Hunyadvár Straße 43/c.",
+      "description": "Eine winzige Bronzestatue des Glücksbringers St. Nikolaus (dem Schutzpatron der Kinder und Reisenden), die mit ihrem Geschenksack auf dem Fensterbrett des Kulturzentrums ruht.",
+      "funFact": "Unter den Einheimischen entwickelte sich schnell der Glaube, dass das Berühren oder Streicheln der Statue von St. Nikolaus Glück bei Prüfungen und im Alltag bringt.",
+      "howToFind": "Im 16. Bezirk (Sashalom), am Eingang des Corvin-Kulturzentrums in der Hunyadvár Straße 43/c, auf dem Sims des Ticketschalters."
+    },
+    "chuck_norris_01": {
+      "name": "Gefesselter Chuck Norris",
+      "location": "Megyeri-Brücke",
+      "description": "Die Mini-Statue des in Ketten gefesselten Actionhelden Chuck Norris. Das Kunstwerk bezieht sich humorvoll auf die Internet-Namenswahl für die Megyeri-Brücke im Jahr 2006, bei der die Internetgemeinde für Chuck Norris als Namen für die Brücke stimmte.",
+      "funFact": "Obwohl Chuck Norris die Abstimmung gewann, konnte eine Brücke laut Gesetz nicht nach einer lebenden ausländischen Person benannt werden, sodass sie schließlich zur Megyeri-Brücke wurde. Kolodko stellte die Statue am 1. April (Aprilscherz) auf, und der Actionheld scheint selbst gefesselt unbesiegbar zu sein.",
+      "howToFind": "Am Pester Brückenkopf der Megyeri-Brücke, auf der Südseite des Fußgänger-/Radwegs, befestigt an der Stützstruktur der am Geländer angebrachten Glasplatte mit der Aufschrift 'Pest'."
+    },
+    "holdjaro_01": {
+      "name": "Mondfahrzeug",
+      "location": "Ecke Hold Straße und Aulich Straße",
+      "description": "Eine Mini-Statue eines Mondfahrzeugs (Lunar Roving Vehicle) mit einem winzigen Astronauten im Raumanzug, geparkt auf einer Betonkugel in Form eines Mondes.",
+      "funFact": "Die Statue hat eine doppelte Bedeutung: Einerseits ist sie eine Hommage an Ferenc Pavlics, einen NASA-Ingenieur ungarischer Abstammung, der das Rad des Mondfahrzeugs entworfen hat, und andererseits ist sie ein Verweis auf die Hold (Mond) Straße, in der Kolodko lebte, als er nach Budapest zog.",
+      "howToFind": "An der Ecke Hold Straße und Aulich Straße im 5. Bezirk, in der Nähe der ewigen Flamme von Batthyány, oben auf einem für den Straßenverkehr verwendeten Betonpoller/-kugel."
+    },
+    "micimacko_01": {
+      "name": "Pu der Bär",
+      "location": "Damjanich Straße 27.",
+      "description": "Eine Mini-Statue von Pu dem Bären, der aus seinem Honigtopf nascht und an der Gedenktafel von Frigyes Karinthy an der Hauswand sitzt.",
+      "funFact": "Die Platzierung der Statue ist eine Hommage an die Sprachgeschichte: Milnes weltberühmtes Märchen wurde von Frigyes Karinthys Schwester, Emília Karinthy (Mici), roh übersetzt, aber Frigyes verfeinerte es zu einem unsterblichen ungarischen literarischen Meisterwerk (und er bekam den Namen Micimackó von ihr).",
+      "howToFind": "An der Hauswand in der Damjanich Straße 27 im 7. Bezirk, auf der Ziegeloberfläche unterhalb der Karinthy-Gedenktafel, auf Augenhöhe."
+    },
+    "yoda_01": {
+      "name": "Meister Yoda",
+      "location": "Szent Gellért Platz",
+      "description": "Die grüne Mini-Statue von Yoda, dem weisen Jedi-Meister des Star-Wars-Universums, der meditierend auf dem Metallgeländer der U-Bahn-Unterführung sitzt.",
+      "funFact": "Yoda ist das Symbol für Weisheit und innere Stärke. In der geschäftigen, hektischen Welt der U-Bahn-Unterführung ermutigt die Statue die Reisenden, einen Moment innezuhalten und inneren Frieden zu finden.",
+      "howToFind": "In der Unterführung (U-Bahn M4) am Szent Gellért Platz im 11. Bezirk sitzt er auf dem Rand der breiten Metallschiene zwischen den Rolltreppen."
+    },
+    "paddington_01": {
+      "name": "Paddington und Maschas Bär",
+      "location": "Medve Straße 5-7.",
+      "description": "Paddington Bär, die britische Märchenfigur, der in der Medve (Bären) Straße auf dem Rücken von Maschas Bär (dem Helden der beliebten russischen Zeichentrickserie) reitet.",
+      "funFact": "Die Statue trägt eine satirische geopolitische Botschaft: Die britische Original-Synchronstimme von Paddington Bär war der ukrainische Präsident Wolodymyr Selenskyj während seiner Schauspielkarriere. Das Zusammenleben der beiden Bären reflektiert das Thema Krieg und Frieden.",
+      "howToFind": "Es ist auf dem niedrigen Steinsims des Gebäudes vor der Medve Straße 5-7 im 2. Bezirk zu sehen."
+    },
+    "leo_es_fred_01": {
+      "name": "Leo und Fred",
+      "location": "BudaPart (Lágymányosi Bucht)",
+      "description": "Die berühmten Zeichentrickfiguren von Sándor Reisenbüchler und József Tóth, Leo der Löwe und Fred der Dompteur, die mit einem Zirkuswagen am Ufer der Donau campen.",
+      "funFact": "Die Statue erinnert an das Vergnügungsviertel 'Klein-Konstantinopel' aus der Jahrhundertwende in der Lágymányosi Bucht, wo einst Zirkusse und Nachtclubs das Publikum von Pest-Buda unterhielten.",
+      "howToFind": "Am BudaPart im 11. Bezirk (Lágymányosi Bucht), auf der Steinmauer der Promenade an der Kreuzung des Kopaszi-Damms und der Wohnanlage."
+    },
+    "meditalo_nyul_01": {
+      "name": "Meditierender Hase (Zen-Hase)",
+      "location": "Margareteninsel (Südspitze)",
+      "description": "Eine Mini-Statue eines Hasen, der in vollkommener Zen-Ruhe im Lotossitz an der Donautreppe an der Südspitze der Margareteninsel meditiert.",
+      "funFact": "Die Statue ist eine humorvolle Antwort auf eine frühere 'Hasenattacke' auf der Margareteninsel, die viel Presseecho auslöste, als sich auf der Insel ausbreitende Hasen für Alarm sorgten. Der Künstler zähmte die Figur, um sie zur Insel der Ruhe zu machen.",
+      "howToFind": "An der südlichsten Spitze der Margareteninsel (am Eingang unter der Margaretenbrücke), wo die gelben Stufen in das Wasser der Donau hinabführen, am Fuß der Treppe."
+    },
+    "penzfujo_01": {
+      "name": "Geldblasender Mann",
+      "location": "Szabadság Platz",
+      "description": "Ein winziger Mann, der alte Pengő-Banknoten mit einem Laubbläser zusammenpustet. Die Statue erinnert an die Einführung des Forint im Jahr 1946 und die Überwindung der Hyperinflation.",
+      "funFact": "Die Statue vor dem Gebäude der Ungarischen Nationalbank verweist auf die schlimmste Hyperinflation der Welt, als sich der Wert des Pengő in Stunden halbierte und zwanzigtausend Milliarden Banknoten auf der Straße gefegt wurden.",
+      "howToFind": "Auf dem Szabadság Platz im 5. Bezirk, auf der gepflasterten Promenade vor dem Haupteingang der Ungarischen Nationalbank, an der Kreuzung von Rasenkante und Steinpflaster."
+    },
+    "targoncas_01": {
+      "name": "Gabelstaplerfahrer",
+      "location": "Szabadság Platz",
+      "description": "Ein Miniaturarbeiter, der gerade mit seinem Gabelstapler einen Steinblock in der Nähe des umstrittenen Denkmals bewegt.",
+      "funFact": "Die Statue wurde als Kolodkos Guerillaaktion auf dem Szabadság Platz aufgestellt, als Reaktion auf die politischen und öffentlichen Denkmaldebatten, die auf dem Platz stattfinden, und die ständigen Umgestaltungen.",
+      "howToFind": "Auf dem Szabadság Platz im 5. Bezirk, an einer Ecke des riesigen Steinsockels des Denkmals für die Opfer der deutschen Besatzung, im Erdgeschoss."
+    },
+    "hanti_vadas_01": {
+      "name": "Chantischer Jäger",
+      "location": "Rákóczi-Brücke (Budaer Brückenkopf)",
+      "description": "Eine winzige Bronzefigur eines finno-ugrischen (chantischen) Jägers, der am Fuß der Brücke ein Reh auf der Schulter trägt.",
+      "funFact": "Die Statue lenkt die Aufmerksamkeit auf die finno-ugrischen Wurzeln der ungarischen Sprache und die uralte Harmonie mit der Natur zwischen den Glaspalästen und Bürogebäuden des modernen Infoparks.",
+      "howToFind": "Im 11. Bezirk, am Budaer Brückenkopf der Rákóczi-Brücke, auf der Steinbrüstung der Fußgängerrampe gegenüber dem MOL Campus-Turm."
+    },
+    "pinokkio_01": {
+      "name": "Pinocchio",
+      "location": "Széchenyi István Platz",
+      "description": "Die bronzene Mini-Statue von Pinocchio, dem Märchenhelden mit einer durchs Lügen gewachsenen Nase, vor dem Gebäude der Akademie der Wissenschaften.",
+      "funFact": "Im Zeitalter der Fake News ist die Statue ein Symbol für die Faktizität der Wissenschaft, die Suche nach der Wahrheit und die Spiritualität der Akademie.",
+      "howToFind": "Auf dem Széchenyi István Platz im 5. Bezirk, vor dem Hauptgebäude der Ungarischen Akademie der Wissenschaften, auf der Steinsäule des niedrigen, zu den Bäumen gerichteten Zierzauns."
+    },
+    "eredeti_usanka_01": {
+      "name": "Sowjetische Uschanka (Verloren/Zerstört)",
+      "location": "Szabadság Platz",
+      "description": "Die allererste sowjetische Uschanka-Mini-Statue, die einen Militärhut auf dem Szabadság Platz darstellte.",
+      "funFact": "Die Statue sorgte für einen politischen Sturm: Im Januar 2020 stieß sie ein Parlamentsabgeordneter mit einer Axt von der Steinsäule und warf sie in die Donau. An ihrer Stelle platzierte Kolodko später die Statue 'Axt auf einem Kissen'.",
+      "howToFind": "Sie ist an diesem Ort nicht mehr zu finden (zerstört/verloren, an ihrer Stelle ist die Statue 'Axt auf einem Kissen' zu sehen)."
+    },
+    "piszoar_01": {
+      "name": "Urinal (Marcel Duchamp) (Verloren/Gestohlen)",
+      "location": "Stadtwäldchen (Városliget)",
+      "description": "Eine Miniatur-Bronzeversion von Marcel Duchamps berühmtem dadaistischem Kunstwerk ('Fountain' / Urinal).",
+      "funFact": "Die Statue verwies auf die Wurzeln der zeitgenössischen bildenden Kunst, aber leider wurde sie wenige Wochen nach ihrer Aufstellung von Unbekannten illegal entfernt und gestohlen.",
+      "howToFind": "Sie ist an diesem Ort nicht mehr zu finden (sie stand im Park rund um die Burg Vajdahunyad im Stadtwäldchen)."
+    },
+    "eredeti_lisa_simpson_01": {
+      "name": "Lisa Simpson (Original) (Verloren/Gestohlen)",
+      "location": "Jászai Mari Platz",
+      "description": "Lisa Simpsons allererste Mini-Statue in Budapest, die an der Haltestelle der Straßenbahnlinie 2 stand.",
+      "funFact": "Die Statue wurde kurz nach ihrer Aufstellung vom Jászai Mari Platz gestohlen. Mihály Kolodko gab nicht auf, sondern stellte den Ersatz für die Statue später unter dem Namen 'Magyar Yellow' auf dem Fővám Platz auf.",
+      "howToFind": "Sie ist an diesem Ort nicht mehr zu finden (sie stand an der Straßenbahnhaltestelle am Jászai Mari Platz)."
+    },
+    "veszprem_erno_01": {
+      "name": "Ernő, der Wächter",
+      "location": "Veszprém, Vár Straße 2.",
+      "description": "Ernő, der Wächter der Burg, symbolisiert die historische Vergangenheit und den Schutz in Veszprém. Die Statue trägt die Uniform der Königlich Ungarischen Kronwache und erinnert daran, dass die Heilige Krone und die Heilige Rechte 1944 einen Monat lang in Veszprém aufbewahrt wurden.",
+      "funFact": "Die Statue wurde in einer öffentlichen Abstimmung nach Kronenwächterkommandant Ernő Pajtás benannt. Der Buchstabe 'B' auf der Mütze der Statue bezieht sich auf den Sohn des Auftraggebers (Eigentümer von A1-Sped Kft.) namens Balázs.",
+      "howToFind": "Am Anfang der Vár Straße in Veszprém, am Fuß des westlichen Pfeilers des Heldentors, direkt neben der Steinmauer."
+    },
+    "veszprem_odon_01": {
+      "name": "Ödön, der Straßenmusiker",
+      "location": "Veszprém, Kossuth Lajos Straße",
+      "description": "Ödön, der Straßenmusiker, gedenkt der heutigen Zeit und dem pulsierenden Musikleben von Veszprém. Die auf seinem Koffer sitzende Instrumentalfigur ist das Symbol des Veszprémer Straßenmusikfestivals und des UNESCO-Titels 'City of Music' der Stadt.",
+      "funFact": "Der Buchstabe 'A' auf der Mütze der Figur steht für die Initiale eines Familienmitglieds namens Andrea des Veszprémer Unternehmers, der die Statue in Auftrag gegeben hat.",
+      "howToFind": "In der Innenstadt von Veszprém, im Fußgängerbereich der Kossuth Lajos Straße, bei den Stadtmöbeln / der niedrigen Steinmauer in der Nähe des Veranstaltungszentrums Hangvilla."
+    },
+    "veszprem_leonora_01": {
+      "name": "LeoNóra, das Mädchen und der Löwe",
+      "location": "Veszprém, Kollégium Straße",
+      "description": "LeoNóra, das kleine Mädchen, das auf dem Rücken eines Löwen sitzt und auf einem Smartphone tippt, repräsentiert die Zukunft, den Mut und den Frieden der Kindheit. Die Statue verweist auch auf die Kindheitsjahre der heiligen Margareta aus dem Árpádenhaus in Veszprém.",
+      "funFact": "Der Buchstabe 'T' auf der Brust des kleinen Mädchens ist die Initiale des dritten Kindes (Tamás) des Auftraggebers. Die Statue wurde in unmittelbarer Nähe der Margareten-Ruinen aufgestellt.",
+      "howToFind": "In Veszprém sitzt sie auf dem Eisen-Steingeländer der kleinen Brücke in der Kollégium Straße, die sich über den Séd-Bach wölbt."
+    },
+    "vac_anyam_tyukja_01": {
+      "name": "Die Henne meiner Mutter (Hund Morzsa)",
+      "location": "Vác, Széchenyi Straße 42.",
+      "description": "Sie zeigt die Hauptfiguren (Hund Morzsa und die Mutterhenne) von Sándor Petőfis ikonischem Gedicht 'Die Henne meiner Mutter'. Petőfi schrieb das Gedicht im Haus seiner Eltern in Vác, und die Statue beschwört auch die Leidenschaft des Dichters für Bahnreisen herauf.",
+      "funFact": "Die Platzierung der Statue ist bewusst mit der Eisenbahn verbunden: Sie fand ihren Platz auf dem Platz vor dem Bahnhof von Vác und verbindet so die literarischen Erinnerungen von Vác und die ungarische Eisenbahngeschichte (die Linie Pest-Vác war die erste ungarische Eisenbahnlinie).",
+      "howToFind": "In Vác, auf dem Platz vor dem Haupteingang des Bahnhofs (Széchenyi Straße 42), sitzen sie auf dem Rand des erhöhten Stein-/Beton-Blumenbeetes."
+    },
+    "vac_maria_terezia_01": {
+      "name": "Die Ekstase von Maria Theresia",
+      "location": "Vác, Steintor (Triumphbogen)",
+      "description": "Sie verewigt den verängstigten, ekstatischen Moment der ungarischen Königin Maria Theresia. Der Legende nach wagte es die Monarchin bei ihrem Besuch in Vác 1764 nicht, unter dem zu ihren Ehren in zwei Wochen errichteten Triumphbogen (Steintor) hindurchzugehen, weil sie fürchtete, er würde einstürzen, und so fasste sie sich ans Herz.",
+      "funFact": "Die Positionierung der Mini-Statue schafft einen perfekten Fotospot: Wenn wir aus dem richtigen Winkel schauen, ist der originale Triumphbogen von Vác perfekt im Hintergrund skizziert.",
+      "howToFind": "In Vác, auf der Promenade des kleinen Landschaftsbereichs neben dem Steintor (Triumphbogen), oben auf einem niedrigen Metall- oder Steinpfosten."
+    },
+    "vac_csuzli_01": {
+      "name": "Schleuder (Ferenc Sajdik)",
+      "location": "Vác, Március 15. Platz",
+      "description": "Eine Mini-Statue, die zu Ehren des mit dem Kossuth-Preis ausgezeichneten Grafikers und Karikaturisten Ferenc Sajdik angefertigt wurde und eine Figur zeigt, die eine Steinschleuder spannt.",
+      "funFact": "Ferenc Sajdik ist der Stadt Vác durch tausend Fäden verbunden: Die ständige Sammlung und Ausstellung, die das Lebenswerk des Künstlers präsentiert, befindet sich im Pannónia-Haus, das auf dem Hauptplatz steht.",
+      "howToFind": "In Vác, am Március 15. Platz (Hauptplatz), oben auf einer geschnitzten Steinsäule vor dem Eingang zum Pannónia-Haus."
+    },
+    "vac_betoncapak_01": {
+      "name": "Beton-Haie (Donau-Haie)",
+      "location": "Vác, Donauufer",
+      "description": "Eine umweltfreundliche 'Beton-Haie'-Statuengruppe, die aus Plastik- und Metallabfällen hergestellt wurde, die aus der Donau gefischt wurden.",
+      "funFact": "Die Statue lenkt die Aufmerksamkeit auf den Umweltschutz und die Sauberkeit der Donau. Sie entstand mit Unterstützung des Ignác Tragor Museums als ökologisches Kunstprojekt.",
+      "howToFind": "In Vác, am steinigen/wässrigen Abschnitt neben der Donauuferpromenade, in der Nähe des Flussufers gelegen."
+    },
+    "tihany_gomboc_artur_01": {
+      "name": "Artúr Gombóc",
+      "location": "Tihany, Pisky-Promenade",
+      "description": "Der schokoladenliebende Vogel aus dem beliebten Pom-Pom-Märchen von István Csukás und Ferenc Sajdik, Artúr Gombóc, mit einer Balaton-Schokoladentafel in den Flügeln.",
+      "funFact": "Eine der beliebtesten ländlichen Statuen bei Touristen und Kindern: Besucher hinterlassen regelmäßig echte Schokolade und Süßigkeiten zwischen Artúr Gombócs Krallen.",
+      "howToFind": "In Tihany, an der Pisky-Promenade zwischen der Abtei und dem Echo-Hügel, sitzt er oben auf der Basaltsteinmauer mit Blick auf den Plattensee."
+    },
+    "szigliget_kempingezok_01": {
+      "name": "Plattensee-Camper",
+      "location": "Szigliget, Burg Szigliget",
+      "description": "Eine Mini-Statue eines Volkswagen Golf Wohnmobils, das einen winzigen Wohnwagen hoch oben an der Burgmauer zieht.",
+      "funFact": "Die Statue beschwört das goldene Zeitalter des Campings am Plattensee in den 70er und 80er Jahren und das Lebensgefühl von Retro-Urlauben auf den Felsen der Burg Szigliget herauf.",
+      "howToFind": "Auf der obersten Ebene der Burg Szigliget 'parkt' sie oben auf der Steinmauer des Benediktinerturms mit Blick auf Badacsony."
+    },
+    "hortobagy_csontvary_01": {
+      "name": "Tivadar Csontváry Kosztka",
+      "location": "Hortobágy, Neunbogenbrücke",
+      "description": "Eine Mini-Statue des Malers Tivadar Csontváry Kosztka, der mitten in der Puszta mit einer Sprühdose erschafft.",
+      "funFact": "Sie erinnert an Csontvárys berühmtes Gemälde 'Sturm auf der Hortobágy'. Die Statue ist Teil von Kolodkos internationaler Csontváry-Serie (München, Mostar, Hortobágy).",
+      "howToFind": "In Hortobágy spaziert er auf der Ziegelbrüstung/Steingeländer der berühmten Neunbogenbrücke, mit Blick auf die Puszta."
+    },
+    "esztergom_pumukli_01": {
+      "name": "Pumuckl",
+      "location": "Esztergom, Kleine-Donau-Promenade",
+      "description": "Die Mini-Statue von Pumuckl, dem rothaarigen schelmischen Kobold, der sich in der Nische der Steinmauer versteckt.",
+      "funFact": "Der Grund für die Standortwahl: Pumuckls unvergessliche ungarische Synchronstimme, der Schauspieler Kornél Pusztaszeri, wurde in der Stadt Esztergom geboren.",
+      "howToFind": "In Esztergom, an der Kleine-Donau-Promenade, sitzt er in einer der Nischen der hohen Steinmauer des St. Elisabeth Gymnasiums."
+    },
+    "gyula_lo_01": {
+      "name": "Pferd im Pool",
+      "location": "Gyula, Gyula Burgbad",
+      "description": "Ein im Thermalwasser badendes Miniatur-Bronzepferd in der überdachten Halle des Heilbades.",
+      "funFact": "Die Statue erinnert an das ehemalige Reithallengebäude des Burgbades von Gyula, in dem einst die Pferde der Grafen Almásy standen, und heute wird darin ein Heilbecken betrieben.",
+      "howToFind": "In Gyula, im Heilbecken des überdachten Reithallengebäudes des Burgbades (kann nur mit einer Eintrittskarte für das Bad besucht werden)."
+    },
+    "nyirbator_sohordo_01": {
+      "name": "Salzhändler (Nyírbátor)",
+      "location": "Nyírbátor, Stadthistorische Promenade",
+      "description": "Eine Mini-Statue eines Salzhändlers, die an die historische Salzstraße erinnert und ein Salzfass auf dem Rücken trägt.",
+      "funFact": "Diese Statue ist Teil einer grenzüberschreitenden Skulpturenroute, bestehend aus 5 ungarischen (und 5 transkarpatischen) Werken, die die mittelalterliche siebenbürgische Salztransportroute markiert.",
+      "howToFind": "Platziert auf Steinsimsen an den Innenstadtpromenaden und Hauptplätzen der jeweiligen Siedlungen (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs)."
+    },
+    "nagykallo_sohordo_01": {
+      "name": "Salzhändler (Nagykálló)",
+      "location": "Nagykálló, Hauptplatz",
+      "description": "Eine Mini-Statue eines Salzhändlers, die an die historische Salzstraße erinnert und ein Salzfass auf dem Rücken trägt.",
+      "funFact": "Diese Statue ist Teil einer grenzüberschreitenden Skulpturenroute, bestehend aus 5 ungarischen (und 5 transkarpatischen) Werken, die die mittelalterliche siebenbürgische Salztransportroute markiert.",
+      "howToFind": "Platziert auf Steinsimsen an den Innenstadtpromenaden und Hauptplätzen der jeweiligen Siedlungen (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs)."
+    },
+    "vasarosnameny_sohordo_01": {
+      "name": "Salzhändler (Vásárosnamény)",
+      "location": "Vásárosnamény, Park vor dem Rathaus",
+      "description": "Eine Mini-Statue eines Salzhändlers, die an die historische Salzstraße erinnert und ein Salzfass auf dem Rücken trägt.",
+      "funFact": "Diese Statue ist Teil einer grenzüberschreitenden Skulpturenroute, bestehend aus 5 ungarischen (und 5 transkarpatischen) Werken, die die mittelalterliche siebenbürgische Salztransportroute markiert.",
+      "howToFind": "Platziert auf Steinsimsen an den Innenstadtpromenaden und Hauptplätzen der jeweiligen Siedlungen (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs)."
+    },
+    "csenger_sohordo_01": {
+      "name": "Salzhändler (Csenger)",
+      "location": "Csenger, Zentrum",
+      "description": "Eine Mini-Statue eines Salzhändlers, die an die historische Salzstraße erinnert und ein Salzfass auf dem Rücken trägt.",
+      "funFact": "Diese Statue ist Teil einer grenzüberschreitenden Skulpturenroute, bestehend aus 5 ungarischen (und 5 transkarpatischen) Werken, die die mittelalterliche siebenbürgische Salztransportroute markiert.",
+      "howToFind": "Platziert auf Steinsimsen an den Innenstadtpromenaden und Hauptplätzen der jeweiligen Siedlungen (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs)."
+    },
+    "tiszabecs_sohordo_01": {
+      "name": "Salzhändler (Tiszabecs)",
+      "location": "Tiszabecs",
+      "description": "Eine Mini-Statue eines Salzhändlers, die an die historische Salzstraße erinnert und ein Salzfass auf dem Rücken trägt.",
+      "funFact": "Diese Statue ist Teil einer grenzüberschreitenden Skulpturenroute, bestehend aus 5 ungarischen (und 5 transkarpatischen) Werken, die die mittelalterliche siebenbürgische Salztransportroute markiert.",
+      "howToFind": "Platziert auf Steinsimsen an den Innenstadtpromenaden und Hauptplätzen der jeweiligen Siedlungen (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs)."
+    },
+    "munich_csontvary_01": {
+      "name": "Tivadar Csontváry Kosztka (München)",
+      "location": "München, Deutschland",
+      "description": "Eine Mini-Statue des Malers Tivadar Csontváry Kosztka in München, der als Graffiti-Künstler in der bayerischen Hauptstadt kreiert.",
+      "funFact": "Csontváry begann seine Kunststudien in dieser Stadt an Simon Hollósys berühmter Privatschule in München, bevor er die Welt bereiste.",
+      "howToFind": "In der Münchener Innenstadt, Deutschland, auf dem Steingeländer der Stufenterrasse des Friedensengel-Denkmals."
+    },
+    "mostar_csontvary_01": {
+      "name": "Tivadar Csontváry Kosztka (Mostar)",
+      "location": "Mostar, Bosnien und Herzegowina",
+      "description": "Eine Mini-Statue des Malers Tivadar Csontváry Kosztka in Mostar. Die Statue zeigt den Künstler als Graffiti-Künstler, mit einer Sprühdose in der Hand, der den Geist des Malens der berühmten Alten Brücke von Mostar heraufbeschwört.",
+      "funFact": "Csontváry malte 1903 sein berühmtes Meisterwerk 'Die römische Brücke in Mostar'. Mit dieser Statue zollte Kolodko den Balkanreisen des ungarischen Mal-Giganten Tribut.",
+      "howToFind": "In der Innenstadt von Mostar, Bosnien und Herzegowina, am Ufer der Neretva, direkt am Fuß der Alten Brücke (Stari Most) auf einem Felsblock."
+    },
+    "pula_legionarius_01": {
+      "name": "Römischer Legionär",
+      "location": "Pula, Kroatien",
+      "description": "Eine Mini-Statue eines römischen Legionärsoldaten, der achtlos mit einer Weinamphore am Fuß des antiken Amphitheaters lümmelt.",
+      "funFact": "Die Statue ist der exakte Zwilling der römischen Soldatenstatue in Óbuda, Budapest, und verbindet die beiden ehemaligen römischen Provinzstädte.",
+      "howToFind": "In der Stadt Pula, Kroatien, an der äußeren Steinmauer der Pula Arena (römischen Amphitheaters) zwischen den Ruinen."
+    },
+    "venice_selfie_01": {
+      "name": "Selfie in Venedig",
+      "location": "Venedig, Italien",
+      "description": "Der geflügelte Löwe von San Marco, der ein Foto von sich selbst mit einem Selfie-Stick über dem venezianischen Kanal macht.",
+      "funFact": "Die Statue ist eine scharfe Gesellschaftskritik in Bezug auf den modernen Massentourismus und die Venedig überflutenden Selfie-Touristen.",
+      "howToFind": "In der Innenstadt von Venedig, Italien, auf dem Steingeländer einer Backsteinbrücke (ponte), die sich über einen kleinen Kanal wölbt."
+    },
+    "princeton_einstein_01": {
+      "name": "Albert Einstein",
+      "location": "Princeton, USA",
+      "description": "Eine Mini-Statue des theoretischen Physikers Albert Einstein in Princeton. Einstein sitzt auf einer kleinen Bank und hält einen Kompass in der Hand, was an den Moment in der Kindheit erinnert, als ein Kompass, den er von seinem Vater erhielt, sein Interesse an unsichtbaren Kräften weckte.",
+      "funFact": "Dies ist Mihály Kolodkos allererste (amerikanische) Mini-Statue in Übersee. Einstein lebte und arbeitete von 1933 bis zu seinem Tod in Princeton, und die Statue wurde im Park gegenüber seiner ehemaligen Residenz aufgestellt.",
+      "howToFind": "In der Stadt Princeton, New Jersey, USA, auf einer niedrigen Steinbank/Sockel neben einem der Fußwege des Marquand Parks, gegenüber dem Einstein-Haus."
+    },
+    "stockholm_nobel_01": {
+      "name": "Alfred Nobel",
+      "location": "Stockholm, Schweden",
+      "description": "Eine Mini-Statue des schwedischen Chemikers Alfred Nobel, Erfinder des Dynamits und Stifter des Nobelpreises.",
+      "funFact": "Die Statue ist ein Symbol der schwedisch-ungarischen wissenschaftlichen und kulturellen Beziehungen, die auf dem Zaun des diplomatischen Gebäudes platziert wurde.",
+      "howToFind": "In Stockholm, Schweden, am Außenzaun des Gebäudes der ungarischen Botschaft (Dag Hammarskjölds väg 10)."
+    },
+    "seoul_liszt_01": {
+      "name": "Franz Liszt",
+      "location": "Seoul, Südkorea",
+      "description": "Eine Mini-Statue des Komponisten Franz Liszt in Seoul, der kleine Bruder der Statue, die am Flughafen Ferihegy zu sehen ist.",
+      "funFact": "Die Statue feiert die asiatische Präsenz der ungarischen klassischen Musik und Kultur, da es in Südkorea einen riesigen Kult um Franz Liszts Werk gibt.",
+      "howToFind": "In der Innenstadt von Seoul, Südkorea, auf der Steinbank am Straßeneingang des Liszt Instituts (Ungarisches Kulturzentrum)."
+    }
+  }
+}
