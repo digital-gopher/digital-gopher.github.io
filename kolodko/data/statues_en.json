@@ -212,10 +212,10 @@
     },
     "kutyavasar_01": {
       "name": "Once Upon a Time There Was a Dog Market in Buda",
-      "location": "Batthyány Street 65.",
-      "description": "Six tiny, cute bronze puppies in a woven basket. The statue commemorates the famous Hungarian proverb ('Once upon a time there was a dog market in Buda') from the era of King Matthias Corvinus.",
-      "funFact": "According to the legend, King Matthias once bought a poor man's dogs for good money in Buda, but when greedy rich people also brought dogs to sell the next day, the king chased them away saying 'once upon a time there was a dog market in Buda'.",
-      "howToFind": "In the 1st district, at the corner of Hattyú Street and Batthyány Street (65 Batthyány St.), they are on top of a cylindrical stone column built specifically for them."
+      "location": "Corner of Batthyány Street 26 / Hattyú Street (Nevenincs Square)",
+      "description": "Six tiny bronze puppies (various Hungarian breeds, partly in a basket, partly nearby) and a King Matthias coin embedded in the ground. The sculptural group commemorates the famous Hungarian proverb and the folktale of King Matthias.",
+      "funFact": "According to the legend, King Matthias once bought the dogs of a poor man for good money in Buda, but when greedy rich people also brought dogs to sell the next day, the king chased them away, saying 'there was a dog market in Buda only once'. The coin is also related to this story.",
+      "howToFind": "Step 1 (Area): Go to the corner of Batthyány Street and Hattyú Street in the 1st district (around Batthyány Str. 26, the so-called Nevenincs Square).\\n\\nStep 2 (Focus): Look for the small square / flower beds in front of the Vízivárosi Klub (Watertown Club).\\n\\nStep 3 (Exact spot): The dogs are sitting on the stone edges and in a basket, while the coin is embedded in the paving stones nearby."
     },
     "romai_legios_01": {
       "name": "In vino veritas (Roman Legionnaire)",
@@ -384,6 +384,27 @@
       "description": "Lisa Simpson's very first mini statue in Budapest, which stood at the tram line 2 stop.",
       "funFact": "The statue was stolen from Jászai Mari Square shortly after its placement. Mihály Kolodko did not give up, but later placed the replacement of the statue in Fővám Square under the name 'Magyar Yellow'.",
       "howToFind": "It can no longer be found at the location (it stood at the tram stop in Jászai Mari Square)."
+    },
+    "dron_01": {
+      "name": "Drone / Swedish Screw",
+      "location": "Bem Quay / Angelo Rotta Quay (near Margaret Bridge)",
+      "description": "A stylized bronze miniature drone statue with three crowns on top (referring to the coat of arms of Sweden). It reflects on modern technology and the world of military drones in a humorous way.",
+      "funFact": "The statue was previously exhibited in Vác under the name Drone/Swedish Screw. It 'landed' on the Bem Quay near Margaret Bridge in the summer of 2025.",
+      "howToFind": "Step 1 (Area): Go to Bem Quay, towards the Buda bridgehead of Margaret Bridge (Angelo Rotta Quay).\\n\\nStep 2 (Focus): Look for the stone parapet near the tram stop.\\n\\nStep 3 (Exact spot): The drone 'lands' on top of the parapet."
+    },
+    "piszkos_fred_01": {
+      "name": "Dirty Fred, the Captain",
+      "location": "Széchenyi István Square (next to the Hungarian Academy of Sciences)",
+      "description": "A bronze miniature statue of Captain Dirty Fred, the legendary novel character of Jenő Rejtő (P. Howard). With a pipe in his mouth, he sits casually on a travel trunk / sea chest on the bank of the Danube.",
+      "funFact": "It was placed there around Christmas 2025. The choice of location is a deliberate contrast: the iconic figure of Budapest humor and pulp fiction appears at the foot of the Hungarian Academy of Sciences, which represents high culture.",
+      "howToFind": "Step 1 (Area): Go to Széchenyi István Square, to the building of the Hungarian Academy of Sciences.\\n\\nStep 2 (Focus): Look for the Danube promenade / stone railing on the side of the Academy.\\n\\nStep 3 (Exact spot): He is sitting on top of the chest next to a stone element / pillar, facing the Chain Bridge."
+    },
+    "ii_erzsebet_01": {
+      "name": "Elizabeth II (Empire / Yellow Submarine)",
+      "location": "No longer in public space (Previously: Millenáris Park)",
+      "description": "British Queen Elizabeth II stands elegantly dressed, waving on top of a submarine. The artwork refers to the Beatles' song Yellow Submarine and the fact that the Queen awarded the band members in 1965.",
+      "funFact": "The statue was originally placed temporarily in one of the ponds of Millenáris Park during the Art Market Budapest in October 2024. As it was a guerrilla exhibition piece, it was later moved to the Pannónia House in Vác for the 'Danube Shark' exhibition.",
+      "howToFind": "ATTENTION: This statue is currently not visible in public spaces!\\n\\nStep 1 (Area): Originally, it was located near Building B of Millenáris Park (from Lövőház Street).\\n\\nStep 2 (Focus): You had to look for the small pond next to Building B.\\n\\nStep 3 (Exact spot): It stood in the middle of the pond (it was a temporary placement)."
     },
     "veszprem_erno_01": {
       "name": "Ernő the Guard",
