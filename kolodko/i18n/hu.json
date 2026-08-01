@@ -295,6 +295,9 @@
     "sync_network_error": "Hálózati hiba! Kérjük, ellenőrizd az internetkapcsolatot.",
     "status_destroyed": "❌ Eltűnt / Megsemmisült",
     "destroyed_warning_title": "⚠️ Ez a szobor sajnos eltűnt vagy megsemmisült, a helyszínen jelenleg nem található meg.",
-    "filter_hide_destroyed": "Eltűnt szobrok elrejtése"
+    "filter_hide_destroyed": "Eltűnt szobrok elrejtése",
+    "filter_status_title": "Állapot szűrés",
+    "destroyed_not_found_info_title": "Manuálisan nem jelölhető",
+    "destroyed_not_found_info_desc": "Ez a szobor sajnos eltűnt vagy megsemmisült. Ha van róla korábbi saját fotód, töltsd fel a galériába, és a rendszer automatikusan megtaláltnak fogja jelölni!"
   }
 }
