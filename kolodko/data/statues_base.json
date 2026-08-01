@@ -36,7 +36,8 @@
       },
       "dracula_01": {
         "coordinates": { "lat": 47.51462936284855, "lng": 19.083457003869142 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "isDestroyed": true
       },
       "noah_ark_01": {
         "coordinates": { "lat": 47.50368930824573, "lng": 19.07902496408593 },
@@ -224,6 +225,20 @@
         "coordinates": { "lat": 47.513033643115584, "lng": 19.047774767734182 },
         "yearInstalled": 2019,
         "isDestroyed": true
+      },
+      "dron_01": {
+        "coordinates": { "lat": 47.51209245217803, "lng": 19.039521625972554 },
+        "yearInstalled": 2025,
+        "isDestroyed": true
+      },
+      "ii_erzsebet_01": {
+        "coordinates": { "lat": 47.51181849061916, "lng": 19.023837441310377 },
+        "yearInstalled": 2025,
+        "isDestroyed": true
+      },
+      "piszkos_fred_01": {
+        "coordinates": { "lat": 47.50017649125512, "lng": 19.045807246257027 },
+        "yearInstalled": 2025
       }
     }
   },
