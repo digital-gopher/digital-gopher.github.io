@@ -295,6 +295,9 @@
     "sync_network_error": "Netzwerkfehler! Bitte überprüfen Sie Ihre Internetverbindung.",
     "status_destroyed": "❌ Verschwunden / Zerstört",
     "destroyed_warning_title": "⚠️ Diese Statue wurde leider zerstört oder gestohlen und befindet sich derzeit nicht am Standort.",
-    "filter_hide_destroyed": "Verschwundene Statuen ausblenden"
+    "filter_hide_destroyed": "Verschwundene Statuen ausblenden",
+    "filter_status_title": "Statusfilter",
+    "destroyed_not_found_info_title": "Kann nicht manuell markiert werden",
+    "destroyed_not_found_info_desc": "Leider ist diese Statue verschwunden oder zerstört. Wenn Sie ein früheres Foto davon haben, laden Sie es in die Galerie hoch, und das System wird es automatisch als gefunden markieren!"
   }
 }
