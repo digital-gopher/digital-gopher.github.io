@@ -211,11 +211,11 @@
       "howToFind": "Am Várkert Kai im 1. Bezirk, in einem der vertikalen Risse der steinernen Stützmauer am Donauufer unterhalb des Várkert Bazár, wenn man zwischen die Steine blickt."
     },
     "kutyavasar_01": {
-      "name": "Es war einmal ein Hundemarkt in Buda",
-      "location": "Batthyány Straße 65.",
-      "description": "Sechs winzige, niedliche Bronze-Welpen in einem geflochtenen Korb. Die Statue erinnert an das berühmte ungarische Sprichwort ('Es war einmal ein Hundemarkt in Buda') aus der Zeit von König Matthias Corvinus.",
-      "funFact": "Der Legende nach kaufte König Matthias einst in Buda die Hunde eines armen Mannes für gutes Geld, aber als gierige reiche Leute am nächsten Tag ebenfalls Hunde zum Verkauf brachten, jagte der König sie mit den Worten davon, dass 'es nur einmal einen Hundemarkt in Buda gab'.",
-      "howToFind": "Im 1. Bezirk, an der Ecke Hattyú Straße und Batthyány Straße (Batthyány Str. 65), befinden sie sich auf einer zylindrischen Steinsäule, die speziell für sie gebaut wurde."
+      "name": "Es gab nur einmal einen Hundemarkt in Buda",
+      "location": "Ecke Batthyány-Straße 26 / Hattyú-Straße (Nevenincs-Platz)",
+      "description": "Sechs winzige Bronze-Hundewelpen (verschiedene ungarische Rassen, teils in einem Korb, teils in der Nähe) und eine in den Boden eingelassene König-Matthias-Münze. Die Skulpturengruppe erinnert an das berühmte ungarische Sprichwort und das Volksmärchen von König Matthias.",
+      "funFact": "Der Legende nach kaufte König Matthias in Buda einmal die Hunde eines armen Mannes für gutes Geld, aber als habgierige Reiche am nächsten Tag ebenfalls Hunde zum Verkauf anboten, jagte der König sie mit den Worten fort: 'Es gab nur einmal einen Hundemarkt in Buda'. Auch die Münze bezieht sich auf diese Geschichte.",
+      "howToFind": "Schritt 1 (Umgebung): Gehen Sie zur Ecke Batthyány-Straße und Hattyú-Straße im 1. Bezirk (Umgebung Batthyány Str. 26, der sogenannte Nevenincs-Platz).\\n\\nSchritt 2 (Fokus): Suchen Sie den kleinen Platz / die Blumenbeete vor dem Vízivárosi Klub (Wasserstadt-Club).\\n\\nSchritt 3 (Genauer Ort): Die Hunde sitzen auf den Steinkanten und in einem Korb, und die Münze ist in der Nähe in die Pflastersteine eingelassen."
     },
     "romai_legios_01": {
       "name": "In vino veritas (Römischer Legionär)",
@@ -384,6 +384,27 @@
       "description": "Lisa Simpsons allererste Mini-Statue in Budapest, die an der Haltestelle der Straßenbahnlinie 2 stand.",
       "funFact": "Die Statue wurde kurz nach ihrer Aufstellung vom Jászai Mari Platz gestohlen. Mihály Kolodko gab nicht auf, sondern stellte den Ersatz für die Statue später unter dem Namen 'Magyar Yellow' auf dem Fővám Platz auf.",
       "howToFind": "Sie ist an diesem Ort nicht mehr zu finden (sie stand an der Straßenbahnhaltestelle am Jászai Mari Platz)."
+    },
+    "dron_01": {
+      "name": "Drohne / Schwedenschraube",
+      "location": "Bem-Ufer / Angelo-Rotta-Ufer (in der Nähe der Margaretenbrücke)",
+      "description": "Eine stilisierte Miniatur-Drohnenstatue aus Bronze mit drei Kronen auf der Oberseite (in Anlehnung an das schwedische Wappen). Sie reflektiert auf humorvolle Weise die moderne Technologie und die Welt der militärischen Drohnen.",
+      "funFact": "Die Statue war zuvor auf einer Ausstellung in Vác unter dem Namen Drohne/Schwedenschraube zu sehen. Sie 'landete' im Sommer 2025 am Bem-Ufer in der Nähe der Margaretenbrücke.",
+      "howToFind": "Schritt 1 (Umgebung): Gehen Sie zum Bem-Ufer in Richtung des Budaer Brückenkopfs der Margaretenbrücke (Angelo-Rotta-Ufer).\\n\\nSchritt 2 (Fokus): Suchen Sie nach der Steinbrüstung in der Nähe der Straßenbahnhaltestelle.\\n\\nSchritt 3 (Genauer Ort): Die Drohne 'landet' oben auf der Brüstung."
+    },
+    "piszkos_fred_01": {
+      "name": "Schmutziger Fred, der Kapitän",
+      "location": "Széchenyi-István-Platz (neben der Ungarischen Akademie der Wissenschaften)",
+      "description": "Eine Bronze-Miniaturstatue von Kapitän Schmutziger Fred, der legendären Romanfigur von Jenő Rejtő (P. Howard). Mit einer Pfeife im Mund sitzt er lässig auf einer Reisetruhe / Seekiste am Donauufer.",
+      "funFact": "Die Statue wurde zu Weihnachten 2025 aufgestellt. Die Wahl des Standorts ist ein bewusster Kontrast: Die ikonische Figur des Pester Humors und der Trivialliteratur erscheint am Fuße der Ungarischen Akademie der Wissenschaften, die für Hochkultur steht.",
+      "howToFind": "Schritt 1 (Umgebung): Gehen Sie zum Széchenyi-István-Platz, zum Gebäude der Ungarischen Akademie der Wissenschaften.\\n\\nSchritt 2 (Fokus): Suchen Sie die Donaupromenade / das Steingeländer auf der Seite der Akademie.\\n\\nSchritt 3 (Genauer Ort): Er sitzt auf der Truhe neben einem Steinelement / einer Säule in Richtung der Kettenbrücke."
+    },
+    "ii_erzsebet_01": {
+      "name": "Elisabeth II. (Empire / Yellow Submarine)",
+      "location": "Nicht mehr im öffentlichen Raum (Zuvor: Millenáris-Park)",
+      "description": "Die britische Königin Elisabeth II. steht elegant gekleidet und winkend auf einem U-Boot. Das Kunstwerk bezieht sich auf das Beatles-Lied Yellow Submarine und darauf, dass die Königin die Bandmitglieder 1965 auszeichnete.",
+      "funFact": "Die Statue wurde ursprünglich im Oktober 2024 während des Art Market Budapest vorübergehend in einem der Teiche des Millenáris-Parks aufgestellt. Da es sich um ein Guerilla-Ausstellungsstück handelte, wurde sie später für die Ausstellung 'Donauhai' in das Pannónia-Haus in Vác verlegt.",
+      "howToFind": "ACHTUNG: Diese Statue ist derzeit nicht im öffentlichen Raum zu sehen!\\n\\nSchritt 1 (Umgebung): Ursprünglich befand sie sich in der Nähe von Gebäude B des Millenáris-Parks (von der Lövőház-Straße aus).\\n\\nSchritt 2 (Fokus): Man musste den kleinen Teich neben Gebäude B suchen.\\n\\nSchritt 3 (Genauer Ort): Sie stand in der Mitte des Teiches (es handelte sich um eine vorübergehende Aufstellung)."
     },
     "veszprem_erno_01": {
       "name": "Ernő, der Wächter",
