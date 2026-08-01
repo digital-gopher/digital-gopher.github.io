@@ -295,6 +295,9 @@
     "sync_network_error": "Network error! Please check your internet connection.",
     "status_destroyed": "❌ Missing / Destroyed",
     "destroyed_warning_title": "⚠️ This statue has unfortunately been destroyed or stolen and is currently not present at the location.",
-    "filter_hide_destroyed": "Hide missing statues"
+    "filter_hide_destroyed": "Hide missing statues",
+    "filter_status_title": "Status Filter",
+    "destroyed_not_found_info_title": "Cannot be marked manually",
+    "destroyed_not_found_info_desc": "Unfortunately, this statue is missing or destroyed. If you have a previous photo of it, upload it to the gallery, and the system will automatically mark it as found!"
   }
 }
