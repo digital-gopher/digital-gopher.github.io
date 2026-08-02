@@ -526,53 +526,130 @@
       "howToFind": "Az adott települések (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs) belvárosi sétányain és főterein, kőpadkákon elhelyezve."
     },
     "munich_csontvary_01": {
-      "name": "Csontváry Kosztka Tivadar (München)",
+      "name": "Csontváry Kosztka Tivadar",
       "location": "München, Németország",
-      "description": "Csontváry Kosztka Tivadar festőművész miniszobra Münchenben, amint graffitisként alkot a bajor fővárosban.",
-      "funFact": "Csontváry ebben a városban kezdte meg művészeti tanulmányait Hollósy Simon híres müncheni magániskolájában, mielőtt bejárta volna a világot.",
-      "howToFind": "Németország, München belvárosában, a Béke Angyala (Friedensengel) műemlék lépcsős teraszának kőkorlátján."
+      "description": "Csontváry Kosztka Tivadar festőművész miniszobra Münchenben, amint graffitisként, festékszóró flakonnal a kezében alkot a bajor fővárosban.",
+      "funFact": "A szobor a hortobágyi Kilenclyukú hídnál lévő Csontváry-szobor pontos ikertestvére. Csontváry Münchenben, Hollósy Simon szabadiskolájában kezdte művészeti tanulmányait.",
+      "howToFind": "1. Lépés: München belvárosában sétálj a Prinzregentenstraße-n a Béke Angyala (Friedensengel) emlékmű környékére. 2. Lépés: Keresd a lépcsős terasz kőkorlátját. 3. Lépés: A bronzszobor a kőmellvéden, a járókelők magasságában kapott helyet."
+    },
+    "munich_pumukli_01": {
+      "name": "Pumukli",
+      "location": "München, Németország",
+      "description": "A bajor-német televíziózás leghíresebb és legszerethetőbb rosszcsont koboldjának, Pumuklinak (Pumuckl) a miniszobra.",
+      "funFact": "Kolodko 2022-ben rejtette el a szobrot Münchenben, tisztelegve a híres, Münchenben játszódó mesekönyv és tévésorozat (Éder mester és Pumukli) előtt.",
+      "howToFind": "1. Lépés: München városában az Isar folyó környéki kőfalakon és hídperemeken érdemes nyitott szemmel járni. 2. Lépés: Keresd a jellegzetesen borzos hajú, apró bronzkoboldot."
+    },
+    "munich_oktoberfest_01": {
+      "name": "Oktoberfest (Ein Hoch auf das Oktoberfest!)",
+      "location": "München, Németország",
+      "description": "Egy aszfaltból kinyúló bronzkéz, amely egy hagyományos bajor söröskorsót tart a magasba.",
+      "funFact": "A szobrot a világ legnagyobb sörfesztiváljának helyszínén, a Theresienwiesén helyezte el a művész 2020-ban (sajnos a hírek szerint azóta többször megrongálták, vagy eltűnt).",
+      "howToFind": "1. Lépés: Látogass el Münchenben a Theresienwiese hatalmas, nyitott terére. 2. Lépés: Keresd a szobrot a beton/aszfalt repedéséből 'kinyúlva'."
+    },
+    "landshut_rakoczi_01": {
+      "name": "II. Rákóczi Ferenc (Landshut)",
+      "location": "Landshut, Németország",
+      "description": "II. Rákóczi Ferenc fejedelem apró bronzszobra, amint a bajorországi Landshutban, egy forrás mellett kényelmesen megpihen.",
+      "funFact": "A szobor a helyi Rákóczi-forrás (Rákóczi-Quelle) mellett kapott helyet 2020-ban. A forrás a magyar történelemhez, az egykor errefelé járó kurucokhoz és a fejedelemhez köthető.",
+      "howToFind": "1. Lépés: Keresd fel Landshut városában az 'Am Schallermoos' utcát. 2. Lépés: Sétálj el a Rákóczi-forrás (Rákóczi-Quelle) vizéhez. 3. Lépés: A szobor a vízkifolyó körüli köveken csücsül."
+    },
+    "nuremberg_ajtosi_01": {
+      "name": "Ajtósi Adalbert (Id. Albrecht Dürer)",
+      "location": "Nürnberg, Németország",
+      "description": "A híres német festő, Albrecht Dürer aranyműves édesapjának (Ajtósi Adalbert) miniatűr emlékműve.",
+      "funFact": "Kolodko 2021-ben, Ajtósi Adalbert születésének 550. évfordulójára készítette a szobrot. A név nem véletlen: a Dürer család eredetileg a Gyula melletti Ajtós (németül 'Türer' -> Dürer) településről származott.",
+      "howToFind": "1. Lépés: Látogass el Nürnberg történelmi belvárosába, a Tucher-kastélyba (Museum Tucherschloss). 2. Lépés: Menj be a múzeum belső udvarára. 3. Lépés: A szobor a kastélyudvar egyik kőfelületén fogad."
+    },
+    "prague_rakoczi_01": {
+      "name": "II. Rákóczi Ferenc",
+      "location": "Prága, Csehország",
+      "description": "Az ifjú II. Rákóczi Ferencet ábrázoló miniszobor.",
+      "funFact": "A fejedelem prágai diákéveinek (1691–1692) állít emléket. A szobrocskát a prágai Liszt Intézet segítségével avatták fel, mintegy kiegészítve a már ott lévő meglévő Rákóczi-emléktáblát.",
+      "howToFind": "1. Lépés: Prágában indulj el a Kisoldali térre (Malostranské náměstí). 2. Lépés: Keresd az egykori jezsuita kollégium épületét. 3. Lépés: A falra rögzített Rákóczi-emléktábla közvetlen közelében, a falon vagy a peremén található az apró bronzfigura."
+    },
+    "vienna_alex_delarge_01": {
+      "name": "Alex DeLarge (Mechanikus narancs)",
+      "location": "Bécs (Wien), Ausztria",
+      "description": "A 'Mechanikus narancs' című kultikus Stanley Kubrick-film szociopata főszereplőjének (a Malcolm McDowell által játszott Alexnek) a miniszobra pálcával és keménykalappal.",
+      "funFact": "A filmben és a könyvben Alex fanatikus rajongója volt Beethoven zenéjének (őt csak 'drága jó Ludwig van'-nak hívta). Kolodko ezért briliáns zsenialitással épp a bécsi Beethoven-emlékmű talapzatára helyezte fel őt 2023-ban.",
+      "howToFind": "1. Lépés: Sétálj el a bécsi Stadtpark közelében található Beethovenplatzra. 2. Lépés: Állj meg a tér közepén magasodó gigantikus, 19. századi Beethoven-emlékműnél. 3. Lépés: A szobrot a fő emlékmű előtti lépcsőket lezáró bal oldali kövön találod."
+    },
+    "venice_selfie_01": {
+      "name": "Szelfi Velencében",
+      "location": "Velence (Venezia), Olaszország",
+      "description": "A szobor Szent Márk szárnyas oroszlánját, vagy egy tipikus úszótalpas turistát ábrázol, amint egy szelfibottal fotózza magát a csatorna felett.",
+      "funFact": "Az alkotás görbe tükröt mutat a modern, felszínes tömegturizmusnak. Sajnos a hírek szerint 2024-ben az alkotás eltűnt eredeti helyéről, így valószínűleg zsákmányul esett valakinek.",
+      "howToFind": "1. Lépés: Keresd fel a Santa Maria della Pietà templomot. 2. Lépés: Lépj a templom előtti kikötő parti részére. 3. Lépés: A szobor eredetileg itt a köveken fotózta magát a tenger felé, ma (2024 óta) csak a hűlt helyét találod."
+    },
+    "pula_legionarius_01": {
+      "name": "In vino veritas (Római legionárius)",
+      "location": "Póla (Pula), Horvátország",
+      "description": "Egy amforával hanyagul heverésző, borostyántól megrészegült római legionárius katona miniszobra az ókori amfiteátrum tövében.",
+      "funFact": "A szobor a budapesti óbudai római katona szobrának pontos másolata. A két alkotás egyfajta láthatatlan történelmi hidat képez a két egykori római provincia között.",
+      "howToFind": "1. Lépés: Keresd fel Pula központjában a híres római amfiteátrumot (Pulai Aréna). 2. Lépés: Sétálj az épület külső, romos kőfalai mentén. 3. Lépés: A miniszobor a falak kövei között, a fűben fekszik."
+    },
+    "rijeka_piszkos_fred_01": {
+      "name": "Kés a matrózban (Piszkos Fred, a kapitány)",
+      "location": "Fiume (Rijeka), Horvátország",
+      "description": "Rejtő Jenő regényének legelső jelenetét megörökítő mű. A falra egy matróz van festve (graffiti), akinek a hátából egy valóságos, bronzból készült apró kés áll ki.",
+      "funFact": "A szobor a magyar ponyvairodalom kultikus nyitómondatára utal ('– Uram! A késemért jöttem! / – Hol hagyta? / – Valami matrózban.'). Kolodko így csempészett pesti humort a tengerpartra.",
+      "howToFind": "1. Lépés: Fiume kikötőjében (Rijeka Luka) vagy a belváros tengerhez közeli utcáin sétálj. 2. Lépés: Keress egy olyan falrészt, amire egy egyszerű fekete vonalakkal felrajzolt matróz grafika került. 3. Lépés: A hátába állított gyöngyháznyelű tőr tapintható, fizikai miniszobor."
+    },
+    "rijeka_carpathia_01": {
+      "name": "Carpathia gőzhajó",
+      "location": "Fiume (Rijeka), Horvátország",
+      "description": "A Titanic túlélőit megmentő RMS Carpathia óceánjáró mentőövét megörökítő miniszobor.",
+      "funFact": "A Carpathia magyar legénységgel indult Fiuméből a tengerre a végzetes éjszaka előtt, a fiumei tengerészeti múzeumban pedig Európa egyetlen eredeti Titanic-mentőöve van kiállítva. Ennek állít emléket a 2024-ben kihelyezett aprócska alkotás.",
+      "howToFind": "1. Lépés: Menj Rijeka tengerparti kikötői sétányához. 2. Lépés: Figyeld a parton húzódó vastag kőfalak illesztéseit és mólóit. 3. Lépés: A bronzból öntött mentőöv stílusosan horgonyoz a köveken."
+    },
+    "lendva_lecso_01": {
+      "name": "Bogrács (L'ecsó)",
+      "location": "Lendva (Lendava), Szlovénia",
+      "description": "A Pixar-meséből jól ismert gasztropatkány, Remy figurája egy fakanállal a kezében, amint egy \"Bogrács\" feliratú graffitinál ügyködik.",
+      "funFact": "Lendva a híres Bográcsfesztiváljáról ismert, ezért Kolodko a budapesti Lecsó-szobor ikertestvérét ide készítette el 2022-ben a helyi konyhaművészet tiszteletére.",
+      "howToFind": "1. Lépés: Látogass el a lendvai belvárosba, a helyi Galéria-Múzeum és színház környékére. 2. Lépés: Keress egy modern támfalat, amire a 'Bogrács' szó van fújva. 3. Lépés: A kis bronzpatkány közvetlenül a felirat előtt üldögél a párkányon."
     },
     "mostar_csontvary_01": {
       "name": "Csontváry Kosztka Tivadar (Mostar)",
       "location": "Mostar, Bosznia-Hercegovina",
-      "description": "Csontváry Kosztka Tivadar festőművész miniszobra Mostarban. A szobor a művészt graffitisként, kezében festékszóró spray-vel ábrázolja, ahogy a híres mostari Öreg hidat megfestő szellemét idézi fel.",
-      "funFact": "Csontváry 1903-ban festette meg híres, 'A római híd Mostarban' című remekművét. Kolodko ezzel a szoborral állított emléket a magyar festőóriás balkáni utazásainak.",
-      "howToFind": "Bosznia-Hercegovina, Mostar belvárosában, a Neretva folyó partján, közvetlenül az Öreg híd (Stari Most) tövében lévő sziklatömbön."
-    },
-    "pula_legionarius_01": {
-      "name": "Római legionárius",
-      "location": "Pula, Horvátország",
-      "description": "Boros amforával hanyagul heverésző római legionárius katona miniszobra az ókori amfiteátrum tövében.",
-      "funFact": "A szobor a budapesti óbudai római katona szobrának pontos ikertestvére, összekötve a két egykori római provinciális várost.",
-      "howToFind": "Horvátország, Pula városában, a Pulai Aréna (római amfiteátrum) külső kőfalán a romok között."
-    },
-    "venice_selfie_01": {
-      "name": "Szelfi Velencében",
-      "location": "Velence, Olaszország",
-      "description": "Szent Márk szárnyas oroszlánja, amint szelfibottal fotózza magát a velencei csatorna felett.",
-      "funFact": "A szobor éles társadalomkritika a modern tömegturizmusra és a Velencét elárasztó szelfiző turistákra vonatkozóan.",
-      "howToFind": "Olaszország, Velence belvárosában, egy kis csatorna felett átívelő téglahíd (ponte) kőkorlátján."
-    },
-    "princeton_einstein_01": {
-      "name": "Albert Einstein",
-      "location": "Princeton, USA",
-      "description": "Albert Einstein elméleti fizikus miniszobra Princetonban. Einstein egy kis padon ülve iránytűt tart a kezében, megidézve azt a gyermekkori pillanatot, amikor édesapjától kapott iránytű felkeltette benne az érdeklődés láthatatlan erők iránt.",
-      "funFact": "Ez Kolodko Mihály legelső tengerentúli (amerikai) miniszobra. Einstein 1933-tól haláláig Princetonban élt és dolgozott, a szobor pedig az egykori lakóházával szembeni parkban kapott helyet.",
-      "howToFind": "USA, New Jersey, Princeton városában, az Einstein-házzal szemben lévő Marquand Park egyik sétaútja melletti alacsony kőpadon/talapzaton."
+      "description": "Csontváry miniszobra, amely a festőzsenit ábrázolja, ahogy egy festékszóró spray-vel megidézi szellemét a balkáni városban.",
+      "funFact": "Csontváry 1903-ban itt festette meg 'Római híd Mosztárban' című ikonikus remekművét. Kolodko 2023 nyarán, a festőóriás születésének 170. évfordulójára helyezte ki a szobrot.",
+      "howToFind": "1. Lépés: Látogass el Mostar ikonikus nevezetességéhez, az Öreg hídhoz (Stari Most). 2. Lépés: Ereszkedj le a Neretva folyó partjára a híd déli (alsó) folyásiránya felé, a horvát oldalhoz közelebb eső parton. 3. Lépés: A szobrot az Öreg hídtól mintegy száz méterre, az egyik vízparti sziklán találod."
     },
     "stockholm_nobel_01": {
       "name": "Alfred Nobel",
       "location": "Stockholm, Svédország",
-      "description": "Alfred Nobel svéd vegyész, a dinamit feltalálója és a Nobel-díj alapítójának miniszobra.",
-      "funFact": "A szobor a svéd-magyar tudományos és kulturális kapcsolatok szimbóluma, amely a diplomáciai épület kerítésén kapott helyet.",
-      "howToFind": "Svédország, Stockholmban, a Magyar Nagykövetség épületének (Dag Hammarskjölds väg 10.) külső kerítésén."
+      "description": "A dinamit feltalálójának és a világhírű tudományos díj alapítójának, Alfred Nobelnek az arcképét megformázó apró bronzszobor.",
+      "funFact": "Magyarország a lakosság számához viszonyítva az egyik legtöbb Nobel-díjas tudóssal büszkélkedhet, így a szobor a svéd-magyar kulturális és tudományos tisztelet jelképeként született.",
+      "howToFind": "1. Lépés: Irány Stockholm Östermalm nevű diplomáciai negyede, pontosabban a Dag Hammarskjölds väg 10. szám alatti épület. 2. Lépés: Keresd meg a Magyar Nagykövetség kovácsoltvas kerítését. 3. Lépés: A szobor közvetlenül az utcafronti kerítésen található."
+    },
+    "stockholm_karlsson_01": {
+      "name": "Karlsson a tetőn (MiniKarlsson)",
+      "location": "Stockholm, Svédország",
+      "description": "Astrid Lindgren mesehőse, a hátán propellerrel repülő Karlsson egy modern csavarral: a kezében dróntávirányítóval, a fején pedig VR-szemüveggel.",
+      "funFact": "Kolodko a hagyományos svéd mesehőst a 21. századba repítette, a szobrot pedig Stockholm egyik legszebb, tengerre néző kilátópontjára helyezte el 2023-ban.",
+      "howToFind": "1. Lépés: Menj fel Stockholm Södermalm negyedébe, a Fjällgatan utcába. 2. Lépés: Sétálj el a Fjällgatan 44. szám környékére, a kilátópont teraszához. 3. Lépés: A figura a vastag kőpárkányon ül."
+    },
+    "istanbul_barabas_01": {
+      "name": "Barabás (A Pál utcai fiúk)",
+      "location": "Isztambul, Törökország",
+      "description": "Molnár Ferenc regényének egyik karakterét, Barabást ábrázoló bronzszobor, aki épp a Gittegylet hatalmas, kőbe vésett pecsétjén ül.",
+      "funFact": "A legfrissebb külföldi alkotások egyike: 2026 januárjában avatták fel a Magyar-Török Kulturális Évad során. A regény Törökországban kötelező olvasmány, így a helyiek is kitörő örömmel fogadták.",
+      "howToFind": "1. Lépés: Isztambul nyüzsgő sétálóutcájánál, az Istiklal Caddesi környékén (Beyoğlu városrész) keresd a helyi Liszt Intézetet. 2. Lépés: Az utcafronton elhelyezett QR-kóddal ellátott ismertetőtábla felett egy falrészen / oszlopon üldögél a szobor."
     },
     "seoul_liszt_01": {
-      "name": "Liszt Ferenc",
+      "name": "Liszt Ferenc (Szöul)",
       "location": "Szöul, Dél-Korea",
-      "description": "Liszt Ferenc zeneszerző miniszobra Szöulban, a Ferihegyen látható szobor kistestvére.",
-      "funFact": "A szobor a magyar komolyzene és kultúra ázsiai jelenlétét ünnepli, mivel Dél-Koreában hatalmas kultusza van Liszt Ferenc munkásságának.",
-      "howToFind": "Dél-Korea, Szöul belvárosában, a Liszt Intézet (Magyar Kulturális Központ) utcai bejáratánál lévő kőpadon."
+      "description": "Liszt Ferenc zeneszerző miniszobra Szöulban, egy bőröndön üldögélve várakozva.",
+      "funFact": "Dél-Koreában hatalmas kultusza van a magyar komolyzenének. Ez a szobor a budapesti repülőtéren lévő Liszt-szobor pontos másolata (sorszám szerint a 4-es), amivel Kolodko az ázsiai közönséget is megajándékozta.",
+      "howToFind": "1. Lépés: Keresd fel Szöul belvárosában a helyi Magyar Kulturális Központot (Liszt Intézet). 2. Lépés: Az intézet bejárata melletti kőpadon/talapzaton pihen a szobor."
+    },
+    "princeton_einstein_01": {
+      "name": "Albert Einstein",
+      "location": "Princeton (New Jersey), USA",
+      "description": "Albert Einstein fizikus miniszobra Princetonban, aki egy kőpadon ülve tűnődik a világmindenség rejtelmein.",
+      "funFact": "Ez a művész első amerikai köztéri miniszobra. Einstein élete utolsó több mint húsz évét a Princetoni Egyetemen töltötte, Kolodko pedig 2019-ben vitte el neki ezt az emléket.",
+      "howToFind": "1. Lépés: Utazz a Princeton Egyetem campusához, New Jersey államba. 2. Lépés: Keresd fel az egykori Einstein-házzal szembeni Marquand Park sétányait. 3. Lépés: A szobor az egyik pihenő kőpadon/alacsony talapzaton ücsörög."
     }
   }
 }
