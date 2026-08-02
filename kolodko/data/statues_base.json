@@ -245,67 +245,67 @@
   "hungary_rural": {
     "statues": {
       "veszprem_erno_01": {
-        "coordinates": { "lat": 47.0955, "lng": 17.9023 },
+        "coordinates": { "lat": 47.09515841079212, "lng": 17.90550305200057 },
         "yearInstalled": 2020
       },
       "veszprem_odon_01": {
-        "coordinates": { "lat": 47.0925, "lng": 17.9061 },
+        "coordinates": { "lat": 47.0927873225644, "lng": 17.908946715183447 },
         "yearInstalled": 2020
       },
       "veszprem_leonora_01": {
-        "coordinates": { "lat": 47.0982, "lng": 17.8984 },
+        "coordinates": { "lat": 47.099054804336966, "lng": 17.901107176907033 },
         "yearInstalled": 2020
       },
       "vac_anyam_tyukja_01": {
-        "coordinates": { "lat": 47.7812, "lng": 19.1354 },
+        "coordinates": { "lat": 47.78231422149604, "lng": 19.132923053701518 },
         "yearInstalled": 2021
       },
       "vac_maria_terezia_01": {
-        "coordinates": { "lat": 47.7853, "lng": 19.1251 },
+        "coordinates": { "lat": 47.78354701073514, "lng": 19.122369295047037 },
         "yearInstalled": 2021
       },
       "vac_csuzli_01": {
-        "coordinates": { "lat": 47.7794, "lng": 19.1278 },
+        "coordinates": { "lat": 47.77945422091764, "lng": 19.126207941841386 },
         "yearInstalled": 2021
       },
       "vac_betoncapak_01": {
-        "coordinates": { "lat": 47.7750, "lng": 19.1245 },
+        "coordinates": { "lat": 47.78674298051694, "lng": 19.11585638289293 },
         "yearInstalled": 2024
       },
       "tihany_gomboc_artur_01": {
-        "coordinates": { "lat": 46.9152, "lng": 17.8891 },
+        "coordinates": { "lat": 46.914891898402594, "lng": 17.889203895718197 },
         "yearInstalled": 2020
       },
       "szigliget_kempingezok_01": {
-        "coordinates": { "lat": 46.8045, "lng": 17.4362 },
+        "coordinates": { "lat": 46.80411832012864, "lng": 17.436509057095947 },
         "yearInstalled": 2024
       },
       "hortobagy_csontvary_01": {
-        "coordinates": { "lat": 47.5815, "lng": 21.1492 },
+        "coordinates": { "lat": 47.581769621767755, "lng": 21.14851837802911 },
         "yearInstalled": 2023
       },
       "esztergom_pumukli_01": {
-        "coordinates": { "lat": 47.7925, "lng": 18.7380 },
+        "coordinates": { "lat": 47.796414407951836, "lng": 18.735075607674247 },
         "yearInstalled": 2024
       },
       "gyula_lo_01": {
-        "coordinates": { "lat": 46.6453, "lng": 21.2853 },
+        "coordinates": { "lat": 46.64439002772327, "lng": 21.285536903647653 },
         "yearInstalled": 2025
       },
       "nyirbator_sohordo_01": {
-        "coordinates": { "lat": 47.8385, "lng": 22.1310 },
+        "coordinates": { "lat": 47.83751588206329, "lng": 22.13307455844202 },
         "yearInstalled": 2021
       },
       "nagykallo_sohordo_01": {
-        "coordinates": { "lat": 47.8745, "lng": 21.8445 },
+        "coordinates": { "lat": 47.875820162956366, "lng": 21.84697084497759 },
         "yearInstalled": 2021
       },
       "vasarosnameny_sohordo_01": {
-        "coordinates": { "lat": 48.1275, "lng": 22.3160 },
+        "coordinates": { "lat": 48.12851072690117, "lng": 22.31412678064177 },
         "yearInstalled": 2021
       },
       "csenger_sohordo_01": {
-        "coordinates": { "lat": 47.8315, "lng": 22.6815 },
+        "coordinates": { "lat": 47.836029304299494, "lng": 22.680884246705347 },
         "yearInstalled": 2021
       },
       "tiszabecs_sohordo_01": {
@@ -317,31 +317,75 @@
   "international": {
     "statues": {
       "munich_csontvary_01": {
-        "coordinates": { "lat": 48.1415, "lng": 11.5975 },
+        "coordinates": { "lat": 48.141388870963524, "lng": 11.595982396611873 },
         "yearInstalled": 2023
       },
-      "mostar_csontvary_01": {
-        "coordinates": { "lat": 43.3372, "lng": 17.8150 },
-        "yearInstalled": 2023
-      },
-      "pula_legionarius_01": {
-        "coordinates": { "lat": 44.8732, "lng": 13.8501 },
-        "yearInstalled": 2021
-      },
-      "venice_selfie_01": {
-        "coordinates": { "lat": 45.4343, "lng": 12.3388 },
+      "munich_pumukli_01": {
+        "coordinates": { "lat": 48.138800, "lng": 11.589800 },
         "yearInstalled": 2022
       },
-      "princeton_einstein_01": {
-        "coordinates": { "lat": 40.3428, "lng": -74.6681 },
-        "yearInstalled": 2019
+      "munich_oktoberfest_01": {
+        "coordinates": { "lat": 48.131100, "lng": 11.549400 },
+        "yearInstalled": 2020
       },
-      "stockholm_nobel_01": {
-        "coordinates": { "lat": 59.3332, "lng": 18.0531 },
+      "landshut_rakoczi_01": {
+        "coordinates": { "lat": 48.547500, "lng": 12.164700 },
+        "yearInstalled": 2020
+      },
+      "nuremberg_ajtosi_01": {
+        "coordinates": { "lat": 49.457800, "lng": 11.085300 },
         "yearInstalled": 2021
       },
+      "prague_rakoczi_01": {
+        "coordinates": { "lat": 50.088100, "lng": 14.403700 },
+        "yearInstalled": 2023
+      },
+      "vienna_alex_delarge_01": {
+        "coordinates": { "lat": 48.201700, "lng": 16.377700 },
+        "yearInstalled": 2023
+      },
+      "venice_selfie_01": {
+        "coordinates": { "lat": 45.434300, "lng": 12.338800 },
+        "yearInstalled": 2022
+      },
+      "pula_legionarius_01": {
+        "coordinates": { "lat": 44.873428782668796, "lng": 13.85084513224183 },
+        "yearInstalled": 2021
+      },
+      "rijeka_piszkos_fred_01": {
+        "coordinates": { "lat": 45.327000, "lng": 14.442100 },
+        "yearInstalled": 2020
+      },
+      "rijeka_carpathia_01": {
+        "coordinates": { "lat": 45.326700, "lng": 14.437300 },
+        "yearInstalled": 2024
+      },
+      "lendva_lecso_01": {
+        "coordinates": { "lat": 46.565800, "lng": 16.452600 },
+        "yearInstalled": 2022
+      },
+      "mostar_csontvary_01": {
+        "coordinates": { "lat": 43.3364192693582, "lng": 17.814974713799415 },
+        "yearInstalled": 2023
+      },
+      "stockholm_nobel_01": {
+        "coordinates": { "lat": 59.333200, "lng": 18.053100 },
+        "yearInstalled": 2021
+      },
+      "stockholm_karlsson_01": {
+        "coordinates": { "lat": 59.317500, "lng": 18.087700 },
+        "yearInstalled": 2023
+      },
+      "istanbul_barabas_01": {
+        "coordinates": { "lat": 41.034500, "lng": 28.977800 },
+        "yearInstalled": 2026
+      },
       "seoul_liszt_01": {
-        "coordinates": { "lat": 37.5665, "lng": 126.9780 },
+        "coordinates": { "lat": 37.566500, "lng": 126.978000 },
+        "yearInstalled": 2019
+      },
+      "princeton_einstein_01": {
+        "coordinates": { "lat": 40.342800, "lng": -74.668100 },
         "yearInstalled": 2019
       }
     }
