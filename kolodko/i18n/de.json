@@ -298,6 +298,8 @@
     "filter_hide_destroyed": "Verschwundene Statuen ausblenden",
     "filter_status_title": "Statusfilter",
     "destroyed_not_found_info_title": "Kann nicht manuell markiert werden",
-    "destroyed_not_found_info_desc": "Leider ist diese Statue verschwunden oder zerstört. Wenn Sie ein früheres Foto davon haben, laden Sie es in die Galerie hoch, und das System wird es automatisch als gefunden markieren!"
+    "destroyed_not_found_info_desc": "Leider ist diese Statue verschwunden oder zerstört. Wenn Sie ein früheres Foto davon haben, laden Sie es in die Galerie hoch, und das System wird es automatisch als gefunden markieren!",
+    "save_original_photo_title": "Originalfoto speichern",
+    "save_original_photo_desc": "Mit der Kamera aufgenommene Fotos werden automatisch in der Galerie Ihres Geräts (Ordner Pictures/Kolodko) gespeichert."
   }
 }
