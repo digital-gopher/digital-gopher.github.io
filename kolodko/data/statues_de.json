@@ -526,53 +526,130 @@
       "howToFind": "Platziert auf Steinsimsen an den Innenstadtpromenaden und Hauptplätzen der jeweiligen Siedlungen (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs)."
     },
     "munich_csontvary_01": {
-      "name": "Tivadar Csontváry Kosztka (München)",
+      "name": "Tivadar Csontváry Kosztka",
       "location": "München, Deutschland",
-      "description": "Eine Mini-Statue des Malers Tivadar Csontváry Kosztka in München, der als Graffiti-Künstler in der bayerischen Hauptstadt kreiert.",
-      "funFact": "Csontváry begann seine Kunststudien in dieser Stadt an Simon Hollósys berühmter Privatschule in München, bevor er die Welt bereiste.",
-      "howToFind": "In der Münchener Innenstadt, Deutschland, auf dem Steingeländer der Stufenterrasse des Friedensengel-Denkmals."
+      "description": "Eine Miniaturstatue des Malers Tivadar Csontváry Kosztka in München, die ihn als Graffiti-Künstler darstellt, der mit einer Sprühdose in der Hand in der bayerischen Hauptstadt Kunstwerke schafft.",
+      "funFact": "Die Statue ist ein exakter Zwilling der Csontváry-Statue an der Neunbögigen Brücke in Hortobágy. Csontváry begann sein Kunststudium in München an der freien Schule von Simon Hollósy.",
+      "howToFind": "Schritt 1: Spazieren Sie in der Münchner Innenstadt entlang der Prinzregentenstraße in Richtung des Friedensengels. Schritt 2: Suchen Sie nach dem Steingeländer der Terrassenstufen. Schritt 3: Die Bronzestatue befindet sich auf der Steinbrüstung auf Fußgängerhöhe."
     },
-    "mostar_csontvary_01": {
-      "name": "Tivadar Csontváry Kosztka (Mostar)",
-      "location": "Mostar, Bosnien und Herzegowina",
-      "description": "Eine Mini-Statue des Malers Tivadar Csontváry Kosztka in Mostar. Die Statue zeigt den Künstler als Graffiti-Künstler, mit einer Sprühdose in der Hand, der den Geist des Malens der berühmten Alten Brücke von Mostar heraufbeschwört.",
-      "funFact": "Csontváry malte 1903 sein berühmtes Meisterwerk 'Die römische Brücke in Mostar'. Mit dieser Statue zollte Kolodko den Balkanreisen des ungarischen Mal-Giganten Tribut.",
-      "howToFind": "In der Innenstadt von Mostar, Bosnien und Herzegowina, am Ufer der Neretva, direkt am Fuß der Alten Brücke (Stari Most) auf einem Felsblock."
+    "munich_pumukli_01": {
+      "name": "Pumuckl",
+      "location": "München, Deutschland",
+      "description": "Eine Miniaturstatue von Pumuckl, dem berühmtesten und liebenswertesten frechen Kobold des bayerisch-deutschen Fernsehens.",
+      "funFact": "Kolodko versteckte die Statue 2022 in München als Hommage an das berühmte Kinderbuch und die in München spielende Fernsehserie (Meister Eder und sein Pumuckl).",
+      "howToFind": "Schritt 1: Halten Sie in München an den Steinmauern und Brückenrändern rund um die Isar die Augen offen. Schritt 2: Suchen Sie nach dem winzigen Bronzekobold mit seinem charakteristischen strubbeligen Haar."
     },
-    "pula_legionarius_01": {
-      "name": "Römischer Legionär",
-      "location": "Pula, Kroatien",
-      "description": "Eine Mini-Statue eines römischen Legionärsoldaten, der achtlos mit einer Weinamphore am Fuß des antiken Amphitheaters lümmelt.",
-      "funFact": "Die Statue ist der exakte Zwilling der römischen Soldatenstatue in Óbuda, Budapest, und verbindet die beiden ehemaligen römischen Provinzstädte.",
-      "howToFind": "In der Stadt Pula, Kroatien, an der äußeren Steinmauer der Pula Arena (römischen Amphitheaters) zwischen den Ruinen."
+    "munich_oktoberfest_01": {
+      "name": "Oktoberfest (Ein Hoch auf das Oktoberfest!)",
+      "location": "München, Deutschland",
+      "description": "Eine aus dem Asphalt ragende Bronzehand, die einen traditionellen bayerischen Bierkrug in die Höhe hält.",
+      "funFact": "Der Künstler platzierte die Statue 2020 auf der Theresienwiese, dem Veranstaltungsort des größten Bierfestes der Welt (leider wurde sie Berichten zufolge seitdem beschädigt oder ist verschwunden).",
+      "howToFind": "Schritt 1: Besuchen Sie die riesige Freifläche der Theresienwiese in München. Schritt 2: Suchen Sie nach der Statue, die aus einem Riss im Beton/Asphalt 'herausragt'."
+    },
+    "landshut_rakoczi_01": {
+      "name": "Franz II. Rákóczi (Landshut)",
+      "location": "Landshut, Deutschland",
+      "description": "Eine winzige Bronzestatue von Fürst Franz II. Rákóczi, der sich gemütlich neben einer Quelle im bayerischen Landshut ausruht.",
+      "funFact": "Die Statue wurde 2020 neben der örtlichen Rákóczi-Quelle aufgestellt. Die Quelle ist mit der ungarischen Geschichte und den einst hier durchziehenden Kuruzen/Fürst Rákóczi verbunden.",
+      "howToFind": "Schritt 1: Suchen Sie in der Stadt Landshut die Straße 'Am Schallermoos'. Schritt 2: Gehen Sie zum Wasser der Rákóczi-Quelle. Schritt 3: Die Statue sitzt auf den Steinen um den Wasserauslauf."
+    },
+    "nuremberg_ajtosi_01": {
+      "name": "Adalbert Ajtósi (Albrecht Dürer der Ältere)",
+      "location": "Nürnberg, Deutschland",
+      "description": "Ein Miniaturdenkmal für den Goldschmied-Vater des berühmten deutschen Malers Albrecht Dürer (Adalbert Ajtósi).",
+      "funFact": "Kolodko schuf die Statue im Jahr 2021 zum 550. Geburtstag von Adalbert Ajtósi. Der Name ist kein Zufall: Die Familie Dürer stammte ursprünglich aus der Siedlung Ajtós (deutsch 'Türer' -> Dürer) bei Gyula.",
+      "howToFind": "Schritt 1: Besuchen Sie das historische Zentrum von Nürnberg, genauer gesagt das Tucherschloss (Museum Tucherschloss). Schritt 2: Betreten Sie den Innenhof des Museums. Schritt 3: Die Statue begrüßt Sie auf einer der Steinflächen im Schlosshof."
+    },
+    "prague_rakoczi_01": {
+      "name": "Franz II. Rákóczi",
+      "location": "Prag, Tschechische Republik",
+      "description": "Eine Miniaturstatue, die den jungen Franz II. Rákóczi darstellt.",
+      "funFact": "Sie erinnert an die Studienjahre des Fürsten in Prag (1691–1692). Die kleine Statue wurde mit Hilfe des Liszt-Instituts in Prag enthüllt und ergänzt die dort bereits vorhandene Rákóczi-Gedenktafel.",
+      "howToFind": "Schritt 1: Gehen Sie in Prag zum Kleinseitner Ring (Malostranské náměstí). Schritt 2: Suchen Sie nach dem Gebäude des ehemaligen Jesuitenkollegs. Schritt 3: Die winzige Bronzefigur befindet sich direkt neben der an der Wand befestigten Rákóczi-Gedenktafel, an der Wand oder auf deren Sims."
+    },
+    "vienna_alex_delarge_01": {
+      "name": "Alex DeLarge (Uhrwerk Orange)",
+      "location": "Wien, Österreich",
+      "description": "Eine Miniaturstatue der soziopathischen Hauptfigur (Alex, gespielt von Malcolm McDowell) aus Stanley Kubricks Kultfilm 'Uhrwerk Orange', komplett mit Stock und Melone.",
+      "funFact": "Im Film und im Buch war Alex ein fanatischer Bewunderer von Beethovens Musik (er nannte ihn 'den lieben, lieben Ludwig van'). Mit genialem Einfallsreichtum platzierte Kolodko ihn daher 2023 genau auf dem Sockel des Beethoven-Denkmals in Wien.",
+      "howToFind": "Schritt 1: Spazieren Sie zum Beethovenplatz in der Nähe des Wiener Stadtparks. Schritt 2: Halten Sie an dem gigantischen Beethoven-Denkmal aus dem 19. Jahrhundert, das in der Mitte des Platzes thront. Schritt 3: Sie finden die Statue auf dem linken Stein, der die Treppe vor dem Hauptdenkmal abschließt."
     },
     "venice_selfie_01": {
       "name": "Selfie in Venedig",
       "location": "Venedig, Italien",
-      "description": "Der geflügelte Löwe von San Marco, der ein Foto von sich selbst mit einem Selfie-Stick über dem venezianischen Kanal macht.",
-      "funFact": "Die Statue ist eine scharfe Gesellschaftskritik in Bezug auf den modernen Massentourismus und die Venedig überflutenden Selfie-Touristen.",
-      "howToFind": "In der Innenstadt von Venedig, Italien, auf dem Steingeländer einer Backsteinbrücke (ponte), die sich über einen kleinen Kanal wölbt."
+      "description": "Die Statue stellt den geflügelten Markuslöwen oder einen typischen Touristen mit Schwimmflossen dar, der sich mit einem Selfie-Stick über dem Kanal fotografiert.",
+      "funFact": "Das Kunstwerk hält dem modernen, oberflächlichen Massentourismus einen Zerrspiegel vor. Leider ist das Kunstwerk Berichten zufolge 2024 von seinem ursprünglichen Standort verschwunden und wurde wahrscheinlich Opfer eines Diebes.",
+      "howToFind": "Schritt 1: Besuchen Sie die Kirche Santa Maria della Pietà. Schritt 2: Treten Sie auf den Uferbereich des Hafens vor der Kirche. Schritt 3: Die Statue fotografierte sich ursprünglich hier auf den Steinen in Richtung Meer, aber heute (seit 2024) finden Sie nur noch ihren ehemaligen Platz."
     },
-    "princeton_einstein_01": {
-      "name": "Albert Einstein",
-      "location": "Princeton, USA",
-      "description": "Eine Mini-Statue des theoretischen Physikers Albert Einstein in Princeton. Einstein sitzt auf einer kleinen Bank und hält einen Kompass in der Hand, was an den Moment in der Kindheit erinnert, als ein Kompass, den er von seinem Vater erhielt, sein Interesse an unsichtbaren Kräften weckte.",
-      "funFact": "Dies ist Mihály Kolodkos allererste (amerikanische) Mini-Statue in Übersee. Einstein lebte und arbeitete von 1933 bis zu seinem Tod in Princeton, und die Statue wurde im Park gegenüber seiner ehemaligen Residenz aufgestellt.",
-      "howToFind": "In der Stadt Princeton, New Jersey, USA, auf einer niedrigen Steinbank/Sockel neben einem der Fußwege des Marquand Parks, gegenüber dem Einstein-Haus."
+    "pula_legionarius_01": {
+      "name": "In vino veritas (Römischer Legionär)",
+      "location": "Pula, Kroatien",
+      "description": "Eine Miniaturstatue eines römischen Legionärs, der sich lässig mit einer Amphore ausruht und vom Wein berauscht ist, am Fuße des antiken Amphitheaters.",
+      "funFact": "Die Statue ist eine exakte Nachbildung der römischen Soldatenstatue in Óbuda, Budapest. Die beiden Kunstwerke bilden eine Art unsichtbare historische Brücke zwischen den beiden ehemaligen römischen Provinzen.",
+      "howToFind": "Schritt 1: Besuchen Sie das berühmte römische Amphitheater (Amphitheater Pula) im Zentrum von Pula. Schritt 2: Gehen Sie entlang der äußeren verfallenen Steinmauern des Gebäudes. Schritt 3: Die Miniaturstatue liegt zwischen den Steinen der Mauern im Gras."
+    },
+    "rijeka_piszkos_fred_01": {
+      "name": "Messer im Matrosen (Schmutziger Fred, der Kapitän)",
+      "location": "Rijeka, Kroatien",
+      "description": "Ein Kunstwerk, das die allererste Szene von Jenő Rejtős Roman festhält. Auf die Wand ist ein Matrose gemalt (Graffiti), aus dessen Rücken ein echtes winziges Bronzemesser ragt.",
+      "funFact": "Die Statue bezieht sich auf den kultigen Eröffnungssatz der ungarischen Trivialliteratur ('– Mein Herr! Ich bin wegen meines Messers gekommen! / – Wo haben Sie es gelassen? / – In irgendeinem Matrosen.'). So schmuggelte Kolodko Budapester Humor an die Küste.",
+      "howToFind": "Schritt 1: Spazieren Sie durch den Hafen von Rijeka (Rijeka Luka) oder durch die Straßen der Innenstadt in der Nähe des Meeres. Schritt 2: Suchen Sie nach einem Wandabschnitt mit der einfachen schwarzen Strichzeichnung eines Matrosen. Schritt 3: Der in seinem Rücken steckende Dolch mit Perlmuttgriff ist eine greifbare, physische Miniaturstatue."
+    },
+    "rijeka_carpathia_01": {
+      "name": "Dampfschiff Carpathia",
+      "location": "Rijeka, Kroatien",
+      "description": "Eine Miniaturstatue, die an den Rettungsring des Ozeandampfers RMS Carpathia erinnert, der die Überlebenden der Titanic rettete.",
+      "funFact": "Die Carpathia stach vor der verhängnisvollen Nacht mit einer ungarischen Besatzung von Rijeka (Fiume) aus in See, und im Schifffahrtsmuseum von Rijeka ist Europas einziger originaler Titanic-Rettungsring ausgestellt. Daran erinnert dieses winzige, 2024 aufgestellte Kunstwerk.",
+      "howToFind": "Schritt 1: Gehen Sie zur Hafenpromenade von Rijeka. Schritt 2: Achten Sie auf die Fugen und Pfeiler der dicken Steinmauern entlang der Küste. Schritt 3: Der aus Bronze gegossene Rettungsring ist stilvoll auf den Steinen verankert."
+    },
+    "lendva_lecso_01": {
+      "name": "Kessel (Ratatouille)",
+      "location": "Lendava, Slowenien",
+      "description": "Die Figur von Remy, der bekannten Gastro-Ratte aus dem Pixar-Film, der einen Kochlöffel in der Hand hält und an einem Graffiti mit der Aufschrift 'Bogrács' (Kessel) arbeitet.",
+      "funFact": "Lendava ist bekannt für sein berühmtes Bogrács-Festival (Kesselfestival), weshalb Kolodko hier 2022 den Zwilling der Budapester Ratatouille-Statue zu Ehren der lokalen Kochkunst schuf.",
+      "howToFind": "Schritt 1: Besuchen Sie die Innenstadt von Lendava, rund um das örtliche Galerie-Museum und das Theater. Schritt 2: Suchen Sie nach einer modernen Stützmauer, auf die das Wort 'Bogrács' gesprüht ist. Schritt 3: Die kleine Bronzeratte sitzt direkt vor der Inschrift auf dem Sims."
+    },
+    "mostar_csontvary_01": {
+      "name": "Tivadar Csontváry Kosztka (Mostar)",
+      "location": "Mostar, Bosnien und Herzegowina",
+      "description": "Eine Miniaturstatue von Csontváry, die das Malergenie darstellt, wie es mit einer Sprühdose seinen Geist in der Balkanstadt beschwört.",
+      "funFact": "Csontváry malte hier 1903 sein ikonisches Meisterwerk 'Römische Brücke in Mostar'. Kolodko stellte die Statue im Sommer 2023 zum 170. Jahrestag der Geburt des Malers auf.",
+      "howToFind": "Schritt 1: Besuchen Sie das Wahrzeichen von Mostar, die Alte Brücke (Stari Most). Schritt 2: Gehen Sie zum Ufer der Neretva flussabwärts (südlich) der Brücke, auf der Seite, die dem kroatischen Ufer näher liegt. Schritt 3: Sie finden die Statue auf einem Felsen am Wasser, etwa hundert Meter von der Alten Brücke entfernt."
     },
     "stockholm_nobel_01": {
       "name": "Alfred Nobel",
       "location": "Stockholm, Schweden",
-      "description": "Eine Mini-Statue des schwedischen Chemikers Alfred Nobel, Erfinder des Dynamits und Stifter des Nobelpreises.",
-      "funFact": "Die Statue ist ein Symbol der schwedisch-ungarischen wissenschaftlichen und kulturellen Beziehungen, die auf dem Zaun des diplomatischen Gebäudes platziert wurde.",
-      "howToFind": "In Stockholm, Schweden, am Außenzaun des Gebäudes der ungarischen Botschaft (Dag Hammarskjölds väg 10)."
+      "description": "Eine winzige Bronzestatue, die das Porträt von Alfred Nobel, dem Erfinder des Dynamits und Stifter des weltberühmten Wissenschaftspreises, darstellt.",
+      "funFact": "Ungarn hat im Verhältnis zu seiner Einwohnerzahl eine der höchsten Raten an Nobelpreisträgern. Daher wurde die Statue als Symbol des schwedisch-ungarischen kulturellen und wissenschaftlichen Respekts geschaffen.",
+      "howToFind": "Schritt 1: Begeben Sie sich in das Stockholmer Diplomatenviertel Östermalm, genauer gesagt zum Gebäude im Dag Hammarskjölds väg 10. Schritt 2: Suchen Sie nach dem schmiedeeisernen Zaun der ungarischen Botschaft. Schritt 3: Die Statue befindet sich direkt am zur Straße gerichteten Zaun."
+    },
+    "stockholm_karlsson_01": {
+      "name": "Karlsson vom Dach (MiniKarlsson)",
+      "location": "Stockholm, Schweden",
+      "description": "Astrid Lindgrens Märchenheld Karlsson, der mit einem Propeller auf dem Rücken fliegt, mit einem modernen Twist: Er hält eine Drohnen-Fernbedienung in der Hand und trägt eine VR-Brille.",
+      "funFact": "Kolodko holte die traditionelle schwedische Figur ins 21. Jahrhundert und platzierte die Statue 2023 an einem von Stockholms schönsten Aussichtspunkten mit Blick aufs Meer.",
+      "howToFind": "Schritt 1: Gehen Sie hinauf in den Stadtteil Södermalm in Stockholm zur Straße Fjällgatan. Schritt 2: Gehen Sie zum Hausnummer 44, zur Aussichtsterrasse. Schritt 3: Die Figur sitzt auf dem dicken Steinsims."
+    },
+    "istanbul_barabas_01": {
+      "name": "Barabás (Die Jungen von der Paulstraße)",
+      "location": "Istanbul, Türkei",
+      "description": "Eine Bronzestatue, die eine der Figuren aus Ferenc Molnárs Roman, Barabás, darstellt, der genau auf dem riesigen in Stein gemeißelten Siegel des Kittvereins sitzt.",
+      "funFact": "Eines der neuesten internationalen Werke: enthüllt im Januar 2026 während der ungarisch-türkischen Kultursaison. Der Roman ist in der Türkei Pflichtlektüre, sodass auch die Einheimischen ihn mit großer Freude aufnahmen.",
+      "howToFind": "Schritt 1: Suchen Sie in der Nähe von Istanbuls belebter Fußgängerzone Istiklal Caddesi (Stadtteil Beyoğlu) nach dem örtlichen Liszt-Institut. Schritt 2: Die Statue sitzt auf einem Wandabschnitt / einer Säule über der an der Straßenfront angebrachten Informationstafel mit einem QR-Code."
     },
     "seoul_liszt_01": {
-      "name": "Franz Liszt",
+      "name": "Franz Liszt (Seoul)",
       "location": "Seoul, Südkorea",
-      "description": "Eine Mini-Statue des Komponisten Franz Liszt in Seoul, der kleine Bruder der Statue, die am Flughafen Ferihegy zu sehen ist.",
-      "funFact": "Die Statue feiert die asiatische Präsenz der ungarischen klassischen Musik und Kultur, da es in Südkorea einen riesigen Kult um Franz Liszts Werk gibt.",
-      "howToFind": "In der Innenstadt von Seoul, Südkorea, auf der Steinbank am Straßeneingang des Liszt Instituts (Ungarisches Kulturzentrum)."
+      "description": "Eine Miniaturstatue des Komponisten Franz Liszt in Seoul, der auf einem Koffer sitzend wartet.",
+      "funFact": "Ungarische klassische Musik hat in Südkorea einen riesigen Kultstatus. Diese Statue ist eine exakte Nachbildung der Liszt-Statue am Budapester Flughafen (Nummer 4 der Serie), mit der Kolodko auch das asiatische Publikum beschenkte.",
+      "howToFind": "Schritt 1: Besuchen Sie das örtliche Ungarische Kulturzentrum (Liszt-Institut) in der Innenstadt von Seoul. Schritt 2: Die Statue ruht auf einer Steinbank/einem Sockel neben dem Eingang des Instituts."
+    },
+    "princeton_einstein_01": {
+      "name": "Albert Einstein",
+      "location": "Princeton (New Jersey), USA",
+      "description": "Eine Miniaturstatue des Physikers Albert Einstein in Princeton, der auf einer Steinbank sitzt und über die Geheimnisse des Universums nachdenkt.",
+      "funFact": "Dies ist die erste öffentliche Miniaturstatue des Künstlers in Amerika. Einstein verbrachte die letzten über zwanzig Jahre seines Lebens an der Princeton University, und Kolodko brachte ihm dieses Denkmal im Jahr 2019.",
+      "howToFind": "Schritt 1: Reisen Sie zum Campus der Princeton University in New Jersey. Schritt 2: Besuchen Sie die Gehwege des Marquand Parks gegenüber dem ehemaligen Einstein-Haus. Schritt 3: Die Statue sitzt auf einer der steinernen Ruhebänke/niedrigen Sockel."
     }
   }
 }
