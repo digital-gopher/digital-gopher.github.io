@@ -344,6 +344,16 @@
     "edit_date_desc": "Wann warst du hier? (Datum bearbeiten)",
     "exif_found_desc": "Basierend auf den Metadaten des Fotos (EXIF) wurde das Bild aufgenommen am:",
     "no_exif_desc": "Das Foto enthält kein Datum. Bitte gib die Zeit deines Besuchs an!",
-    "save": "Speichern"
+    "save": "Speichern",
+    "settings_section_general": "Allgemein",
+    "settings_section_discovery": "Entdeckung & Karte",
+    "settings_section_data": "Datenverwaltung",
+    "settings_section_info": "Informationen",
+    "settings_section_system": "System & Gefahrenzone",
+    "section_story": "Geschichte & Beschreibung",
+    "section_log": "Mein Logbuch",
+    "routing_fallback_warning": "Der integrierte Routenplaner ist derzeit überlastet. Bitte nutze die externe Navigation (z. B. Google Maps) unten!",
+    "about_attribution_title": "Ermöglicht durch",
+    "powered_by_osm": "Kartendaten: © OpenStreetMap-Mitwirkende\nRoutenplanung: GraphHopper API & OSRM"
   }
 }
