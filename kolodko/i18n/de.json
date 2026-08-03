@@ -300,6 +300,15 @@
     "destroyed_not_found_info_title": "Kann nicht manuell markiert werden",
     "destroyed_not_found_info_desc": "Leider ist diese Statue verschwunden oder zerstört. Wenn Sie ein früheres Foto davon haben, laden Sie es in die Galerie hoch, und das System wird es automatisch als gefunden markieren!",
     "save_original_photo_title": "Originalfoto speichern",
-    "save_original_photo_desc": "Mit der Kamera aufgenommene Fotos werden automatisch in der Galerie Ihres Geräts (Ordner Pictures/Kolodko) gespeichert."
+    "save_original_photo_desc": "Mit der Kamera aufgenommene Fotos werden automatisch in der Galerie Ihres Geräts (Ordner Pictures/Kolodko) gespeichert.",
+    "downloading_tiles_progress": "Herunterladen: %d%%",
+    "download_tiles_title": "Offline-Kartenkacheln herunterladen",
+    "download_tiles_desc": "Laden Sie die Städte der Statuen im Voraus herunter, um die Karte auch ohne Internet scharf zu halten.",
+    "download_tiles_button": "Download starten",
+    "region_all_cities": "Städte aller Statuen (Alle)",
+    "region_hungary_rural_cities": "Ländliche ungarische Städte",
+    "region_international_cities": "Internationale Städte",
+    "downloading_tiles_area_progress": "Städte herunterladen: %1 / %2 (%3%%)",
+    "tiles_download_success": "✅ Karten erfolgreich für Offline-Nutzung gespeichert!"
   }
 }
