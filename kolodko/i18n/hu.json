@@ -344,6 +344,16 @@
     "edit_date_desc": "Mikor jártál itt? (Dátum módosítása)",
     "exif_found_desc": "A fotó metaadatai (EXIF) alapján ekkor készült a kép:",
     "no_exif_desc": "A fotó nem tartalmaz dátumot. Kérlek, add meg a látogatás idejét!",
-    "save": "Mentés"
+    "save": "Mentés",
+    "settings_section_general": "Általános",
+    "settings_section_discovery": "Felfedezés és Térkép",
+    "settings_section_data": "Adatkezelés",
+    "settings_section_info": "Információ",
+    "settings_section_system": "Rendszer és Veszélyes zóna",
+    "section_story": "Történet és Leírás",
+    "section_log": "Saját napló",
+    "routing_fallback_warning": "A beépített útvonaltervező jelenleg túlterhelt. Kérjük, használd a külső navigációt (pl. Google Maps) a lenti gombbal!",
+    "about_attribution_title": "Felhasznált technológiák",
+    "powered_by_osm": "Térképadatok: © OpenStreetMap közreműködők\nÚtvonaltervezés: GraphHopper API & OSRM"
   }
 }
