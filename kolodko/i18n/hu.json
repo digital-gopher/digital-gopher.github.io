@@ -300,6 +300,15 @@
     "destroyed_not_found_info_title": "Manuálisan nem jelölhető",
     "destroyed_not_found_info_desc": "Ez a szobor sajnos eltűnt vagy megsemmisült. Ha van róla korábbi saját fotód, töltsd fel a galériába, és a rendszer automatikusan megtaláltnak fogja jelölni!",
     "save_original_photo_title": "Eredeti fotó mentése",
-    "save_original_photo_desc": "A kamerával készített képek automatikusan bekerülnek a telefonod Galériájába (Pictures/Kolodko mappa)."
+    "save_original_photo_desc": "A kamerával készített képek automatikusan bekerülnek a telefonod Galériájába (Pictures/Kolodko mappa).",
+    "downloading_tiles_progress": "Letöltés folyamatban: %d%%",
+    "download_tiles_title": "Offline térkép csempék letöltése",
+    "download_tiles_desc": "Töltsd le előre a szobrok városait, hogy internet nélkül is éles legyen a térképed.",
+    "download_tiles_button": "Letöltés indítása",
+    "region_all_cities": "Minden szobor városa (Összes)",
+    "region_hungary_rural_cities": "Magyarországi vidéki városok",
+    "region_international_cities": "Külföldi városok",
+    "downloading_tiles_area_progress": "Városok letöltése: %1 / %2 (%3%%)",
+    "tiles_download_success": "✅ Térképek sikeresen elmentve offline használatra!"
   }
 }
