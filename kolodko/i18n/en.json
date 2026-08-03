@@ -300,6 +300,15 @@
     "destroyed_not_found_info_title": "Cannot be marked manually",
     "destroyed_not_found_info_desc": "Unfortunately, this statue is missing or destroyed. If you have a previous photo of it, upload it to the gallery, and the system will automatically mark it as found!",
     "save_original_photo_title": "Save original photo",
-    "save_original_photo_desc": "Photos taken with the camera will automatically be saved to your device's Gallery (Pictures/Kolodko folder)."
+    "save_original_photo_desc": "Photos taken with the camera will automatically be saved to your device's Gallery (Pictures/Kolodko folder).",
+    "downloading_tiles_progress": "Downloading: %d%%",
+    "download_tiles_title": "Download Offline Map Tiles",
+    "download_tiles_desc": "Download the cities of the statues in advance to keep the map sharp without internet.",
+    "download_tiles_button": "Start Download",
+    "region_all_cities": "Cities of all statues (All)",
+    "region_hungary_rural_cities": "Rural Hungarian cities",
+    "region_international_cities": "International cities",
+    "downloading_tiles_area_progress": "Downloading cities: %1 / %2 (%3%%)",
+    "tiles_download_success": "✅ Maps successfully saved for offline use!"
   }
 }
