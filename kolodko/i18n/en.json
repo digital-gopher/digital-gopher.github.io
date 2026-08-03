@@ -344,6 +344,16 @@
     "edit_date_desc": "When did you visit this place? (Edit date)",
     "exif_found_desc": "Based on the photo's metadata (EXIF), it was taken at:",
     "no_exif_desc": "The photo does not contain a date. Please enter the time of your visit!",
-    "save": "Save"
+    "save": "Save",
+    "settings_section_general": "General",
+    "settings_section_discovery": "Discovery & Map",
+    "settings_section_data": "Data Management",
+    "settings_section_info": "Information",
+    "settings_section_system": "System & Danger Zone",
+    "section_story": "Story & Description",
+    "section_log": "My Log",
+    "routing_fallback_warning": "The built-in routing service is currently overloaded. Please use external navigation (e.g. Google Maps) below!",
+    "about_attribution_title": "Powered By",
+    "powered_by_osm": "Map data: © OpenStreetMap contributors\nRouting: GraphHopper API & OSRM"
   }
 }
