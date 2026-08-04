@@ -354,6 +354,11 @@
     "section_log": "Mein Logbuch",
     "routing_fallback_warning": "Der integrierte Routenplaner ist derzeit überlastet. Bitte nutze die externe Navigation (z. B. Google Maps) unten!",
     "about_attribution_title": "Ermöglicht durch",
-    "powered_by_osm": "Kartendaten: © OpenStreetMap-Mitwirkende\nRoutenplanung: GraphHopper API & OSRM"
+    "powered_by_osm": "Kartendaten: © OpenStreetMap-Mitwirkende\nRoutenplanung: GraphHopper API & OSRM",
+    "permission_rationale_title": "Berechtigung erforderlich",
+    "permission_rationale_desc": "Diese Funktion erfordert eine Systemberechtigung. Bitte erlaube den Zugriff in den App-Einstellungen!",
+    "open_settings_button": "Einstellungen öffnen",
+    "radar_calibration_hint": "Tipp: Wenn der Pfeil ungenau ist, bewege dein Telefon in einer 8er-Form, um den Kompass zu kalibrieren!",
+    "backup_processing": "Backup wird verarbeitet..."
   }
 }
