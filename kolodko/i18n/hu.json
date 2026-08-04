@@ -354,6 +354,11 @@
     "section_log": "Saját napló",
     "routing_fallback_warning": "A beépített útvonaltervező jelenleg túlterhelt. Kérjük, használd a külső navigációt (pl. Google Maps) a lenti gombbal!",
     "about_attribution_title": "Felhasznált technológiák",
-    "powered_by_osm": "Térképadatok: © OpenStreetMap közreműködők\nÚtvonaltervezés: GraphHopper API & OSRM"
+    "powered_by_osm": "Térképadatok: © OpenStreetMap közreműködők\nÚtvonaltervezés: GraphHopper API & OSRM",
+    "permission_rationale_title": "Engedély szükséges",
+    "permission_rationale_desc": "A funkció használatához engedélyre van szükség a rendszer részéről. Kérjük, engedélyezd a hozzáférést az alkalmazás beállításaiban!",
+    "open_settings_button": "Beállítások megnyitása",
+    "radar_calibration_hint": "Tipp: Ha a nyíl pontatlan, írj le egy fekvő 8-ast a telefonoddal a levegőben az iránytű kalibrálásához!",
+    "backup_processing": "Csomagolás folyamatban..."
   }
 }
