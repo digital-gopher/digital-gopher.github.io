@@ -525,6 +525,20 @@
       "funFact": "Diese Statue ist Teil einer grenzüberschreitenden Skulpturenroute, bestehend aus 5 ungarischen (und 5 transkarpatischen) Werken, die die mittelalterliche siebenbürgische Salztransportroute markiert.",
       "howToFind": "Platziert auf Steinsimsen an den Innenstadtpromenaden und Hauptplätzen der jeweiligen Siedlungen (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs)."
     },
+    "geszteredi_csardas_01": {
+      "name": "Der Dreifache Csárdás von Geszteréd",
+      "location": "Geszteréd, Kossuth-Straße (am Denkmal)",
+      "description": "Eine Mini-Statue von Mihály Kolodko zum Gedenken an den berühmten lokalen Volkstanz, den \"dreifachen Csárdás\" von Geszteréd. Die Skulptur zeigt drei winzige Figuren, die diesen traditionellen ungarischen Tanz aufführen.",
+      "funFact": "Neben der Skulptur befindet sich eine Marmortafel mit einem Zitat des lokalen Geigers János Keserű. Das Kunstwerk wurde von einem erhaltenen Archivfilm aus dem Jahr 1955 inspiriert, der die genauen Schritte dieses Tanzes zeigt.",
+      "howToFind": "Schritt 1 (Umgebung): Gehe ins Zentrum des Dorfes Geszteréd, in die Nähe der Fő- und Kossuth-Straße.\n\nSchritt 2 (Fokus): Suche nach einer schön angelegten kleinen Gedenkstätte mit einem Granit-/Marmorsockel.\n\nSchritt 3 (Genauer Ort): Die drei tanzenden kleinen Bronzefiguren drehen sich oben auf diesem Steinsockel."
+    },
+    "kallay_janos_peter_01": {
+      "name": "Graf János Péter Kállay",
+      "location": "Biri, Sportstraße 47",
+      "description": "Eine Hommage an den Gründer von Biri, Graf János Péter Kállay (1735–1810). Das Werk ist Teil der Skulpturengruppe \"Bibliothek des Grafen\". Die Komposition besteht aus 12 großen, aus Stein gemeißelten Büchern, auf denen die von Kolodko geschaffene Miniatur-Bronzestatue des Grafen sitzt.",
+      "funFact": "Der Graf war für das 18. Jahrhundert sehr gebildet. Er besaß eine riesige Bibliothek in seinem Herrenhaus und las französische Enzyklopädisten in der Originalsprache. Deshalb ist er auf einer Bibliothek sitzend dargestellt.",
+      "howToFind": "Schritt 1 (Umgebung): Fahre in das Dorf Biri und suche die Sportstraße (Sport utca).\n\nSchritt 2 (Fokus): Schau dich auf der Grünfläche neben dem örtlichen Fußballplatz und dem Sportzentrum um.\n\nSchritt 3 (Genauer Ort): Finde die riesigen Steinbücher, die auf dem Boden liegen! Von den zwölf Büchern liegen elf flach und eines steht aufrecht – genau darauf sitzt die kleine Statue."
+    },
     "munich_csontvary_01": {
       "name": "Tivadar Csontváry Kosztka",
       "location": "München, Deutschland",
@@ -650,6 +664,55 @@
       "description": "Eine Miniaturstatue des Physikers Albert Einstein in Princeton, der auf einer Steinbank sitzt und über die Geheimnisse des Universums nachdenkt.",
       "funFact": "Dies ist die erste öffentliche Miniaturstatue des Künstlers in Amerika. Einstein verbrachte die letzten über zwanzig Jahre seines Lebens an der Princeton University, und Kolodko brachte ihm dieses Denkmal im Jahr 2019.",
       "howToFind": "Schritt 1: Reisen Sie zum Campus der Princeton University in New Jersey. Schritt 2: Besuchen Sie die Gehwege des Marquand Parks gegenüber dem ehemaligen Einstein-Haus. Schritt 3: Die Statue sitzt auf einer der steinernen Ruhebänke/niedrigen Sockel."
+    },
+    "freddie_montserrat_01": {
+      "name": "Freddie Mercury und Montserrat Caballé",
+      "location": "Barcelona (Spanien), Montjuïc",
+      "description": "Eine Doppel-Mini-Statue zu Ehren des legendären Queen-Frontmanns Freddie Mercury und der weltberühmten spanischen Opernsängerin Montserrat Caballé. Das Duo schrieb mit seinem legendären Song \"Barcelona\" für die Olympischen Spiele 1992 Geschichte.",
+      "funFact": "Kolodko hat die Statuen im Januar 2026 als echtes Guerilla-Kunstprojekt heimlich angebracht und sie auf einem Steingeländer festzementiert. Freddie ist mit geballten Fäusten dargestellt, Montserrat steht mit offenen Armen und trägt einen Umhang.",
+      "howToFind": "Schritt 1 (Umgebung): Gehe in Barcelona zum Berg Montjuïc, speziell in die Gegend um den Magischen Brunnen (Font Màgica) und das CaixaForum.\n\nSchritt 2 (Fokus): Suche nach den alten, rustikalen Steintreppen, die zu den Gebäuden hinaufführen.\n\nSchritt 3 (Genauer Ort): Die beiden winzigen Statuen kleben auf den breiten Steinhandläufen einer dieser Treppen und schauen sich an."
+    },
+    "svejk_kralupy_01": {
+      "name": "Der brave Soldat Schwejk",
+      "location": "Kralupy nad Vltavou (Tschechien), in der Nähe eines Restaurants",
+      "description": "Eine winzige Bronzenachbildung von Jaroslav Hašeks weltberühmter Romanfigur, dem einfältigen, aber listigen tschechischen Soldaten aus dem Ersten Weltkrieg. Schwejk sitzt in seiner traditionellen Uniform da, hält aber statt einer Waffe einen echten tschechischen Knödel (knedlík) in der Hand.",
+      "funFact": "Schwejk ist eine der am häufigsten \"geklonten\" Statuen von Kolodko. Neben dem Original in Uschhorod (2012) hat Kolodko Kopien in mehreren tschechischen (Kralupy, Olomouc, Lipnice) und polnischen Städten aufgestellt. Der Knödel ist ein Symbol des Friedens, und im Militärjargon bedeutete \"Knödel\" auch einen Dummkopf.",
+      "howToFind": "Schritt 1 (Umgebung): Besuche das Zentrum von Kralupy nad Vltavou in Tschechien.\n\nSchritt 2 (Fokus): Gehe in Richtung des Pubs/Restaurants \"U Kohouta\" (oder einer ähnlichen Schwejk-Taverne).\n\nSchritt 3 (Genauer Ort): Die kleine Statue sitzt rittlings auf dem Metallgeländer neben dem Eingang oder der Terrasse."
+    },
+    "svejk_olomouc_01": {
+      "name": "Der brave Soldat Schwejk (Olomouc)",
+      "location": "Olomouc (Tschechien), Krapkova-Straße",
+      "description": "Eine winzige Bronzenachbildung des berühmten tschechischen Soldaten Schwejk in der Stadt Olomouc. Die Figur, die statt einer Waffe friedlich einen Knödel hält, wurde 2016 vor der Kneipe \"U Kuděje\" aufgestellt. Der Ort ist kein Zufall: Der tschechische Schriftsteller Matěj Kuděj war ein enger Freund und Zechkumpan von Jaroslav Hašek (dem Schöpfer von Schwejk).",
+      "funFact": "Die Statue ist so winzig und fügt sich so gut in die Umgebung neben der Terrasse der Kneipe ein, dass Einheimische scherzen, sie werde nur von denjenigen bemerkt, die zielstrebig auf ein gutes Bier zusteuern.",
+      "howToFind": "Schritt 1 (Umgebung): Gehe in Olomouc auf der Krapkova-Straße in Richtung Čechovy sady (Tschechischer Park).\n\nSchritt 2 (Fokus): Suche nach der beliebten lokalen Kneipe namens \"U Kuděje\".\n\nSchritt 3 (Genauer Ort): Die Statue sitzt draußen auf einem einfachen Metallgeländer direkt neben dem Eingang bzw. Bürgersteig."
+    },
+    "svejk_lipnice_01": {
+      "name": "Der brave Soldat Schwejk (Lipnice)",
+      "location": "Lipnice nad Sázavou (Tschechien)",
+      "description": "Kolodkos Schwejk-Klon in jenem tschechischen Dorf, in dem Jaroslav Hašek die letzten Jahre seines Lebens verbrachte, den größten Teil seines Romans schrieb und wo er auch begraben liegt. Die Statue wurde 2017 unter der örtlichen Hašek-Gedenktafel enthüllt.",
+      "funFact": "Auf der Tafel unter der Mini-Statue befindet sich eine mehrsprachige Inschrift: \"Soldat Josef Schwejk – Friedensbote.\" Das Kunstwerk war ein Gemeinschaftsprojekt von Kolodko und der Internationalen Hašek-Gesellschaft.",
+      "howToFind": "Schritt 1 (Umgebung): Besuche das Zentrum von Lipnice nad Sázavou in der Tschechischen Republik.\n\nSchritt 2 (Fokus): Suche nach dem Hašek-Denkmal und dem berühmten Gasthaus \"U České koruny\" (Zur Böhmischen Krone), das einst Hašek selbst gehörte.\n\nSchritt 3 (Genauer Ort): Die kleine Bronzefigur ist direkt neben den Gedenktafeln angebracht."
+    },
+    "svejk_humenne_01": {
+      "name": "Der brave Soldat Schwejk (Humenné)",
+      "location": "Humenné (Slowakei), Nähe Bahnhof",
+      "description": "Eine Mini-Statue des braven Soldaten in Humenné, Slowakei. Die Stadt spielt eine wichtige Rolle im Roman: Schwejk und sein Bataillon kamen auf ihrem Weg an die Ostfront hier durch. Kolodkos Mini-Statue ist eine Hommage an diesen berühmten \"Humenné-Halt\".",
+      "funFact": "Fans des Romans hatten in Humenné bereits zuvor eine große Schwejk-Statue (neben einem Brunnen) errichtet, aber Kolodkos \"Guerilla-Schwejk\" mit dem Knödel ist eine viel kleinere, versteckte Überraschung für Zugreisende.",
+      "howToFind": "Schritt 1 (Umgebung): Gehe in Richtung des Bahnhofs Humenné (Železničná stanica Humenné).\n\nSchritt 2 (Fokus): Untersuche die Metallgeländer und Pfosten rund um die Bahnsteige und das Hauptgebäude.\n\nSchritt 3 (Genauer Ort): Der kleine Schwejk sitzt rittlings auf einem Metallrohr der Eisenbahninfrastruktur."
+    },
+    "svejk_przemysl_01": {
+      "name": "Der brave Soldat Schwejk (Przemyśl)",
+      "location": "Przemyśl (Polen)",
+      "description": "Schwejks polnische Mini-Statue. Przemyśl ist ein Schlüsselort im Buch: Der Geschichte zufolge zog sich unser Held am Flussufer versehentlich eine verlassene russische Uniform an, woraufhin ihn die österreichisch-ungarischen Truppen für einen russischen Spion hielten und in der Festungsstadt einsperrten.",
+      "funFact": "Während auf dem Hauptplatz von Przemyśl schon lange ein lebensgroßer Schwejk auf einer Munitionskiste sitzt, kam Kolodkos friedensbringende Mini-Statue als Symbol der polnisch-ungarisch-ukrainischen Freundschaft in die Stadt.",
+      "howToFind": "Schritt 1 (Umgebung): Gehe in das historische Stadtzentrum von Przemyśl und an die Ufer des Flusses San.\n\nSchritt 2 (Fokus): Schau dich um die Überreste der alten Festungsanlagen oder die Geländer in der Nähe des Hauptmarktes (Rynek) um.\n\nSchritt 3 (Genauer Ort): Die friedliche, lächelnde Figur sitzt auf einem Metallelement, das einem Kanonenrohr ähnelt."
+    },
+    "svejk_kielce_01": {
+      "name": "Der brave Soldat Schwejk (Kielce)",
+      "location": "Kielce (Polen)",
+      "description": "Ein weiterer von Kolodko gefertigter Schwejk-Klon in Polen. Die Statue wurde im Juni 2017 in enger Zusammenarbeit mit der lokalen Gesellschaft der Schwejk-Enthusiasten, die das Andenken an den friedlichen tschechischen Soldaten aus dem Ersten Weltkrieg aktiv wachhält, offiziell enthüllt.",
+      "funFact": "An der Enthüllungszeremonie nahmen auch Nachkommen von Jaroslav Hašek teil. Auch diese Statue ist Teil des aus der Ukraine stammenden \"Schwesternstatuen-Netzwerks\" und hält statt einer Waffe einen Knödel.",
+      "howToFind": "Schritt 1 (Umgebung): Suche im Stadtzentrum von Kielce, in der Nähe der Fußgängerzonen.\n\nSchritt 2 (Fokus): Suche nach einem Metall- oder Steinsockel mit einer Gedenktafel, oft ein Treffpunkt für lokale literarische/historische Gesellschaften.\n\nSchritt 3 (Genauer Ort): Die Bronzeminiatur sitzt direkt über einer Inschrifttafel mit dem Text \"Wojak Józef Szwejk – poslaniec pokoju\" (Soldat Josef Schwejk – Friedensbote)."
     }
   }
 }
