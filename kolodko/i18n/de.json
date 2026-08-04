@@ -359,6 +359,12 @@
     "permission_rationale_desc": "Diese Funktion erfordert eine Systemberechtigung. Bitte erlaube den Zugriff in den App-Einstellungen!",
     "open_settings_button": "Einstellungen öffnen",
     "radar_calibration_hint": "Tipp: Wenn der Pfeil ungenau ist, bewege dein Telefon in einer 8er-Form, um den Kompass zu kalibrieren!",
-    "backup_processing": "Backup wird verarbeitet..."
+    "backup_processing": "Backup wird verarbeitet...",
+    "settings_material_you": "Systemfarben (Material You)",
+    "settings_material_you_desc": "Die App verwendet die Farben deines Hintergrundbilds (Android 12+).",
+    "settings_keep_screen_on": "Bildschirm eingeschaltet lassen",
+    "settings_keep_screen_on_desc": "Verhindert das Ausschalten des Bildschirms bei der Nutzung von Karte und Radar.",
+    "settings_radar_haptic": "Haptisches Feedback",
+    "settings_radar_haptic_desc": "Der Radar-Modus pulsiert mit Vibrationen, je nachdem, wie nah du der Statue bist."
   }
 }
