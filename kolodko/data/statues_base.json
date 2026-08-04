@@ -101,7 +101,8 @@
       },
       "delorean_trabant_01": {
         "coordinates": { "lat": 47.50028574847633, "lng": 19.081918484699003 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "isDestroyed": true
       },
       "among_us_01": {
         "coordinates": { "lat": 47.512389837696816, "lng": 19.079826287316706 },
@@ -311,6 +312,14 @@
       "tiszabecs_sohordo_01": {
         "coordinates": { "lat": 48.0980, "lng": 22.8250 },
         "yearInstalled": 2021
+      },
+      "geszteredi_csardas_01": {
+        "coordinates": { "lat": 47.7944, "lng": 21.7519 },
+        "yearInstalled": 2021
+      },
+      "kallay_janos_peter_01": {
+        "coordinates": { "lat": 47.809763, "lng": 21.852054 },
+        "yearInstalled": 2021
       }
     }
   },
@@ -341,7 +350,7 @@
         "yearInstalled": 2023
       },
       "vienna_alex_delarge_01": {
-        "coordinates": { "lat": 48.201700, "lng": 16.377700 },
+        "coordinates": { "lat": 48.20182138090872, "lng": 16.377071176555518 },
         "yearInstalled": 2023
       },
       "venice_selfie_01": {
@@ -387,6 +396,34 @@
       "princeton_einstein_01": {
         "coordinates": { "lat": 40.342800, "lng": -74.668100 },
         "yearInstalled": 2019
+      },
+      "freddie_montserrat_01": {
+        "coordinates": { "lat": 41.3712, "lng": 2.1523 },
+        "yearInstalled": 2026
+      },
+      "svejk_kralupy_01": {
+        "coordinates": { "lat": 50.2443, "lng": 14.3149 },
+        "yearInstalled": 2017
+      },
+      "svejk_olomouc_01": {
+        "coordinates": { "lat": 49.5935, "lng": 17.2435 },
+        "yearInstalled": 2016
+      },
+      "svejk_lipnice_01": {
+        "coordinates": { "lat": 49.6145, "lng": 15.4137 },
+        "yearInstalled": 2017
+      },
+      "svejk_humenne_01": {
+        "coordinates": { "lat": 48.9325, "lng": 21.9056 },
+        "yearInstalled": 2017
+      },
+      "svejk_przemysl_01": {
+        "coordinates": { "lat": 49.7816, "lng": 22.7745 },
+        "yearInstalled": 2017
+      },
+      "svejk_kielce_01": {
+        "coordinates": { "lat": 50.8710, "lng": 20.6275 },
+        "yearInstalled": 2017
       }
     }
   }
