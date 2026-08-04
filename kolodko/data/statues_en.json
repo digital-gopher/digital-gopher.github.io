@@ -525,6 +525,20 @@
       "funFact": "This statue is part of a cross-border sculpture route consisting of 5 Hungarian (and 5 Transcarpathian) pieces, which marks the medieval Transylvanian salt transport route.",
       "howToFind": "Placed on stone ledges on the downtown promenades and main squares of the given settlements (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs)."
     },
+    "geszteredi_csardas_01": {
+      "name": "The Triple Csárdás of Geszteréd",
+      "location": "Geszteréd, Kossuth street (at the memorial site)",
+      "description": "A mini-statue by Mihály Kolodko commemorating the famous local folk dance, the \"triple csárdás\" of Geszteréd. The statue features three tiny figures performing this traditional Hungarian dance, created to preserve local cultural heritage.",
+      "funFact": "The sculpture is accompanied by a marble plaque featuring a quote from a local violinist, János Keserű. The artwork was inspired by surviving archival film footage from 1955 that shows the exact steps of this unique dance.",
+      "howToFind": "Step 1 (Area): Go to the center of Geszteréd village, around Fő and Kossuth streets.\n\nStep 2 (Focus): Look for a nicely maintained little memorial site with a granite/marble base.\n\nStep 3 (Exact spot): The three tiny dancing bronze figures are spinning on top of this stone pedestal."
+    },
+    "kallay_janos_peter_01": {
+      "name": "Count János Péter Kállay",
+      "location": "Biri, 47 Sport street",
+      "description": "A tribute to the founder of Biri, Count János Péter Kállay (1735–1810), forming part of the \"Count's Library\" sculpture group. The composition consists of 12 large carved stone books (made by György Sárga), with Kolodko's miniature bronze statue of the Count sitting on top of one.",
+      "funFact": "The Count was highly educated for the 18th century. He had a massive library in his mansion (now the village hall) and read French encyclopedists in their original language. That is why he is depicted sitting on top of a library.",
+      "howToFind": "Step 1 (Area): Travel to the village of Biri and find Sport street.\n\nStep 2 (Focus): Look around the grassy area next to the local football field and sports center.\n\nStep 3 (Exact spot): Find the giant stone books lying on the ground! Out of the twelve, eleven are laying flat and one is standing upright—the mini-statue is sitting right on top of it."
+    },
     "munich_csontvary_01": {
       "name": "Tivadar Csontváry Kosztka",
       "location": "Munich, Germany",
@@ -650,6 +664,55 @@
       "description": "A mini statue of physicist Albert Einstein in Princeton, sitting on a stone bench pondering the mysteries of the universe.",
       "funFact": "This is the artist's first public mini statue in America. Einstein spent the last more than twenty years of his life at Princeton University, and Kolodko brought him this memorial in 2019.",
       "howToFind": "Step 1: Travel to the Princeton University campus in New Jersey. Step 2: Visit the walkways of Marquand Park opposite the former Einstein house. Step 3: The statue is sitting on one of the resting stone benches/low pedestals."
+    },
+    "freddie_montserrat_01": {
+      "name": "Freddie Mercury and Montserrat Caballé",
+      "location": "Barcelona (Spain), Montjuïc",
+      "description": "A duo mini-statue honoring the legendary Queen frontman, Freddie Mercury, and the world-famous Spanish opera singer, Montserrat Caballé. The pair made history with their iconic song \"Barcelona\" for the 1992 Olympics.",
+      "funFact": "Kolodko installed the statues covertly in January 2026 as a true guerrilla art project, cementing them to a stone balustrade. Freddie is depicted with clenched fists, while Montserrat stands with open arms wearing a cape.",
+      "howToFind": "Step 1 (Area): In Barcelona, head to Montjuïc hill, specifically the area around the Magic Fountain (Font Màgica) and CaixaForum.\n\nStep 2 (Focus): Look for the old, rustic stone staircases leading up towards the buildings.\n\nStep 3 (Exact spot): The two tiny statues are glued to the wide stone handrails of one of these staircases, facing each other."
+    },
+    "svejk_kralupy_01": {
+      "name": "The Good Soldier Švejk",
+      "location": "Kralupy nad Vltavou (Czechia), near a restaurant",
+      "description": "A tiny bronze replica of Jaroslav Hašek's world-famous novel character, the simple-minded but cunning WWI Czech soldier. Švejk sits in his traditional military uniform, but instead of a weapon, he holds an authentic Czech dumpling (knedlík).",
+      "funFact": "Švejk is one of Kolodko's most \"cloned\" statues. Besides the original 2012 statue in Uzhhorod, Kolodko has placed replicas in several Czech (Kralupy, Olomouc, Lipnice) and Polish cities. The dumpling he holds is a symbol of peace, and in military slang, \"dumpling\" also meant a fool or simpleton.",
+      "howToFind": "Step 1 (Area): Visit the center of Kralupy nad Vltavou in the Czech Republic.\n\nStep 2 (Focus): Walk towards the \"U Kohouta\" pub/restaurant (or a similar Švejk-themed local tavern).\n\nStep 3 (Exact spot): The little statue is sitting straddled on the metal railing next to the entrance or terrace."
+    },
+    "svejk_olomouc_01": {
+      "name": "The Good Soldier Švejk (Olomouc)",
+      "location": "Olomouc (Czechia), Krapkova street",
+      "description": "A miniature bronze replica of the famous Czech soldier, Švejk, located in the city of Olomouc. Holding a peaceful dumpling instead of a weapon, the figure was placed in 2016 outside the \"U Kuděje\" pub. The location is no coincidence: Matěj Kuděj, a Czech writer, was a close friend and drinking buddy of Jaroslav Hašek (Švejk's creator).",
+      "funFact": "The statue is so tiny and blends so well into its surroundings by the pub's terrace that locals joke it is only noticed by those heading purposefully inside for a good pint of beer.",
+      "howToFind": "Step 1 (Area): Walk towards the Čechovy sady (Czech Park) along Krapkova street in Olomouc.\n\nStep 2 (Focus): Look for the popular local pub named \"U Kuděje\".\n\nStep 3 (Exact spot): The statue is sitting outside on a simple metal railing right next to the entrance/sidewalk."
+    },
+    "svejk_lipnice_01": {
+      "name": "The Good Soldier Švejk (Lipnice)",
+      "location": "Lipnice nad Sázavou (Czechia)",
+      "description": "Kolodko's Švejk clone in the very Czech village where Jaroslav Hašek spent the last years of his life, wrote most of his novel, and is buried. The statue was unveiled in 2017 beneath the local Hašek memorial plaque.",
+      "funFact": "The plaque beneath the mini-statue bears an inscription in multiple languages: \"Soldier Josef Švejk – messenger of peace.\" The artwork was a joint project between Kolodko and the International Hašek Society.",
+      "howToFind": "Step 1 (Area): Visit the center of Lipnice nad Sázavou in the Czech Republic.\n\nStep 2 (Focus): Look for the Hašek memorial and the famous inn \"U České koruny\" (At the Czech Crown), once owned by Hašek himself.\n\nStep 3 (Exact spot): The small bronze figure is mounted right next to the commemorative plaques."
+    },
+    "svejk_humenne_01": {
+      "name": "The Good Soldier Švejk (Humenné)",
+      "location": "Humenné (Slovakia), near the Train Station",
+      "description": "A mini-statue of the good soldier in Humenné, Slovakia. The town plays a significant role in the novel: Švejk and his battalion passed through here on their way to the Eastern Front. Kolodko's mini-statue is a tribute to the famous \"Humenné stop.\"",
+      "funFact": "Fans of the novel had previously erected a large Švejk statue (next to a well) in Humenné, but Kolodko's \"guerrilla\" dumpling-holding Švejk is a much smaller, hidden surprise for travelers arriving by train.",
+      "howToFind": "Step 1 (Area): Head towards the Humenné railway station (Železničná stanica Humenné).\n\nStep 2 (Focus): Inspect the metal railings and posts around the platforms and the main station building.\n\nStep 3 (Exact spot): The little Švejk is sitting astride a metal pipe belonging to the railway infrastructure."
+    },
+    "svejk_przemysl_01": {
+      "name": "The Good Soldier Švejk (Przemyśl)",
+      "location": "Przemyśl (Poland)",
+      "description": "Švejk's Polish mini-statue. Przemyśl is a key location in the book: according to the story, our hero accidentally put on an abandoned Russian uniform by the river, causing Austro-Hungarian troops to mistake him for a Russian spy and imprison him in the fortress city.",
+      "funFact": "While a life-sized Švejk sitting on an ammunition box has been in Przemyśl's main square for a long time, Kolodko's peace-messenger mini-statue arrived as a symbol of Polish-Hungarian-Ukrainian friendship.",
+      "howToFind": "Step 1 (Area): Head to the historic city center of Przemyśl and the banks of the San River.\n\nStep 2 (Focus): Look around the remnants of the old fortress system or the railings near the Main Market Square (Rynek).\n\nStep 3 (Exact spot): The peaceful, smiling figure sits on a metal element resembling a gun barrel."
+    },
+    "svejk_kielce_01": {
+      "name": "The Good Soldier Švejk (Kielce)",
+      "location": "Kielce (Poland)",
+      "description": "Another Kolodko-crafted Švejk clone in Poland. The statue was officially unveiled in June 2017 in close collaboration with the local Society of Švejk Enthusiasts, who actively keep the memory of the peaceful WWI Czech soldier alive.",
+      "funFact": "Descendants of Jaroslav Hašek attended the unveiling ceremony. This statue is also part of the \"sister-statue\" network originating from Ukraine, holding a dumpling instead of a weapon.",
+      "howToFind": "Step 1 (Area): Search the city center of Kielce, around the pedestrian zones.\n\nStep 2 (Focus): Look for a metal or stone pedestal with a plaque, often a meeting point for local literary/historical societies.\n\nStep 3 (Exact spot): The bronze miniature sits just above an inscribed plaque reading \"Wojak Józef Szwejk – poslaniec pokoju\" (Soldier Josef Švejk – messenger of peace)."
     }
   }
 }
