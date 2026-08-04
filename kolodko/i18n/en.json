@@ -354,6 +354,11 @@
     "section_log": "My Log",
     "routing_fallback_warning": "The built-in routing service is currently overloaded. Please use external navigation (e.g. Google Maps) below!",
     "about_attribution_title": "Powered By",
-    "powered_by_osm": "Map data: © OpenStreetMap contributors\nRouting: GraphHopper API & OSRM"
+    "powered_by_osm": "Map data: © OpenStreetMap contributors\nRouting: GraphHopper API & OSRM",
+    "permission_rationale_title": "Permission Required",
+    "permission_rationale_desc": "This feature requires system permissions to function. Please allow access in the app settings!",
+    "open_settings_button": "Open Settings",
+    "radar_calibration_hint": "Tip: If the arrow is inaccurate, move your phone in a figure 8 to calibrate the compass!",
+    "backup_processing": "Processing backup..."
   }
 }
