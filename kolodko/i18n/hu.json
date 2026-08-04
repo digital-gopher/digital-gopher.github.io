@@ -359,6 +359,12 @@
     "permission_rationale_desc": "A funkció használatához engedélyre van szükség a rendszer részéről. Kérjük, engedélyezd a hozzáférést az alkalmazás beállításaiban!",
     "open_settings_button": "Beállítások megnyitása",
     "radar_calibration_hint": "Tipp: Ha a nyíl pontatlan, írj le egy fekvő 8-ast a telefonoddal a levegőben az iránytű kalibrálásához!",
-    "backup_processing": "Csomagolás folyamatban..."
+    "backup_processing": "Csomagolás folyamatban...",
+    "settings_material_you": "Rendszer színek (Material You)",
+    "settings_material_you_desc": "Az alkalmazás a telefonod hátterének színeit használja (Android 12+).",
+    "settings_keep_screen_on": "Kijelző ébrentartása",
+    "settings_keep_screen_on_desc": "A Térkép és a Radar használata közben nem kapcsol ki a kijelző.",
+    "settings_radar_haptic": "Rezgéses visszajelzés",
+    "settings_radar_haptic_desc": "A Radar mód lüktető rezgéssel jelzi, hogy milyen közel vagy a szoborhoz."
   }
 }
