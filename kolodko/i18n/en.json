@@ -359,6 +359,12 @@
     "permission_rationale_desc": "This feature requires system permissions to function. Please allow access in the app settings!",
     "open_settings_button": "Open Settings",
     "radar_calibration_hint": "Tip: If the arrow is inaccurate, move your phone in a figure 8 to calibrate the compass!",
-    "backup_processing": "Processing backup..."
+    "backup_processing": "Processing backup...",
+    "settings_material_you": "System colors (Material You)",
+    "settings_material_you_desc": "The app will use your wallpaper's colors (Android 12+).",
+    "settings_keep_screen_on": "Keep screen on",
+    "settings_keep_screen_on_desc": "Prevents the screen from turning off while using the Map and Radar.",
+    "settings_radar_haptic": "Haptic feedback",
+    "settings_radar_haptic_desc": "The Radar mode will pulse with vibration based on your proximity to the statue."
   }
 }
