@@ -525,6 +525,20 @@
       "funFact": "Ez a szobor egy 5 darabos magyarországi (és 5 darabos kárpátaljai) határon átnyúló szoborútvonal része, amely a középkori erdélyi só szállítási útvonalát jelöli ki.",
       "howToFind": "Az adott települések (Nyírbátor, Nagykálló, Vásárosnamény, Csenger, Tiszabecs) belvárosi sétányain és főterein, kőpadkákon elhelyezve."
     },
+    "geszteredi_csardas_01": {
+      "name": "Geszterédi hármas csárdás",
+      "location": "Geszteréd, Kossuth utca (az emlékhelynél)",
+      "description": "Kolodko Mihály miniszobra a híres geszterédi hármas csárdásnak állít emléket. A szobor három alakot formál, akik a hagyományos magyar táncot, a csárdást táncolják. Az alkotás a helyi közösség összefogásából, a hagyományok megőrzése céljából jött létre.",
+      "funFact": "A szoborhoz tartozik egy márványtábla is, amelyen Keserű János helyi prímás gondolata olvasható. A geszterédi hármas csárdás lépéseiről egy 1955-ös archív filmfelvétel is fennmaradt, amely inspirálta az alkotást.",
+      "howToFind": "1. Lépés (Környék): Geszteréd központjában, a Fő utca és a Kossuth utca környékén keresgélj.\n\n2. Lépés (Fókusz): Keress egy szépen kialakított kis emlékhelyet, gránit/márvány talapzattal.\n\n3. Lépés (Pontos hely): A három táncoló apró bronzfigura ezen a kőtalapzaton forog a saját kis színpadán."
+    },
+    "kallay_janos_peter_01": {
+      "name": "Gróf Kállay János Péter",
+      "location": "Biri, Sport utca 47.",
+      "description": "Biri alapítójának, gróf nagykállói Kállay János Péternek (1735–1810) emléket állító alkotás, amely a \"Gróf Könyvtára\" szoborcsoport része. A kompozíció 12 darab nagy, faragott kőkönyvből áll (Sárga György kőszobrász munkája), ezek egyikén üldögél a gróf Kolodko által készített miniatűr bronzszobra.",
+      "funFact": "A gróf a 18. századi viszonyok között is rendkívül műveltnek számított. Hatalmas könyvtára volt a mai községházaként funkcionáló kúriában, és a francia enciklopédistákat eredeti nyelven olvasta. Ezért ábrázolja őt a szobor egy könyvtár tetején.",
+      "howToFind": "1. Lépés (Környék): Menj el Biri településére, és keresd meg a Sport utcát.\n\n2. Lépés (Fókusz): A helyi focipálya és sportlétesítmény mellett vizsgáld meg a zöldterületet.\n\n3. Lépés (Pontos hely): Keresd a földön heverő hatalmas kőkönyveket! A tizenegy fekvő könyv mellett van egy álló, annak a tetején csücsül a miniszobor."
+    },
     "munich_csontvary_01": {
       "name": "Csontváry Kosztka Tivadar",
       "location": "München, Németország",
@@ -650,6 +664,55 @@
       "description": "Albert Einstein fizikus miniszobra Princetonban, aki egy kőpadon ülve tűnődik a világmindenség rejtelmein.",
       "funFact": "Ez a művész első amerikai köztéri miniszobra. Einstein élete utolsó több mint húsz évét a Princetoni Egyetemen töltötte, Kolodko pedig 2019-ben vitte el neki ezt az emléket.",
       "howToFind": "1. Lépés: Utazz a Princeton Egyetem campusához, New Jersey államba. 2. Lépés: Keresd fel az egykori Einstein-házzal szembeni Marquand Park sétányait. 3. Lépés: A szobor az egyik pihenő kőpadon/alacsony talapzaton ücsörög."
+    },
+    "freddie_montserrat_01": {
+      "name": "Freddie Mercury és Montserrat Caballé",
+      "location": "Barcelona (Spanyolország), Montjuïc",
+      "description": "A Queen legendás frontemberének, Freddie Mercury-nak és a világhírű spanyol operaénekesnőnek, Montserrat Caballé-nak emléket állító páros miniszobor. A duó az 1992-es barcelonai olimpia ikonikus dalával (Barcelona) írt történelmet.",
+      "funFact": "Kolodko igazi gerilla-akció keretében, 2026 januárjában helyezte ki a szobrokat Spanyolországban, csendben rögzítve azokat egy kőlépcső korlátjára. Freddie összeszorított ököllel, Montserrat pedig kitárt karokkal és köpenyben látható.",
+      "howToFind": "1. Lépés (Környék): Barcelonában irány a Montjuïc-hegy, azon belül is a Varázsszökőkút (Font Màgica) és a CaixaForum környéke.\n\n2. Lépés (Fókusz): Keresd a régi, rusztikus kőlépcsőket, amelyek az épületek felé vezetnek.\n\n3. Lépés (Pontos hely): Az egyik kőlépcső széles, kőből rakott korlátján kell keresned a két, egymás felé forduló apró szobrot."
+    },
+    "svejk_kralupy_01": {
+      "name": "Svejk, a derék katona",
+      "location": "Kralupy nad Vltavou (Csehország), étterem mellett",
+      "description": "Jaroslav Hašek világhírű regényalakjának, az első világháborús, együgyű, de furfangos cseh katonának az apró mása. Svejk hagyományos katonaruhában ül, de fegyver helyett egy igazi cseh knédlit tart a kezében.",
+      "funFact": "Svejk az egyik legtöbbször \"klónozott\" Kolodko-szobor. Az eredeti (2012-es) ungvári alkotás mellett Kolodko több cseh (Kralupy, Olomouc, Lipnice) és lengyel városba is elvitte a szobrot. A kezében tartott knédli a béke szimbóluma, ráadásul a katonai szlengben a \"knédli\" butuskát, fajankót is jelentett.",
+      "howToFind": "1. Lépés (Környék): Keresd fel a csehországi Kralupy nad Vltavou központját.\n\n2. Lépés (Fókusz): Sétálj el az \"U Kohouta\" (vagy ehhez hasonló nevű helyi Svejk-tematikájú) söröző/étterem felé.\n\n3. Lépés (Pontos hely): A szobrocska a bejárat vagy a terasz melletti fémkorláton csücsül lovaglóülésben."
+    },
+    "svejk_olomouc_01": {
+      "name": "Svejk, a derék katona (Olomouc)",
+      "location": "Olomouc (Csehország), Krapkova utca",
+      "description": "A híres cseh katona, Svejk miniatűr bronzmása Olomouc városában. A fegyver helyett békésen knédlit szorongató figurát 2016-ban helyezték el az \"U Kuděje\" söröző előtt. A helyszínválasztás nem véletlen: Matěj Kuděj cseh író Jaroslav Hašek (Svejk megalkotója) közeli barátja és ivócimborája volt.",
+      "funFact": "A szobor annyira apró és annyira beleolvad a környezetébe a kocsma terasza mellett, hogy a helyiek szerint csak azok veszik észre, akik már célirányosan egy jó korsó sörre tartanak befelé.",
+      "howToFind": "1. Lépés (Környék): Olomoucban sétálj a Čechovy sady (Cseh park) felé, a Krapkova utcán.\n\n2. Lépés (Fókusz): Keresd meg az \"U Kuděje\" nevű népszerű helyi sörözőt.\n\n3. Lépés (Pontos hely): A szobor kint, a bejárat/járda melletti egyszerű fémkorláton üldögél."
+    },
+    "svejk_lipnice_01": {
+      "name": "Svejk, a derék katona (Lipnice)",
+      "location": "Lipnice nad Sázavou (Csehország)",
+      "description": "Kolodko Svejk-klónja abban a cseh faluban, ahol Jaroslav Hašek élete utolsó éveit töltötte, ahol a regény nagy részét írta, és ahol a sírja is található. A szobrot 2017-ben avatták fel a helyi Hašek-emléktábla alatt.",
+      "funFact": "A szobrocska talapzatának tábláján több nyelven az olvasható: \"Josef Svejk katona – a béke hírnöke\". A szobrot Kolodko és a nemzetközi Hašek Társaság közösen állította.",
+      "howToFind": "1. Lépés (Környék): Látogass el a csehországi Lipnice nad Sázavou központjába.\n\n2. Lépés (Fókusz): Keresd a Hašek-emlékművet és az \"U České koruny\" (A Cseh Koronához) nevű híres fogadót, amely egykor Hašeké volt.\n\n3. Lépés (Pontos hely): A bronzfigura az emléktábla és a feliratok közvetlen közelében kapott helyet."
+    },
+    "svejk_humenne_01": {
+      "name": "Svejk, a derék katona (Homonna)",
+      "location": "Homonna / Humenné (Szlovákia), Vasútállomás környéke",
+      "description": "A derék katona miniszobra a szlovákiai Homonnán. A település fontos szerepet játszik a regényben: Svejk és alakulata itt utazott át a keleti front felé tartva. Kolodko miniszobra tisztelgés a híres \"homonnai megálló\" előtt.",
+      "funFact": "Homonnán a regény rajongói már korábban felállítottak egy nagy Svejk-szobrot (egy kút mellett), de Kolodko \"gerilla\" knédlis Svejkje egy sokkal apróbb, rejtettebb meglepetés a vonattal érkező utazóknak.",
+      "howToFind": "1. Lépés (Környék): Menj a homonnai vasútállomás (Železničná stanica Humenné) felé.\n\n2. Lépés (Fókusz): Vizsgáld meg a peronok és az állomásépület körüli fémkorlátokat és oszlopokat.\n\n3. Lépés (Pontos hely): A kis Svejk a csomagjaival (és knédlijével) a vasúti infrastruktúra egyik fémcsövén üldögél."
+    },
+    "svejk_przemysl_01": {
+      "name": "Svejk, a derék katona (Przemyśl)",
+      "location": "Przemyśl (Lengyelország)",
+      "description": "Svejk lengyelországi miniszobra. Przemyśl kulcsfontosságú helyszín a könyvben: a történet szerint hősünk véletlenül felvett egy elhagyott orosz egyenruhát a folyóparton, ami miatt az osztrák-magyar csapatok orosz kémnek nézték és fogságba ejtették az erődvárosban.",
+      "funFact": "Przemyśl főterén már régóta ül egy életnagyságú Svejk egy lőszeresládán, ám a Kolodko-féle békehírnök, a knédlis miniszobor a lengyel-magyar-ukrán barátság jegyében érkezett a városba.",
+      "howToFind": "1. Lépés (Környék): Irány Przemyśl történelmi belvárosa és a San folyó partja.\n\n2. Lépés (Fókusz): Keresd a régi erődrendszer emlékhelyeit, vagy a főtér (Rynek) körüli korlátokat.\n\n3. Lépés (Pontos hely): A fegyver csövére hajazó fémelemen csücsül a békés, mosolygó figura."
+    },
+    "svejk_kielce_01": {
+      "name": "Svejk, a derék katona (Kielce)",
+      "location": "Kielce (Lengyelország)",
+      "description": "Egy újabb Kolodko-féle Svejk-klón Lengyelországban. A szobrot 2017 júniusában adták át ünnepélyes keretek között, szoros együttműködésben a helyi Svejk Rajongók Társaságával, amely aktívan ápolja az első világháborús békés cseh katona emlékét.",
+      "funFact": "Az avatáson részt vettek Jaroslav Hašek leszármazottai is. Ez a szobor is az ukrajnai (ungvári) \"testvérszobrok\" hálózatának része, és ugyanúgy egy knédlit tart a kezében fegyver helyett.",
+      "howToFind": "1. Lépés (Környék): Kielce városközpontjában keresgélj, a sétálóutcák vonzáskörzetében.\n\n2. Lépés (Fókusz): Keress egy emléktáblával ellátott fém- vagy kőtalapzatot, ahol a helyi irodalmi/történelmi egyesületek találkozni szoktak.\n\n3. Lépés (Pontos hely): A bronzminiatűr egy feliratos tábla (Wojak Józef Szwejk – poslaniec pokoju) felett ül."
     }
   }
 }
