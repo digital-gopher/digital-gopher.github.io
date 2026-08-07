@@ -362,6 +362,11 @@
     "settings_keep_screen_on_desc": "Prevents the screen from turning off while using the Map and Radar.",
     "settings_radar_haptic": "Haptic feedback",
     "settings_radar_haptic_desc": "The Radar mode will pulse with vibration based on your proximity to the statue.",
-    "about_support_disclaimer": "The application is completely free. Donations do not unlock extra features, but they are a huge help in covering maintenance costs and funding future development. Thank you for your contribution!"
+    "about_support_disclaimer": "The application is completely free. Donations do not unlock extra features, but they are a huge help in covering maintenance costs and funding future development. Thank you for your contribution!",
+    "artist_links_title": "Contact & Social Media",
+    "artist_website_btn": "Website",
+    "artist_facebook_btn": "Facebook",
+    "about_ai_disclaimer": "Attention: The app icon, the landscape illustrations appearing on the interface, and parts of the descriptions and stories of the statues were generated using Artificial Intelligence (AI). Please note that due to this, there may be factual inaccuracies or errors. The developer of the application takes no responsibility for the absolute accuracy of the generated content.",
+    "distance_away": " • %s away"
   }
 }
