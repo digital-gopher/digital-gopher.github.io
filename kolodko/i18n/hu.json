@@ -362,6 +362,11 @@
     "settings_keep_screen_on_desc": "A Térkép és a Radar használata közben nem kapcsol ki a kijelző.",
     "settings_radar_haptic": "Rezgéses visszajelzés",
     "settings_radar_haptic_desc": "A Radar mód lüktető rezgéssel jelzi, hogy milyen közel vagy a szoborhoz.",
-    "about_support_disclaimer": "Az alkalmazás teljesen ingyenes. A támogatásodért cserébe nem járnak extra funkciók, de hatalmas segítséget jelent az alkalmazás karbantartásában és további fejlesztésében. Köszönöm, ha hozzájárulsz!"
+    "about_support_disclaimer": "Az alkalmazás teljesen ingyenes. A támogatásodért cserébe nem járnak extra funkciók, de hatalmas segítséget jelent az alkalmazás karbantartásában és további fejlesztésében. Köszönöm, ha hozzájárulsz!",
+    "artist_links_title": "Elérhetőségek és Közösségi Média",
+    "artist_website_btn": "Weboldal",
+    "artist_facebook_btn": "Facebook",
+    "about_ai_disclaimer": "Figyelem: Az alkalmazás ikonja, a felületen megjelenő tájképi illusztrációk, valamint a szobrok leírásainak és történeteinek egy része Mesterséges Intelligencia (AI) segítségével lett generálva. Kérjük, vedd figyelembe, hogy emiatt előfordulhatnak bennük ténybeli pontatlanságok vagy hibák. Az alkalmazás fejlesztője nem vállal felelősséget a generált tartalmak teljes pontosságáért.",
+    "distance_away": " • %s tőled"
   }
 }
