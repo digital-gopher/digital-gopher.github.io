@@ -362,6 +362,11 @@
     "settings_keep_screen_on_desc": "Verhindert das Ausschalten des Bildschirms bei der Nutzung von Karte und Radar.",
     "settings_radar_haptic": "Haptisches Feedback",
     "settings_radar_haptic_desc": "Der Radar-Modus pulsiert mit Vibrationen, je nachdem, wie nah du der Statue bist.",
-    "about_support_disclaimer": "Die App ist komplett kostenlos. Spenden schalten keine zusätzlichen Funktionen frei, sind aber eine große Hilfe bei der Deckung der Wartungskosten und der Weiterentwicklung. Vielen Dank für deine Unterstützung!"
+    "about_support_disclaimer": "Die App ist komplett kostenlos. Spenden schalten keine zusätzlichen Funktionen frei, sind aber eine große Hilfe bei der Deckung der Wartungskosten und der Weiterentwicklung. Vielen Dank für deine Unterstützung!",
+    "artist_links_title": "Kontakt & Social Media",
+    "artist_website_btn": "Webseite",
+    "artist_facebook_btn": "Facebook",
+    "about_ai_disclaimer": "Achtung: Das App-Symbol, die auf der Benutzeroberfläche erscheinenden Landschaftsillustrationen sowie Teile der Beschreibungen und Geschichten der Statuen wurden mithilfe von Künstlicher Intelligenz (KI) generiert. Bitte beachten Sie, dass es aus diesem Grund zu sachlichen Ungenauigkeiten oder Fehlern kommen kann. Der Entwickler der Anwendung übernimmt keine Verantwortung für die absolute Richtigkeit der generierten Inhalte.",
+    "distance_away": " • %s entfernt"
   }
 }
