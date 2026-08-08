@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kolodko Szobrok – Privacy Policy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
+    nav { background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.8rem; }
+    .nav-left { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; flex-wrap: wrap; }
+    .nav-left a { color: #FFB2C2; text-decoration: none; }
+    .nav-left a:hover { text-decoration: underline; }
+    .nav-sep { color: #4a4a60; }
+    .nav-current { color: #a0a0b0; }
+    .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; flex-shrink: 0; }
+    .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .lang-btn.active { background: #FFB2C2; color: #111318; }
+    .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .page-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem; }
+    .page-sub { color: #7a7a90; font-size: 0.88rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
+    h2 { font-size: 1rem; font-weight: 600; color: #FFB2C2; margin: 2rem 0 0.7rem; }
+    p { color: #8a8aa0; font-size: 0.92rem; line-height: 1.75; margin-bottom: 0.8rem; }
+    ul { color: #8a8aa0; font-size: 0.92rem; line-height: 1.75; padding-left: 1.4rem; margin-bottom: 0.8rem; }
+    ul li { margin-bottom: 0.3rem; }
+    a { color: #FFB2C2; }
+    hr { border: none; border-top: 1px solid #2a2b38; margin: 2rem 0; }
+    .effective { font-size: 0.85rem; color: #5a5a70; font-style: italic; }
+    footer { text-align: center; padding: 1.5rem; color: #4a4a60; font-size: 0.82rem; }
+    footer a { color: #4a4a60; text-decoration: none; }
+    footer a:hover { color: #FFB2C2; }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="nav-left">
+    <a href="../index.html">GopheR Apps</a>
+    <span class="nav-sep">/</span>
+    <a href="index.html">Kolodko Szobrok</a>
+    <span class="nav-sep">/</span>
+    <span class="nav-current" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</span>
+  </div>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('hu')">HU</button>
+  </div>
+</nav>
+
+<div class="content">
+  <div class="page-title" data-en="Kolodko Mini-statues" data-hu="Kolodko Szobrok">Kolodko Szobrok</div>
+  <div class="page-sub" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</div>
+
+  <!-- ENGLISH -->
+  <div data-lang="en">
+    <h2>1. Introduction</h2>
+    <p>GopheR (hereinafter referred to as "Developer" or "I"), the creator of the Kolodko App (hereinafter referred to as "Application"), is committed to protecting user privacy. This document explains what data the Application requests, how it is used, and why your personal data is never shared with third parties.</p>
+    <p><strong>The most important takeaway:</strong> This Application operates on an <strong>"Offline-First"</strong> principle. I do not collect, store, or transmit any personal data, photos, notes, or location data to external servers. Furthermore, the app <strong>does not contain any tracking or analytics software</strong> (such as Google Analytics or Facebook Pixel).</p>
+
+    <h2>2. Permissions and Data Usage</h2>
+    
+    <p style="color: #e0e0e8; font-weight: 600; margin-top: 1.5rem;">2.1. Location (GPS Coordinates)</p>
+    <p>The Application uses precise and approximate location data for the following purposes:</p>
+    <ul>
+      <li>Displaying your position on the map.</li>
+      <li>Calculating and sorting the distance to the statues.</li>
+      <li>Operating the "Treasure Hunt Radar" feature (compass and distance).</li>
+      <li>Pedestrian route planning between your location and a statue.</li>
+      <li>Comparing the location of your captured photos with the statue's coordinates (anti-cheat protection and automatic timestamping).</li>
+    </ul>
+    <p><strong>Data Handling:</strong> Your location data is processed exclusively on your device. The Developer does not track your movements or profile you.</p>
+
+    <p style="color: #e0e0e8; font-weight: 600; margin-top: 1.5rem;">2.2. Camera and Photos (Storage)</p>
+    <p>The Application uses the camera for:</p>
+    <ul>
+      <li>Displaying the background for the Augmented Reality (AR) treasure hunt radar.</li>
+      <li>Taking photos of the discovered statues for your personal log.</li>
+      <li>Reading the EXIF metadata (timestamp, coordinates) of the taken pictures to automatically verify your discovery.</li>
+    </ul>
+    <p><strong>Data Handling:</strong> Photos taken with the camera or selected from the gallery are saved exclusively to your phone's internal (or shared) storage. No photos are ever uploaded to the cloud.</p>
+
+    <h2>3. Third-Party Services</h2>
+    <p>Although the Application does not collect personal data, it communicates with external APIs via the internet for certain features (mapping, routing, updates). These providers may receive your IP address and query parameters (e.g., start and end points of a route):</p>
+    <ul>
+      <li><strong>OpenStreetMap (OSMDroid):</strong> Loading map tiles.</li>
+      <li><strong>GraphHopper / OpenRouteService / Mapbox:</strong> Pedestrian route planning on the map. They generate a route anonymously from the provided coordinates.</li>
+      <li><strong>GitHub Pages:</strong> The Application periodically downloads the latest statue data (JSON files) from the Developer's public GitHub repository (digital-gopher.github.io). During this process, GitHub's servers log the download request and your IP address.</li>
+    </ul>
+
+    <h2>4. Bug Reporting and Email Communication</h2>
+    <p>If you use the "Wrong location on the map? Report it!" feature, the Application opens your phone's default email client (e.g., Gmail) and drafts an email to the Developer (digital.gopher.app@gmail.com).</p>
+    <p>By doing this, you voluntarily share your email address, provided name, attached photo, and measured GPS coordinates. The Developer uses this information exclusively to improve the accuracy of the database. Your email will not be added to any marketing lists or shared with third parties.</p>
+
+    <h2>5. Social Sharing (Image Generation)</h2>
+    <p>When you use the "Share Card" feature to post your discoveries to social media, the Application generates a customized image combining your photo and statistics. This image generation happens entirely <strong>locally on your device</strong>. The sharing process uses Android's built-in sharing system (Intents), meaning the Developer never sees or stores the generated images.</p>
+
+    <h2>6. Backup (Export/Import)</h2>
+    <p>In the Settings, you have the option to export the status of your found statues, photos, and notes into a ZIP file. This file is created locally on your device. You are solely responsible for securely storing this file or uploading it to a cloud storage provider (e.g., Google Drive).</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>The Application is a family-friendly treasure hunt game suitable for anyone. Since the Application does not collect personal data and requires no registration, it does not knowingly collect personal information from children under the age of 13. If I become aware that a minor has sent data without permission (e.g., via a bug report email), the received email will be deleted immediately.</p>
+
+    <h2>8. Changes to this Privacy Policy</h2>
+    <p>The Developer reserves the right to update this Privacy Policy from time to time. Users will be notified of significant changes (e.g., if server-side data collection were ever introduced, which is currently not planned) via an in-app notification or the Release Notes.</p>
+
+    <h2>9. Contact</h2>
+    <p>If you have any questions, comments, or complaints regarding privacy or the Application, please contact me:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:digital.gopher.app@gmail.com">digital.gopher.app@gmail.com</a></li>
+      <li><strong>Developer:</strong> GopheR</li>
+    </ul>
+    
+    <hr>
+    <p class="effective">Last updated: August 2026</p>
+  </div>
+
+  <!-- HUNGARIAN -->
+  <div data-lang="hu" style="display:none;">
+    <h2>1. Bevezetés</h2>
+    <p>A Kolodko Szobrok (a továbbiakban: "Alkalmazás") fejlesztője, GopheR (a továbbiakban: "Fejlesztő" vagy "Én") elkötelezett a felhasználók magánéletének védelme iránt. Ez a tájékoztató elmagyarázza, hogy az Alkalmazás milyen adatokat kér be, azokat hogyan használja fel, és miért nem osztja meg harmadik felekkel az Ön személyes adatait.</p>
+    <p><strong>A legfontosabb tudnivaló:</strong> Ez az Alkalmazás <strong>"Offline-First"</strong> (helyi adattárolású) elven működik. Semmilyen személyes adatot, fotót, jegyzetet vagy helyzetadatot nem gyűjtök be és nem tárolok külső szervereken. Továbbá az app <strong>nem tartalmaz beépített analitikai vagy nyomkövető szoftvereket sem</strong> (mint pl. Google Analytics vagy Facebook Pixel).</p>
+
+    <h2>2. Engedélyek és adathasználat</h2>
+    
+    <p style="color: #e0e0e8; font-weight: 600; margin-top: 1.5rem;">2.1. Helymeghatározás (GPS koordináták)</p>
+    <p>Az Alkalmazás a pontos és hozzávetőleges helyadatokat az alábbi célokra használja:</p>
+    <ul>
+      <li>Az Ön pozíciójának megjelenítése a térképen.</li>
+      <li>A szobrok távolságának kiszámítása és sorrendbe állítása.</li>
+      <li>A "Kincskereső Radar" funkció (iránytű és távolság) működtetése.</li>
+      <li>Gyalogos útvonaltervezés az Ön helyzete és a szobor között.</li>
+      <li>A rögzített fotók helyzetének összevetése a szobor koordinátáival (csalásvédelem és automatikus dátumozás).</li>
+    </ul>
+    <p><strong>Adatkezelés:</strong> A helyadatai kizárólag az Ön eszközén kerülnek feldolgozásra. A Fejlesztő nem követi nyomon a mozgását, és nem készít róla profilt.</p>
+
+    <p style="color: #e0e0e8; font-weight: 600; margin-top: 1.5rem;">2.2. Kamera és Fotók (Tárhely)</p>
+    <p>Az Alkalmazás a kamerát az alábbiakra használja:</p>
+    <ul>
+      <li>A kincskereső AR (kiterjesztett valóság) radar hátterének megjelenítése.</li>
+      <li>Fotók készítése a megtalált szobrokról a saját élménynaplóhoz.</li>
+      <li>Az elkészült képek metaadatainak (EXIF - időpont, koordináta) kiolvasása a megtalálás automatikus hitelesítéséhez.</li>
+    </ul>
+    <p><strong>Adatkezelés:</strong> Az elkészített fényképek, valamint a galériából kiválasztott képek kizárólag az Ön telefonjának belső (vagy megosztott) tárhelyére kerülnek mentésre. Egyetlen fotó sem kerül feltöltésre a felhőbe.</p>
+
+    <h2>3. Külső szolgáltatók (Third-Party Services)</h2>
+    <p>Bár az Alkalmazás nem gyűjt személyes adatokat, bizonyos funkciók (térkép, útvonaltervezés, frissítések) működéséhez külső API-kkal kommunikál az interneten keresztül. Ezek a szolgáltatók megkaphatják az Ön IP címét és az adott lekérdezés paramétereit (pl. útvonal kezdő- és végpontja):</p>
+    <ul>
+      <li><strong>OpenStreetMap (OSMDroid):</strong> Térképcsempék betöltése.</li>
+      <li><strong>GraphHopper / OpenRouteService / Mapbox:</strong> Gyalogos útvonaltervezés a térképen. A megadott koordinátákból anonim módon útvonalat generálnak.</li>
+      <li><strong>GitHub Pages:</strong> Az Alkalmazás a Fejlesztő publikus GitHub tárhelyéről (digital-gopher.github.io) tölti le időnként a szobrok legújabb adatait (JSON fájlok). Ennek során a GitHub szerverei regisztrálják a letöltés tényét és az IP címet.</li>
+    </ul>
+
+    <h2>4. Hibabejelentés és E-mail kommunikáció</h2>
+    <p>Ha Ön a "Rossz helyen van a térképen? Jelentsd be!" funkciót használja, az Alkalmazás megnyitja az Ön telefonjának alapértelmezett levelezőprogramját (pl. Gmail), és előkészít egy e-mailt a Fejlesztő számára (digital.gopher.app@gmail.com).</p>
+    <p>Ekkor Ön önkéntesen megosztja az e-mail címét, a megadott nevét, a csatolt fényképet és a mért GPS koordinátát. Ezeket az információkat a Fejlesztő kizárólag az adatbázis pontosságának javítására használja fel, semmilyen reklámcélú listára nem kerülnek fel, és harmadik félnek nem kerülnek átadásra.</p>
+
+    <h2>5. Közösségi megosztás (Kártya generálása)</h2>
+    <p>Amikor a "Kártya megosztása" funkciót használja, hogy posztolja a találatait a közösségi médiába, az alkalmazás egy képet generál az Ön fotójából és statisztikáiból. Ez a képgenerálás is teljes egészében <strong>lokálisan, az Ön eszközén történik</strong>. A megosztás az Android beépített megosztási rendszerén keresztül történik, a Fejlesztő sosem látja és nem tárolja az Ön által generált képeket.</p>
+
+    <h2>6. Biztonsági mentés (Export/Import)</h2>
+    <p>A Beállításokban lehetősége van a megtalált szobrok állapotát, a fotóit és a jegyzeteit egy ZIP fájlba exportálni. Ez a fájl az Ön eszközén jön létre. Annak biztonságos tárolásáért és esetleges felhőtárhelyre (pl. Google Drive) való feltöltéséért Ön felel.</p>
+
+    <h2>7. Gyermekek védelme</h2>
+    <p>Az Alkalmazás egy családbarát kincskereső játék, amelyet bárki használhat. Mivel az Alkalmazás nem gyűjt személyes adatokat és nem igényel regisztrációt, így 13 éven aluli gyermekek személyes adatait sem gyűjti szándékosan. Ha tudomásomra jut, hogy egy felhasználó (például e-mailes bejelentés során) kiskorú és engedély nélkül küldött adatot, a kapott levelet azonnal törlöm.</p>
+
+    <h2>8. Változások az Adatvédelmi Tájékoztatóban</h2>
+    <p>A Fejlesztő fenntartja a jogot a jelen Adatvédelmi Tájékoztató időnkénti frissítésére. A jelentős változásokról (ha valaha elkezdődne a szerveroldali adatgyűjtés, amire jelenleg nincs terv) az Alkalmazáson belüli értesítéssel vagy a kiadási megjegyzéseken (Release Notes) keresztül tájékoztatom a felhasználókat.</p>
+
+    <h2>9. Kapcsolat</h2>
+    <p>Ha bármilyen kérdése, észrevétele vagy panasza van az adatvédelemmel vagy az Alkalmazással kapcsolatban, kérjük, vegye fel velem a kapcsolatot:</p>
+    <ul>
+      <li><strong>E-mail:</strong> <a href="mailto:digital.gopher.app@gmail.com">digital.gopher.app@gmail.com</a></li>
+      <li><strong>Fejlesztő:</strong> GopheR</li>
+    </ul>
+
+    <hr>
+    <p class="effective">Utolsó frissítés: 2026. augusztus</p>
+  </div>
+</div>
+
+<footer>
+  <a href="index.html" data-en="← Back to Kolodko App" data-hu="← Vissza a Kolodko apphoz">← Back to Kolodko App</a>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-lang]').forEach(el => {
+      el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+  const savedLang = localStorage.getItem('lang') || 'en';
+  setLang(savedLang);
+</script>
+</body>
+</html>
