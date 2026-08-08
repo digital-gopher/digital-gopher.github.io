@@ -1,1 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kolodko Szobrok – Digital GopheR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
+    nav { background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+    .nav-left { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; }
+    .nav-left a { color: #FFB2C2; text-decoration: none; }
+    .nav-left a:hover { text-decoration: underline; }
+    .nav-sep { color: #4a4a60; }
+    .nav-current { color: #a0a0b0; }
+    .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; }
+    .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .lang-btn.active { background: #FFB2C2; color: #111318; }
+    .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .app-hero { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
+    .app-icon { width: 72px; height: 72px; border-radius: 16px; background: #2a2b38; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; color: #FFB2C2; flex-shrink: 0; overflow: hidden; }
+    .app-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .app-title { font-size: 1.5rem; font-weight: 700; }
+    .app-subtitle { color: #7a7a90; font-size: 0.88rem; margin-top: 0.3rem; }
+    .notice { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #f59e0b; border-radius: 10px; padding: 0.9rem 1.2rem; font-size: 0.88rem; color: #8a8aa0; margin-bottom: 1.5rem; }
+    .section-title { font-size: 0.78rem; font-weight: 600; color: #FFB2C2; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; margin-top: 2rem; }
+    .desc-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.3rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
+    .desc-box p { margin-bottom: 0.6rem; }
+    .desc-box p:last-child { margin-bottom: 0; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.75rem; padding: 0.25rem 0.7rem; border-radius: 100px; }
+    .links-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.8rem; margin-top: 1rem; }
+    .link-card { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.1rem 1.3rem; text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.8rem; transition: border-color 0.2s; }
+    .link-card:hover { border-color: #FFB2C2; }
+    .link-icon { font-size: 1.3rem; }
+    .link-label { font-size: 0.78rem; color: #7a7a90; }
+    .link-title { font-size: 0.92rem; font-weight: 600; margin-top: 0.1rem; }
+    .play-btn-disabled { display: inline-flex; align-items: center; gap: 0.5rem; background: #22232f; border: 1px solid #2a2b38; color: #5a5a70; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; margin-top: 1rem; cursor: not-allowed; position: relative; user-select: none; }
+    .play-btn-disabled .tooltip { visibility: hidden; opacity: 0; background: #2a2b38; color: #c0c0d0; font-size: 0.78rem; font-weight: 500; padding: 0.35rem 0.75rem; border-radius: 6px; position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%); white-space: nowrap; transition: opacity 0.2s; pointer-events: none; border: 1px solid #3a3b50; }
+    .play-btn-disabled:hover .tooltip { visibility: visible; opacity: 1; }
+    
+    .beta-box { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #FFB2C2; border-radius: 12px; padding: 1.4rem 1.5rem; margin-top: 1rem; }
+    .beta-box-title { font-size: 1rem; font-weight: 700; color: #e0e0e8; margin-bottom: 0.4rem; }
+    .beta-box-sub { font-size: 0.88rem; color: #8a8aa0; margin-bottom: 1.1rem; line-height: 1.6; }
+    .beta-steps { list-style: none; padding: 0; margin-bottom: 1.2rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .beta-steps li { display: flex; align-items: flex-start; gap: 0.75rem; font-size: 0.9rem; color: #c0c0d0; line-height: 1.5; }
+    .beta-step-num { background: #713644; color: #FFB2C2; font-weight: 700; font-size: 0.75rem; border-radius: 50%; width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+    .beta-steps a { color: #FFB2C2; text-decoration: none; word-break: break-all; }
+    .beta-steps a:hover { text-decoration: underline; }
+    
+    footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
+    footer a { color: #4a4a60; text-decoration: none; }
+    footer a:hover { color: #FFB2C2; }
+  </style>
+</head>
+<body>
 
+<nav>
+  <div class="nav-left">
+    <a href="../index.html">Digital GopheR</a>
+    <span class="nav-sep">/</span>
+    <span class="nav-current">Kolodko Szobrok</span>
+  </div>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('hu')">HU</button>
+  </div>
+</nav>
+
+<div class="content">
+
+  <div class="app-hero">
+    <div class="app-icon">
+      <!-- Ide majd be tudod tenni az app ikonját: <img src="..." /> -->
+      KSz
+    </div>
+    <div>
+      <div class="app-title" data-en="Kolodko Mini-statues" data-hu="Kolodko Szobrok">Kolodko Szobrok</div>
+      <div class="app-subtitle" data-en="Treasure Hunt & Guide · by GopheR" data-hu="Kincskereső és Kalauz · GopheR-től">Treasure Hunt & Guide · by GopheR</div>
+    </div>
+  </div>
+
+  <div class="notice" data-en="⚠️ This app is currently in closed testing. It will be available on Google Play soon." data-hu="⚠️ Ez az alkalmazás jelenleg zárt tesztelés alatt áll. Hamarosan elérhető lesz a Google Play-en.">⚠️ This app is currently in closed testing. It will be available on Google Play soon.</div>
+
+  <div class="section-title" data-en="About the app" data-hu="Az alkalmazásról">About the app</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>Discover the hidden Kolodko mini-statues in Budapest and beyond! This unofficial fan guide helps you find, track, and save your experiences with these tiny masterpieces.</p>
+      <p>Whether you're a tourist or a local explorer, become the ultimate treasure hunter! Find the statues on the interactive map, use the AR radar, and collect all the badges.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>Fedezd fel Budapest és a világ elrejtett Kolodko-miniszobrait! Ez a nem hivatalos, rajongói kalauz segít megtalálni, nyilvántartani és megőrizni a szobrokkal kapcsolatos élményeidet.</p>
+      <p>Legyél te a legnagyobb kincskereső! Keresd meg a szobrokat az interaktív térképen, használd a kamerás radart a pontos azonosításhoz, és gyűjtsd össze az összes teljesítményjelvényt.</p>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="Key Features" data-hu="Főbb funkciók">Key Features</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>🗺️ <strong>Map & Navigation:</strong> Locate all active and destroyed statues on the map. Plan a walking route directly to your next target.</p>
+      <p>🧭 <strong>AR Radar:</strong> Getting close? Use your camera and the built-in compass radar to pinpoint the exact hiding spot.</p>
+      <p>📸 <strong>Personal Log:</strong> Mark statues as found, attach your own photos, and write personal notes. The app reads photo EXIF data to automatically verify your discovery.</p>
+      <p>🏆 <strong>Badges & Tours:</strong> Complete themed walking tours and unlock achievements (like "Night Owl" or "Buda Master").</p>
+      <p>📖 <strong>Statue Stories:</strong> Read the background story, fun facts, and hints for every single statue. Listen to them via text-to-speech.</p>
+      <p>📤 <strong>Share Your Catch:</strong> Generate beautiful social media sharing cards displaying your photo and discovery stats.</p>
+      <p>🔒 <strong>100% Offline:</strong> Your photos, notes, and progress stay on your device. No registration, no tracking.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>🗺️ <strong>Térkép és Navigáció:</strong> Keresd meg az összes aktív és eltűnt szobrot a térképen. Tervezz gyalogos útvonalat a következő célpontodhoz.</p>
+      <p>🧭 <strong>Kincskereső Radar:</strong> Már közel vagy? Használd a kamerádat és a beépített lüktető iránytűt, hogy megtaláld a pontos rejtekhelyet!</p>
+      <p>📸 <strong>Élménynapló:</strong> Jelöld be a megtalált szobrokat, csatolj saját fotót és jegyzetet. Az app kiolvassa a fotód EXIF adatait az automatikus hitelesítéshez.</p>
+      <p>🏆 <strong>Jelvények és Séták:</strong> Teljesíts tematikus sétákat, és oldj fel olyan jelvényeket, mint az "Éjszakai Vadász" vagy a "Budai Mester".</p>
+      <p>📖 <strong>Szobrok Története:</strong> Olvasd el minden alkotás hátterét, érdekességeit és a megtalálást segítő tippeket. Akár fel is olvastathatod őket.</p>
+      <p>📤 <strong>Közösségi Megosztás:</strong> Generálj gyönyörű, személyre szabott kártyákat a fotóddal és az eredményeiddel a közösségi médiához.</p>
+      <p>🔒 <strong>100% Offline:</strong> Nincs szükség regisztrációra. Az adataid, fotóid és jegyzeteid kizárólag a telefonodon tárolódnak.</p>
+    </div>
+  </div>
+
+  <div class="tags">
+    <span class="tag">100% Offline</span>
+    <span class="tag" data-en="Treasure Hunt" data-hu="Kincskeresés">Treasure Hunt</span>
+    <span class="tag" data-en="Map & Radar" data-hu="Térkép és Radar">Map & Radar</span>
+    <span class="tag" data-en="No Account Needed" data-hu="Nincs regisztráció">No Account Needed</span>
+    <span class="tag" data-en="Free" data-hu="Ingyenes">Free</span>
+  </div>
+
+  <div class="section-title" data-en="Download" data-hu="Letöltés">Download</div>
+  <div>
+    <span class="play-btn-disabled">
+      ▶ Google Play
+      <span class="tooltip" data-tooltip-en="Coming soon" data-tooltip-hu="Hamarosan">Coming soon</span>
+    </span>
+  </div>
+
+  <div class="section-title" data-en="Join Beta Test" data-hu="Csatlakozz a bétateszthez">Join Beta Test</div>
+  <div class="beta-box">
+    <div data-lang-block="en">
+      <div class="beta-box-title">🧪 Help us test the Kolodko App!</div>
+      <div class="beta-box-sub">The app is currently in testing and not yet publicly available on Google Play. Follow these two steps to join the beta program and install the app:</div>
+      <ol class="beta-steps">
+        <li>
+          <span class="beta-step-num">1</span>
+          <span>Join our tester group on Google Groups:<br><a href="#" target="_blank">groups.google.com/g/kolodko-testers (Coming Soon)</a></span>
+        </li>
+        <li>
+          <span class="beta-step-num">2</span>
+          <span>After joining the group, install the app via Google Play:<br>
+            <a href="#" target="_blank">play.google.com/apps/testing/... (Coming Soon)</a>
+          </span>
+        </li>
+      </ol>
+      <div style="font-size:0.85rem;color:#8a8aa0;">Thank you for your feedback and bug reports! 🙏</div>
+    </div>
+    <div data-lang-block="hu">
+      <div class="beta-box-title">🧪 Segíts tesztelni a Kolodko appot!</div>
+      <div class="beta-box-sub">Az alkalmazás jelenleg tesztelés alatt áll, és még nem érhető el nyilvánosan a Google Play-en. Kövesd ezt a két lépést a bétateszthez való csatlakozáshoz és az app telepítéséhez:</div>
+      <ol class="beta-steps">
+        <li>
+          <span class="beta-step-num">1</span>
+          <span>Csatlakozz a tesztelői csoporthoz a Google Csoportokon:<br><a href="#" target="_blank">groups.google.com/g/kolodko-testers (Hamarosan)</a></span>
+        </li>
+        <li>
+          <span class="beta-step-num">2</span>
+          <span>A csoport csatlakozása után telepítsd az appot a Google Play-ről:<br>
+            <a href="#" target="_blank">play.google.com/apps/testing/... (Hamarosan)</a>
+          </span>
+        </li>
+      </ol>
+      <div style="font-size:0.85rem;color:#8a8aa0;">Minden visszajelzést és hibajelentést előre is köszönök! 🙏</div>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="Links" data-hu="Hivatkozások">Links</div>
+  <div class="links-grid">
+    <a class="link-card" href="privacy.html">
+      <div class="link-icon">🔒</div>
+      <div>
+        <div class="link-label" data-en="Legal" data-hu="Jogi">Legal</div>
+        <div class="link-title" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</div>
+      </div>
+    </a>
+    <a class="link-card" href="mailto:digital.gopher.app@gmail.com">
+      <div class="link-icon">✉️</div>
+      <div>
+        <div class="link-label" data-en="Get in touch" data-hu="Kapcsolat">Get in touch</div>
+        <div class="link-title" data-en="Send email" data-hu="Email küldése">Send email</div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <a href="../index.html" data-en="← Back to all apps" data-hu="← Vissza az összes apphoz">← Back to all apps</a>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(function(el) {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-tooltip-en]').forEach(function(el) {
+      el.textContent = el.getAttribute('data-tooltip-' + lang);
+    });
+    document.querySelectorAll('[data-lang-block]').forEach(function(el) {
+      el.style.display = el.getAttribute('data-lang-block') === lang ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn) {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    var savedLang = localStorage.getItem('lang') || 'en';
+    setLang(savedLang);
+  });
+</script>
+</body>
+</html>
