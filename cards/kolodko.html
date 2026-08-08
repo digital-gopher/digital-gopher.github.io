@@ -1,1 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital GopheR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
 
+    nav {
+      background: #1a1b23; border-bottom: 1px solid #2a2b38;
+      padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 10;
+    }
+    .nav-logo { font-weight: 700; font-size: 1.1rem; color: #7dd3b0; text-decoration: none; }
+    .nav-right { display: flex; align-items: center; gap: 1.5rem; }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a { color: #a0a0b0; text-decoration: none; font-size: 0.9rem; }
+    .nav-links a:hover { color: #7dd3b0; }
+    .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; }
+    .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .lang-btn.active { background: #7dd3b0; color: #111318; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+    .hamburger span { display: block; width: 22px; height: 2px; background: #e0e0e8; }
+    .mobile-menu { display: none; background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; flex-direction: column; gap: 1rem; }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { color: #e0e0e8; text-decoration: none; font-size: 0.95rem; }
+
+    .hero { padding: 4rem 1.5rem 3rem; max-width: 700px; margin: 0 auto; text-align: center; }
+    .hero h1 { font-size: clamp(1.8rem, 5vw, 2.4rem); font-weight: 700; margin-bottom: 1rem; line-height: 1.2; }
+    .hero h1 span { color: #7dd3b0; }
+    .hero p { color: #7a7a90; font-size: 1rem; line-height: 1.7; }
+
+    section { max-width: 900px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+    .section-title { font-size: 0.8rem; font-weight: 600; color: #7dd3b0; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.5rem; }
+    hr { border: none; border-top: 1px solid #2a2b38; }
+
+    .apps-grid { display: flex; flex-wrap: wrap; gap: 1rem; }
+    
+    .app-card {
+      background: #1a1b23; border: 1px solid #2a2b38; border-radius: 14px;
+      padding: 1.3rem; display: flex; flex-direction: column; gap: 0.8rem;
+      text-decoration: none; color: inherit; transition: border-color 0.2s, transform 0.2s;
+      flex: 1 1 260px; min-width: 260px; max-width: calc(33.333% - 0.67rem);
+      box-sizing: border-box;
+    }
+    .app-card:hover { transform: translateY(-2px); }
+    .app-card.live { border-color: #2a5a42; order: 1; }
+    .app-card.live:hover { border-color: #7dd3b0; }
+    .app-card.beta { border-color: #5a4a1a; order: 2; }
+    .app-card.beta:hover { border-color: #f59e0b; }
+
+    .app-card-top { display: flex; align-items: center; gap: 0.9rem; }
+
+    .status-badge {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      font-size: 0.7rem; font-weight: 600; padding: 0.2rem 0.6rem;
+      border-radius: 100px; margin-top: 0.25rem; width: fit-content;
+    }
+    .status-badge.live { background: #0d2e1f; color: #4ade80; border: 1px solid #2a5a42; }
+    .status-badge.beta { background: #2d2000; color: #fbbf24; border: 1px solid #5a4a1a; }
+    .status-badge::before { content: ''; display: inline-block; width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+    .status-badge.live::before { background: #4ade80; box-shadow: 0 0 5px #4ade80; animation: pulse-green 2s infinite; }
+    .status-badge.beta::before { background: #fbbf24; }
+    @keyframes pulse-green {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    .app-icon { width: 52px; height: 52px; border-radius: 12px; background: #2a2b38; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; color: #7dd3b0; flex-shrink: 0; overflow: hidden; }
+    .app-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .app-name { font-weight: 600; font-size: 1rem; }
+    .app-category { font-size: 0.78rem; color: #7a7a90; margin-top: 0.15rem; }
+    .app-desc { color: #8a8aa0; font-size: 0.88rem; line-height: 1.6; }
+    .app-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.72rem; padding: 0.2rem 0.6rem; border-radius: 100px; }
+    .app-card-arrow { margin-top: auto; color: #7dd3b0; font-size: 0.82rem; font-weight: 500; }
+
+    .about-box, .contact-box, .support-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 14px; padding: 1.5rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
+    .about-box p + p { margin-top: 0.8rem; }
+    .contact-box a { color: #7dd3b0; text-decoration: none; }
+    
+    .support-box { margin-top: 1rem; }
+    .support-text { margin-bottom: 1rem; }
+    .support-buttons { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+    .support-btn {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      padding: 0.6rem 1.1rem; border-radius: 10px;
+      font-size: 0.88rem; font-weight: 600;
+      text-decoration: none; transition: opacity 0.2s, transform 0.15s;
+      border: none; cursor: pointer;
+    }
+    .support-btn:hover { opacity: 0.85; transform: translateY(-1px); }
+    .support-btn.paypal { background: #003087; color: #fff; }
+    .support-btn.revolut { background: #191c24; color: #fff; border: 1px solid #2a2b38; }
+    .support-btn svg { width: 20px; height: 20px; flex-shrink: 0; }
+
+    footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
+    footer a { color: #4a4a60; text-decoration: none; }
+    footer a:hover { color: #7dd3b0; }
+
+    @media (max-width: 860px) {
+      .app-card { max-width: calc(50% - 0.5rem); }
+    }
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .app-card { max-width: 100%; min-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">Digital GopheR</a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#apps" data-en="Apps" data-hu="Appok">Apps</a></li>
+      <li><a href="#about" data-en="About" data-hu="Rólam">About</a></li>
+      <li><a href="#contact" data-en="Contact" data-hu="Kapcsolat">Contact</a></li>
+    </ul>
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('hu')">HU</button>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#apps" onclick="toggleMenu()" data-en="Apps" data-hu="Appok">Apps</a>
+  <a href="#about" onclick="toggleMenu()" data-en="About" data-hu="Rólam">About</a>
+  <a href="#contact" onclick="toggleMenu()" data-en="Contact" data-hu="Kapcsolat">Contact</a>
+</div>
+
+<div class="hero">
+  <h1><span>GopheR</span> Apps</h1>
+  <p data-en="Hobby Android developer from Hungary. Here you can find all my apps." data-hu="Hobbi Android fejlesztő Magyarországról. Itt megtalálod az összes alkalmazásomat.">Hobby Android developer from Hungary. Here you can find all my apps.</p>
+</div>
+
+<hr>
+
+<section id="apps">
+  <div class="section-title" data-en="Applications" data-hu="Alkalmazások">Applications</div>
+  
+  <div class="apps-grid" id="apps-container"></div>
+  
+</section>
+
+<hr>
+
+<section id="about">
+  <div class="section-title" data-en="About me" data-hu="Rólam">About me</div>
+  <div class="about-box">
+    <p data-en="I'm a hobby Android developer from Hungary. In my free time I build apps that solve everyday problems." data-hu="Hobbi Android fejlesztő vagyok Magyarországról. Szabadidőmben olyan appokat fejlesztek, amelyek a mindennapokban hasznosak.">I'm a hobby Android developer from Hungary. In my free time I build apps that solve everyday problems.</p>
+    <p data-en="I'm not a professional developer, but I try to make my apps simple and easy to use." data-hu="Nem vagyok profi fejlesztő, de igyekszem egyszerű és könnyen használható appokat készíteni.">I'm not a professional developer, but I try to make my apps simple and easy to use.</p>
+  </div>
+</section>
+
+<hr>
+
+<section id="contact">
+  <div class="section-title" data-en="Contact" data-hu="Kapcsolat">Contact</div>
+  <div class="contact-box">
+    <span data-en="If you have any questions, feel free to reach out:" data-hu="Ha kérdésed van, írj emailt:">If you have any questions, feel free to reach out:</span><br><br>
+    <a href="mailto:digital.gopher.app@gmail.com">digital.gopher.app@gmail.com</a>
+  </div>
+
+  <div class="support-box">
+    <div class="support-text" data-en="If you'd like to support my work, you can do so here — thank you! 🙏" data-hu="Ha szeretnéd támogatni a munkámat, itt megteheted — köszönöm! 🙏">If you'd like to support my work, you can do so here — thank you! 🙏</div>
+    <div class="support-buttons">
+      <a class="support-btn paypal" href="https://www.paypal.com/paypalme/pocok79" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106zm14.146-14.42a3.35 3.35 0 0 0-.607-.541c-.013.076-.026.175-.041.254-.93 4.778-4.005 7.201-9.138 7.201h-2.19a.563.563 0 0 0-.556.479l-1.187 7.527h-.506l-.24 1.516a.56.56 0 0 0 .554.647h3.882c.46 0 .85-.334.922-.788.06-.26.76-4.852.816-5.09a.932.932 0 0 1 .923-.788h.58c3.76 0 6.705-1.528 7.565-5.946.36-1.847.174-3.388-.777-4.471z" fill="#fff"/>
+        </svg>
+        <span data-en="PayPal" data-hu="PayPal">PayPal</span>
+      </a>
+      <a class="support-btn revolut" href="https://revolut.me/gopher007" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.48 2H5v20h4.5v-7.5h2.31l3.77 7.5H20l-4.07-7.94C17.7 13.1 19 11.18 19 8.88 19 5.07 16.6 2 13.48 2zm-.26 8.88H9.5V6h3.72c1.33 0 2.28.95 2.28 2.44 0 1.5-.95 2.44-2.28 2.44z" fill="#fff"/>
+        </svg>
+        <span data-en="Revolut" data-hu="Revolut">Revolut</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Digital GopheR · <a href="app-ads.txt">app-ads.txt</a></footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+  document.addEventListener('click', function(e) {
+    const menu = document.getElementById('mobileMenu');
+    const hb = document.getElementById('hamburger');
+    if (menu && hb && !menu.contains(e.target) && !hb.contains(e.target)) menu.classList.remove('open');
+  });
+
+  // FRISSÍTVE: Bekerült a kolodko.html a listába!
+  const appsToLoad = [
+    'cards/spendfence.html',
+    'cards/icespice.html',
+    'cards/breakit.html',
+    'cards/chronicly.html',
+    'cards/tastelog.html',
+    'cards/kolodko.html'
+  ];
+
+  async function loadApps() {
+    const container = document.getElementById('apps-container');
+    
+    for (const file of appsToLoad) {
+      try {
+        const response = await fetch(file);
+        if (response.ok) {
+          const html = await response.text();
+          container.insertAdjacentHTML('beforeend', html);
+        }
+      } catch (error) {
+        console.error("Hiba a betöltésnél: " + file);
+      }
+    }
+
+    const savedLang = localStorage.getItem('lang') || 'en';
+    setLang(savedLang);
+  }
+
+  function setLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+
+  loadApps();
+
+</script>
+</body>
+</html>
