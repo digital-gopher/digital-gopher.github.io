@@ -1,6 +1,6 @@
 {
   "ui": {
-    "app_name": "Mini Statue Guide",
+    "app_name": "Kolodko Mini Statue Guide",
     "app_name_budapest": "Mini Statue Treasure Hunt",
     "app_subtitle": "Unofficial guide to discovering hidden mini statues",
     "nav_dashboard": "Dashboard",
@@ -229,7 +229,7 @@
     "report_email_subject": "[Mini Statue Guide] Coordinate correction: %s",
     "report_email_body": "Sender: %1$s\nNote: %2$s\n\nOld coordinates: %3$f, %4$f\nNew coordinates: %5$f, %6$f\n\nGoogle Maps: https://maps.google.com/?q=%5$f,%6$f",
     "about_title": "About & Support",
-    "about_app_name": "Mini Statue Guide",
+    "about_app_name": "Kolodko Mini Statue Guide",
     "about_dev_message": "This application is an independent, unofficial fan and information project. It is not affiliated with sculptor Mihály Kolodko or his official representatives. I created the app alone as a hobby project. If you like it and would like to support its development, you can do so by clicking the buttons below. Thank you!",
     "about_support_title": "Support",
     "support_paypal": "Support on PayPal",
@@ -242,7 +242,7 @@
     "version_label": "Version: %s",
     "developer_label": "Created by: %s",
     "language_title": "Language",
-    "onboarding_welcome_title": "Welcome to the Mini Statue Guide!",
+    "onboarding_welcome_title": "Welcome to the Kolodko Mini Statue Guide!",
     "onboarding_welcome_desc": "Discover the hidden mini statues of Budapest and the world.",
     "onboarding_lang_title": "Select language",
     "onboarding_lang_desc": "You can change this later in settings.",
@@ -367,6 +367,11 @@
     "artist_website_btn": "Website",
     "artist_facebook_btn": "Facebook",
     "about_ai_disclaimer": "Attention: The app icon, the landscape illustrations appearing on the interface, and parts of the descriptions and stories of the statues were generated using Artificial Intelligence (AI). Please note that due to this, there may be factual inaccuracies or errors. The developer of the application takes no responsibility for the absolute accuracy of the generated content.",
-    "distance_away": " • %s away"
+    "distance_away": " • %s away",
+    "gallery_save_error": "An error occurred while saving the original image to the gallery.",
+    "storage_permission_denied_gallery": "Without storage permission, the photo won't be saved to the Gallery!",
+    "undo_warning_title": "Are you sure you want to undo?",
+    "undo_warning_desc": "This will permanently delete all photos and personal notes associated with this statue.",
+    "undo_confirm": "Yes, undo it"
   }
 }
