@@ -1,6 +1,6 @@
 {
   "ui": {
-    "app_name": "Mini-Statuen Guide",
+    "app_name": "Kolodko Mini-Statuen Guide",
     "app_name_budapest": "Mini-Statuen Schatzsuche",
     "app_subtitle": "Inoffizieller Guide zur Entdeckung versteckter Mini-Statuen",
     "nav_dashboard": "Dashboard",
@@ -229,7 +229,7 @@
     "report_email_subject": "[Mini-Statuen Guide] Koordinatenkorrektur: %s",
     "report_email_body": "Absender: %1$s\nNotiz: %2$s\n\nAlte Koordinaten: %3$f, %4$f\nNeue Koordinaten: %5$f, %6$f\n\nGoogle Maps: https://maps.google.com/?q=%5$f,%6$f",
     "about_title": "Über uns & Unterstützung",
-    "about_app_name": "Mini-Statuen Guide",
+    "about_app_name": "Kolodko Mini-Statuen Guide",
     "about_dev_message": "Diese Anwendung ist ein unabhängiges, inoffizielles Fan- und Informationsprojekt. Sie ist nicht mit dem Bildhauer Mihály Kolodko oder seinen offiziellen Vertretern verbunden. Ich habe die App allein als Hobbyprojekt erstellt. Wenn sie dir gefällt und du die Entwicklung unterstützen möchtest, kannst du das tun, indem du auf die Schaltflächen unten klickst. Vielen Dank!",
     "about_support_title": "Unterstützung",
     "support_paypal": "Unterstützung via PayPal",
@@ -242,7 +242,7 @@
     "version_label": "Version: %s",
     "developer_label": "Erstellt von: %s",
     "language_title": "Sprache",
-    "onboarding_welcome_title": "Willkommen beim Mini-Statuen Guide!",
+    "onboarding_welcome_title": "Willkommen beim Kolodko Mini-Statuen Guide!",
     "onboarding_welcome_desc": "Entdecke die versteckten Mini-Statuen von Budapest und der Welt.",
     "onboarding_lang_title": "Sprache wählen",
     "onboarding_lang_desc": "Du kannst dies später in den Einstellungen ändern.",
@@ -367,6 +367,11 @@
     "artist_website_btn": "Webseite",
     "artist_facebook_btn": "Facebook",
     "about_ai_disclaimer": "Achtung: Das App-Symbol, die auf der Benutzeroberfläche erscheinenden Landschaftsillustrationen sowie Teile der Beschreibungen und Geschichten der Statuen wurden mithilfe von Künstlicher Intelligenz (KI) generiert. Bitte beachten Sie, dass es aus diesem Grund zu sachlichen Ungenauigkeiten oder Fehlern kommen kann. Der Entwickler der Anwendung übernimmt keine Verantwortung für die absolute Richtigkeit der generierten Inhalte.",
-    "distance_away": " • %s entfernt"
+    "distance_away": " • %s entfernt",
+    "gallery_save_error": "Beim Speichern des Originalbildes in der Galerie ist ein Fehler aufgetreten.",
+    "storage_permission_denied_gallery": "Ohne Speicherberechtigung wird das Foto nicht in der Galerie gespeichert!",
+    "undo_warning_title": "Bist du sicher, dass du das rückgängig machen möchtest?",
+    "undo_warning_desc": "Dadurch werden alle mit dieser Statue verbundenen Fotos und persönlichen Notizen dauerhaft aus der App gelöscht.",
+    "undo_confirm": "Ja, rückgängig machen"
   }
 }
