@@ -367,6 +367,11 @@
     "artist_website_btn": "Weboldal",
     "artist_facebook_btn": "Facebook",
     "about_ai_disclaimer": "Figyelem: Az alkalmazás ikonja, a felületen megjelenő tájképi illusztrációk, valamint a szobrok leírásainak és történeteinek egy része Mesterséges Intelligencia (AI) segítségével lett generálva. Kérjük, vedd figyelembe, hogy emiatt előfordulhatnak bennük ténybeli pontatlanságok vagy hibák. Az alkalmazás fejlesztője nem vállal felelősséget a generált tartalmak teljes pontosságáért.",
-    "distance_away": " • %s tőled"
+    "distance_away": " • %s tőled",
+    "gallery_save_error": "Hiba történt az eredeti kép galériába mentése során.",
+    "storage_permission_denied_gallery": "Tárhely engedély nélkül a fotó nem kerül mentésre a Galériába!",
+    "undo_warning_title": "Biztosan visszavonod?",
+    "undo_warning_desc": "Ezzel a szoborhoz tartozó összes fotó és saját jegyzet véglegesen törlődik az alkalmazásból.",
+    "undo_confirm": "Igen, visszavonom"
   }
 }
