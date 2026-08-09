@@ -40,7 +40,7 @@
     "reset_progress": "Haladás törlése",
     "reset_confirm": "Biztosan törölni szeretnéd a megtalált szobrok állapotát?",
     "offline_ready": "Offline működés (Internet nélkül is)",
-    "sync_status": "A szobrok leírásai, a te saját fotóid, a jegyzeteid és a beépített kincskereső radar internetkapcsolat nélkül is hibátlanul működnek, így bárhol folytathatod a felfedezést.\\n\\n\uD83C\uDF10 Mobiladat vagy Wi-Fi kizárólag a részletes térképnézethez, az útvonaltervezéshez és az új szobrok letöltéséhez szükséges.",
+    "sync_status": "A szobrok leírásai, a te saját fotóid, a jegyzeteid és a beépített kincskereső radar internetkapcsolat nélkül is hibátlanul működnek, így bárhol folytathatod a felfedezést.\n\nMobiladat vagy Wi-Fi kizárólag a részletes térképnézethez, az útvonaltervezéshez és az új szobrok letöltéséhez szükséges.",
     "artist_title": "Kolodko Mihály",
     "artist_subtitle": "A gerillaszobrászat és a miniszobrok mestere",
     "artist_bio_title": "Életrajz & Pályafutás",
