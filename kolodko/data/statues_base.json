@@ -240,6 +240,10 @@
       "piszkos_fred_01": {
         "coordinates": { "lat": 47.50017649125512, "lng": 19.045807246257027 },
         "yearInstalled": 2025
+      },
+      "dr_bubo_01": {
+        "coordinates": { "lat": 47.518340, "lng": 19.088120 },
+        "yearInstalled": 2026
       }
     }
   },
