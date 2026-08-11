@@ -12,14 +12,14 @@
       "location": "Szent György tér",
       "description": "Marék Veronika legendás rajzfilmfigurája, A Kockásfülű Nyúl bronz miniszobra. A mesehős a magasból kémleli a várost, pontosan úgy, ahogyan a rajzfilmekben is tette: távcsövével keresi a bajba jutott gyerekeket és a megoldandó kalandokat a pesti oldalon.",
       "funFact": "A turisták és helyiek körében elterjedt szokás, hogy szerencsehozó céllal megsimogatják a nyuszi fülét vagy a távcsövét, emiatt a bronz felülete ezen a részen fényesebbre kopott. A szoborból csodálatos panoráma nyílik a Lánchídra és a Parlamentre.",
-      "howToFind": "1. Lépés (Környék): Menj fel a Budavári Palotanegyedbe, a Szent György térre.\\n\\n2. Lépés (Fókusz): Keresd a Budavári Sikló felső állomását és a Sándor-palota előtti kőkorlátot.\\n\\n3. Lépés (Pontos hely): A kőkorlát tetején ül, a Turul-szobor közelében, a pesti oldal felé nézve."
+      "howToFind": "1. Lépés (Környék): Menj fel a Budavári Palotanegyedbe, a Szent György térre.\n\n2. Lépés (Fókusz): Keresd a Budavári Sikló felső állomását és a Sándor-palota előtti kőkorlátot.\n\n3. Lépés (Pontos hely): A kőkorlát tetején ül, a Turul-szobor közelében, a pesti oldal felé nézve."
     },
     "rubik_01": {
       "name": "Rubik Kocka",
       "location": "Bem rakpart (Batthyány térhez közel)",
       "description": "Rubik Ernő 1974-es világszabadalmának, a Bűvös Kockának (Rubik-kocka) állít emléket. A miniszobor a magyar kreativitás és mérnöki zsenialitás globális szimbóluma, amelyből a világon több mint 450 millió darabot adtak el.",
       "funFact": "A szobor felülete olyan kialakítású, mintha egy éppen forgatás alatt lévő, félig kirakott kockát ábrázolna, amely lefelé gurul a rakparti kőlépcső korlátján. Tervezésekor a művész szándékosan a Parlamenttel szemközti oldalt választotta.",
-      "howToFind": "1. Lépés (Környék): Sétálj a Bem rakparton, a Batthyány tér és a Margit híd közötti szakaszon.\\n\\n2. Lépés (Fókusz): Keresd a Vám utca vonalában lévő, a Duna felé vezető alsó rakparti kőlépcsősort.\\n\\n3. Lépés (Pontos hely): A szobor a lépcsősor kőkorlátjának tetején fekszik, pontosan a Parlamenttel szemben."
+      "howToFind": "1. Lépés (Környék): Sétálj a Bem rakparton, a Batthyány tér és a Margit híd közötti szakaszon.\n\n2. Lépés (Fókusz): Keresd a Vám utca vonalában lévő, a Duna felé vezető alsó rakparti kőlépcsősort.\n\n3. Lépés (Pontos hely): A szobor a lépcsősor kőkorlátjának tetején fekszik, pontosan a Parlamenttel szemben."
     },
     "sad_tank_01": {
       "name": "Szomorú Tank",
@@ -398,6 +398,13 @@
       "description": "Rejtő Jenő (P. Howard) legendás regényhőse, Piszkos Fred kapitány bronz miniszobra. Pipával a szájában, lazán üldögél egy utazóládán / hajóládán a Duna-parton.",
       "funFact": "2025 karácsonyán került ki. A helyszínválasztás szándékos kontraszt: a magas kultúrát képviselő MTA tövében jelenik meg a pesti humor és a ponyvairodalom ikonikus alakja.",
       "howToFind": "1. Lépés (Környék): Menj a Széchenyi István térre, a Magyar Tudományos Akadémia épületéhez.\n\n2. Lépés (Fókusz): Keresd a Duna-parti sétányt / kőkorlátot az Akadémia felőli oldalon.\n\n3. Lépés (Pontos hely): Egy kőelemen / oszlop mellett ül a láda tetején, a Lánchíd irányában."
+    },
+    "dr_bubo_01": {
+      "name": "Doktor Bubó és a Nyúl",
+      "location": "Bethesda Gyermekkórház kerítése (Hermina út - Bethesda utca sarok)",
+      "description": "A 'Kérem a következőt!' című kultikus magyar rajzfilmsorozat bagolydoktorának és leghíresebb, üldözési mániás páciensének állít emléket. A kételemű kompozíció a Bethesda Gyermekkórház 160. születésnapja alkalmából került a kerítésre, jelképesen rendelőt nyitva a kis betegek számára.",
+      "funFact": "A kompozíciót 2026 augusztusában avatták fel, és rendhagyó módon a kórház egyik terápiás kutyája, Tangó leplezte le. A kerítés oszlopának tetején ülő Bubó alatt a félős nyuszi látható, aki éppen a rendelésre várakozik. A Bethesdában amúgy is nagy hagyománya van a figurának: a sebészeti osztály folyosóját már 2012-ben Dr. Bubó-jelenetekkel festették ki a gyerekek kérésére.",
+      "howToFind": "1. Lépés (Környék): Menj el a XIV. kerületi Bethesda Gyermekkórházhoz a Városliget szomszédságában.\n\n2. Lépés (Fókusz): Keresd a Hermina út és a Bethesda utca sarkán lévő kerítést.\n\n3. Lépés (Pontos hely): A kételemű kompozíciót a kerítésnél találod: Doktor Bubó a kerítésoszlop tetején ül, míg a gyógyulásra váró nyuszi közvetlenül alatta, a kerítés alsóbb részén kapott helyet."
     },
     "ii_erzsebet_01": {
       "name": "II. Erzsébet (Empire / Yellow Submarine)",
