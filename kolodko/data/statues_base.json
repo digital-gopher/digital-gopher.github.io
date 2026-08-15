@@ -3,247 +3,365 @@
     "statues": {
       "fokukac_01": {
         "coordinates": { "lat": 47.502414241323905, "lng": 19.039971339674054 },
-        "yearInstalled": 2016
+        "yearInstalled": 2016,
+        "district": 1,
+        "category": "cartoon"
       },
       "kockasfulu_01": {
         "coordinates": { "lat": 47.49751501407567, "lng": 19.038784927763174 },
-        "yearInstalled": 2018
+        "yearInstalled": 2018,
+        "district": 1,
+        "category": "cartoon"
       },
       "rubik_01": {
         "coordinates": { "lat": 47.504742550121726, "lng": 19.03961977967444 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "district": 1,
+        "category": "popculture"
       },
       "sad_tank_01": {
         "coordinates": { "lat": 47.50540276284543, "lng": 19.039551188165206 },
-        "yearInstalled": 2017
+        "yearInstalled": 2017,
+        "district": 1,
+        "category": "history"
       },
       "mekk_elek_01": {
         "coordinates": { "lat": 47.50682489140956, "lng": 19.025454963870686 },
-        "yearInstalled": 2018
+        "yearInstalled": 2018,
+        "district": 2,
+        "category": "cartoon"
       },
       "kermit_01": {
         "coordinates": { "lat": 47.50388456337267, "lng": 19.050147911248956 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 5,
+        "category": "cartoon"
       },
       "susu_01": {
         "coordinates": { "lat": 47.503658514979286, "lng": 19.049680577692016 },
         "yearInstalled": 2019,
-        "isDestroyed": true
+        "isDestroyed": true,
+        "district": 5,
+        "category": "cartoon"
       },
       "diver_01": {
         "coordinates": { "lat": 47.49897661825259, "lng": 19.070747818094674 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "district": 7,
+        "category": "culture"
       },
       "dracula_01": {
         "coordinates": { "lat": 47.51462936284855, "lng": 19.083457003869142 },
         "yearInstalled": 2019,
-        "isDestroyed": true
+        "isDestroyed": true,
+        "district": 14,
+        "category": "culture"
       },
       "noah_ark_01": {
         "coordinates": { "lat": 47.50368930824573, "lng": 19.07902496408593 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "district": 7,
+        "category": "culture"
       },
       "liszt_ferenc_01": {
         "coordinates": { "lat": 47.433149462483165, "lng": 19.260717147747584 },
-        "yearInstalled": 2018
+        "yearInstalled": 2018,
+        "district": 18,
+        "category": "culture"
       },
       "herzl_01": {
         "coordinates": { "lat": 47.49579744066027, "lng": 19.059396080618114 },
-        "yearInstalled": 2018
+        "yearInstalled": 2018,
+        "district": 7,
+        "category": "culture"
       },
       "szenes_hanna_01": {
         "coordinates": { "lat": 47.5055503611674, "lng": 19.07182976583988 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 7,
+        "category": "history"
       },
       "seress_rezso_01": {
         "coordinates": { "lat": 47.49983129037094, "lng": 19.065859918507954 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "district": 7,
+        "category": "culture"
       },
       "rejto_car_01": {
         "coordinates": { "lat": 47.503673666107495, "lng": 19.072582581068303 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "district": 7,
+        "category": "culture"
       },
       "mr_bean_teddy_01": {
         "coordinates": { "lat": 47.49749344823468, "lng": 19.051415398905306 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 5,
+        "category": "popculture"
       },
       "ratatouille_01": {
         "coordinates": { "lat": 47.4903037047407, "lng": 19.047105649571506 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 1,
+        "category": "popculture"
       },
       "dreher_01": {
         "coordinates": { "lat": 47.49044999216889, "lng": 19.144569496670897 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 10,
+        "category": "culture"
       },
       "soroslovak_01": {
         "coordinates": { "lat": 47.491040699851816, "lng": 19.146563124410278 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 10,
+        "category": "culture"
       },
       "skala_kope_01": {
         "coordinates": { "lat": 47.509924847787666, "lng": 19.056217803890434 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 6,
+        "category": "popculture"
       },
       "vuk_01": {
         "coordinates": { "lat": 47.489157954944645, "lng": 19.046732068567593 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 11,
+        "category": "cartoon"
       },
       "houdini_01": {
         "coordinates": { "lat": 47.49894233144492, "lng": 19.058284654999767 },
-        "yearInstalled": 2022
+        "yearInstalled": 2022,
+        "district": 7,
+        "category": "culture"
       },
       "columbo_mokus_01": {
         "coordinates": { "lat": 47.51258487362194, "lng": 19.048927844331303 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "district": 5,
+        "category": "popculture"
       },
       "kotrabant_01": {
         "coordinates": { "lat": 47.51488078578832, "lng": 19.03995004861784 },
-        "yearInstalled": 2022
+        "yearInstalled": 2022,
+        "district": 2,
+        "category": "popculture"
       },
       "delorean_trabant_01": {
         "coordinates": { "lat": 47.50028574847633, "lng": 19.081918484699003 },
         "yearInstalled": 2023,
-        "isDestroyed": true
+        "isDestroyed": true,
+        "district": 8,
+        "category": "popculture"
       },
       "among_us_01": {
         "coordinates": { "lat": 47.512389837696816, "lng": 19.079826287316706 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 14,
+        "category": "popculture"
       },
       "lufikutya_01": {
         "coordinates": { "lat": 47.497366484618055, "lng": 19.047448778515502 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 5,
+        "category": "popculture"
       },
       "balta_01": {
         "coordinates": { "lat": 47.50504138259719, "lng": 19.05001892031106 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 5,
+        "category": "history"
       },
       "usanka_02": {
         "coordinates": { "lat": 47.50925662662561, "lng": 19.04531606015655 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 5,
+        "category": "history"
       },
       "nincs_kompot_01": {
         "coordinates": { "lat": 47.495380787170994, "lng": 19.042877056902427 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "district": 1,
+        "category": "culture"
       },
       "kutyavasar_01": {
         "coordinates": { "lat": 47.50720910593599, "lng": 19.031449361814225 },
-        "yearInstalled": 2022
+        "yearInstalled": 2022,
+        "district": 1,
+        "category": "culture"
       },
       "romai_legios_01": {
         "coordinates": { "lat": 47.53254113484406, "lng": 19.03868585558476 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 3,
+        "category": "history"
       },
       "aranka_bela_01": {
         "coordinates": { "lat": 47.52347486557534, "lng": 18.99299391532253 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 2,
+        "category": "culture"
       },
       "garfield_01": {
         "coordinates": { "lat": 47.50422605411327, "lng": 19.075804388707013 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 7,
+        "category": "cartoon"
       },
       "roth_miksa_01": {
         "coordinates": { "lat": 47.50344667024248, "lng": 19.08111515742243 },
-        "yearInstalled": 2022
+        "yearInstalled": 2022,
+        "district": 7,
+        "category": "culture"
       },
       "lisa_simpson_02": {
         "coordinates": { "lat": 47.48475174059934, "lng": 19.059095358205326 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 9,
+        "category": "cartoon"
       },
       "ferenc_jozsef_01": {
         "coordinates": { "lat": 47.48627074859484, "lng": 19.055723771452904 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 5,
+        "category": "culture"
       },
       "fules_01": {
         "coordinates": { "lat": 47.47005106711985, "lng": 19.071838027712545 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 9,
+        "category": "culture"
       },
       "szurikata_01": {
         "coordinates": { "lat": 47.48413154964572, "lng": 19.0785339643204 },
-        "yearInstalled": 2022
+        "yearInstalled": 2022,
+        "district": 8,
+        "category": "culture"
       },
       "uzenet_01": {
         "coordinates": { "lat": 47.536202707169124, "lng": 19.05792568580594 },
-        "yearInstalled": 2022
+        "yearInstalled": 2022,
+        "district": 13,
+        "category": "history"
       },
       "szent_miklos_01": {
         "coordinates": { "lat": 47.510169149887524, "lng": 19.20400072391851 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 16,
+        "category": "history"
       },
       "chuck_norris_01": {
         "coordinates": { "lat": 47.60487882188417, "lng": 19.09691219868816 },
-        "yearInstalled": 2024
+        "yearInstalled": 2024,
+        "district": 4,
+        "category": "popculture"
       },
       "holdjaro_01": {
         "coordinates": { "lat": 47.50584853305834, "lng": 19.052171940386614 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "district": 5,
+        "category": "culture"
       },
       "micimacko_01": {
         "coordinates": { "lat": 47.50764743278405, "lng": 19.078578593874056 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 7,
+        "category": "cartoon"
       },
       "yoda_01": {
         "coordinates": { "lat": 47.48341152105798, "lng": 19.05400052190552 },
-        "yearInstalled": 2024
+        "yearInstalled": 2024,
+        "district": 11,
+        "category": "popculture"
       },
       "paddington_01": {
         "coordinates": { "lat": 47.509106151962136, "lng": 19.0358209885282 },
-        "yearInstalled": 2024
+        "yearInstalled": 2024,
+        "district": 2,
+        "category": "cartoon"
       },
       "leo_es_fred_01": {
         "coordinates": { "lat": 47.46529371734315, "lng": 19.062825418515445 },
-        "yearInstalled": 2026
+        "yearInstalled": 2026,
+        "district": 11,
+        "category": "cartoon"
       },
       "meditalo_nyul_01": {
         "coordinates": { "lat": 47.515676043714706, "lng": 19.04421553271402 },
-        "yearInstalled": 2026
+        "yearInstalled": 2026,
+        "district": 13,
+        "category": "cartoon"
       },
       "penzfujo_01": {
         "coordinates": { "lat": 47.50335930965922, "lng": 19.05248012999442 },
-        "yearInstalled": 2026
+        "yearInstalled": 2026,
+        "district": 5,
+        "category": "popculture"
       },
       "targoncas_01": {
         "coordinates": { "lat": 47.503141904493475, "lng": 19.050643801231416 },
-        "yearInstalled": 2026
+        "yearInstalled": 2026,
+        "district": 5,
+        "category": "history"
       },
       "hanti_vadas_01": {
         "coordinates": { "lat": 47.46975513785107, "lng": 19.06401856925828 },
-        "yearInstalled": 2026
+        "yearInstalled": 2026,
+        "district": 11,
+        "category": "history"
       },
       "pinokkio_01": {
         "coordinates": { "lat": 47.50087476659849, "lng": 19.046110279379434 },
-        "yearInstalled": 2026
+        "yearInstalled": 2026,
+        "district": 5,
+        "category": "cartoon"
       },
       "eredeti_usanka_01": {
         "coordinates": { "lat": 47.505002709585526, "lng": 19.050041677852363 },
         "yearInstalled": 2019,
-        "isDestroyed": true
+        "isDestroyed": true,
+        "district": 5,
+        "category": "history"
       },
       "piszoar_01": {
         "coordinates": { "lat": 47.516628266913344, "lng": 19.082148894667625 },
         "yearInstalled": 2017,
-        "isDestroyed": true
+        "isDestroyed": true,
+        "district": 14,
+        "category": "culture"
       },
       "eredeti_lisa_simpson_01": {
         "coordinates": { "lat": 47.513033643115584, "lng": 19.047774767734182 },
         "yearInstalled": 2019,
-        "isDestroyed": true
+        "isDestroyed": true,
+        "district": 13,
+        "category": "cartoon"
       },
       "dron_01": {
         "coordinates": { "lat": 47.51209245217803, "lng": 19.039521625972554 },
         "yearInstalled": 2025,
-        "isDestroyed": true
+        "isDestroyed": true,
+        "district": 2,
+        "category": "popculture"
       },
       "ii_erzsebet_01": {
         "coordinates": { "lat": 47.51181849061916, "lng": 19.023837441310377 },
         "yearInstalled": 2025,
-        "isDestroyed": true
+        "isDestroyed": true,
+        "district": 2,
+        "category": "history"
       },
       "piszkos_fred_01": {
         "coordinates": { "lat": 47.50017649125512, "lng": 19.045807246257027 },
-        "yearInstalled": 2025
+        "yearInstalled": 2025,
+        "district": 7,
+        "category": "popculture"
       },
       "dr_bubo_01": {
         "coordinates": { "lat": 47.51748360253727, "lng": 19.087383311023785 },
-        "yearInstalled": 2026
+        "yearInstalled": 2026,
+        "district": 14,
+        "category": "cartoon"
       }
     }
   },
@@ -251,79 +369,117 @@
     "statues": {
       "veszprem_erno_01": {
         "coordinates": { "lat": 47.09515841079212, "lng": 17.90550305200057 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 0,
+        "category": "history"
       },
       "veszprem_odon_01": {
         "coordinates": { "lat": 47.0927873225644, "lng": 17.908946715183447 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 0,
+        "category": "history"
       },
       "veszprem_leonora_01": {
         "coordinates": { "lat": 47.099054804336966, "lng": 17.901107176907033 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 0,
+        "category": "history"
       },
       "vac_anyam_tyukja_01": {
         "coordinates": { "lat": 47.78231422149604, "lng": 19.132923053701518 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "popculture"
       },
       "vac_maria_terezia_01": {
         "coordinates": { "lat": 47.78354701073514, "lng": 19.122369295047037 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "history"
       },
       "vac_csuzli_01": {
         "coordinates": { "lat": 47.77945422091764, "lng": 19.126207941841386 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "popculture"
       },
       "vac_betoncapak_01": {
         "coordinates": { "lat": 47.78674298051694, "lng": 19.11585638289293 },
-        "yearInstalled": 2024
+        "yearInstalled": 2024,
+        "district": 0,
+        "category": "popculture"
       },
       "tihany_gomboc_artur_01": {
         "coordinates": { "lat": 46.914891898402594, "lng": 17.889203895718197 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 0,
+        "category": "cartoon"
       },
       "szigliget_kempingezok_01": {
         "coordinates": { "lat": 46.80411832012864, "lng": 17.436509057095947 },
-        "yearInstalled": 2024
+        "yearInstalled": 2024,
+        "district": 0,
+        "category": "popculture"
       },
       "hortobagy_csontvary_01": {
         "coordinates": { "lat": 47.581769621767755, "lng": 21.14851837802911 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 0,
+        "category": "culture"
       },
       "esztergom_pumukli_01": {
         "coordinates": { "lat": 47.796414407951836, "lng": 18.735075607674247 },
-        "yearInstalled": 2024
+        "yearInstalled": 2024,
+        "district": 0,
+        "category": "cartoon"
       },
       "gyula_lo_01": {
         "coordinates": { "lat": 46.64439002772327, "lng": 21.285536903647653 },
-        "yearInstalled": 2025
+        "yearInstalled": 2025,
+        "district": 0,
+        "category": "culture"
       },
       "nyirbator_sohordo_01": {
         "coordinates": { "lat": 47.83751588206329, "lng": 22.13307455844202 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "culture"
       },
       "nagykallo_sohordo_01": {
         "coordinates": { "lat": 47.875820162956366, "lng": 21.84697084497759 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "culture"
       },
       "vasarosnameny_sohordo_01": {
         "coordinates": { "lat": 48.12851072690117, "lng": 22.31412678064177 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "culture"
       },
       "csenger_sohordo_01": {
         "coordinates": { "lat": 47.836029304299494, "lng": 22.680884246705347 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "culture"
       },
       "tiszabecs_sohordo_01": {
         "coordinates": { "lat": 48.0980, "lng": 22.8250 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "culture"
       },
       "geszteredi_csardas_01": {
         "coordinates": { "lat": 47.7944, "lng": 21.7519 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "culture"
       },
       "kallay_janos_peter_01": {
         "coordinates": { "lat": 47.809763, "lng": 21.852054 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "culture"
       }
     }
   },
@@ -331,99 +487,147 @@
     "statues": {
       "munich_csontvary_01": {
         "coordinates": { "lat": 48.141388870963524, "lng": 11.595982396611873 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 0,
+        "category": "culture"
       },
       "munich_pumukli_01": {
         "coordinates": { "lat": 48.138800, "lng": 11.589800 },
-        "yearInstalled": 2022
+        "yearInstalled": 2022,
+        "district": 0,
+        "category": "cartoon"
       },
       "munich_oktoberfest_01": {
         "coordinates": { "lat": 48.131100, "lng": 11.549400 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 0,
+        "category": "culture"
       },
       "landshut_rakoczi_01": {
         "coordinates": { "lat": 48.547500, "lng": 12.164700 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 0,
+        "category": "history"
       },
       "nuremberg_ajtosi_01": {
         "coordinates": { "lat": 49.457800, "lng": 11.085300 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "history"
       },
       "prague_rakoczi_01": {
         "coordinates": { "lat": 50.088100, "lng": 14.403700 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 0,
+        "category": "history"
       },
       "vienna_alex_delarge_01": {
         "coordinates": { "lat": 48.20182138090872, "lng": 16.377071176555518 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 0,
+        "category": "popculture"
       },
       "venice_selfie_01": {
         "coordinates": { "lat": 45.434300, "lng": 12.338800 },
-        "yearInstalled": 2022
+        "yearInstalled": 2022,
+        "district": 0,
+        "category": "popculture"
       },
       "pula_legionarius_01": {
         "coordinates": { "lat": 44.873428782668796, "lng": 13.85084513224183 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "history"
       },
       "rijeka_piszkos_fred_01": {
         "coordinates": { "lat": 45.327000, "lng": 14.442100 },
-        "yearInstalled": 2020
+        "yearInstalled": 2020,
+        "district": 0,
+        "category": "popculture"
       },
       "rijeka_carpathia_01": {
         "coordinates": { "lat": 45.326700, "lng": 14.437300 },
-        "yearInstalled": 2024
+        "yearInstalled": 2024,
+        "district": 0,
+        "category": "history"
       },
       "lendva_lecso_01": {
         "coordinates": { "lat": 46.565800, "lng": 16.452600 },
-        "yearInstalled": 2022
+        "yearInstalled": 2022,
+        "district": 0,
+        "category": "culture"
       },
       "mostar_csontvary_01": {
         "coordinates": { "lat": 43.3364192693582, "lng": 17.814974713799415 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 0,
+        "category": "culture"
       },
       "stockholm_nobel_01": {
         "coordinates": { "lat": 59.333200, "lng": 18.053100 },
-        "yearInstalled": 2021
+        "yearInstalled": 2021,
+        "district": 0,
+        "category": "history"
       },
       "stockholm_karlsson_01": {
         "coordinates": { "lat": 59.317500, "lng": 18.087700 },
-        "yearInstalled": 2023
+        "yearInstalled": 2023,
+        "district": 0,
+        "category": "cartoon"
       },
       "istanbul_barabas_01": {
         "coordinates": { "lat": 41.034500, "lng": 28.977800 },
-        "yearInstalled": 2026
+        "yearInstalled": 2026,
+        "district": 0,
+        "category": "culture"
       },
       "seoul_liszt_01": {
         "coordinates": { "lat": 37.566500, "lng": 126.978000 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "district": 0,
+        "category": "culture"
       },
       "princeton_einstein_01": {
         "coordinates": { "lat": 40.342800, "lng": -74.668100 },
-        "yearInstalled": 2019
+        "yearInstalled": 2019,
+        "district": 0,
+        "category": "history"
       },
       "freddie_montserrat_01": {
         "coordinates": { "lat": 41.3712, "lng": 2.1523 },
-        "yearInstalled": 2026
+        "yearInstalled": 2026,
+        "district": 0,
+        "category": "popculture"
       },
       "svejk_olomouc_01": {
         "coordinates": { "lat": 49.5935, "lng": 17.2435 },
-        "yearInstalled": 2016
+        "yearInstalled": 2016,
+        "district": 0,
+        "category": "popculture"
       },
       "svejk_lipnice_01": {
         "coordinates": { "lat": 49.6145, "lng": 15.4137 },
-        "yearInstalled": 2017
+        "yearInstalled": 2017,
+        "district": 0,
+        "category": "popculture"
       },
       "svejk_humenne_01": {
         "coordinates": { "lat": 48.9325, "lng": 21.9056 },
-        "yearInstalled": 2017
+        "yearInstalled": 2017,
+        "district": 0,
+        "category": "popculture"
       },
       "svejk_przemysl_01": {
         "coordinates": { "lat": 49.7816, "lng": 22.7745 },
-        "yearInstalled": 2017
+        "yearInstalled": 2017,
+        "district": 0,
+        "category": "popculture"
       },
       "svejk_kielce_01": {
         "coordinates": { "lat": 50.8710, "lng": 20.6275 },
-        "yearInstalled": 2017
+        "yearInstalled": 2017,
+        "district": 0,
+        "category": "popculture"
       }
     }
   }
