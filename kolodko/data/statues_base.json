@@ -289,6 +289,7 @@
       "meditalo_nyul_01": {
         "coordinates": { "lat": 47.515676043714706, "lng": 19.04421553271402 },
         "yearInstalled": 2026,
+        "isDestroyed": true,
         "district": 13,
         "category": "cartoon"
       },
