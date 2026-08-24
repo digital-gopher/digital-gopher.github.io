@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Symbiora – Digital GopheR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111318; color: #e0e0e8; font-family: 'Inter', sans-serif; min-height: 100vh; }
+    nav { background: #1a1b23; border-bottom: 1px solid #2a2b38; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+    .nav-left { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; }
+    .nav-left a { color: #7dd3b0; text-decoration: none; }
+    .nav-left a:hover { text-decoration: underline; }
+    .nav-sep { color: #4a4a60; }
+    .nav-current { color: #a0a0b0; }
+    .lang-toggle { background: #22232f; border: 1px solid #2a2b38; border-radius: 100px; display: flex; overflow: hidden; }
+    .lang-btn { padding: 0.3rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: #7a7a90; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .lang-btn.active { background: #7dd3b0; color: #111318; }
+    .content { max-width: 750px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .app-hero { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #2a2b38; }
+    .app-icon { width: 72px; height: 72px; border-radius: 16px; background: #2a2b38; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 2rem; color: #7dd3b0; flex-shrink: 0; overflow: hidden; }
+    .app-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .app-title { font-size: 1.5rem; font-weight: 700; }
+    .app-subtitle { color: #7a7a90; font-size: 0.88rem; margin-top: 0.3rem; }
+    .notice { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #f59e0b; border-radius: 10px; padding: 0.9rem 1.2rem; font-size: 0.88rem; color: #8a8aa0; margin-bottom: 1.5rem; }
+    .section-title { font-size: 0.78rem; font-weight: 600; color: #7dd3b0; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; margin-top: 2rem; }
+    .desc-box { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.3rem; color: #8a8aa0; font-size: 0.92rem; line-height: 1.7; }
+    .desc-box p { margin-bottom: 0.6rem; }
+    .desc-box p:last-child { margin-bottom: 0; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .tag { background: #22232f; border: 1px solid #2a2b38; color: #9090a8; font-size: 0.75rem; padding: 0.25rem 0.7rem; border-radius: 100px; }
+    .links-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.8rem; margin-top: 1rem; }
+    .link-card { background: #1a1b23; border: 1px solid #2a2b38; border-radius: 12px; padding: 1.1rem 1.3rem; text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.8rem; transition: border-color 0.2s; }
+    .link-card:hover { border-color: #7dd3b0; }
+    .link-icon { font-size: 1.3rem; }
+    .link-label { font-size: 0.78rem; color: #7a7a90; }
+    .link-title { font-size: 0.92rem; font-weight: 600; margin-top: 0.1rem; }
+    .play-btn-disabled { display: inline-flex; align-items: center; gap: 0.5rem; background: #22232f; border: 1px solid #2a2b38; color: #5a5a70; font-weight: 600; font-size: 0.9rem; padding: 0.7rem 1.4rem; border-radius: 100px; margin-top: 1rem; cursor: not-allowed; position: relative; user-select: none; }
+    .play-btn-disabled .tooltip { visibility: hidden; opacity: 0; background: #2a2b38; color: #c0c0d0; font-size: 0.78rem; font-weight: 500; padding: 0.35rem 0.75rem; border-radius: 6px; position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%); white-space: nowrap; transition: opacity 0.2s; pointer-events: none; border: 1px solid #3a3b50; }
+    .play-btn-disabled:hover .tooltip { visibility: visible; opacity: 1; }
+    
+    .beta-box { background: #1a1b23; border: 1px solid #2a2b38; border-left: 3px solid #7dd3b0; border-radius: 12px; padding: 1.4rem 1.5rem; margin-top: 1rem; }
+    .beta-box-title { font-size: 1rem; font-weight: 700; color: #e0e0e8; margin-bottom: 0.4rem; }
+    .beta-box-sub { font-size: 0.88rem; color: #8a8aa0; margin-bottom: 1.1rem; line-height: 1.6; }
+    .beta-steps { list-style: none; padding: 0; margin-bottom: 1.2rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .beta-steps li { display: flex; align-items: flex-start; gap: 0.75rem; font-size: 0.9rem; color: #c0c0d0; line-height: 1.5; }
+    .beta-step-num { background: #134e4a; color: #7dd3b0; font-weight: 700; font-size: 0.75rem; border-radius: 50%; width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+    .beta-steps a { color: #7dd3b0; text-decoration: none; word-break: break-all; }
+    .beta-steps a:hover { text-decoration: underline; }
+    
+    footer { text-align: center; padding: 2rem 1.5rem; color: #4a4a60; font-size: 0.82rem; }
+    footer a { color: #4a4a60; text-decoration: none; }
+    footer a:hover { color: #7dd3b0; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <a href="../index.html">Digital GopheR</a>
+    <span class="nav-sep">/</span>
+    <span class="nav-current">Symbiora</span>
+  </div>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('hu')">HU</button>
+  </div>
+</nav>
+
+<div class="content">
+
+  <div class="app-hero">
+    <div class="app-icon">
+      🌿
+    </div>
+    <div>
+      <div class="app-title" data-en="Symbiora" data-hu="Symbiora">Symbiora</div>
+      <div class="app-subtitle" data-en="Plant Care & Smart Journal · by GopheR" data-hu="Növénygondozó és Okosnapló · GopheR-től">Plant Care & Smart Journal · by GopheR</div>
+    </div>
+  </div>
+
+  <div class="notice" data-en="⚠️ This app is currently in closed testing. It will be available on Google Play soon." data-hu="⚠️ Ez az alkalmazás jelenleg zárt tesztelés alatt áll. Hamarosan elérhető lesz a Google Play-en.">⚠️ This app is currently in closed testing. It will be available on Google Play soon.</div>
+
+  <div class="section-title" data-en="About the app" data-hu="Az alkalmazásról">About the app</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>Symbiora is an intelligent, privacy-first houseplant care companion and digital journal designed to keep your urban jungle thriving.</p>
+      <p>Unlike rigid calendar apps, Symbiora calculates dynamic watering and care schedules based on biological plant profiles, pot materials (terracotta, plastic, self-watering), light exposure, hemispheric seasons, and local weather conditions. Everything works completely offline without accounts, tracking, or cloud lock-in.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>A Symbiora egy intelligens, offline működésű növénygondozási asszisztens és digitális napló, amely segít egészségesen tartani a szobanövényeidet.</p>
+      <p>A merev naptárakkal ellentétben a Symbiora dinamikusan számítja ki az öntözési és gondozási igényeket a növényfaj biológiai igényei, a cserép anyaga (terrakotta, műanyag, önöntöző), a fényviszonyok, a félteke szerinti évszakok és a helyi időjárás alapján. Minden funkció 100%-ban offline működik, regisztráció és nyomkövetés nélkül.</p>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="Key Features" data-hu="Főbb funkciók">Key Features</div>
+  <div class="desc-box">
+    <div data-lang-block="en">
+      <p>🌦️ <strong>Weather & Environment-Adaptive Care:</strong> Precise schedules adjusted by pot material, pot size, light levels, seasonal dormancy (Northern/Southern hemisphere), and optional Open-Meteo weather integration.</p>
+      <p>🩺 <strong>Offline Plant Doctor:</strong> Identify plant diseases, pests (spider mites, mealybugs, thrips, fungus gnats, scale), fungi, overwatering, and nutrient deficiencies with step-by-step treatment guides without internet access.</p>
+      <p>🪴 <strong>Plant Compatibility Radar:</strong> Real-time conflict analysis prevents pairing incompatible species in shared pots or neighboring spots.</p>
+      <p>☀️ <strong>Hardware Light Meter:</strong> Measure ambient light intensity in real-time using your phone's built-in light sensor (lux) to find the perfect spot.</p>
+      <p>📸 <strong>Photo Diary & Growth Curves:</strong> Track plant height over time with interactive growth charts, photo galleries, and before/after comparisons.</p>
+      <p>🏖️ <strong>Holiday Plant Sitter Card:</strong> Generate quick visual PDF or image guides for friends and plant sitters summarizing what to water and what not to touch.</p>
+      <p>📱 <strong>Interactive Home Widgets:</strong> Glance widgets supporting multiple customizable themes (Glass, Retro Pixel, Neon Jungle, Floating Capsule) with quick-action care logging.</p>
+      <p>🔒 <strong>100% Offline & Private:</strong> All notes, photos, and databases are stored locally on your device. Complete ZIP export and backup restore whenever you need it.</p>
+    </div>
+    <div data-lang-block="hu">
+      <p>🌦️ <strong>Környezet- és Időjárásfüggő Gondozás:</strong> Pontos öntözési ütemezés a cserép anyaga, mérete, a fényviszonyok, a szezonalitás (északi/déli félteke) és az Open-Meteo időjárás-modellezés alapján.</p>
+      <p>🩺 <strong>Offline Növényorvos & Tünettár:</strong> Diagnosztizáld a kártevőket (takácsatka, gyapjastetű, tripsz, tőzeglégy, pajzstetű), gombás fertőzéseket, túlöntözést és tápanyaghiányt internet nélkül, azonnali kezelési tervekkel.</p>
+      <p>🪴 <strong>Összeültetési Radar:</strong> Élő kompatibilitás-ellenőrző rendszer, amely figyelmeztet a vízigény-, fény- és páraütközésekre a közös cserepekben.</p>
+      <p>☀️ <strong>Beépített Fénymérő:</strong> Mérd meg a valós fényerőt (lux) a telefonod előlapi fényérzékelőjével, hogy megtaláld a növény számára ideális helyet.</p>
+      <p>📸 <strong>Fotónapló & Növekedési Grafikon:</strong> Kövesd nyomon a növényeid magasságát és állapotát interaktív görbékkel, galériával és előtte-utána képekkel.</p>
+      <p>🏖️ <strong>Nyaralási Növénycsősz Kártya:</strong> Generálj egyértelmű, szobákra bontott PDF-et vagy képet a növénygondozónak arról, hogy mit kell meglocsolni és mihez tilos nyúlni.</p>
+      <p>📱 <strong>Interaktív Kezdőképernyős Widgetek:</strong> Glance widgetek több témával (Üveg, Retro Pixel, Neon, Kapszula) és egyérintéses gondozásrögzítéssel.</p>
+      <p>🔒 <strong>100% Offline és Biztonságos:</strong> Minden jegyzet, fotó és adatbázis kizárólag a telefonodon tárolódik. Teljes ZIP export és import adatmentési lehetőség.</p>
+    </div>
+  </div>
+
+  <div class="tags">
+    <span class="tag">100% Offline</span>
+    <span class="tag" data-en="Plant Doctor" data-hu="Növényorvos">Plant Doctor</span>
+    <span class="tag" data-en="Smart Schedule" data-hu="Okos ütemezés">Smart Schedule</span>
+    <span class="tag" data-en="Light Meter" data-hu="Fénymérő">Light Meter</span>
+    <span class="tag" data-en="Widgets" data-hu="Widgetek">Widgets</span>
+    <span class="tag" data-en="No Account Needed" data-hu="Nincs regisztráció">No Account Needed</span>
+    <span class="tag" data-en="Free" data-hu="Ingyenes">Free</span>
+  </div>
+
+  <div class="section-title" data-en="Download" data-hu="Letöltés">Download</div>
+  <div>
+    <span class="play-btn-disabled">
+      ▶ Google Play
+      <span class="tooltip" data-tooltip-en="Coming soon" data-tooltip-hu="Hamarosan">Coming soon</span>
+    </span>
+  </div>
+
+  <div class="section-title" data-en="Join Beta Test" data-hu="Csatlakozz a bétateszthez">Join Beta Test</div>
+  <div class="beta-box">
+    <div data-lang-block="en">
+      <div class="beta-box-title">🧪 Help us test Symbiora!</div>
+      <div class="beta-box-sub">The app is currently in closed testing and not yet publicly available on Google Play. Follow these two steps to join the tester group and install the app:</div>
+      <ol class="beta-steps">
+        <li>
+          <span class="beta-step-num">1</span>
+          <span>Click the link below and hit the <b>"Join group"</b> button to join our tester group:<br><a href="https://groups.google.com/g/symbiora-teszt" target="_blank">https://groups.google.com/g/symbiora-teszt</a></span>
+        </li>
+        <li>
+          <span class="beta-step-num">2</span>
+          <span>After joining the group, click this link and choose <b>"Become a tester"</b> to install the app via Google Play:<br>
+            <a href="https://play.google.com/apps/testing/com.gopher.novenygondozo" target="_blank">https://play.google.com/apps/testing/com.gopher.novenygondozo</a>
+          </span>
+        </li>
+      </ol>
+      <div style="font-size:0.85rem;color:#8a8aa0;">Thank you for your feedback and bug reports! 🙏</div>
+    </div>
+    <div data-lang-block="hu">
+      <div class="beta-box-title">🧪 Segíts tesztelni a Symbiora appot!</div>
+      <div class="beta-box-sub">Az alkalmazás jelenleg zárt tesztelés alatt áll, és még nem érhető el nyilvánosan a Google Play-en. Kövesd ezt a két lépést a bétateszthez való csatlakozáshoz és az app telepítéséhez:</div>
+      <ol class="beta-steps">
+        <li>
+          <span class="beta-step-num">1</span>
+          <span>Kattints a linkre, és a megnyíló oldalon nyomj a <b>"Csatlakozás a csoporthoz (Join group)"</b> gombra:<br><a href="https://groups.google.com/g/symbiora-teszt" target="_blank">https://groups.google.com/g/symbiora-teszt</a></span>
+        </li>
+        <li>
+          <span class="beta-step-num">2</span>
+          <span>Miután csatlakoztál a csoporthoz, kattints erre a linkre, és nyomj a <b>"Tesztelő leszek (Become a tester)"</b> gombra a letöltéshez:<br>
+            <a href="https://play.google.com/apps/testing/com.gopher.novenygondozo" target="_blank">https://play.google.com/apps/testing/com.gopher.novenygondozo</a>
+          </span>
+        </li>
+      </ol>
+      <div style="font-size:0.85rem;color:#8a8aa0;">Minden visszajelzést és hibajelentést előre is köszönök! 🙏</div>
+    </div>
+  </div>
+
+  <div class="section-title" data-en="Links" data-hu="Hivatkozások">Links</div>
+  <div class="links-grid">
+    <a class="link-card" href="privacy.html">
+      <div class="link-icon">🔒</div>
+      <div>
+        <div class="link-label" data-en="Legal" data-hu="Jogi">Legal</div>
+        <div class="link-title" data-en="Privacy Policy" data-hu="Adatvédelmi nyilatkozat">Privacy Policy</div>
+      </div>
+    </a>
+    <a class="link-card" href="mailto:digital.gopher.app@gmail.com">
+      <div class="link-icon">✉️</div>
+      <div>
+        <div class="link-label" data-en="Get in touch" data-hu="Kapcsolat">Get in touch</div>
+        <div class="link-title" data-en="Send email" data-hu="Email küldése">Send email</div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <a href="../index.html" data-en="← Back to all apps" data-hu="← Vissza az összes apphoz">← Back to all apps</a>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-en]').forEach(function(el) {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-tooltip-en]').forEach(function(el) {
+      el.textContent = el.getAttribute('data-tooltip-' + lang);
+    });
+    document.querySelectorAll('[data-lang-block]').forEach(function(el) {
+      el.style.display = el.getAttribute('data-lang-block') === lang ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn) {
+      btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+    });
+    localStorage.setItem('lang', lang);
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    var savedLang = localStorage.getItem('lang') || 'en';
+    setLang(savedLang);
+  });
+</script>
+</body>
+</html>
