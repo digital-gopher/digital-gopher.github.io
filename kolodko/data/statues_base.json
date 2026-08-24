@@ -302,6 +302,7 @@
       "targoncas_01": {
         "coordinates": { "lat": 47.503141904493475, "lng": 19.050643801231416 },
         "yearInstalled": 2026,
+        "isDestroyed": true,
         "district": 5,
         "category": "history"
       },
