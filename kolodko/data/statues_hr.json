@@ -1,0 +1,718 @@
+{
+  "statues": {
+    "fokukac_01": {
+      "name": "Glavni crv (Főkukac)",
+      "location": "Bem rakpart 15.",
+      "description": "Mini-kip kultnog pratitelja Velikog Ho-ho-ho Ribiča, Glavnog crva. Ovo je prvi javni mini-kip Mihálya Kolodka u Budimpešti, izrađen u znak sjećanja na umjetnikovu omiljenu mađarsku crtanu seriju iz djetinjstva (djelo Istvána Csukása i Ferenca Sajdika). Originalna verzija kipa stoji u Užgorodu, na obali rijeke Už.",
+      "funFact": "Jedan od najomiljenijih kipova među stanovnicima Budimpešte: u hladnim zimskim danima, prolaznici i obožavatelji redovito ga oblače u heklane ili pletene male kape, šalove, a ponekad i džempere. Jedan je od rijetkih kipova koji ima brata blizanca u Zakarpatju.",
+      "howToFind": "Korak 1 (Područje): Idite na Bem rakpart, u ravnini s tramvajskom stanicom u ulici Halász.\n\nKorak 2 (Fokus): Potražite niski kameni zid koji odvaja biciklističku stazu od pješačke šetnice.\n\nKorak 3 (Točna lokacija): Kip sjedi na glatkom vrhu kamenog zida u visini koljena, okrenut prema Dunavu (Parlamentu)."
+    },
+    "kockasfulu_01": {
+      "name": "Zec s kockastim ušima (A Kockásfülű Nyúl)",
+      "location": "Trg Szent György",
+      "description": "Brončani mini-kip legendarnog lika iz crtića Veronike Marék, Zeca s kockastim ušima. Junak crtića promatra grad s visine, točno onako kako je to činio u crtićima: tražeći svojim dalekozorom djecu u nevolji i avanture koje treba riješiti na peštanskoj strani.",
+      "funFact": "Među turistima i mještanima raširen je običaj da se za sreću zecu pomiluje uho ili dalekozor, zbog čega je brončana površina na tim dijelovima ispolirana do sjaja. Od kipa se pruža predivan panoramski pogled na Lančani most i Parlament.",
+      "howToFind": "Korak 1 (Područje): Popnite se u četvrt Budimskog dvorca, na trg Szent György.\n\nKorak 2 (Fokus): Potražite gornju stanicu Budimske uspinjače (Sikló) i kamenu ogradu ispred palače Sándor.\n\nKorak 3 (Točna lokacija): Sjedi na vrhu kamene ograde, blizu kipa ptice Turul, okrenut prema peštanskoj strani."
+    },
+    "rubik_01": {
+      "name": "Rubikova kocka",
+      "location": "Bem rakpart (blizu trga Batthyány)",
+      "description": "Odaje počast svjetskom patentu Ernőa Rubika iz 1974. godine, Čarobnoj kocki (Rubikovoj kocki). Mini-kip je globalni simbol mađarske kreativnosti i inženjerske genijalnosti, prodan u više od 450 milijuna primjeraka diljem svijeta.",
+      "funFact": "Površina kipa je dizajnirana tako da izgleda kao polusložena kocka koja se upravo okreće, kotrljajući se niz ogradu kamenih stepenica na keju. Prilikom dizajniranja, umjetnik je namjerno odabrao stranu okrenutu prema Parlamentu.",
+      "howToFind": "Korak 1 (Područje): Šetajte uz Bem rakpart, na dijelu između trga Batthyány i Margitinog mosta.\n\nKorak 2 (Fokus): Potražite donje kamene stepenice na keju koje vode prema Dunavu u ravnini ulice Vám.\n\nKorak 3 (Točna lokacija): Kip leži na vrhu kamene ograde stepenica, točno nasuprot Parlamenta."
+    },
+    "sad_tank_01": {
+      "name": "Tužni tenk",
+      "location": "Bem rakpart",
+      "description": "Minijaturni tenk s obješenom cijevi tih je memento Revolucije i borbe za slobodu 1956. godine. Vojni stroj, ukroćen do bespomoćnosti i tuge, skreće pozornost na besmislenost rata i snagu želje za slobodom.",
+      "funFact": "Prvobitno je na njegovom boku stajao poznati slogan revolucije 'Ruszkik haza!' (Rusi idite kući!). Prvi kip je ukraden, stoga ga je Kolodko ponovno izlio i vratio s pojačanim pričvršćenjem. Zanimljivost je da se na njemu sitnim slovima može pronaći umjetnikov potpis.",
+      "howToFind": "Korak 1 (Područje): Idite na Bem rakpart, malo sjevernije od tramvajske stanice na trgu Batthyány.\n\nKorak 2 (Fokus): Potražite veliki, bijeli spomen-kamen nekadašnjeg Kossuthovog mosta na šetnici.\n\nKorak 3 (Točna lokacija): Nalazi se u neposrednoj blizini spomen-kamena, na vrhu kamenog zida okrenutog prema Dunavu."
+    },
+    "mekk_elek_01": {
+      "name": "Elek Mekk",
+      "location": "Trg Széll Kálmán",
+      "description": "Nespretni majstor iz klasične lutkarske serije Józsefa Romhányija i Józsefa Neppa, Elek Mekk (Majstor Mekk). Kip u ruci drži uličnu tablu s natpisom 'Moszkva tér' (Moskovski trg), čuvajući uspomenu na kultni nekadašnji naziv trga Széll Kálmán.",
+      "funFact": "Tabla 'Moszkva tér' više je puta odlomljena ili oštećena iz ruku kipa, ali ju je umjetnik svaki put nadomjestio. Zimi mu lokalni stanovnici često stavljaju mali pleteni šal.",
+      "howToFind": "Korak 1 (Područje): Putujte do trga Széll Kálmán.\n\nKorak 2 (Fokus): Potražite pokretne stepenice koje vode prema ulici Várfok (i autobusnim stanicama).\n\nKorak 3 (Točna lokacija): Sjedi uz podnožje kamenog zida, kod najniže stepenice pješačkih kamenih stuba koje idu uz pokretne stepenice."
+    },
+    "kermit_01": {
+      "name": "Žabac Kermit (Breki)",
+      "location": "Trg Szabadság",
+      "description": "Brončani mini-kip zelenog žapca Kermita iz Muppet Showa. Junak iz crtića sjedi na kamenoj bazi ograde kao da veselo promatra živi svijet trga i ljude koji sjede na terasi kafića.",
+      "funFact": "Kermit je namjerno smješten blizu drveća i trave, aludirajući na prirodno stanište žabe. Tijekom hladnih zimskih mjeseci od posjetitelja često dobije mali, ručno pleteni šal ili kapu.",
+      "howToFind": "Korak 1 (Područje): Ušećite na trg Szabadság u V. okrugu.\n\nKorak 2 (Fokus): Potražite nisku metalnu ogradu koja okružuje travnatu površinu u sredini trga, blizu terase parkovnog kafića.\n\nKorak 3 (Točna lokacija): Sjedi na kamenom postolju ispod metalne ograde, kao da promatra prolaznike."
+    },
+    "susu_01": {
+      "name": "Zmaj Süsü",
+      "location": "Trg Szabadság",
+      "description": "Mini-kip legendarnog jednoglavog zmaja Istvána Csukása, Süsüa. Figura vjerno evocira klasičnu lutkarsku predstavu Mađarske televizije koja je obilježila djetinjstvo generacija.",
+      "funFact": "Prvi mini-kip Süsüa ukrale su nepoznate osobe sa svog mjesta, ali ga je Mihály Kolodko ponovno izlio i vratio s pojačanim pričvršćenjem. Odabir lokacije je simboličan jer je Palača burze (Tőzsdepalota), koja se nalazi na trgu Szabadság, desetljećima bila sjedište Mađarske televizije.",
+      "howToFind": "Korak 1 (Područje): Idite na trg Szabadság u V. okrugu.\n\nKorak 2 (Fokus): Potražite grandiozno glavno stubište bivšeg sjedišta Mađarske televizije (Palača burze).\n\nKorak 3 (Točna lokacija): Stoji na debeloj kamenoj ogradi s lijeve strane stubišta, okrenut prema sredini trga."
+    },
+    "diver_01": {
+      "name": "Ronioc i ključ",
+      "location": "Ugao ulica Osvát i Dohány",
+      "description": "Kip ovjekovječuje poznatu kavanu legendu Ferenca Molnára. Prema priči, na otvaranju kavane New York 1894. godine, pisac je bacio ključ od ulaznih vrata u Dunav kako se kavana više nikada ne bi mogla zatvoriti. Figura u starom ronilačkom odijelu sada je taj ključ donijela s dna vode.",
+      "funFact": "Kipar je namjerno dizajnirao ključ da bude gotovo iste veličine kao i sama figura ronioca. Prisjećajući se legende, 2014. godine, na 120. obljetnicu kavane, trenutna uprava također je bacila ključ u Dunav.",
+      "howToFind": "Korak 1 (Područje): Uputite se u VII. okrug, u dio ulice iza poznate palače (kavane) New York.\n\nKorak 2 (Fokus): Pronađite ugao ulica Osvát i Dohány.\n\nKorak 3 (Točna lokacija): Nalazi se na vrhu sivog, isklesanog kamenog stupa (u obliku hidranta) koji stoji na uglu."
+    },
+    "dracula_01": {
+      "name": "Drakula čita (Béla Lugosi)",
+      "location": "Gradski park (Városliget)",
+      "description": "Mini-kip legendarnog lika Drakule u izvedbi mađarskog holivudskog glumca Béle Lugosija, koji u miru, spuštene glave čita knjigu. Parkovno okruženje u gotičkom stilu pruža savršenu pozadinu za evociranje slavne figure vampira.",
+      "funFact": "Smještaj kipa nije slučajan: od 2003. godine u zidu dvorca Vajdahunyad potajno se noću nalazi i bista Béle Lugosija (djelo Hartmuta Zecha). Umjetnikov potpis može se pronaći na stražnjoj strani Kolodkovog plašta Drakule.",
+      "howToFind": "Korak 1 (Područje): Ušećite u Gradski park (Városliget), u okolicu dvorca Vajdahunyad.\n\nKorak 2 (Fokus): Potražite stranu dvorca okrenutu prema jezeru, točnije dio zida (nišu) iza kipa Hunyadija.\n\nKorak 3 (Točna lokacija): Vrijedi pogledati gore: sjedi na gotičkom kamenom vijencu, iznad razine očiju."
+    },
+    "noah_ark_01": {
+      "name": "Noina arka",
+      "location": "Trg Bethlen Gábor",
+      "description": "Minijaturna replika Noine arke od bronce. Umjetničko djelo je simbol biblijskog spasenja i zaštite životinjskog svijeta, koji se savršeno uklapa u sveučilišno okruženje.",
+      "funFact": "Gledajući kroz sićušne prozore i otvore arke, unutra se mogu vidjeti minijaturne figure životinja u parovima. U sunčanom vremenu, kada svjetlost pod pravim kutom obasja unutrašnjost arke, u njoj se nazire šareni odsjaj (efekt duge).",
+      "howToFind": "Korak 1 (Područje): Posjetite trg Bethlen Gábor u VII. okrugu.\n\nKorak 2 (Fokus): Idite na stranu trga okrenutu prema Veterinarskom sveučilištu, gdje se nalazi mali ukrasni bazen.\n\nKorak 3 (Točna lokacija): Mala arka počiva na rubu niskog kamenog vijenca koji okružuje ukrasni bazen."
+    },
+    "liszt_ferenc_01": {
+      "name": "Ferenc Liszt čeka",
+      "location": "Zračna luka Liszt Ferenc",
+      "description": "Mini-kip svjetski poznatog skladatelja i pijanista Ferenca Liszta. Kip spaja motiv letenja i putovanja s klasičnom glazbom: umjetnik sjedi na komadu prtljage i čeka, dok upravo savija papirnati avion.",
+      "funFact": "Ferenc Liszt bio je prava 'svjetska zvijezda' svog vremena, stalno je nastupao i putovao cijelom Europom. Kolodko je ovom figurom povezao putovanja u 19. stoljeću s modernim zračnim prijevozom i međunarodnom zračnom lukom koja nosi njegovo ime.",
+      "howToFind": "PAŽNJA: Kip je premješten u unutrašnjost zgrade i trenutačno je dostupan ISKLJUČIVO s važećom ukrcajnom propusnicom (nakon sigurnosne kontrole)!\n\nKorak 1 (Područje): Nakon sigurnosne kontrole prođite kroz Duty Free trgovinu u središnju dvoranu SkyCourt.\n\nKorak 2 (Fokus): Popnite se pokretnim stepenicama na kat s restoranima/čekaonicama i potražite ulaz u MasterCard Lounge.\n\nKorak 3 (Točna lokacija): Kip stoji na povišenom mjestu ispred ulaza u MasterCard Lounge, kao dio brončane instalacije s papirnatim avionom."
+    },
+    "herzl_01": {
+      "name": "Theodor Herzl i bicikl",
+      "location": "Ulica Dohány 1.",
+      "description": "Mini-kip Theodora Herzla, pisca, novinara i vizionara cionističkog pokreta, s biciklom. Kip odaje počast jednoj od najutjecajnijih osoba židovske povijesti u neposrednoj blizini njegove rodne kuće.",
+      "funFact": "Dizajn kipa temelji se na poznatoj fotografiji iz tog vremena na kojoj se Theodor Herzl vidi s biciklom. Umjetnik je kip pričvrstio za ulični stup svjetiljke kao da se biciklist upravo njime vozi prema dolje.",
+      "howToFind": "Korak 1 (Područje): Idite u VII. okrug, na ugao ulice Dohány i Károly körút.\n\nKorak 2 (Fokus): Potražite pješački prijelaz pored Sinagoge u ulici Dohány.\n\nKorak 3 (Točna lokacija): Pričvršćen je na bočnoj strani debelog metalnog stupa javne rasvjete koji stoji uz zebru, u visini struka."
+    },
+    "szenes_hanna_01": {
+      "name": "Hannah Szenes",
+      "location": "Park Szenes Hanna",
+      "description": "Spomenik Hannah Szenes, mađarsko-židovskoj pjesnikinji i ratnoj heroini britanskih padobranaca, koja je umrla mučeničkom smrću u dobi od 23 godine. Kip prikazuje heroinu u padobranskoj opremi kako izranja iz stijene, žrtvujući svoj život za spas mađarskih Židova.",
+      "funFact": "Ovo je Kolodkov kip s najtužnijom pozadinskom pričom, svečano otkriven 8. ožujka 2020. godine, na Međunarodni dan žena, u suradnji s organizacijom 'Hosszúlépés. Járunk?', skrećući pozornost na bolan nedostatak žena u javnom kiparstvu. Hannah Szenes i tekstopisac Iván Szenes bili su bratić i sestrična.",
+      "howToFind": "Korak 1 (Područje): Potražite Park Szenes Hanna u VII. okrugu (na uglu ulica Jósika i Rózsa).\n\nKorak 2 (Fokus): Prošećite do malog travnatog, pošumljenog dijela parka.\n\nKorak 3 (Točna lokacija): Stoji na vrhu/strani stožaste hrpe kamenja i opeke postavljene u parku."
+    },
+    "seress_rezso_01": {
+      "name": "Rezső Seress",
+      "location": "Ulica Akácfa 38.",
+      "description": "Odaje počast skladatelju i pijanistu svjetski poznate pjesme 'Tužna nedjelja' (Gloomy Sunday), Rezsőu Seressu. Mini-kip prikazuje umjetnika kako sjedi na kamenoj ploči/klaviru u obliku lule.",
+      "funFact": "Kip je postavljen na zidu nekadašnjeg restorana Kispipa, gdje je Seress desetljećima svirao klavir svake večeri. Zbog njega su ulicu Akácfa posjećivale svjetske zvijezde poput Louisa Armstronga, Spencera Tracyja, Marcella Mastroiannija ili Johna Steinbecka.",
+      "howToFind": "Korak 1 (Područje): Prošećite do ulice Akácfa broj 38 u VII. okrugu.\n\nKorak 2 (Fokus): Pronađite pročelje zgrade bivšeg restorana Kispipa (koji danas radi pod drugim imenom).\n\nKorak 3 (Točna lokacija): Nalazi se na metalnoj tabli/kamenoj ploči u obliku lule pričvršćenoj na vanjski zid od opeke restorana, malo iznad razine očiju."
+    },
+    "rejto_car_01": {
+      "name": "Automobil od 14 karata",
+      "location": "Trg Hevesi Sándor 4.",
+      "description": "Prikazuje kultni automobil iz romana iz 1940. 'Automobil od 14 karata' pisca Jenőa Rejtőa (P. Howard). Kip savladava oštar zavoj na kamenom rubu, simbolizirajući brzu vožnju u susjedstvu nekadašnjeg piščevog doma.",
+      "funFact": "Kip nije u potpunosti od bronce: njegovi prozori i prednja svjetla doista su pozlaćeni, aludirajući na dijelove automobila izrađene od zlata u romanu. Jenő Rejtő proveo je djetinjstvo u susjednoj ulici Rejtő Jenő.",
+      "howToFind": "Korak 1 (Područje): Uputite se na trg Hevesi Sándor u VII. okrugu.\n\nKorak 2 (Fokus): Zaustavite se na prostranom trgu ispred glavnog ulaza u Pesti Magyar Színház (Peštansko mađarsko kazalište).\n\nKorak 3 (Točna lokacija): Mali automobil juri po rubu jedne od zakrivljenih kamenih cvjetnih gredica koje ukrašavaju trg."
+    },
+    "mr_bean_teddy_01": {
+      "name": "Teddy, medvjedić Mr. Beana",
+      "location": "Ulica Harmincad 6.",
+      "description": "Brončani mini-kip vjernog plišanog medvjedića Mr. Beana, Teddyja. Sićušni medo sjedi visoko na zidu i gleda prolaznike na ulici, evocirajući kultnu figuru britanskog humora.",
+      "funFact": "Smještaj kipa usko je povezan s poviješću zgrade: u njoj je ranije djelovalo Britansko veleposlanstvo. Mini-kip je simpatičan spomenik britansko-mađarskim kulturnim odnosima.",
+      "howToFind": "Korak 1 (Područje): Posjetite ulicu Harmincad u V. okrugu (blizu trga Vörösmarty).\n\nKorak 2 (Fokus): Zaustavite se kod broja 6 u ulici Harmincad, na ulazu u bivše Britansko veleposlanstvo.\n\nKorak 3 (Točna lokacija): Pronaći ćete ga neposredno pored ulaza na mramornom zidu, na ugodnoj razini očiju, točno tamo gdje je nekada bio službeni grb veleposlanstva."
+    },
+    "ratatouille_01": {
+      "name": "Juhu-hu (Štakor koji crta grafit)",
+      "location": "Trg Döbrentei",
+      "description": "Remy, genijalni štakor-kuhar iz Pixarovog animiranog filma, sa sprejem za boju u ruci. Figura trči uz zid i stvara grafit, spajajući svijet bajki s modernom uličnom umjetnošću.",
+      "funFact": "Kip je ujedno i posveta kultnim motivima štakora slavnog, anonimnog britanskog street art umjetnika Banksyja. Ovim djelom Kolodko briše granice između gerilske umjetnosti i klasičnog kiparstva.",
+      "howToFind": "Korak 1 (Područje): Idite do budimskog mostobrana Elizabetinog mosta (Erzsébet híd), na trg Döbrentei.\n\nKorak 2 (Fokus): Potražite masivni, sivi kameni stup mosta kod pješačkog pristupa ispod/pored mosta.\n\nKorak 3 (Točna lokacija): 'Penje' se prema gore po zidu stupa mosta, otprilike u razini očiju."
+    },
+    "dreher_01": {
+      "name": "Antal Dreher na bačvi piva",
+      "location": "Jászberényi út 7-11.",
+      "description": "Minijaturni portretni kip Antala Drehera, pionira mađarskog pivarstva, koji ponosno sjedi na drvenoj bačvi držeći pivo u ruci.",
+      "funFact": "Antal Dreher donio je u Mađarsku donje vrenje piva pilsenskog tipa, a koristeći sustav podruma u Kőbányi, izgradio je jednu od najmodernijih pivovara u Europi. Kip odaje počast tvorničkim tradicijama.",
+      "howToFind": "PAŽNJA: Kip se nalazi u ZATVORENOM dvorištu tvornice, stoga se može razgledati ISKLJUČIVO tijekom unaprijed rezervirane pivske ture / obilaska tvornice Dreher!\n\nKorak 1 (Područje): Putujte u X. okrug, na adresu Jászberényi út 7-11. (Pivovara Dreher).\n\nKorak 2 (Fokus): Uđite kroz glavni ulaz tvornice prema Muzeju piva (samo s važećom prijavom za obilazak tvornice).\n\nKorak 3 (Točna lokacija): Stoji u unutarnjem dvorištu ispred Muzeju piva, na vrhu izložene drvene bačve za pivo."
+    },
+    "soroslovak_01": {
+      "name": "Pivarski konji",
+      "location": "Jászberényi út 7-11.",
+      "description": "Brončani mini-kip dvaju tradicionalnih hladnokrvnih konja koji vuku zaprežna kola s pivom. Kip evocira atmosferu ulica stare Budimpešte i tradicionalni način dostave piva.",
+      "funFact": "U tvornici Dreher u Kőbányi desetljećima su ogromni Dreherovi konji prevozili bačve s pivom u restorane. Iz poštovanja prema konjima, tvornica im je osigurala vlastite štale i veterinarsku njegu.",
+      "howToFind": "Korak 1 (Područje): Putujte u X. okrug, na adresu Jászberényi út 7-11. (Pivovara Dreher).\n\nKorak 2 (Fokus): Potražite vanjsko parkiralište IZVAN ograde tvornice i dio ispred glavnih ulaznih vrata.\n\nKorak 3 (Točna lokacija): Dva konja vuku zaprežna kola na ogradi malog vapnenačkog mosta izvan ograde (slobodno dostupno s ulice)."
+    },
+    "skala_kope_01": {
+      "name": "Skála Kópé",
+      "location": "Trg Nyugati",
+      "description": "Mini-kip Skála Kópéa, najpopularnije reklamne figure u Mađarskoj 80-ih godina. Simpatična figura okrugle glave kultna je maskota domaće retro povijesti oglašavanja.",
+      "funFact": "Poznati slogan Skála Kópéa bio je: 'Ja sam Skála Kópé, moja reklama je reklamni spot!'. Datum otkrivanja kipa namjerno je pao na 1. travnja (Dan šala), aludirajući na šaljivu prirodu figure.",
+      "howToFind": "Korak 1 (Područje): Nađimo se kod sata! Idite na trg Nyugati u VI. okrugu.\n\nKorak 2 (Fokus): Potražite otvoreni prostor ispred zgrade bivše robne kuće Skála Metró, u susjedstvu velikog stubišta.\n\nKorak 3 (Točna lokacija): Nalazi se na kamenom rubu izgrađene cvjetne gredice pored stubišta."
+    },
+    "vuk_01": {
+      "name": "Ljuljajući Vuk",
+      "location": "Szent Gellért rakpart",
+      "description": "Besmrtna mala lisica Istvána Feketea, Vuk, kako bespomoćno i razigrano visi s bombe iz Drugog svjetskog rata koja strši iz stijene.",
+      "funFact": "Kip ukazuje na ozbiljnu povijesnu pozadinu: brdo Gellért bilo je istaknuta strateška točka i mjesto opsade tijekom Drugog svjetskog rata. Kolodko je suprotstavio slatkoću dječje bajke s užasima rata.",
+      "howToFind": "Korak 1 (Područje): Prošetajte se uz Szent Gellért rakpart u I. okrugu.\n\nKorak 2 (Fokus): Potražite dio šetnice između kupališta Rudas i Elizabetinog mosta u podnožju brda Gellért.\n\nKorak 3 (Točna lokacija): Pogledajte gore! Mala lisica visi na metalnoj cijevi (bombi) koja strši visoko iz stjenovitog zida brda."
+    },
+    "houdini_01": {
+      "name": "Harry Houdini",
+      "location": "Ulica Király 11.",
+      "description": "Mini-kip iluzionista i majstora bijega Harryja Houdinija (Erika Weisza), rođenog u Budimpešti. Figura leži svezana lancima i lokotom, kao da se upravo priprema za svoju najnoviju točku.",
+      "funFact": "Houdini je rođen u Budimpešti 1874. godine u VII. okrugu i postao je najveći majstor bijega kojeg je svijet ikada vidio. Smještaj kipa u unutarnjem dvorištu Kulturnog centra Erzsébetváros podsjeća na umjetnikove korijene.",
+      "howToFind": "PAŽNJA: Kip se nalazi u unutarnjem dvorištu K11, stoga se može posjetiti samo tijekom radnog vremena Umjetničkog centra K11 (radnim danom)!\n\nKorak 1 (Područje): Idite u ulicu Király broj 11 u VII. okrugu.\n\nKorak 2 (Fokus): Uđite kroz otvorena vrata Umjetničkog i kulturnog centra K11 u unutarnje dvorište.\n\nKorak 3 (Točna lokacija): Gledajte ispred nogu! Leži svezan na tlu, uz podnožje jednog od niskih kamenih zidova dvorišta."
+    },
+    "columbo_mokus_01": {
+      "name": "Mrtva vjeverica",
+      "location": "Ulica Falk Miksa",
+      "description": "Brončani mini-kip 'mrtve' vjeverice okružene obrisima krede za mjesto zločina na tlu. Kip je u izravnom dijalogu s poručnikom Columbom koji stoji u pozadini.",
+      "funFact": "Kip je umjetnička refleksija na poznatu instalaciju suvremenog talijanskog umjetnika Maurizia Cattelana koja prikazuje vjevericu samoubojicu. S humorističnim obratom, Kolodko je žrtvu misterioznog 'zločina' smjestio iza nogu poručnika Columba (Peter Falk).",
+      "howToFind": "Korak 1 (Područje): Idite na ugao ulice Falk Miksa i bulevara Szent István körút u V. okrugu.\n\nKorak 2 (Fokus): Pronađite brončani kip poručnika Columba i njegovog psa u prirodnoj veličini.\n\nKorak 3 (Točna lokacija): Stanite Columbu iza leđa! Vjeverica leži unutar obrisa od krede nacrtanog na asfaltu iza poručnika."
+    },
+    "kotrabant_01": {
+      "name": "Kameni Trabant",
+      "location": "Margitin most, budimski mostobran",
+      "description": "Mini-kip Trabanta 601 isklesan iz bloka vapnenca, opremljen ključem za navijanje. Umjetničko djelo kultni je simbol istočnoeuropskog retro načina života i nostalgije.",
+      "funFact": "Kip je isklesan iz jednog bloka vapnenca, osim metalnog ključa za navijanje na vrhu, koji simbol socijalističke automobilske industrije pretvara u igračku. Odabir lokacije rimuje se s betonskom arhitekturom preostalom iz socijalizma.",
+      "howToFind": "Korak 1 (Područje): Prošećite do budimskog mostobrana Margitinog mosta (II. okrug).\n\nKorak 2 (Fokus): Potražite parkiralište ispod sjeverne rampe mosta (stanica prigradske željeznice HÉV) i rub šetnice.\n\nKorak 3 (Točna lokacija): Isklesan je iz zasebnog bloka vapnenca koji leži na tlu, samo mu je ključ za navijanje metalni."
+    },
+    "delorean_trabant_01": {
+      "name": "Naprijed u prošlost (DeLorean Trabant)",
+      "location": "Željeznički kolodvor Keleti",
+      "description": "Mini-kip Trabanta opremljenog vratima koja se otvaraju prema gore kultnog vremenskog stroja DeLorean iz filma 'Povratak u budućnost'. Briljantan spoj retroa i znanstvene fantastike.",
+      "funFact": "Željeznički kolodvor Keleti simbol je putovanja koja počinju i završavaju u Budimpešti te 'putovanja kroz vrijeme'. Kip spaja istočnoeuropsku stvarnost s mitom putovanja kroz vrijeme zapadne popularne kulture.",
+      "howToFind": "Korak 1 (Područje): Uputite se u VIII. okrug, na Trg Baross ispred Željezničkog kolodvora Keleti (razina ulice).\n\nKorak 2 (Fokus): Potražite otvoreni prostor ispred glavnog ulaza u kolodvor, oko autobusnih stanica i šetnice.\n\nKorak 3 (Točna lokacija): Mali vremenski stroj parkiran je na rubu kamenog zida/kamenog vijenca na površini (krov mu se može otvoriti)."
+    },
+    "among_us_01": {
+      "name": "Staljinove čizme / Among Us",
+      "location": "Gradski park (Dózsa György út)",
+      "description": "Mini-kip koji prikazuje ostatke uništenog divovskog Staljinovog kipa u Budimpešti (poznate čizme), iz kojih viri glava lika iz popularne videoigre Among Us.",
+      "funFact": "Kip povezuje povijest revolucije iz 1956. (kada je narod Pešte srušio Staljinov kip) s modernom digitalnom pop kulturom. Bit igre 'Among Us' je skrivanje i razotkrivanje 'impostora' (uljeza).",
+      "howToFind": "Korak 1 (Područje): Šetajte uz Dózsa György út na rubu Gradskog parka.\n\nKorak 2 (Fokus): Potražite promenadu pored zakrivljene zgrade novog Etnografskog muzeja (gdje se nekada nalazio Trg parada).\n\nKorak 3 (Točna lokacija): Čizme ćete pronaći na vrhu niske kamene klupe (rubnjaka za skejtere), iz kojih viri karakteristična cjevanica."
+    },
+    "lufikutya_01": {
+      "name": "Pas od balona s kosti (Libido)",
+      "location": "Dunavska promenada (Duna korzó)",
+      "description": "Satirična mađarska verzija svjetski poznatog umjetničkog djela 'Balloon Dog' suvremenog američkog umjetnika Jeffa Koonsa, koja zuri u divovsku kost na obali Dunava.",
+      "funFact": "Prema Kolodkovim riječima, kip nosi i naslov 'Libido', aludirajući na to da kost privlači psa jednako kao što muškarac privlači ženu. Lokacija je usko povezana s Cicciolinom (Ilona Staller), koja je bila supruga Jeffa Koonsa, a karijera joj je započela u susjednom hotelu InterContinental.",
+      "howToFind": "Korak 1 (Područje): Prošećite uz Dunavsku promenadu u V. okrugu.\n\nKorak 2 (Fokus): Zaustavite se na šetnici sa strane hotela InterContinental okrenute prema Dunavu.\n\nKorak 3 (Točna lokacija): Promatra kost na jednoj od ograda u obliku kocke koje omeđuju šetnicu."
+    },
+    "balta_01": {
+      "name": "Sjekira na jastučiću",
+      "location": "Trg Szabadság",
+      "description": "Minijaturna sjekira koja leži na ukrasnom jastučiću. Kip je Kolodkov satirični i umjetnički odgovor na politički incident kada je jedan saborski zastupnik sjekirom srušio prethodni kip Ušanke i bacio ga u Dunav.",
+      "funFact": "Umjetnik se nije uvrijedio zbog uništavanja, već je reakciju ugradio u kreativni proces: ponudio je 'alat' rušitelju. Kasnije, 2023. godine, kip Ušanke 'dobio je žablje krakove' i 'ispuzao' iz Dunava na obalu.",
+      "howToFind": "Korak 1 (Područje): Posjetite trg Szabadság u V. okrugu.\n\nKorak 2 (Fokus): Idite do Spomenika sovjetskim vojnicima u sjevernom dijelu trga i promatrajte nisku ogradu od kovanog željeza koja ga okružuje.\n\nKorak 3 (Točna lokacija): Leži na vrhu jednog od debelih kamenih stupova ograde (ranije je ovdje stajao kip Ušanke)."
+    },
+    "usanka_02": {
+      "name": "Ušanka se vraća",
+      "location": "Id. Antall József rakpart",
+      "description": "Mlađi brat sovjetske ušanke koja je prethodno bačena u Dunav, a koja je, dobivši žablje krakove, 'ispuzala' iz rijeke i vratila se na stepenice peštanskog keja.",
+      "funFact": "Kip je izravan nastavak incidenta s Ušankom na trgu Szabadság. Ovim obratom poput onih u stripu, Kolodko je pokazao neuništivost umjetnosti i svoj humorističan odgovor na javna zbivanja.",
+      "howToFind": "Korak 1 (Područje): Prošećite do Id. Antall József rakparta u V. okrugu.\n\nKorak 2 (Fokus): Južno od Parlamenta, u ravnini ulice József Attila, potražite kamene stepenice koje vode do vode.\n\nKorak 3 (Točna lokacija): Stoji na žabljim kracima na najnižoj stepenici, u neposrednoj blizini vode Dunava."
+    },
+    "nincs_kompot_01": {
+      "name": "Nema kompota!",
+      "location": "Várkert rakpart",
+      "description": "Mala kompozicija koja aludira na kultnu rečenicu ('Rusi su već u špajzi!') i likove iz klasične mađarske filmske komedije 'Desetar i ostali'.",
+      "funFact": "Kip je skriven u dubokoj pukotini kamenog potpornog zida, zbog čega ga je najteže pronaći i fotografirati od svih Kolodkovih kipova u Budimpešti. Samo skrivanje simbolizira skrivanje u filmu.",
+      "howToFind": "Korak 1 (Područje): Šetajte Várkert rakpartom u I. okrugu (ispod Várkert Bazára).\n\nKorak 2 (Fokus): Potražite masivni kameni potporni zid na obali Dunava koji se proteže uz tramvajsku prugu.\n\nKorak 3 (Točna lokacija): Dobro otvorite oči! Skriven je u jednoj od okomitih, dubokih pukotina kamenog potpornog zida, morate pogledati između kamenja."
+    },
+    "kutyavasar_01": {
+      "name": "U Budimu je sajam pasa bio samo jednom",
+      "location": "Ugao ulice Batthyány 26. i ulice Hattyú (Trg Nevenincs)",
+      "description": "Šest malih brončanih štenaca (različitih mađarskih pasmina, djelomično u košari, djelomično u blizini) i novčić kralja Matije ugrađen u tlo. Skulpturalna skupina odaje počast poznatoj mađarskoj poslovici i narodnoj priči o kralju Matiji.",
+      "funFact": "Prema legendi, kralj Matija jednom je za veliki novac u Budimu kupio pse od siromašnog čovjeka, ali kada su pohlepni bogataši sutradan također donijeli pse za prodaju, kralj ih je otjerao rekavši 'u Budimu je sajam pasa bio samo jednom'. Novčić se također odnosi na ovu priču.",
+      "howToFind": "Korak 1 (Područje): Idite na ugao ulica Batthyány i Hattyú u I. okrugu (oko ulice Batthyány 26, tzv. Trg Nevenincs).\n\nKorak 2 (Fokus): Potražite mali trg / cvjetne gredice ispred kluba Vízivárosi.\n\nKorak 3 (Točna lokacija): Psi sjede na kamenim rubovima i u košari, dok je novčić ugrađen u kocke u njihovoj blizini."
+    },
+    "romai_legios_01": {
+      "name": "In vino veritas (Rimski legionar)",
+      "location": "Óbuda, amfiteatar u ulici Nagyszombat",
+      "description": "Vojnik iz rimskog doba (legionar) koji se naslanja na vinsku amforu, bezbrižno odmarajući na kamenim ruševinama antičkog amfiteatra. Naslov kipa je: 'In vino veritas' (U vinu je istina).",
+      "funFact": "Kip evocira starorimsko naslijeđe Aquincuma. Prilikom dizajniranja, umjetnik je izlio i njegovog brata blizanca, kojeg je postavio kod rimskog amfiteatra u Puli, u Hrvatskoj.",
+      "howToFind": "Korak 1 (Područje): Idite u III. okrug (Óbuda), do rimskog vojnog amfiteatra u ulici Nagyszombat.\n\nKorak 2 (Fokus): Prošećite oko travnate arene uz originalno rimsko kamenje ruševina.\n\nKorak 3 (Točna lokacija): Bezbrižno leži na vrhu jednog od većih preostalih kamenih blokova."
+    },
+    "aranka_bela_01": {
+      "name": "Teta Aranka i ujak Béla",
+      "location": "Trg Pasaréti",
+      "description": "Kip je podignut u znak sjećanja na kultni i voljeni bračni par cvjećara s trga Pasaréti, tetu Aranku i ujaka Bélu, koji su desetljećima prodavali cvijeće u lokalnom kiosku.",
+      "funFact": "Ovo je jedan od najdirljivijih Kolodkovih kipova, u potpunosti ostvaren kroz suradnju lokalne zajednice i javne donacije kao počast uspomeni na bračni par.",
+      "howToFind": "Korak 1 (Područje): Putujte do trga Pasaréti u II. okrugu.\n\nKorak 2 (Fokus): Potražite okolinu okretišta autobusa i bivšeg (sada zatvorenog) kioska za cvijeće.\n\nKorak 3 (Točna lokacija): Bračni par sjedi na rubu niske kamene ograde/cvjetne gredice pored kioska."
+    },
+    "garfield_01": {
+      "name": "Garfield",
+      "location": "Ulica Dembinszky 4.",
+      "description": "Mini-kip svjetski poznatog stripovskog junaka Jima Davisa, lijenog mačka Garfielda koji obožava lazanje, kako se udobno izležava na vrhu zida od opeke.",
+      "funFact": "Kip je nastao 2023. godine povodom 45. rođendana Garfieldovog stvaranja. Ograda Veterinarskog sveučilišta odabrana je za lokaciju jer je ta institucija centar za liječenje malih životinja.",
+      "howToFind": "Korak 1 (Područje): Pronađite ulicu Dembinszky broj 4 u VII. okrugu.\n\nKorak 2 (Fokus): Zaustavite se kod visoke ograde od crvene opeke Veterinarskog sveučilišta.\n\nKorak 3 (Točna lokacija): Nalazi se na jednom od debelih kamenih stupova ograde."
+    },
+    "roth_miksa_01": {
+      "name": "Miksa Róth",
+      "location": "Ulica Nefelejcs 26.",
+      "description": "Minijaturna bista Mikse Rótha, svjetski poznatog mađarskog slikara na staklu i majstora mozaika. Kip je smješten iza okvira vitraža, evocirajući majstorovo životno djelo.",
+      "funFact": "Kip ima ugrađenu malu svjetiljku koja osvjetljava prozor sa stražnje strane, tako da, bez obzira na doba dana, stvara točan efekt kao da sunčeva svjetlost sija kroz obojeno staklo Mikse Rótha.",
+      "howToFind": "Korak 1 (Područje): Idite u ulicu Nefelejcs broj 26 u VII. okrugu.\n\nKorak 2 (Fokus): Uđite u Spomen-kuću i zbirku Mikse Rótha (Pažnja: ovo je UNUTARNJI kip, dostupan samo tijekom radnog vremena).\n\nKorak 3 (Točna lokacija): Može se pogledati na stilskom drvenom komadu namještaja (vitrini) u radnoj sobi u prizemlju."
+    },
+    "lisa_simpson_02": {
+      "name": "Lisa Simpson (Mađarska žuta)",
+      "location": "Trg Fővám 13.",
+      "description": "Mini-kip Lise Simpson, djevojčice-klimatske aktivistice iz Simpsona, zavezane lancima za žuti stup tramvajske stanice. Naslov kipa je: 'Mađarska žuta'.",
+      "funFact": "Kip na satiričan način aludira na akcije građanskog neposluha klimatskih aktivista, dok žuta boja odaje počast kultnim budimpeštanskim tramvajskim linijama (2, 4, 6).",
+      "howToFind": "Korak 1 (Područje): Uputite se od trga Fővám u IX. okrugu prema zgradi Bálna, na gornjem šetalištu obale Dunava.\n\nKorak 2 (Fokus): Potražite otvoreni kraj tramvajskog podvožnjaka prema Bálni i niz klupa okrenutih prema Dunavu.\n\nKorak 3 (Točna lokacija): Zavezana je lancima za stup na samom kraju metalne ograde koja odvaja pješačku šetnicu od tramvajskog podvožnjaka (kip žute boje)."
+    },
+    "ferenc_jozsef_01": {
+      "name": "Franjo Josip u visećoj mreži",
+      "location": "Most slobode (Szabadság híd)",
+      "description": "Mini-kip Franje Josipa, austrijskog cara i mađarskog kralja, koji se odmara u udobnoj visećoj mreži među željeznim rešetkama mosta nazvanog po njemu (današnji Most slobode).",
+      "funFact": "Kip dočarava opuštenu i slobodnu atmosferu ljetnih piknika 'Szabihíd', kada javnost preuzima zatvoreni most. Franjo Josip osobno je zakucao posljednju srebrnu zakovicu na otvorenju mosta 1896. godine.",
+      "howToFind": "Korak 1 (Područje): Prošećite se na Most slobode.\n\nKorak 2 (Fokus): Zaustavite se na dijelu bliže peštanskom mostobranu i promatrajte zelenu metalnu konstrukciju mosta iznad pješačkog pločnika.\n\nKorak 3 (Točna lokacija): Leži u maloj visećoj mreži rastegnutoj preko jednog od potpornih elemenata metalne konstrukcije u obliku slova V."
+    },
+    "fules_01": {
+      "name": "Slušalice",
+      "location": "Ulica Komor Marcell 1. (Müpa)",
+      "description": "Minijaturne slušalice (studijske slušalice) izlivene u bronci koje počivaju na ogradi Palače umjetnosti (Müpa), evocirajući svijet glazbe i akustike.",
+      "funFact": "Posebnost kipa je u tome što je u vrijeme svog otkrivanja, uz pomoć ugrađenog zvučnika, doista puštao glazbu prolaznicima. Simbol je kulturne četvrti između Müpe i Nacionalnog kazališta.",
+      "howToFind": "Korak 1 (Područje): Idite u ulicu Komor Marcell 1. u IX. okrugu.\n\nKorak 2 (Fokus): Potražite glavni ulaz u Palaču umjetnosti (Müpa) okrenut prema Dunavu.\n\nKorak 3 (Točna lokacija): Slušalice 'vise' na metalnoj ogradi širokog stubišta koje vodi do glavnog ulaza."
+    },
+    "szurikata_01": {
+      "name": "Merkat",
+      "location": "Ulica Bókay János 51.",
+      "description": "Mini-kip budnog člana obitelji merkata koji stoji na stražnjim šapama. Slatka mala životinja čuva stražu na ogradi dječje bolnice, donoseći nadu i osmijeh djeci koja se oporavljaju.",
+      "funFact": "Kip je postavljen u suradnji sa Zakladom Merkat (Szurikáta Alapítvány, organizacijom koja pomaže djeci s dijabetesom) kako bi se skrenula pozornost na dječji dijabetes tipa 1.",
+      "howToFind": "Korak 1 (Područje): Pronađite ulicu Bókay János 51. u VIII. okrugu.\n\nKorak 2 (Fokus): Zaustavite se kod ulične metalne rešetkaste ograde Klinike za pedijatriju I.\n\nKorak 3 (Točna lokacija): Stoji na kamenoj bazi ograde (čuvajući stražu), u neposrednoj blizini ulaza."
+    },
+    "uzenet_01": {
+      "name": "Poruka (Putin i ruski ratni brod)",
+      "location": "Moskovska promenada (Moszkva sétány)",
+      "description": "Minijaturni ruski ratni brod koji stoji na kamenom postolju u obliku srednjeg prsta. Naslov kipa je: 'Poruka', koji podsjeća na poznati čin otpora ukrajinskih graničara sa Zmijskog otoka.",
+      "funFact": "Kip je jedna od najoštrijih političkih izjava Mihálya Kolodka protiv rata koji je Rusija pokrenula protiv Ukrajine. Nakon postavljanja, kip je obišao međunarodni tisak diljem svijeta.",
+      "howToFind": "Korak 1 (Područje): Šetajte u XIII. okrugu, na dijelu ispod peštanskog mostobrana Árpádovog mosta.\n\nKorak 2 (Fokus): Potražite Moskovsku promenadu, točnije kamenu ogradu pored asfaltirane ceste na obali Dunava.\n\nKorak 3 (Točna lokacija): Brod stoji na rukom isklesanom kamenu na vrhu jednog od kamenih stupova ograde."
+    },
+    "szent_miklos_01": {
+      "name": "Sveti Nikola koji donosi sreću",
+      "location": "Ulica Hunyadvár 43/c.",
+      "description": "Mali brončani kip Svetog Nikole koji donosi sreću (zaštitnika djece i putnika), koji sa svojom vrećom poklona počiva na prozorskoj dasci kulturnog centra.",
+      "funFact": "Među lokalnim stanovništvom brzo se razvilo vjerovanje da dodirivanje ili milovanje kipa Svetog Nikole donosi sreću na ispitima i u svakodnevnom životu.",
+      "howToFind": "Korak 1 (Područje): Putujte u XVI. okrug (Sashalom), u ulicu Hunyadvár 43/c.\n\nKorak 2 (Fokus): Zaustavite se kod glavnog ulaza u Kulturni centar Corvin.\n\nKorak 3 (Točna lokacija): Počiva na vanjskoj dasci blagajne (ili informativnog prozora)."
+    },
+    "chuck_norris_01": {
+      "name": "Zavezani Chuck Norris",
+      "location": "Most Megyeri",
+      "description": "Mini-kip zavezanog akcijskog junaka Chucka Norrisa. Umjetničko djelo na duhovit način asocira na internetsko glasanje za naziv mosta Megyeri iz 2006. godine, gdje su korisnici interneta izglasali ime Chucka Norrisa za most.",
+      "funFact": "Iako je Chuck Norris pobijedio na glasanju, prema zakonu, most nije mogao biti nazvan po živoj stranoj osobi, pa je na kraju postao most Megyeri. Kolodko je kip postavio na Dan šala (1. travnja), a akcijski junak čini se nepobjedivim čak i zavezan.",
+      "howToFind": "Korak 1 (Područje): Posjetite peštanski mostobran mosta Megyeri.\n\nKorak 2 (Fokus): Prošećite na južnu stranu pješačke/biciklističke staze mosta.\n\nKorak 3 (Točna lokacija): Zavezan je za masivnu metalnu potpornu konstrukciju staklene informativne ploče 'Pest' pričvršćene za ogradu."
+    },
+    "holdjaro_01": {
+      "name": "Lunarni rover",
+      "location": "Ugao ulica Hold i Aulich",
+      "description": "Mini-kip lunarnog rovera (Lunar Roving Vehicle) koji sadrži sićušnog astronauta odjevenog u svemirsko odijelo, parkiranog na betonskoj polukugli koja simbolizira Mjesec.",
+      "funFact": "Kip ima dvostruko značenje: s jedne strane, to je počast Ferencu Pavlicsu, NASA-inom inženjeru mađarskog podrijetla koji je dizajnirao kotač lunarnog rovera, a s druge strane, aluzija na ulicu Hold (Mjesec), u kojoj je Kolodko prvi put živio nakon preseljenja u Budimpeštu.",
+      "howToFind": "Korak 1 (Područje): Uputite se u V. okrug, na ugao ulice Hold i ulice Aulich.\n\nKorak 2 (Fokus): Zaustavite se na uglu ulice blizu Vječne vatre Batthyány.\n\nKorak 3 (Točna lokacija): Parkiran je na vrhu jedne od betonskih polukugli (koje simboliziraju Mjesec) namijenjenih sprječavanju uličnog parkiranja."
+    },
+    "micimacko_01": {
+      "name": "Winnie Pooh (Micimackó)",
+      "location": "Ulica Damjanich 27.",
+      "description": "Mini-kip Winnieja Pooha ('Mog luckastog, starog medvjeda') koji jede iz svog lonca s medom, sjedeći kod spomen-ploče Frigyesa Karinthyja na zidu kuće.",
+      "funFact": "Smještaj kipa posveta je jezičnoj povijesti: svjetski poznatu Milneovu bajku grubo je prevela sestra Frigyesa Karinthyja, Emília Karinthy (Mici), ali ju je Frigyes izbrusio u besmrtno mađarsko književno remek-djelo (i po njoj je Pooh dobio mađarsko ime 'Micimackó').",
+      "howToFind": "Korak 1 (Područje): Prošećite ispred broja 27 u ulici Damjanich u VII. okrugu.\n\nKorak 2 (Fokus): Potražite spomen-ploču Karinthyja na zidu kuće.\n\nKorak 3 (Točna lokacija): Sjedi s loncem meda na površini od opeke neposredno ispod spomen-ploče, u visini očiju."
+    },
+    "yoda_01": {
+      "name": "Učitelj Yoda",
+      "location": "Trg Szent Gellért",
+      "description": "Zeleni mini-kip Yode, mudrog Jedi učitelja iz Star Wars svemira, koji sjedi u meditaciji na metalnoj ogradi podvožnjaka metroa.",
+      "funFact": "Yoda je simbol mudrosti i unutarnje snage. U užurbanom, brzom svijetu podvožnjaka metroa, kip potiče putnike da zastanu na trenutak i pronađu unutarnji mir.",
+      "howToFind": "Korak 1 (Područje): Putujte na trg Szent Gellért u XI. okrugu.\n\nKorak 2 (Fokus): Spustite se u užurbani podvožnjak metroa M4.\n\nKorak 3 (Točna lokacija): Sjedi meditirajući na donjem dijelu široke, metalne pregrade između pokretnih stepenica koje vode na površinu."
+    },
+    "paddington_01": {
+      "name": "Paddington i Mašin medvjed",
+      "location": "Ulica Medve 5-7.",
+      "description": "Medvjedić Paddington, britanski lik iz crtića, kako jaše na leđima Mašinog medvjeda (junaka popularne ruske crtane serije) u ulici Medve (Medvjed).",
+      "funFact": "Kip nosi satiričnu geopolitičku poruku: izvorni britanski glas medvjedića Paddingtona posuđivao je ukrajinski predsjednik Volodimir Zelenski tijekom svoje glumačke karijere. Suživot dva medvjeda reflektira se na temu rata i mira.",
+      "howToFind": "Korak 1 (Područje): Posjetite ulicu Medve 5-7 u II. okrugu.\n\nKorak 2 (Fokus): Zaustavite se ispred ulaza u uredsku / modernu zgradu s ulične strane.\n\nKorak 3 (Točna lokacija): Jašu na niskom kamenom vijencu (na rubu cvjetne gredice) ispred zgrade."
+    },
+    "leo_es_fred_01": {
+      "name": "Leo i Fred",
+      "location": "BudaPart (Zaljev Lágymányosi)",
+      "description": "Poznati crtani likovi Sándora Reisenbüchlera i Józsefa Tótha, lav Leo i krotitelj Fred, kako kampiraju s cirkuskim kolima na obali Dunava.",
+      "funFact": "Kip čuva uspomenu na zabavnu četvrt iz prijelaza stoljeća u zaljevu Lágymányosi, 'Mali Konstantinopol', gdje su nekada cirkusi i noćni klubovi zabavljali peštansko-budimsku publiku.",
+      "howToFind": "Korak 1 (Područje): Šetajte u BudaPartu u XI. okrugu (Zaljev Lágymányosi).\n\nKorak 2 (Fokus): Potražite obalnu šetnicu koja se proteže tamo gdje se zelenilo brane Kopaszi susreće s novim stambenim parkom.\n\nKorak 3 (Točna lokacija): Nalaze se na visokom kamenom zidu (potpornom zidu) koji omeđuje obalnu šetnicu, u hladu drveća."
+    },
+    "meditalo_nyul_01": {
+      "name": "Zec koji meditira (Zen zeko)",
+      "location": "Margitin otok (južni vrh)",
+      "description": "Mini-kip zeke koji meditira u položaju lotosa u potpunom Zen miru, uz dunavske stepenice na južnom vrhu Margitinog otoka.",
+      "funFact": "Kip je humorističan odgovor na raniji 'napad zečeva' na Margitinom otoku koji je dobio velik medijski odjek, kada su namnoženi zečevi na otoku izazvali uzbunu. Umjetnik je figuru ukrotio u otok mira.",
+      "howToFind": "Korak 1 (Područje): Prošećite se do najjužnijeg vrha Margitinog otoka.\n\nKorak 2 (Fokus): Južno od ulaza na otok ispod Margitinog mosta, potražite žuto obojene stepenice koje vode do Dunava.\n\nKorak 3 (Točna lokacija): Meditira u lotosovom položaju na najnižoj stepenici / u podnožju žutih stepenica koje vode u vodu."
+    },
+    "penzfujo_01": {
+      "name": "Čovječuljak koji puše novac",
+      "location": "Trg Szabadság",
+      "description": "Minijaturni čovječuljak koji tjera stare novčanice pengőa puhalicom za lišće. Kip čuva uspomenu na uvođenje forinte 1946. godine i pobjedu nad hiperinflacijom.",
+      "funFact": "Kip, koji stoji ispred zgrade Mađarske narodne banke, aludira na najgoru hiperinflaciju u svijetu, kada se vrijednost pengőa prepolovljavala u roku od nekoliko sati, a na ulicama su se metlama sakupljale novčanice od dvadeset tisuća milijardi.",
+      "howToFind": "Korak 1 (Područje): Uputite se u V. okrug, na ugao ulice Bank i ulice Hold (stražnji dio Mađarske narodne banke).\n\nKorak 2 (Fokus): Potražite ogromnu platanu na uglu, okruženu crnom ogradom od kovanog željeza.\n\nKorak 3 (Točna lokacija): Čovječuljak stoji na kamenom vijencu ograde koja okružuje drvo, a sitni pengői razbacani su po kamenu ispred njega."
+    },
+    "targoncas_01": {
+      "name": "Vozač viličara",
+      "location": "Trg Szabadság",
+      "description": "Minijaturni radnik koji svojim viličarom upravo pomiče kameni blok u susjedstvu spornog spomenika.",
+      "funFact": "Kip je postavljen na trg Szabadság kao Kolodkova gerilska akcija, kao refleksija na političke rasprave i rasprave o javnim spomenicima, te stalne preinake koje se odvijaju na trgu.",
+      "howToFind": "Korak 1 (Područje): Prošećite trgom Szabadság u V. okrugu.\n\nKorak 2 (Fokus): Pronađite Spomenik žrtvama njemačke okupacije i njegovu ogromnu kamenu bazu.\n\nKorak 3 (Točna lokacija): Gura kameni blok na desnom uglu osnove spomenika, u prizemlju (razina pločnika)."
+    },
+    "hanti_vadas_01": {
+      "name": "Hantijski lovac",
+      "location": "Rákóczijev most (budimski mostobran)",
+      "description": "Mala brončana figura ugro-finskog (hantijskog) lovca koji nosi jelena na ramenima, u podnožju mosta.",
+      "funFact": "Kip skreće pozornost na ugro-finske korijene mađarskog jezika i drevni sklad s prirodom, među staklenim palačama i uredskim zgradama modernog Infoparka.",
+      "howToFind": "Korak 1 (Područje): Idite u XI. okrug, na budimski mostobran Rákóczijevog mosta.\n\nKorak 2 (Fokus): Potražite pješačku/biciklističku rampu (uspon) koja vodi na most nasuprot nebodera MOL Campus.\n\nKorak 3 (Točna lokacija): Hoda s jelenom po vrhu masivnog kamenog zida koji prati rampu."
+    },
+    "pinokkio_01": {
+      "name": "Pinokio",
+      "location": "Trg Széchenyi István",
+      "description": "Brončani mini-kip Pinokija, junaka iz bajke kojem je nos narastao zbog laganja, ispred zgrade Akademije znanosti.",
+      "funFact": "U eri lažnih vijesti (fake news), kip je simbol činjeničnosti znanosti, potrage za istinom i duha Akademije.",
+      "howToFind": "Korak 1 (Područje): Posjetite trg Széchenyi István u V. okrugu.\n\nKorak 2 (Fokus): Idite do stanice tramvaja broj 2 (na strani Akademije).\n\nKorak 3 (Točna lokacija): Figura je uglavljena u jednu od fuga (udubinu između kamenih blokova) kamenog zida (potpornog zida) kod tramvajske stanice."
+    },
+    "eredeti_usanka_01": {
+      "name": "Sovjetska ušanka (Izgubljeno/Uništeno)",
+      "location": "Trg Szabadság",
+      "description": "Prvi mini-kip sovjetske ušanke koji je prikazivao vojnu kapu na trgu Szabadság.",
+      "funFact": "Kip je izazvao političku buru: u siječnju 2020. jedan ga je saborski zastupnik srušio s kamenog stupa sjekirom i bacio u Dunav. Kolodko je kasnije na njegovo mjesto postavio kip 'Sjekira na jastučiću'.",
+      "howToFind": "Korak 1 (Područje): Trg Szabadság, V. okrug.\n\nKorak 2 (Fokus): Ograda koja okružuje Spomenik sovjetskim vojnicima.\n\nKorak 3 (Točna lokacija): Kip se VIŠE NE MOŽE PRONAĆI na lokaciji (bačen je u Dunav, a danas se na njegovom mjestu nalazi kip 'Sjekira na jastučiću')."
+    },
+    "piszoar_01": {
+      "name": "Pisoar (Marcel Duchamp) (Izgubljeno/Ukradeno)",
+      "location": "Gradski park (Városliget)",
+      "description": "Minijaturna brončana verzija slavnog dadaističkog umjetničkog djela Marcela Duchampa ('Fontana' / Pisoar).",
+      "funFact": "Kip se referirao na korijene suvremene likovne umjetnosti, ali nažalost, nekoliko tjedana nakon postavljanja nepoznate su ga osobe ilegalno uklonile i ukrale.",
+      "howToFind": "Korak 1 (Područje): Gradski park (Városliget), XIV. okrug.\n\nKorak 2 (Fokus): Šetnice oko dvorca Vajdahunyad.\n\nKorak 3 (Točna lokacija): Kip se VIŠE NE MOŽE PRONAĆI na lokaciji (ukrale su ga nepoznate osobe nedugo nakon postavljanja)."
+    },
+    "eredeti_lisa_simpson_01": {
+      "name": "Lisa Simpson (Original) (Izgubljeno/Ukradeno)",
+      "location": "Trg Jászai Mari",
+      "description": "Prvi budimpeštanski mini-kip Lise Simpson, koji je stajao na stanici tramvaja broj 2.",
+      "funFact": "Kip je ukraden s trga Jászai Mari nedugo nakon postavljanja. Mihály Kolodko nije odustao, već je kasnije postavio zamjenski kip na trg Fővám pod imenom 'Mađarska žuta'.",
+      "howToFind": "Korak 1 (Područje): Trg Jászai Mari, XIII. okrug.\n\nKorak 2 (Fokus): Okretište tramvaja broj 2.\n\nKorak 3 (Točna lokacija): Kip se VIŠE NE MOŽE PRONAĆI na lokaciji (ukraden je, ali je umjetnik postavio novi na trgu Fővám)."
+    },
+    "dron_01": {
+      "name": "Dron / Švedski zavrtanj",
+      "location": "Bem rakpart / Angelo Rotta rakpart (blizu Margitinog mosta)",
+      "description": "Stilizirani brončani mini-kip drona, s tri krune na vrhu (aludirajući na grb Švedske). Na humorističan način reflektira modernu tehnologiju i svijet ratnih dronova.",
+      "funFact": "Kip je ranije bio izložen na izložbi u Vácu pod imenom Dron/Švedski zavrtanj. 'Sletio' je na dio Bem rakparta blizu Margitinog mosta u ljeto 2025.",
+      "howToFind": "Korak 1 (Područje): Idite na Bem rakpart, prema budimskom mostobranu Margitinog mosta (Angelo Rotta rakpart).\n\nKorak 2 (Fokus): Potražite kameni zid blizu tramvajske stanice.\n\nKorak 3 (Točna lokacija): Dron 'slijeće' na vrh zida."
+    },
+    "piszkos_fred_01": {
+      "name": "Prljavi Fred, kapetan",
+      "location": "Trg Széchenyi István (pored Mađarske akademije znanosti)",
+      "description": "Brončani mini-kip legendarnog junaka iz romana Jenőa Rejtőa (P. Howard), kapetana Prljavog Freda. S lulom u ustima, opušteno sjedi na putničkom / brodskom kovčegu na obali Dunava.",
+      "funFact": "Postavljen je na Božić 2025. Odabir lokacije namjeran je kontrast: u podnožju Akademije, koja predstavlja visoku kulturu, pojavljuje se kultni lik peštanskog humora i šund književnosti.",
+      "howToFind": "Korak 1 (Područje): Idite na trg Széchenyi István, do zgrade Mađarske akademije znanosti.\n\nKorak 2 (Fokus): Potražite obalnu šetnicu / kamenu ogradu sa strane Akademije.\n\nKorak 3 (Točna lokacija): Pored kamenog elementa / stupa, sjedi na vrhu kovčega u smjeru Lančanog mosta."
+    },
+    "dr_bubo_01": {
+      "name": "Doktor Bubó i zec",
+      "location": "Ograda Dječje bolnice Bethesda (ugao ulice Hermina i ulice Bethesda)",
+      "description": "Spomenik doktoru sovi i njegovom najpoznatijem pacijentu s manijom proganjanja, iz kultne mađarske crtane serije 'Sljedeći, molim!' ('Kérem a következőt!'). Dvodijelna kompozicija postavljena je na ogradu povodom 160. obljetnice Dječje bolnice Bethesda, simbolično otvarajući ordinaciju za male pacijente.",
+      "funFact": "Kompozicija je otkrivena u kolovozu 2026., a na nesvakidašnji ju je način otkrio Tangó, jedan od terapijskih pasa bolnice. Doktor Bubó sjedi na vrhu stupa ograde, dok je prestrašeni zeko koji čeka na pregled smješten neposredno ispod njega, na donjem dijelu ograde. U Bethesdi taj lik već ima veliku tradiciju: na zahtjev djece, hodnik kirurškog odjela je još 2012. godine oslikan scenama dr. Bubóa.",
+      "howToFind": "Korak 1 (Područje): Idite do Dječje bolnice Bethesda u XIV. okrugu, u susjedstvu Gradskog parka.\n\nKorak 2 (Fokus): Potražite ogradu na uglu ulice Hermina i ulice Bethesda.\n\nKorak 3 (Točna lokacija): Dvodijelnu kompoziciju pronaći ćete kod ograde: Doktor Bubó sjedi na vrhu stupa ograde, dok je zeko koji čeka ozdravljenje smješten točno ispod njega, na nižem dijelu ograde."
+    },
+    "ii_erzsebet_01": {
+      "name": "Elizabeta II. (Empire / Žuta podmornica)",
+      "location": "Više nije na javnom prostoru (Nekada: Park Millenáris)",
+      "description": "Britanska kraljica Elizabeta II. u elegantnoj odjeći, stoji na vrhu podmornice i maše. Umjetničko djelo aludira na pjesmu Beatlesa Yellow Submarine te na činjenicu da je kraljica 1965. godine odlikovala članove benda.",
+      "funFact": "Kip je prvotno, u listopadu 2024., privremeno postavljen u jedno od jezeraca u Parku Millenáris tijekom Art Marketa u Budimpešti. Budući da se radilo o izložbenom eksponatu postavljenom gerilski, kasnije je premješten u Vác, u Kuću Pannónia, na izložbu 'Dunavski morski pas'.",
+      "howToFind": "PAŽNJA: Ovaj kip trenutačno nije vidljiv na javnom prostoru!\n\nKorak 1 (Područje): Prvotno se nalazio kod zgrade B Parka Millenáris (iz smjera ulice Lövőház).\n\nKorak 2 (Fokus): Trebalo je potražiti jezerce pored zgrade B.\n\nKorak 3 (Točna lokacija): Stajao je u sredini jezera (radilo se o privremenom postavljanju)."
+    },
+    "veszprem_erno_01": {
+      "name": "Ernő, stražar",
+      "location": "Veszprém, Ulica Vár 2.",
+      "description": "Ernő, Stražar Dvorca, simbolizira povijesnu prošlost i zaštitu u Veszprému. Kip nosi uniformu Mađarske kraljevske krunske straže, u znak sjećanja na to da su se 1944. godine Sveta kruna i Sveta desnica mjesec dana čuvale u Veszprému.",
+      "funFact": "Kip je dobio ime po zapovjedniku krunske straže Ernőu Pajtásu nakon glasanja građana. Slovo 'B' na kapi kipa odnosi se na Balázsa, sina naručitelja (vlasnika tvrtke A1-Sped Kft.).",
+      "howToFind": "Korak 1 (Područje): Posjetite Veszprém, početak povijesne ulice Vár.\n\nKorak 2 (Fokus): Potražite impozantna Vrata heroja koja označavaju ulaz u Dvorsku četvrt.\n\nKorak 3 (Točna lokacija): Stoji na straži u podnožju zapadnog stupa vrata, pored kamenog zida."
+    },
+    "veszprem_odon_01": {
+      "name": "Ödön, ulični svirač",
+      "location": "Veszprém, Ulica Kossuth Lajos",
+      "description": "Ödön, ulični svirač, spomen je na današnje vrijeme i živahan glazbeni život Veszpréma. Figura s instrumentom koja sjedi na svom kovčegu simbol je Festivala ulične glazbe u Veszprému i titule 'Grada glazbe' pod zaštitom UNESCO-a.",
+      "funFact": "Slovo 'A' vidljivo na kapi figure označava početno slovo imena Andree, članice obitelji poduzetnika iz Veszpréma koji je naručio kip.",
+      "howToFind": "Korak 1 (Područje): Šetajte u središtu Veszpréma, pješačkim dijelom ulice Kossuth Lajos.\n\nKorak 2 (Fokus): Potražite područje oko centra za događanja Hangvilla.\n\nKorak 3 (Točna lokacija): Kod uličnog namještaja, sjedi na svom kovčegu na niskom kamenom zidu/rubnjaku."
+    },
+    "veszprem_leonora_01": {
+      "name": "LeoNóra, djevojčica i lav",
+      "location": "Veszprém, Ulica Kollégium",
+      "description": "LeoNóra, djevojčica koja sjedi na leđima lava i tipka po pametnom telefonu, predstavlja budućnost, hrabrost i mir djetinjstva. Kip također podsjeća na djetinjstvo Svete Margarete iz obitelji Árpádović u Veszprému.",
+      "funFact": "Slovo 'T' vidljivo na prsima djevojčice je početno slovo imena trećeg djeteta naručitelja (Tamás). Kip je smješten u neposrednoj blizini Margaretinih ruševina.",
+      "howToFind": "Korak 1 (Područje): Posjetite slikovitu ulicu Kollégium u Veszprému.\n\nKorak 2 (Fokus): Prošećite u blizini Margaretinih ruševina, do malog mosta koji premošćuje potok Séd.\n\nKorak 3 (Točna lokacija): Sjedi na leđima lava na masivnoj željezno-kamenoj ogradi mosta."
+    },
+    "vac_anyam_tyukja_01": {
+      "name": "Majčina kokoš (Pas Morzsa)",
+      "location": "Vác, Ulica Széchenyi 42.",
+      "description": "Prikazuje glavne likove (psa Morzsu i majku kokoš) kultne pjesme Sándora Petőfija 'Majčina kokoš'. Petőfi je pjesmu napisao u domu svojih roditelja u Vácu, a kip evocira i pjesnikovu strast prema putovanju vlakom.",
+      "funFact": "Smještaj kipa svjesno je povezan sa željeznicom: postavljen je na trgu ispred Željezničkog kolodvora Vác, povezujući književne uspomene Váca s mađarskom poviješću željeznice (linija Pešta-Vác bila je prva mađarska željeznička linija).",
+      "howToFind": "Korak 1 (Područje): Putujte u Vác, na adresu Ulica Széchenyi 42. (Željeznički kolodvor).\n\nKorak 2 (Fokus): Zaustavite se na otvorenom trgu ispred glavnog ulaza u Željeznički kolodvor Vác.\n\nKorak 3 (Točna lokacija): Sjede jedno pored drugog na rubu povišene kamene/betonske cvjetne gredice koja ukrašava trg."
+    },
+    "vac_maria_terezia_01": {
+      "name": "Ekstaza Marije Terezije",
+      "location": "Vác, Kamena vrata (Slavoluk)",
+      "description": "Ovjekovječuje prestravljen, ekstatičan trenutak mađarske kraljice Marije Terezije. Prema legendi, tijekom posjeta vladarice Vácu 1764. godine, nije se usudila proći ispod Slavoluka (Kamenih vrata) izgrađenog njoj u čast u samo 2 tjedna, jer se bojala da će se srušiti, te se uhvatila za srce.",
+      "funFact": "Pozicioniranje mini-kipa stvara savršenu točku za fotografiranje: ako se gleda iz pravog kuta, u pozadini se savršeno ocrtava originalni Slavoluk u Vácu.",
+      "howToFind": "Korak 1 (Područje): Posjetite Vác, oko poznatih Kamenih vrata (Slavoluka).\n\nKorak 2 (Fokus): Potražite malu uređenu šetnicu pored Slavoluka.\n\nKorak 3 (Točna lokacija): Leži na vrhu niskog metalnog/kamenog stupa (postavljena tako da se Slavoluk vidi u pozadini)."
+    },
+    "vac_csuzli_01": {
+      "name": "Praćka (Ferenc Sajdik)",
+      "location": "Vác, Trg 15. ožujka",
+      "description": "Mini-kip nastao u čast Ferenca Sajdika, dobitnika Kossuthove nagrade, grafičara i karikaturista, koji prikazuje lika kako nateže praćku.",
+      "funFact": "Ferenc Sajdik je tisuću niti povezan s gradom Vácom: Kuća Pannónia koja stoji na glavnom trgu čuva stalnu zbirku i izložbu koja predstavlja umjetnikovo životno djelo.",
+      "howToFind": "Korak 1 (Područje): Ušećite u srce Váca, na Trg 15. ožujka (Glavni trg).\n\nKorak 2 (Fokus): Potražite ulaz u Kuću Pannónia (Zbirka Sajdik).\n\nKorak 3 (Točna lokacija): Nateže praćku na vrhu isklesanog kamenog stupa koji stoji neposredno ispred ulaza."
+    },
+    "vac_betoncapak_01": {
+      "name": "Betonski morski psi (Dunavski morski psi)",
+      "location": "Vác, Obala Dunava",
+      "description": "Skupina kipova 'Betonski morski psi' izrađena je na ekološki prihvatljiv način korištenjem plastičnog i metalnog otpada izvađenog iz rijeke Dunav.",
+      "funFact": "Kip skreće pozornost na zaštitu okoliša i čistoću Dunava. Nastao je uz podršku Muzeja Ignác Tragor kao ekološki umjetnički projekt.",
+      "howToFind": "Korak 1 (Područje): Prošećite do šetnice na obali Dunava u Vácu.\n\nKorak 2 (Fokus): Potražite prirodniji, kamenitiji/vodeniji dio obale rijeke pored izgrađene šetnice.\n\nKorak 3 (Točna lokacija): Same peraje morskih pasa 'plivaju' među kamenjem, djelomično u vodi ili u neposrednoj blizini razine vode."
+    },
+    "tihany_gomboc_artur_01": {
+      "name": "Gombóc Artúr",
+      "location": "Tihany, Šetalište Pisky",
+      "description": "Ptica koja obožava čokoladu iz popularne priče Pom Pom, Istvána Csukása i Ferenca Sajdika, Gombóc Artúr, s čokoladicom Balaton u svojim krilima.",
+      "funFact": "Jedan od najpopularnijih kipova u unutrašnjosti među turistima i djecom: posjetitelji redovito ostavljaju prave čokolade i slatkiše u kandžama Gombóc Artúra.",
+      "howToFind": "Korak 1 (Područje): Posjetite Tihany, poznato Šetalište Pisky.\n\nKorak 2 (Fokus): Šetajte na panoramskom dijelu između Opatije i brda Odjeka (Visszhang-domb).\n\nKorak 3 (Točna lokacija): Sjedi na vrhu bazaltnog kamenog zida okrenut prema Balatonu, s čokoladom u kandžama."
+    },
+    "szigliget_kempingezok_01": {
+      "name": "Balatonski kamperi",
+      "location": "Szigliget, Dvorac Szigliget",
+      "description": "Mini-kip automobila za kampiranje Volkswagen Golf koji vuče sićušnu kamp prikolicu visoko na zidu dvorca.",
+      "funFact": "Kip evocira zlatno doba balatonskog kampiranja 70-ih i 80-ih godina te retro osjećaj ljetovanja na stijenama dvorca Szigliget.",
+      "howToFind": "PAŽNJA: Kip se nalazi na najvišoj razini dvorca, stoga se može posjetiti ISKLJUČIVO tijekom radnog vremena Dvorca Szigliget i uz kupljenu ulaznicu za dvorac!\n\nKorak 1 (Područje): Popnite se do Dvorca Szigliget (uz kupljenu ulaznicu).\n\nKorak 2 (Fokus): Idite do najviše razine dvorca, do vidikovca Benediktinskog tornja.\n\nKorak 3 (Točna lokacija): Na vrhu kamenog zida tornja s kojeg se pruža pogled prema Badacsonyu 'parkiran' je mali automobil."
+    },
+    "hortobagy_csontvary_01": {
+      "name": "Tivadar Csontváry Kosztka",
+      "location": "Hortobágy, Most s devet rupa",
+      "description": "Mini-kip slikara Tivadara Csontváryja Kosztke kako sprejem za boju stvara usred puste.",
+      "funFact": "Odaje počast poznatoj Csontváryjevoj slici 'Oluja na Hortobágyu'. Kip je dio Kolodkove međunarodne serije Csontváryjevih kipova (München, Mostar, Hortobágy).",
+      "howToFind": "Korak 1 (Područje): Putujte u Hortobágy, u središte Puste.\n\nKorak 2 (Fokus): Prošećite do poznatog, spomeničkog Mosta s devet rupa.\n\nKorak 3 (Točna lokacija): Hoda po ogradi od opeke (kamenoj ogradi) mosta, okrenut prema beskrajnoj pusti."
+    },
+    "esztergom_pumukli_01": {
+      "name": "Pumuckl (Pumukli)",
+      "location": "Esztergom, Šetalište Kis-Duna",
+      "description": "Mini-kip Pumuckla, nestašnog crvenokosog vilenjaka, kako se skriva u udubljenju kamenog zida.",
+      "funFact": "Razlog za odabir lokacije: nezaboravni mađarski glas Pumuckla, glumac Kornél Pusztaszeri, rođen je u gradu Esztergomu.",
+      "howToFind": "Korak 1 (Područje): Šetajte šarmantnim Šetalištem Kis-Duna u Esztergomu.\n\nKorak 2 (Fokus): Potražite područje pored zgrade Gimnazije Svete Elizabete i visoki kameni zid.\n\nKorak 3 (Točna lokacija): Sjedi u jednom od otvorenih udubljenja/rupa masivnog kamenog zida."
+    },
+    "gyula_lo_01": {
+      "name": "Konj u bazenu",
+      "location": "Gyula, Kupalište u dvorcu Gyula",
+      "description": "Minijaturni brončani konj koji se kupa u termalnoj vodi u natkrivenoj dvorani kupališta.",
+      "funFact": "Kip čuva uspomenu na nekadašnju zgradu Jahanja (Lovarda) Kupališta u dvorcu Gyula, gdje su nekada stajali konji grofova Almásy, a danas u njoj djeluje termalni bazen.",
+      "howToFind": "Korak 1 (Područje): Posjetite grad Gyulu, Kupalište u dvorcu Gyula (Pažnja: UNUTARNJI kip, dostupan samo uz ulaznicu za kupalište!).\n\nKorak 2 (Fokus): Unutar kupališta potražite natkrivenu zgradu Jahanja (Lovarda).\n\nKorak 3 (Točna lokacija): Mali brončani konj kupa se izravno u vodi/na rubu jednog od povijesnih termalnih bazena."
+    },
+    "nyirbator_sohordo_01": {
+      "name": "Trgovac solju (Nyírbátor)",
+      "location": "Nyírbátor, Šetalište povijesti grada",
+      "description": "Mini-kip trgovca solju koji na leđima nosi bačvu sa solju, odajući počast uspomeni na Povijesni put soli.",
+      "funFact": "Ovaj kip dio je prekogranične rute skulptura koja se sastoji od 5 mađarskih i 5 zakarpatskih djela, a označava put kojim se prevozila srednjovjekovna transilvanijska sol.",
+      "howToFind": "Korak 1 (Područje): Posjetite središte Nyírbátora, Šetalište povijesti grada.\n\nKorak 2 (Fokus): Šetajte popločanim područjima glavnog trga oko klupa i uličnog namještaja.\n\nKorak 3 (Točna lokacija): Hoda po jednoj od niskih kamenih klupa / potpornih zidova s bačvom soli na leđima."
+    },
+    "nagykallo_sohordo_01": {
+      "name": "Trgovac solju (Nagykálló)",
+      "location": "Nagykálló, Glavni trg",
+      "description": "Mini-kip trgovca solju koji na leđima nosi bačvu sa solju, odajući počast uspomeni na Povijesni put soli.",
+      "funFact": "Ovaj kip dio je prekogranične rute skulptura koja se sastoji od 5 mađarskih i 5 zakarpatskih djela, a označava put kojim se prevozila srednjovjekovna transilvanijska sol.",
+      "howToFind": "Korak 1 (Područje): Idite u srce Nagykállóa, na Glavni trg.\n\nKorak 2 (Fokus): Promatrajte popločana središnja uređena područja i javne elemente.\n\nKorak 3 (Točna lokacija): Nosi bačvu sa solju na jednoj od niskih kamenih klupa / ukrasnih podloga."
+    },
+    "vasarosnameny_sohordo_01": {
+      "name": "Trgovac solju (Vásárosnamény)",
+      "location": "Vásárosnamény, Park ispred Gradske vijećnice",
+      "description": "Mini-kip trgovca solju koji na leđima nosi bačvu sa solju, odajući počast uspomeni na Povijesni put soli.",
+      "funFact": "Ovaj kip dio je prekogranične rute skulptura koja se sastoji od 5 mađarskih i 5 zakarpatskih djela, a označava put kojim se prevozila srednjovjekovna transilvanijska sol.",
+      "howToFind": "Korak 1 (Područje): Uputite se u središte Vásárosnaménya, u park ispred Gradske vijećnice.\n\nKorak 2 (Fokus): Šetajte njegovanim stazama parka, pazeći na rubove i mjesta za odmor.\n\nKorak 3 (Točna lokacija): Mala brončana figura nalazi se na kamenom rubnjaku ili potpornom zidu."
+    },
+    "csenger_sohordo_01": {
+      "name": "Trgovac solju (Csenger)",
+      "location": "Csenger, Centar",
+      "description": "Mini-kip trgovca solju koji na leđima nosi bačvu sa solju, odajući počast uspomeni na Povijesni put soli.",
+      "funFact": "Ovaj kip dio je prekogranične rute skulptura koja se sastoji od 5 mađarskih i 5 zakarpatskih djela, a označava put kojim se prevozila srednjovjekovna transilvanijska sol.",
+      "howToFind": "Korak 1 (Područje): Posjetite središte Csengera ukrašeno zgradama u stilu Makovecza.\n\nKorak 2 (Fokus): Šetajte po kamenim pločnicima središnjih trgova i šetališta.\n\nKorak 3 (Točna lokacija): Stoji na jednom od niskih kamenih rubnjaka, čuvajući spomen na povijesni put soli."
+    },
+    "tiszabecs_sohordo_01": {
+      "name": "Trgovac solju (Tiszabecs)",
+      "location": "Tiszabecs",
+      "description": "Mini-kip trgovca solju koji na leđima nosi bačvu sa solju, odajući počast uspomeni na Povijesni put soli.",
+      "funFact": "Ovaj kip dio je prekogranične rute skulptura koja se sastoji od 5 mađarskih i 5 zakarpatskih djela, a označava put kojim se prevozila srednjovjekovna transilvanijska sol.",
+      "howToFind": "Korak 1 (Područje): Otputujte u granično naselje Tiszabecs.\n\nKorak 2 (Fokus): Potražite središte sela ili spomen-obilježja u blizini obale Tise.\n\nKorak 3 (Točna lokacija): Na leđima nosi tešku bačvu soli na niskom kamenom postolju ili rubnjaku."
+    },
+    "geszteredi_csardas_01": {
+      "name": "Geszterédski trostruki čardaš",
+      "location": "Geszteréd, Ulica Kossuth (kod spomen-obilježja)",
+      "description": "Mini-kip Mihálya Kolodka odaje počast poznatom geszterédskom trostrukom čardašu. Kip oblikuje tri figure koje plešu tradicionalni mađarski ples, čardaš. Umjetničko djelo nastalo je zajedničkim snagama lokalne zajednice s ciljem očuvanja tradicije.",
+      "funFact": "Uz kip se nalazi i mramorna ploča s mislima lokalnog primaša Jánosa Keserűa. Sačuvana je i arhivska filmska snimka koraka geszterédskog trostrukog čardaša iz 1955. godine, koja je inspirirala umjetničko djelo.",
+      "howToFind": "Korak 1 (Područje): U središtu Geszteréda potražite područje oko Glavne ulice (Fő utca) i ulice Kossuth.\n\nKorak 2 (Fokus): Potražite lijepo uređeno malo spomen-obilježje s granitnim/mramornim postoljem.\n\nKorak 3 (Točna lokacija): Tri male brončane figure koje plešu vrte se na ovom kamenom postolju, na vlastitoj maloj pozornici."
+    },
+    "kallay_janos_peter_01": {
+      "name": "Grof János Péter Kállay",
+      "location": "Biri, Ulica Sport 47.",
+      "description": "Djelo koje čuva spomen na osnivača Birija, grofa Jánosa Pétera Kállaya od Nagykállóa (1735.–1810.), koje je dio skulpturalne skupine 'Grofova knjižnica'. Kompozicija se sastoji od 12 velikih, isklesanih kamenih knjiga (rad kipara u kamenu Györgya Sárge), na jednoj od kojih sjedi minijaturni brončani kip grofa kojeg je izradio Kolodko.",
+      "funFact": "Grof se smatrao iznimno obrazovanim čak i za uvjete 18. stoljeća. Imao je ogromnu knjižnicu u kuriji koja danas služi kao vijećnica, i čitao je francuske enciklopediste u originalu. Zato ga kip prikazuje kako sjedi na vrhu knjižnice.",
+      "howToFind": "Korak 1 (Područje): Idite u naselje Biri i pronađite ulicu Sport.\n\nKorak 2 (Fokus): Pored lokalnog nogometnog i sportskog igrališta provjerite zelenu površinu.\n\nKorak 3 (Točna lokacija): Potražite ogromne kamene knjige koje leže na tlu! Pored jedanaest ležećih knjiga nalazi se jedna koja stoji, a na njoj sjedi mini-kip."
+    },
+    "munich_csontvary_01": {
+      "name": "Tivadar Csontváry Kosztka",
+      "location": "München, Njemačka",
+      "description": "Mini-kip slikara Tivadara Csontváryja Kosztke u Münchenu, kako kao grafiter sa sprejem za boju u ruci stvara u bavarskoj prijestolnici.",
+      "funFact": "Kip je točan brat blizanac Csontváryjevog kipa smještenog kod Mosta s devet rupa u Hortobágyu. Csontváry je započeo svoje umjetničke studije u Münchenu u slobodnoj školi Simona Hollósyja.",
+      "howToFind": "Korak 1: Šetajte u središtu Münchena po Prinzregentenstraße prema području spomenika Anđelu mira (Friedensengel). Korak 2: Potražite kamenu ogradu stepenaste terase. Korak 3: Brončani kip postavljen je na kamenom zidu, u visini prolaznika."
+    },
+    "munich_pumukli_01": {
+      "name": "Pumuckl (Pumukli)",
+      "location": "München, Njemačka",
+      "description": "Mini-kip najpoznatijeg i najsimpatičnijeg nestašnog vilenjaka bavarsko-njemačke televizije, Pumuckla.",
+      "funFact": "Kolodko je sakrio kip u Münchenu 2022. godine, odajući počast poznatoj knjizi priča i TV seriji (Majstor Eder i njegov Pumuckl) čija se radnja odvija u Münchenu.",
+      "howToFind": "Korak 1: U gradu Münchenu isplati se držati oči otvorenima oko kamenih zidova i rubova mostova na rijeci Isar. Korak 2: Potražite sićušnog brončanog vilenjaka sa svojom karakterističnom, raščupanom kosom."
+    },
+    "munich_oktoberfest_01": {
+      "name": "Oktoberfest (Nazdravlje za Oktoberfest!)",
+      "location": "München, Njemačka",
+      "description": "Brončana ruka koja izlazi iz asfalta, visoko držeći tradicionalnu bavarsku kriglu za pivo.",
+      "funFact": "Umjetnik je kip postavio na mjestu najvećeg svjetskog festivala piva, Theresienwiese, 2020. godine (nažalost, prema vijestima, od tada je nekoliko puta oštećen ili je nestao).",
+      "howToFind": "Korak 1: Posjetite Theresienwiese, ogroman, otvoreni trg u Münchenu. Korak 2: Potražite kip koji 'izlazi' iz pukotine u betonu/asfaltu."
+    },
+    "landshut_rakoczi_01": {
+      "name": "Franjo II. Rákóczi (Landshut)",
+      "location": "Landshut, Njemačka",
+      "description": "Mali brončani kip kneza Franje II. Rákóczija koji se udobno odmara pored izvora u bavarskom gradu Landshutu.",
+      "funFact": "Kip je 2020. postavljen pored lokalnog Rákóczijevog izvora (Rákóczi-Quelle). Izvor je povezan s mađarskom poviješću, kurucima koji su nekada prolazili ovim krajevima i knezom.",
+      "howToFind": "Korak 1: Potražite ulicu 'Am Schallermoos' u gradu Landshutu. Korak 2: Prošetajte do vode Rákóczijevog izvora (Rákóczi-Quelle). Korak 3: Kip sjedi na kamenju oko ispusta vode."
+    },
+    "nuremberg_ajtosi_01": {
+      "name": "Adalbert Ajtósi (Albrecht Dürer stariji)",
+      "location": "Nürnberg, Njemačka",
+      "description": "Minijaturni spomenik ocu zlataru (Adalbert Ajtósi) poznatog njemačkog slikara Albrechta Dürera.",
+      "funFact": "Kolodko je izradio kip 2021. godine povodom 550. obljetnice rođenja Adalberta Ajtósija. Ime nije slučajno: obitelj Dürer prvotno je potjecala iz mjesta Ajtós (njemački 'Türer' -> Dürer) u blizini Gyule.",
+      "howToFind": "PAŽNJA: Kip se nalazi u unutarnjem dvorištu muzeja, stoga se može posjetiti samo tijekom radnog vremena dvorca Tucher!\n\nKorak 1 (Područje): Posjetite povijesno središte Nürnberga, dvorac Tucher (Museum Tucherschloss).\n\nKorak 2 (Fokus): Uđite u otvoreno unutarnje dvorište muzeja.\n\nKorak 3 (Točna lokacija): Kip vas dočekuje na jednoj od kamenih površina dvorišta dvorca."
+    },
+    "prague_rakoczi_01": {
+      "name": "Franjo II. Rákóczi",
+      "location": "Prag, Češka",
+      "description": "Mini-kip koji prikazuje mladog kneza Franju II. Rákóczija.",
+      "funFact": "Čuva uspomenu na studentske godine kneza u Pragu (1691.–1692.). Mali kip svečano je otkriven uz pomoć Instituta Liszt u Pragu, čime se zapravo nadopunila već postojeća Rákóczijeva spomen-ploča.",
+      "howToFind": "Korak 1: U Pragu krenite prema Malostranskom trgu (Malostranské náměstí). Korak 2: Potražite zgradu bivšeg isusovačkog kolegija. Korak 3: Mala brončana figura nalazi se u neposrednoj blizini Rákóczijeve spomen-ploče pričvršćene na zid, na zidu ili na njenom rubu."
+    },
+    "vienna_alex_delarge_01": {
+      "name": "Alex DeLarge (Paklena naranča)",
+      "location": "Beč (Wien), Austrija",
+      "description": "Mini-kip sociopatskog protagonista kultnog filma Stanleyja Kubricka 'Paklena naranča' (Alex, kojeg glumi Malcolm McDowell), s njegovim štapom i polucilindrom.",
+      "funFact": "U filmu i knjizi Alex je bio fanatični obožavatelj Beethovenove glazbe (zvao ga je samo 'dragi, dobri Ludwig van'). Stoga ga je Kolodko 2023. godine, briljantnom genijalnošću, postavio upravo na postolje spomenika Beethovenu u Beču.",
+      "howToFind": "Korak 1: Prošetajte se do Beethovenplatza blizu bečkog Stadtparka. Korak 2: Zaustavite se kod gigantskog spomenika Beethovenu iz 19. stoljeća koji se uzdiže usred trga. Korak 3: Kip ćete pronaći na lijevom kamenu koji zatvara stepenice ispred glavnog spomenika."
+    },
+    "venice_selfie_01": {
+      "name": "Selfie u Veneciji",
+      "location": "Venecija (Venezia), Italija",
+      "description": "Kip prikazuje krilatog lava sv. Marka ili tipičnog turista s perajama kako se fotografira preko kanala pomoću selfie štapa.",
+      "funFact": "Umjetničko djelo pokazuje iskrivljeno ogledalo modernom, površnom masovnom turizmu. Nažalost, prema vijestima, umjetničko djelo nestalo je sa svog izvornog mjesta 2024. godine, tako da je vjerojatno postalo nečiji plijen.",
+      "howToFind": "Korak 1: Posjetite crkvu Santa Maria della Pietà. Korak 2: Zakoračite na lučki dio obale ispred crkve. Korak 3: Kip je na ovom kamenju prvotno sam sebe fotografirao prema moru, a danas (od 2024.) možete pronaći samo njegovo prazno mjesto."
+    },
+    "pula_legionarius_01": {
+      "name": "In vino veritas (Rimski legionar)",
+      "location": "Pula, Hrvatska",
+      "description": "Mini-kip rimskog legionara koji se bezbrižno odmara uz amforu, opijen vinom, u podnožju antičkog amfiteatra.",
+      "funFact": "Kip je točna kopija kipa rimskog vojnika iz Óbude u Budimpešti. Dva umjetnička djela čine svojevrsni nevidljivi povijesni most između dviju bivših rimskih provincija.",
+      "howToFind": "Korak 1: Posjetite poznati rimski amfiteatar (Pulsku Arenu) u centru Pule. Korak 2: Prošećite uz vanjske, ruševne kamene zidove građevine. Korak 3: Mini-kip leži u travi među kamenjem zidova."
+    },
+    "rijeka_piszkos_fred_01": {
+      "name": "Nož u mornaru (Prljavi Fred, kapetan)",
+      "location": "Rijeka, Hrvatska",
+      "description": "Umjetničko djelo koje ovjekovječuje prvu scenu romana Jenőa Rejtőa. Na zidu je naslikan mornar (grafit), iz čijih leđa strši pravi, minijaturni brončani nož.",
+      "funFact": "Kip aludira na kultnu uvodnu rečenicu mađarske šund književnosti ('– Gospodine! Došao sam po svoj nož! / – Gdje ste ga ostavili? / – U nekom mornaru.'). Kolodko je tako prošvercao peštanski humor na obalu mora.",
+      "howToFind": "Korak 1: Šetajte lukom u Rijeci (Rijeka Luka) ili ulicama blizu mora u centru grada. Korak 2: Potražite dio zida na kojem je jednostavnim crnim linijama nacrtan grafički prikaz mornara. Korak 3: Bodež s bisernom drškom zaboden u njegova leđa je opipljiv, fizički mini-kip."
+    },
+    "rijeka_carpathia_01": {
+      "name": "Parni brod Carpathia",
+      "location": "Rijeka, Hrvatska",
+      "description": "Mini-kip koji ovjekovječuje pojas za spašavanje prekooceanskog broda RMS Carpathia koji je spasio preživjele s Titanica.",
+      "funFact": "Carpathia je s mađarskom posadom isplovila iz Rijeke (Fiume) na more prije fatalne noći, a jedini originalni pojas za spašavanje s Titanica u Europi izložen je u riječkom pomorskom muzeju. Ovo maleno umjetničko djelo postavljeno 2024. godine odaje mu počast.",
+      "howToFind": "Korak 1: Idite do obalne lučke šetnice u Rijeci. Korak 2: Gledajte spojeve debelih kamenih zidova i molova koji se protežu uz obalu. Korak 3: Brončani pojas za spašavanje elegantno je usidren na kamenju."
+    },
+    "lendva_lecso_01": {
+      "name": "Kotlić (Juhu-hu)",
+      "location": "Lendava, Slovenija",
+      "description": "Lik Remyja, poznatog gastro-štakora iz Pixarove priče, s kuhačom u ruci dok radi na grafitu s natpisom 'Bogrács' (Kotlić).",
+      "funFact": "Lendava je poznata po svom slavnom Bográcsfestu (Festivalu kotlića), stoga je Kolodko 2022. godine, u čast tamošnjoj kulinarskoj umjetnosti, ovdje izradio brata blizanca budimpeštanskog kipa Juhu-hu (Lecsó).",
+      "howToFind": "Korak 1: Posjetite centar Lendave, okolicu lokalnog Muzeja-Galerije i kazališta. Korak 2: Potražite moderni potporni zid na kojem je sprejem ispisan natpis 'Bogrács'. Korak 3: Mali brončani štakor sjedi neposredno ispred natpisa na vijencu."
+    },
+    "mostar_csontvary_01": {
+      "name": "Tivadar Csontváry Kosztka (Mostar)",
+      "location": "Mostar, Bosna i Hercegovina",
+      "description": "Csontváryjev mini-kip koji prikazuje slikarskog genija kako sprejem za boju doziva svoj duh u balkanskom gradu.",
+      "funFact": "Csontváry je ovdje 1903. naslikao svoje kultno remek-djelo 'Rimski most u Mostaru'. Kolodko je kip postavio u ljeto 2023., na 170. obljetnicu rođenja slikarskog velikana.",
+      "howToFind": "Korak 1: Posjetite mostarsku kultnu znamenitost, Stari most (Stari Most). Korak 2: Spustite se na obalu rijeke Neretve prema južnom (donjem) toku mosta, na obalu bliže hrvatskoj strani. Korak 3: Kip ćete pronaći na jednoj od stijena na obali, stotinjak metara od Starog mosta."
+    },
+    "stockholm_nobel_01": {
+      "name": "Alfred Nobel",
+      "location": "Stockholm, Švedska",
+      "description": "Mali brončani kip koji prikazuje portret Alfreda Nobela, izumitelja dinamita i utemeljitelja svjetski poznate znanstvene nagrade.",
+      "funFact": "Mađarska se s obzirom na broj stanovnika može pohvaliti jednim od najvećih brojeva znanstvenika dobitnika Nobelove nagrade, pa je kip nastao kao simbol švedsko-mađarskog kulturnog i znanstvenog poštovanja.",
+      "howToFind": "Korak 1: Krenite u stockholmsku diplomatsku četvrt Östermalm, točnije do zgrade na adresi Dag Hammarskjölds väg 10. Korak 2: Potražite ogradu od kovanog željeza Veleposlanstva Mađarske. Korak 3: Kip se nalazi izravno na uličnoj ogradi."
+    },
+    "stockholm_karlsson_01": {
+      "name": "Karlsson na krovu (MiniKarlsson)",
+      "location": "Stockholm, Švedska",
+      "description": "Junak priče Astrid Lindgren, Karlsson koji leti s propelerom na leđima, s modernim obratom: drži daljinski upravljač za dron u ruci, a na glavi nosi VR naočale.",
+      "funFact": "Kolodko je tradicionalnog švedskog junaka iz bajke katapultirao u 21. stoljeće, a kip je 2023. postavio na jedno od najljepših mjesta u Stockholmu s kojeg se pruža pogled na more.",
+      "howToFind": "Korak 1: Popnite se u četvrt Södermalm u Stockholmu, u ulicu Fjällgatan. Korak 2: Prošećite do broja 44 u ulici Fjällgatan, do terase vidikovca. Korak 3: Figura sjedi na debelom kamenom vijencu."
+    },
+    "istanbul_barabas_01": {
+      "name": "Barabás (Dječaci Pavlove ulice)",
+      "location": "Istanbul, Turska",
+      "description": "Brončani kip koji prikazuje Barabása, jednog od likova iz romana Ferenca Molnára, koji sjedi upravo na ogromnom, u kamenu uklesanom pečatu Kit-udruženja.",
+      "funFact": "Jedno od najnovijih inozemnih djela: otkriveno je u siječnju 2026. tijekom Mađarsko-turske sezone kulture. Roman je u Turskoj obavezna lektira, pa su ga i mještani dočekali s velikim oduševljenjem.",
+      "howToFind": "Korak 1: Potražite lokalni Institut Liszt u blizini užurbane pješačke ulice Istanbula, Istiklal Caddesi (četvrt Beyoğlu). Korak 2: Iznad informativne ploče s QR kodom postavljene na uličnoj strani, kip sjedi na dijelu zida / stupu."
+    },
+    "seoul_liszt_01": {
+      "name": "Ferenc Liszt (Seul)",
+      "location": "Seul, Južna Koreja",
+      "description": "Mini-kip skladatelja Ferenca Liszta u Seulu, kako sjedi na kovčegu i čeka.",
+      "funFact": "Mađarska klasična glazba u Južnoj Koreji ima ogroman kultni status. Ovaj je kip točna kopija Lisztovog kipa u budimpeštanskoj zračnoj luci (redni broj 4), kojim je Kolodko također obdario i azijsku publiku.",
+      "howToFind": "Korak 1: Posjetite lokalni Mađarski kulturni centar (Institut Liszt) u središtu Seula. Korak 2: Kip počiva na kamenoj klupi/postolju pored ulaza u institut."
+    },
+    "princeton_einstein_01": {
+      "name": "Albert Einstein",
+      "location": "Princeton (New Jersey), SAD",
+      "description": "Mini-kip fizičara Alberta Einsteina u Princetonu, kako sjedeći na kamenoj klupi razmišlja o tajnama svemira.",
+      "funFact": "Ovo je umjetnikov prvi javni mini-kip u Americi. Einstein je posljednjih više od dvadeset godina svog života proveo na Sveučilištu Princeton, a Kolodko mu je 2019. odnio ovu uspomenu.",
+      "howToFind": "Korak 1: Putujte do kampusa Sveučilišta Princeton u državi New Jersey. Korak 2: Posjetite šetnice parka Marquand preko puta bivše Einsteinove kuće. Korak 3: Kip sjedi na jednoj od kamenih klupa/niskih postolja za odmor."
+    },
+    "freddie_montserrat_01": {
+      "name": "Freddie Mercury i Montserrat Caballé",
+      "location": "Barcelona (Španjolska), Montjuïc",
+      "description": "Dvostruki mini-kip podignut u spomen legendarnom frontmenu grupe Queen, Freddieju Mercuryju i svjetski poznatoj španjolskoj opernoj pjevačici Montserrat Caballé. Ovaj je duo ispisao povijest kultnom pjesmom Olimpijskih igara u Barceloni 1992. (Barcelona).",
+      "funFact": "Kolodko je kipove postavio u Španjolskoj u siječnju 2026. u okviru prave gerilske akcije, tiho ih pričvrstivši za ogradu kamenog stubišta. Freddie je prikazan sa stisnutom šakom, a Montserrat raširenih ruku i u plaštu.",
+      "howToFind": "Korak 1 (Područje): U Barceloni se uputite na brdo Montjuïc, točnije do područja Magične fontane (Font Màgica) i CaixaForuma.\n\nKorak 2 (Fokus): Potražite stare, rustikalne kamene stepenice koje vode prema zgradama.\n\nKorak 3 (Točna lokacija): Trebate potražiti dva sićušna kipa koji su okrenuti jedan prema drugom na širokoj, kamenom zidanoj ogradi jednog od kamenih stubišta."
+    },
+    "svejk_olomouc_01": {
+      "name": "Švejk, dobri vojnik (Olomouc)",
+      "location": "Olomouc (Češka), Ulica Krapkova",
+      "description": "Minijaturna brončana replika slavnog češkog vojnika Švejka u gradu Olomoucu. Figura, koja umjesto oružja mirno drži knedlu, postavljena je 2016. ispred pivnice 'U Kuděje'. Odabir lokacije nije slučajan: češki pisac Matěj Kuděj bio je bliski prijatelj i sudrug u piću Jaroslava Hašeka (tvorca Švejka).",
+      "funFact": "Kip je toliko sićušan i toliko se stapa sa svojim okruženjem pored terase pivnice, da ga lokalni stanovnici primjećuju samo ako su se već namjerno uputili unutra na dobru kriglu piva.",
+      "howToFind": "Korak 1 (Područje): U Olomoucu prošećite prema Čechovim sadyma (Češki park), ulica Krapkova.\n\nKorak 2 (Fokus): Pronađite popularnu lokalnu pivnicu pod nazivom 'U Kuděje'.\n\nKorak 3 (Točna lokacija): Kip sjedi vani, na običnoj metalnoj ogradi pored ulaza/pločnika."
+    },
+    "svejk_lipnice_01": {
+      "name": "Švejk, dobri vojnik (Lipnice)",
+      "location": "Lipnice nad Sázavou (Češka)",
+      "description": "Kolodkov klon Švejka u češkom selu gdje je Jaroslav Hašek proveo posljednje godine svog života, gdje je napisao veći dio romana i gdje se nalazi njegov grob. Kip je svečano otkriven 2017. ispod lokalne Hašekove spomen-ploče.",
+      "funFact": "Ploča na postolju kipića na nekoliko jezika kaže: 'Vojnik Josef Švejk – glasnik mira'. Kip su zajednički postavili Kolodko i međunarodno Društvo Hašek.",
+      "howToFind": "Korak 1 (Područje): Posjetite središte mjesta Lipnice nad Sázavou u Češkoj.\n\nKorak 2 (Fokus): Potražite Hašekov spomenik i poznatu gostionicu 'U České koruny' (Pri Češkoj Kruni), koja je nekada pripadala Hašeku.\n\nKorak 3 (Točna lokacija): Brončana figura smještena je u neposrednoj blizini spomen-ploče i natpisa."
+    },
+    "svejk_humenne_01": {
+      "name": "Švejk, dobri vojnik (Humenné)",
+      "location": "Humenné (Slovačka), Područje željezničkog kolodvora",
+      "description": "Mini-kip dobrog vojnika u gradu Humenné u Slovačkoj. Naselje igra važnu ulogu u romanu: Švejk i njegova postrojba prolazili su ovuda na putu prema Istočnom bojištu. Kolodkov mini-kip odaje počast poznatoj 'stanici Humenné'.",
+      "funFact": "U gradu Humenné obožavatelji romana ranije su podigli veliki kip Švejka (pored bunara), ali Kolodkov 'gerilski' Švejk s knedlom puno je manje i skrivenije iznenađenje za putnike koji stižu vlakom.",
+      "howToFind": "Korak 1 (Područje): Idite prema željezničkom kolodvoru Humenné (Železničná stanica Humenné).\n\nKorak 2 (Fokus): Provjerite metalne ograde i stupove oko perona i zgrade kolodvora.\n\nKorak 3 (Točna lokacija): Mali Švejk sjedi sa svojom prtljagom (i knedlom) na jednoj od metalnih cijevi željezničke infrastrukture."
+    },
+    "svejk_przemysl_01": {
+      "name": "Švejk, dobri vojnik (Przemyśl)",
+      "location": "Przemyśl (Poljska)",
+      "description": "Švejkov mini-kip u Poljskoj. Przemyśl je ključna lokacija u knjizi: prema priči, naš je junak na obali rijeke slučajno obukao napuštenu rusku uniformu, zbog čega su ga austrougarske trupe zamijenile za ruskog špijuna i zarobile u gradu-tvrđavi.",
+      "funFact": "Švejk u prirodnoj veličini kako sjedi na sanduku sa streljivom već dugo stoji na glavnom trgu u Przemyślu, ali je Kolodkov glasnik mira, mini-kip s knedlom, stigao u grad u duhu poljsko-mađarsko-ukrajinskog prijateljstva.",
+      "howToFind": "Korak 1 (Područje): Uputite se u povijesno središte Przemyśla i na obalu rijeke San.\n\nKorak 2 (Fokus): Potražite spomen-obilježja starog sustava utvrda ili ograde oko glavnog trga (Rynek).\n\nKorak 3 (Točna lokacija): Na metalnom elementu koji podsjeća na cijev oružja sjedi mirna, nasmijana figura."
+    },
+    "svejk_kielce_01": {
+      "name": "Švejk, dobri vojnik (Kielce)",
+      "location": "Kielce (Poljska)",
+      "description": "Još jedan Kolodkov klon Švejka u Poljskoj. Kip je svečano predan u lipnju 2017. u uskoj suradnji s lokalnim Društvom ljubitelja Švejka, koje aktivno njeguje uspomenu na miroljubivog češkog vojnika iz Prvog svjetskog rata.",
+      "funFact": "Na svečanosti otkrivanja sudjelovali su i potomci Jaroslava Hašeka. Ovaj je kip također dio mreže 'bratskih kipova' u Ukrajini (Užgorod), a jednako tako drži knedlu u ruci umjesto oružja.",
+      "howToFind": "Korak 1 (Područje): Tražite u središtu Kielcea, u području pješačkih ulica.\n\nKorak 2 (Fokus): Pronađite metalno ili kameno postolje sa spomen-pločom na kojem se lokalne književne/povijesne udruge obično sastaju.\n\nKorak 3 (Točna lokacija): Brončana minijatura sjedi iznad ploče s natpisom (Wojak Józef Szwejk – poslaniec pokoju)."
+    }
+  }
+}

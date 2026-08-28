@@ -1,0 +1,16 @@
+{
+  "languages": [
+    { "code": "hu", "nativeName": "Magyar", "flag": "🇭🇺" },
+    { "code": "en", "nativeName": "English", "flag": "🇬🇧" },
+    { "code": "de", "nativeName": "Deutsch", "flag": "🇩🇪" },
+    { "code": "es", "nativeName": "Español", "flag": "🇪🇸" },
+    { "code": "fr", "nativeName": "Français", "flag": "🇫🇷" },
+    { "code": "hr", "nativeName": "Hrvatski", "flag": "🇭🇷" },
+    { "code": "it", "nativeName": "Italiano", "flag": "🇮🇹" },
+    { "code": "ja", "nativeName": "日本語", "flag": "🇯🇵" },
+    { "code": "ko", "nativeName": "한국어", "flag": "🇰🇷" },
+    { "code": "pl", "nativeName": "Polski", "flag": "🇵🇱" },
+    { "code": "uk", "nativeName": "Українська", "flag": "🇺🇦" },
+    { "code": "zh", "nativeName": "简体中文", "flag": "🇨🇳" }
+  ]
+}

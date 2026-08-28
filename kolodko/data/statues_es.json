@@ -1,0 +1,718 @@
+{
+  "statues": {
+    "fokukac_01": {
+      "name": "El Jefe Gusano",
+      "location": "Bem rakpart 15.",
+      "description": "La miniestatua del Jefe Gusano (Főkukac), el icónico compañero del Gran Pescador Ho-ho-ho. Es la primera miniestatua pública de Mihály Kolodko en Budapest, creada por el artista en memoria de su serie de dibujos animados húngara favorita de la infancia (creada por István Csukás y Ferenc Sajdik). La versión original de la estatua se encuentra en Uzhhorod, a orillas del río Uzh.",
+      "funFact": "Es una de las estatuas más queridas por los habitantes de Budapest: en los fríos días de invierno, los transeúntes y los fans le ponen regularmente pequeños gorros, bufandas y a veces incluso jerséis de punto o ganchillo. Es una de las pocas estatuas que tiene un 'gemelo' en Transcarpatia.",
+      "howToFind": "Paso 1 (Zona): Ve al muelle Bem (Bem rakpart), a la altura de la parada de tranvía de Halász utca.\n\nPaso 2 (Punto de referencia): Busca el murete de piedra bajo que separa el carril bici del paseo peatonal.\n\nPaso 3 (Ubicación exacta): La estatua está sentada en la parte superior lisa del murete de piedra, a la altura de las rodillas, mirando hacia el Danubio (el Parlamento)."
+    },
+    "kockasfulu_01": {
+      "name": "El Conejo de Orejas a Cuadros",
+      "location": "Szent György tér",
+      "description": "Una miniestatua de bronce del legendario personaje de dibujos animados de Veronika Marék, El Conejo de Orejas a Cuadros. El héroe de cuento otea la ciudad desde las alturas, exactamente como lo hacía en los dibujos animados: utiliza sus prismáticos para buscar niños en apuros y aventuras que resolver en el lado de Pest.",
+      "funFact": "Es una costumbre muy extendida entre los turistas y los lugareños acariciar las orejas o los prismáticos del conejo para tener buena suerte, razón por la cual la superficie de bronce se ha desgastado hasta brillar en esa zona. Desde la estatua hay un panorama maravilloso del Puente de las Cadenas y el Parlamento.",
+      "howToFind": "Paso 1 (Zona): Sube al Barrio del Castillo de Buda, a la plaza Szent György tér.\n\nPaso 2 (Punto de referencia): Busca la estación superior del Funicular de Buda (Sikló) y la barandilla de piedra frente al Palacio Sándor.\n\nPaso 3 (Ubicación exacta): Está sentado en la parte superior de la barandilla de piedra, cerca de la estatua del Turul, mirando hacia el lado de Pest."
+    },
+    "rubik_01": {
+      "name": "Cubo de Rubik",
+      "location": "Bem rakpart (cerca de Batthyány tér)",
+      "description": "Conmemora la patente mundial de 1974 de Ernő Rubik, el Cubo Mágico (Cubo de Rubik). La miniestatua es un símbolo global de la creatividad húngara y la genialidad en ingeniería, del cual se han vendido más de 450 millones de unidades en todo el mundo.",
+      "funFact": "La superficie de la estatua está diseñada para parecer un cubo a medio resolver, captado en el acto de ser girado, rodando por el pasamanos de los escalones de piedra del muelle. Al diseñarlo, el artista eligió deliberadamente el lado opuesto al Parlamento.",
+      "howToFind": "Paso 1 (Zona): Camina por el muelle Bem (Bem rakpart), en el tramo entre la plaza Batthyány tér y el puente Margarita (Margit híd).\n\nPaso 2 (Punto de referencia): Busca la escalera de piedra del muelle inferior que baja hacia el Danubio en línea con Vám utca.\n\nPaso 3 (Ubicación exacta): La estatua descansa en la parte superior del pasamanos de piedra de la escalera, exactamente frente al Parlamento."
+    },
+    "sad_tank_01": {
+      "name": "Tanque Triste",
+      "location": "Bem rakpart",
+      "description": "Este tanque en miniatura con el cañón bajado es un recuerdo silencioso de la Revolución y guerra de independencia de 1956. Convertida en impotente y triste, esta máquina militar llama la atención sobre el sinsentido de la guerra y la fuerza del deseo de libertad.",
+      "funFact": "Originalmente, en su costado estaba la famosa inscripción de la revolución '¡Ruszkik haza!' ('¡Rusos, a casa!'). La primera estatua fue robada, por lo que Kolodko la volvió a fundir con una fijación reforzada y la recolocó. Un dato curioso de la estatua es que se puede encontrar en ella la firma del artista en letras minúsculas.",
+      "howToFind": "Paso 1 (Zona): Ve al muelle Bem (Bem rakpart), un poco al norte de la parada de tranvía de Batthyány tér.\n\nPaso 2 (Punto de referencia): Busca la gran piedra conmemorativa blanca del antiguo puente Kossuth en el paseo.\n\nPaso 3 (Ubicación exacta): Se encuentra en las inmediaciones de la piedra conmemorativa, en la parte superior del murete de piedra del lado del Danubio."
+    },
+    "mekk_elek_01": {
+      "name": "Mekk Elek",
+      "location": "Széll Kálmán tér",
+      "description": "El maestro chapuzas de la clásica serie de marionetas de József Romhányi y József Nepp, Mekk Elek (Maestro Mekk). En sus manos, la estatua sostiene un letrero de calle con la inscripción 'Moszkva tér', conmemorando así el icónico nombre anterior de la plaza Széll Kálmán.",
+      "funFact": "El letrero de Moszkva tér ha sido arrancado o dañado varias veces de las manos de la estatua, pero el artista lo ha reemplazado cada vez. En invierno, los lugareños a menudo le ponen una pequeña bufanda de punto.",
+      "howToFind": "Paso 1 (Zona): Viaja a la plaza Széll Kálmán tér.\n\nPaso 2 (Punto de referencia): Busca las escaleras mecánicas que conducen hacia Várfok utca (y las paradas de autobús).\n\nPaso 3 (Ubicación exacta): Está sentado en el escalón más bajo de la escalera peatonal de piedra que discurre paralela a las escaleras mecánicas, en la base del muro de piedra."
+    },
+    "kermit_01": {
+      "name": "Kermit, la rana",
+      "location": "Szabadság tér",
+      "description": "Una miniestatua de bronce de la rana verde de El Show de los Muppets, Kermit (la rana René). El héroe de cuento está sentado en la base de piedra de la valla, como si observara alegremente la vida silvestre de la plaza y a las personas en la terraza de la cafetería.",
+      "funFact": "Kermit fue colocado deliberadamente cerca de los árboles y la hierba, un guiño al hábitat natural de la rana. Durante los fríos meses de invierno, los visitantes a menudo le regalan una pequeña bufanda o gorro tejido a mano.",
+      "howToFind": "Paso 1 (Zona): Da un paseo por la plaza Szabadság tér en el distrito V.\n\nPaso 2 (Punto de referencia): Busca la valla metálica baja que rodea la zona de césped en el centro de la plaza, cerca de la terraza de la cafetería del parque.\n\nPaso 3 (Ubicación exacta): Está sentado en el zócalo de piedra debajo de la valla metálica, como si observara a los transeúntes."
+    },
+    "susu_01": {
+      "name": "Süsü, el dragón",
+      "location": "Szabadság tér",
+      "description": "La miniestatua del legendario dragón de una sola cabeza de István Csukás, Süsü. La figura evoca fielmente el clásico espectáculo de marionetas de la Televisión Húngara que definió la infancia de generaciones.",
+      "funFact": "La primera miniestatua de Süsü fue robada por desconocidos, pero Mihály Kolodko la volvió a fundir y la recolocó con una fijación reforzada. La elección de la ubicación es simbólica porque el Palacio de la Bolsa (Tőzsdepalota) en Szabadság tér fue la sede de la Televisión Húngara durante décadas.",
+      "howToFind": "Paso 1 (Zona): Ve a la plaza Szabadság tér en el distrito V.\n\nPaso 2 (Punto de referencia): Busca la grandiosa escalera principal de la antigua sede de la Televisión Húngara (Tőzsdepalota).\n\nPaso 3 (Ubicación exacta): Se encuentra en la gruesa barandilla de piedra del lado izquierdo de las escaleras, mirando hacia el centro de la plaza."
+    },
+    "diver_01": {
+      "name": "El Buzo y la llave",
+      "location": "Esquina de Osvát utca y Dohány utca",
+      "description": "La estatua inmortaliza la famosa leyenda de la cafetería de Ferenc Molnár. Según la historia, al inaugurarse el New York Café en 1894, el escritor arrojó la llave de la puerta principal al Danubio para que el café no cerrara nunca más. La figura con el antiguo traje de buzo ahora ha recuperado esta llave del fondo del agua.",
+      "funFact": "El escultor diseñó intencionadamente la llave casi del mismo tamaño que la figura del buzo. En recuerdo de la leyenda, en 2014, en el 120º aniversario de la cafetería, la dirección actual también arrojó una llave al Danubio.",
+      "howToFind": "Paso 1 (Zona): Dirígete al distrito VII, en el tramo de calle detrás del famoso Palacio New York (cafetería).\n\nPaso 2 (Punto de referencia): Encuentra la esquina de las calles Osvát utca y Dohány utca.\n\nPaso 3 (Ubicación exacta): Se encuentra en la parte superior del pilar tallado en piedra gris (con forma de boca de incendios) situado en la esquina."
+    },
+    "dracula_01": {
+      "name": "Drácula leyendo (Béla Lugosi)",
+      "location": "Városliget",
+      "description": "La miniestatua de la legendaria figura de Drácula del actor húngaro-hollywoodense Béla Lugosi, sentado pacíficamente con la cabeza gacha leyendo un libro. El entorno del parque de estilo gótico proporciona un telón de fondo perfecto para evocar a la famosa figura del vampiro.",
+      "funFact": "La ubicación de la estatua no es accidental: desde 2003 también hay un busto de Béla Lugosi en el muro del Castillo de Vajdahunyad (obra de Hartmut Zech), colocado durante la noche. En la parte posterior de la capa del Drácula de Kolodko se puede encontrar la firma del artista.",
+      "howToFind": "Paso 1 (Zona): Pasea por el Városliget (Parque de la Ciudad), en los alrededores del Castillo de Vajdahunyad.\n\nPaso 2 (Punto de referencia): Busca el lado del castillo que da al lago y, en particular, la sección del muro (nicho) detrás de la estatua de Hunyadi.\n\nPaso 3 (Ubicación exacta): Vale la pena mirar hacia arriba: está sentado en una repisa de piedra gótica, por encima del nivel de los ojos."
+    },
+    "noah_ark_01": {
+      "name": "El Arca de Noé",
+      "location": "Bethlen Gábor tér",
+      "description": "Una réplica en miniatura de bronce del Arca de Noé. La obra de arte es un símbolo de la salvación bíblica y de la protección de la fauna, que encaja perfectamente en el entorno universitario.",
+      "funFact": "Si miras a través de las diminutas ventanas y aberturas del arca, puedes ver minúsculas figuras de animales en parejas en su interior. En los días soleados, cuando la luz incide en el interior del arca en el ángulo correcto, se puede vislumbrar un reflejo de luz colorido (efecto arco iris) en el interior de la estatua.",
+      "howToFind": "Paso 1 (Zona): Ve a la plaza Bethlen Gábor tér en el distrito VII.\n\nPaso 2 (Punto de referencia): Ve al lado de la plaza que da a la Universidad de Medicina Veterinaria, donde hay un pequeño estanque ornamental.\n\nPaso 3 (Ubicación exacta): La diminuta arca descansa sobre el borde del murete de piedra bajo que rodea el estanque."
+    },
+    "liszt_ferenc_01": {
+      "name": "Franz Liszt esperando",
+      "location": "Aeropuerto Franz Liszt",
+      "description": "La miniestatua del mundialmente famoso compositor y pianista Franz Liszt. La estatua combina el motivo del vuelo y los viajes con la música clásica: el artista está sentado esperando sobre un equipaje mientras hace un avión de papel.",
+      "funFact": "Franz Liszt fue una verdadera 'superestrella' de su época, que estaba constantemente de gira y viajaba por toda Europa. Con esta figura, Kolodko conectó los viajes del siglo XIX con la aviación moderna y el aeropuerto internacional que lleva su nombre.",
+      "howToFind": "ATENCIÓN: La estatua ha sido trasladada al interior del edificio y actualmente es accesible ¡EXCLUSIVAMENTE con una tarjeta de embarque válida (después del control de seguridad)!\n\nPaso 1 (Zona): Después del control de seguridad, pasa por la tienda Duty Free hasta el vestíbulo central SkyCourt.\n\nPaso 2 (Punto de referencia): Sube por las escaleras mecánicas al nivel de restaurantes/salas VIP y busca la entrada del MasterCard Lounge.\n\nPaso 3 (Ubicación exacta): La estatua se encuentra en el nivel superior frente a la entrada del MasterCard Lounge, como parte de una instalación de bronce de un avión de papel."
+    },
+    "herzl_01": {
+      "name": "Theodor Herzl y la bicicleta",
+      "location": "Dohány utca 1.",
+      "description": "Una miniestatua del escritor, periodista y creador del movimiento sionista Theodor Herzl con una bicicleta. La estatua conmemora a una de las figuras más influyentes de la historia judía en las inmediaciones de su casa natal.",
+      "funFact": "El diseño de la estatua se basa en una famosa fotografía de la época, que muestra a Theodor Herzl con una bicicleta. El artista adhirió la estatua a la farola de la calle de tal manera que parece como si el ciclista estuviera pedaleando hacia abajo.",
+      "howToFind": "Paso 1 (Zona): Ve al distrito VII, a la esquina de Dohány utca y Károly körút.\n\nPaso 2 (Punto de referencia): Busca el paso de peatones cerca de la Sinagoga de Dohány utca.\n\nPaso 3 (Ubicación exacta): Está fijado a un lado del grueso poste metálico de la farola que se encuentra junto al paso de cebra, a la altura de la cintura."
+    },
+    "szenes_hanna_01": {
+      "name": "Hannah Szenes",
+      "location": "Szenes Hanna park",
+      "description": "Un monumento a la poetisa judía-húngara y heroína de guerra paracaidista británica Hannah Szenes, martirizada a los 23 años. La estatua representa a la heroína, que sacrificó su vida para salvar a los judíos húngaros, con equipo de paracaidista emergiendo de una pared rocosa.",
+      "funFact": "Es la estatua de Kolodko con la historia de fondo más triste, inaugurada el 8 de marzo de 2020, Día Internacional de la Mujer, junto con la organización 'Hosszúlépés. Járunk?', llamando la atención sobre la dolorosa ausencia de figuras femeninas en la escultura pública. Hannah Szenes y el letrista Iván Szenes eran primos.",
+      "howToFind": "Paso 1 (Zona): Busca el parque Szenes Hanna en el distrito VII (en la esquina de las calles Jósika utca y Rózsa utca).\n\nPaso 2 (Punto de referencia): Pasea hasta la pequeña zona de césped y árboles del parque.\n\nPaso 3 (Ubicación exacta): Se encuentra en la parte superior/lateral de un montículo de piedras y ladrillos en forma de cono colocado en el parque."
+    },
+    "seress_rezso_01": {
+      "name": "Rezső Seress",
+      "location": "Akácfa utca 38.",
+      "description": "Conmemora al compositor y pianista de la mundialmente famosa canción 'Gloomy Sunday' (Domingo sombrío), Rezső Seress. La miniestatua representa al artista sentado en una losa de piedra/piano en forma de pipa.",
+      "funFact": "La estatua está colocada en la pared del antiguo restaurante Kispipa, donde Seress tocaba el piano todas las noches durante décadas. Gracias a él, estrellas mundiales como Louis Armstrong, Spencer Tracy, Marcello Mastroianni y John Steinbeck visitaron Akácfa utca.",
+      "howToFind": "Paso 1 (Zona): Pasea hasta el número 38 de Akácfa utca en el distrito VII.\n\nPaso 2 (Punto de referencia): Encuentra la fachada del edificio del antiguo restaurante Kispipa (que ahora opera con otro nombre).\n\nPaso 3 (Ubicación exacta): Se encuentra en una placa de metal/piedra en forma de pipa fijada a la pared exterior de ladrillo del restaurante, un poco por encima del nivel de los ojos."
+    },
+    "rejto_car_01": {
+      "name": "El coche de 14 quilates",
+      "location": "Hevesi Sándor tér 4.",
+      "description": "Representa el icónico coche de la novela pulp de Jenő Rejtő (P. Howard) de 1940 'El coche de 14 quilates'. La estatua toma una curva cerrada en un borde de piedra, simbolizando la velocidad en las cercanías del antiguo lugar de residencia del escritor.",
+      "funFact": "La estatua no es de bronce puro: sus ventanas y faros han recibido una pintura dorada real, en referencia a las partes del coche hechas de oro en la novela. Jenő Rejtő pasó su infancia en la calle vecina que ahora lleva su nombre (Rejtő Jenő utca).",
+      "howToFind": "Paso 1 (Zona): Dirígete a la plaza Hevesi Sándor tér en el distrito VII.\n\nPaso 2 (Punto de referencia): Detente en la espaciosa plaza frente a la entrada principal del Teatro Húngaro de Pest (Pesti Magyar Színház).\n\nPaso 3 (Ubicación exacta): El pequeño coche acelera por el borde de piedra de uno de los parterres curvos que decoran la plaza."
+    },
+    "mr_bean_teddy_01": {
+      "name": "Teddy, el osito de Mr. Bean",
+      "location": "Harmincad utca 6.",
+      "description": "Una miniestatua de bronce del fiel osito de peluche de Mr. Bean, Teddy. El diminuto oso está sentado en lo alto de la pared mirando a la gente que pasea por la calle, evocando la figura icónica del humor británico.",
+      "funFact": "La ubicación de la estatua está estrechamente relacionada con la historia del edificio: anteriormente, la propiedad albergaba la Embajada Británica. La miniestatua es un cariñoso monumento a las relaciones culturales británico-húngaras.",
+      "howToFind": "Paso 1 (Zona): Ve a Harmincad utca en el distrito V (cerca de Vörösmarty tér).\n\nPaso 2 (Punto de referencia): Detente en el número 6 de Harmincad utca, en la entrada de la antigua Embajada Británica.\n\nPaso 3 (Ubicación exacta): Lo encontrarás en la pared de mármol justo al lado de la entrada, a una cómoda altura de los ojos, exactamente donde solía estar el escudo de armas oficial de la embajada."
+    },
+    "ratatouille_01": {
+      "name": "Ratatouille (La rata grafitera)",
+      "location": "Döbrentei tér",
+      "description": "Ratatouille (Remy), el genial chef rata de la película de animación de Pixar, con un bote de spray de pintura en la mano. La figura correteando por la pared pintando grafitis, fusionando el mundo de los cuentos de hadas con el arte urbano moderno.",
+      "funFact": "La estatua también es un homenaje a los famosos motivos de ratas del icónico artista callejero anónimo británico Banksy. Con esta obra, Kolodko difumina las líneas entre el arte de guerrilla y la escultura clásica.",
+      "howToFind": "Paso 1 (Zona): Ve a la cabecera de Buda del Puente de Isabel (Erzsébet híd), a Döbrentei tér.\n\nPaso 2 (Punto de referencia): Busca el enorme pilar de piedra gris del puente cerca de la rampa peatonal bajo/junto al puente.\n\nPaso 3 (Ubicación exacta): 'Trepa' por la pared del pilar del puente, aproximadamente a la altura de los ojos."
+    },
+    "dreher_01": {
+      "name": "Antal Dreher sobre el barril de cerveza",
+      "location": "Jászberényi út 7-11.",
+      "description": "Una escultura de retrato en miniatura del cervecero Antal Dreher, un pionero de la elaboración de cerveza húngara, sentado en un barril de madera con una cerveza en la mano y mirando con orgullo a su alrededor.",
+      "funFact": "Antal Dreher introdujo la elaboración de cerveza de baja fermentación tipo Pilsen en Hungría y, utilizando el sistema de bodegas de Kőbánya, construyó una de las fábricas de cerveza más modernas de Europa. La estatua rinde homenaje a las tradiciones de la fábrica.",
+      "howToFind": "ATENCIÓN: La estatua está en el patio CERRADO de la fábrica, por lo que ¡EXCLUSIVAMENTE se puede ver durante un tour de cerveza Dreher / visita a la fábrica reservado con antelación!\n\nPaso 1 (Zona): Viaja al distrito X, a Jászberényi út 7-11. (Cervecería Dreher).\n\nPaso 2 (Punto de referencia): Entra por la entrada principal de la fábrica hacia el Museo de la Cerveza (solo con un registro válido para la visita a la fábrica).\n\nPaso 3 (Ubicación exacta): Se encuentra en el patio interior frente al Museo de la Cerveza, encima de un barril de cerveza de madera expuesto."
+    },
+    "soroslovak_01": {
+      "name": "Caballos cerveceros",
+      "location": "Jászberényi út 7-11.",
+      "description": "Una miniestatua de bronce de dos caballos de tiro de sangre fría tradicionales tirando de un carro de cerveza. La estatua evoca la atmósfera de las antiguas calles de Budapest y la forma tradicional de repartir cerveza.",
+      "funFact": "En Kőbánya, en la fábrica Dreher, enormes caballos Dreher transportaron barriles de cerveza a los restaurantes durante décadas. Como muestra de respeto por los caballos, la fábrica les proporcionó sus propios establos y atención veterinaria.",
+      "howToFind": "Paso 1 (Zona): Viaja al distrito X, a Jászberényi út 7-11. (Cervecería Dreher).\n\nPaso 2 (Punto de referencia): Busca el aparcamiento exterior situado FUERA de la valla de la fábrica y la zona frente a la puerta de entrada principal.\n\nPaso 3 (Ubicación exacta): Los dos caballos tiran del carro de cerveza por el pasamanos del pequeño puente de piedra caliza fuera de la valla (se puede acceder libremente desde la calle)."
+    },
+    "skala_kope_01": {
+      "name": "Skála Kópé",
+      "location": "Nyugati tér",
+      "description": "Una miniestatua del personaje publicitario más popular de Hungría de los años 80, Skála Kópé. La entrañable figura de cabeza redonda es la mascota icónica de la historia de la publicidad retro nacional.",
+      "funFact": "El famoso eslogan de Skála Kópé era: '¡Yo soy Skála Kópé, mi publicidad es el clip publicitario!'. La fecha de inauguración de la estatua cayó deliberadamente en el 1 de abril (Día de los Inocentes), en referencia a la naturaleza bromista del personaje.",
+      "howToFind": "Paso 1 (Zona): ¡Nos vemos en el reloj! Ve a Nyugati tér en el distrito VI.\n\nPaso 2 (Punto de referencia): Busca el espacio abierto frente al edificio del antiguo gran almacén Skála Metró, cerca de la gran escalinata.\n\nPaso 3 (Ubicación exacta): En el borde de piedra del parterre de flores acondicionado junto a las escaleras."
+    },
+    "vuk_01": {
+      "name": "Vuk balanceándose",
+      "location": "Szent Gellért rakpart",
+      "description": "El pequeño zorro inmortal de István Fekete, Vuk, colgado impotente y juguetonamente de una bomba de la guerra mundial que sobresale de una pared rocosa.",
+      "funFact": "La estatua remite a un grave trasfondo histórico: la colina Gellért fue un punto estratégico clave y lugar de asedio durante la Segunda Guerra Mundial. Kolodko contrastó la dulzura del cuento infantil con los horrores de la guerra.",
+      "howToFind": "Paso 1 (Zona): Camina por el Szent Gellért rakpart en el distrito I.\n\nPaso 2 (Punto de referencia): Busca el tramo de paseo entre los Baños Rudas y el Puente de Isabel (Erzsébet híd) a los pies de la colina Gellért.\n\nPaso 3 (Ubicación exacta): ¡Mira hacia arriba! El pequeño zorro cuelga del tubo de metal (bomba) que sobresale de la pared rocosa de la colina."
+    },
+    "houdini_01": {
+      "name": "Harry Houdini",
+      "location": "Király utca 11.",
+      "description": "Una miniestatua del ilusionista y escapista nacido en Budapest Harry Houdini (Erik Weisz). La figura yace atada con cadenas y un candado, como si se preparara para su último truco.",
+      "funFact": "Houdini nació en 1874 en Budapest, en el distrito VII, y se convirtió en el mayor escapista que el mundo haya visto. La colocación de la estatua en el patio interior del Centro Cultural de Erzsébetváros conmemora las raíces del artista.",
+      "howToFind": "ATENCIÓN: La estatua está en el patio interior del K11, por lo que ¡solo se puede visitar durante el horario de apertura del Centro de Arte K11 (días laborables)!\n\nPaso 1 (Zona): Ve al número 11 de Király utca en el distrito VII.\n\nPaso 2 (Punto de referencia): Entra por la puerta abierta del Centro de Arte y Cultura K11 hacia el patio interior.\n\nPaso 3 (Ubicación exacta): ¡Mira por dónde pisas! Yace atado en el suelo en la base de uno de los muretes bajos de piedra del patio."
+    },
+    "columbo_mokus_01": {
+      "name": "Ardilla muerta",
+      "location": "Falk Miksa utca",
+      "description": "Una miniestatua de bronce de una ardilla 'muerta' rodeada por el contorno de tiza de la escena de un crimen en el suelo. La estatua dialoga directamente con el teniente Columbo que se encuentra al fondo.",
+      "funFact": "La estatua es una reflexión artística sobre la famosa instalación de la ardilla suicida del artista contemporáneo italiano Maurizio Cattelan. Con un toque de humor, Kolodko colocó a la víctima del misterioso 'crimen' detrás de los pies del teniente Columbo (Peter Falk).",
+      "howToFind": "Paso 1 (Zona): Ve a la esquina de Falk Miksa utca y Szent István körút en el distrito V.\n\nPaso 2 (Punto de referencia): Encuentra la estatua de bronce de tamaño natural del teniente Columbo y su perro.\n\nPaso 3 (Ubicación exacta): ¡Ponte a espaldas de Columbo! La ardilla yace sobre el contorno de tiza pintado en el asfalto detrás del teniente."
+    },
+    "kotrabant_01": {
+      "name": "Trabant de piedra",
+      "location": "Cabecera de Buda del Puente Margarita",
+      "description": "Una miniestatua de un Trabant 601 tallada en un bloque de piedra caliza y equipada con una llave de cuerda. La obra de arte es un símbolo icónico del ambiente retro y la nostalgia de Europa del Este.",
+      "funFact": "La estatua se hizo a partir de un solo bloque de piedra caliza, a excepción de la llave de cuerda de metal en la parte superior, que domesa el símbolo de la industria automovilística socialista convirtiéndolo en un coche de juguete. La elección del lugar rima con la arquitectura de hormigón que queda del socialismo.",
+      "howToFind": "Paso 1 (Zona): Camina hasta la cabecera de Buda del Puente Margarita (Margit híd) (distrito II).\n\nPaso 2 (Punto de referencia): Busca el aparcamiento debajo de la rampa de acceso norte del puente (la parada de HÉV) y el borde del paseo.\n\nPaso 3 (Ubicación exacta): Está tallado en un bloque de piedra caliza independiente que yace en el suelo, solo la llave de cuerda es de metal."
+    },
+    "delorean_trabant_01": {
+      "name": "Regreso al pasado (DeLorean Trabant)",
+      "location": "Keleti Pályaudvar",
+      "description": "Una miniestatua de un Trabant equipado con las puertas de ala de gaviota de la icónica máquina del tiempo DeLorean de la película 'Regreso al futuro'. Una brillante fusión de lo retro y la ciencia ficción.",
+      "funFact": "La Estación Keleti (Keleti Pályaudvar) es un símbolo de los viajes de ida y vuelta a Budapest y del 'viaje en el tiempo'. La estatua fusiona la realidad de Europa del Este con el mito del viaje en el tiempo de la cultura popular occidental.",
+      "howToFind": "Paso 1 (Zona): Dirígete al distrito VIII, a Baross tér frente a la Estación Keleti (nivel de la calle).\n\nPaso 2 (Punto de referencia): Busca el espacio frente a la entrada principal de la estación, cerca de las paradas de autobús y el paseo.\n\nPaso 3 (Ubicación exacta): La pequeña máquina del tiempo está aparcada en el borde del parapeto/cornisa de piedra en la superficie (el techo se puede abrir)."
+    },
+    "among_us_01": {
+      "name": "Las botas de Stalin / Among Us",
+      "location": "Városliget (Dózsa György út)",
+      "description": "Una miniestatua que representa los restos de la gigantesca estatua destruida de Stalin en Budapest (las famosas botas), de la cual asoma la cabeza del personaje del popular videojuego Among Us.",
+      "funFact": "La estatua conecta la historia de la Revolución de 1956 (cuando el pueblo de Pest derribó la estatua de Stalin) con la cultura pop digital moderna. La esencia del juego 'Among Us' es esconderse y desenmascarar al 'impostor'.",
+      "howToFind": "Paso 1 (Zona): Pasea por el borde del Városliget (Parque de la Ciudad), en Dózsa György út.\n\nPaso 2 (Punto de referencia): Busca el paseo junto al edificio curvo del nuevo Museo Etnográfico (donde solía estar Felvonulási tér).\n\nPaso 3 (Ubicación exacta): Encontrarás las botas en la parte superior de un murete de piedra bajo (bordillo para patinadores), del cual sobresale la característica tibia."
+    },
+    "lufikutya_01": {
+      "name": "Perro globo con hueso (Libido)",
+      "location": "Duna korzó",
+      "description": "Una versión satírica húngara de la mundialmente famosa obra del artista contemporáneo estadounidense Jeff Koons, el 'Balloon Dog' (Perro Globo), que se queda mirando un hueso gigante a orillas del Danubio.",
+      "funFact": "Según Kolodko, la estatua también se titula 'Libido', en alusión al hecho de que el hueso atrae al perro de la misma manera que un hombre se siente atraído por una mujer. La ubicación está estrechamente relacionada con Cicciolina (Ilona Staller), quien fue esposa de Jeff Koons y cuya carrera comenzó en el hotel InterContinental de al lado.",
+      "howToFind": "Paso 1 (Zona): Pasea por el Duna korzó en el distrito V.\n\nPaso 2 (Punto de referencia): Detente en el paseo peatonal del lado del Hotel InterContinental que da al Danubio.\n\nPaso 3 (Ubicación exacta): Mira a un hueso sobre una de las vallas cúbicas que bordean el paseo."
+    },
+    "balta_01": {
+      "name": "Hacha sobre cojín decorativo",
+      "location": "Szabadság tér",
+      "description": "Un hacha en miniatura apoyada en un cojín decorativo. La estatua es la respuesta satírica y artística de Kolodko a un incidente político en el que un parlamentario derribó la anterior estatua de una Ushanka con un hacha y la arrojó al Danubio.",
+      "funFact": "El artista no se ofendió por el vandalismo, sino que incorporó la reacción al proceso creativo: ofreció la 'herramienta' al destructor. Más tarde, en 2023, a la estatua de la ushanka le 'crecieron ancas de rana' y 'salió' del Danubio hasta el muelle.",
+      "howToFind": "Paso 1 (Zona): Ve a Szabadság tér en el distrito V.\n\nPaso 2 (Punto de referencia): Ve al Monumento militar soviético en la parte norte de la plaza y observa la cerca baja de hierro forjado que lo rodea.\n\nPaso 3 (Ubicación exacta): Yace en la parte superior de uno de los gruesos pilares de piedra de la cerca (antes aquí se encontraba la estatua de la Ushanka)."
+    },
+    "usanka_02": {
+      "name": "El regreso de la Ushanka",
+      "location": "Id. Antall József rakpart",
+      "description": "El hermano menor de la ushanka soviética que anteriormente fue arrojada al Danubio, al que le han crecido ancas de rana y ha 'salido' del río para regresar a las escaleras del muelle de Pest.",
+      "funFact": "La estatua es la continuación directa del incidente de la Ushanka en Szabadság tér. Con este giro propio de un cómic, Kolodko mostró la indestructibilidad del arte y dio una respuesta humorística a los acontecimientos públicos.",
+      "howToFind": "Paso 1 (Zona): Baja al muelle Id. Antall József rakpart en el distrito V.\n\nPaso 2 (Punto de referencia): Al sur del Parlamento, en línea con József Attila utca, busca las escaleras de piedra que bajan al agua.\n\nPaso 3 (Ubicación exacta): Está de pie sobre ancas de rana en el escalón más bajo de las escaleras, muy cerca del agua del Danubio."
+    },
+    "nincs_kompot_01": {
+      "name": "¡No hay compota!",
+      "location": "Várkert rakpart",
+      "description": "Una composición diminuta que hace referencia a la frase icónica ('¡Los rusos ya están en la despensa!') y a los personajes de la clásica película de comedia húngara 'El cabo y los demás'.",
+      "funFact": "La estatua está oculta en una profunda grieta de un muro de contención de piedra, lo que la convierte en la más difícil de encontrar y fotografiar de todas las estatuas de Kolodko en Budapest. El hecho de esconderse simboliza el propio acto de ocultarse en la película.",
+      "howToFind": "Paso 1 (Zona): Camina por el Várkert rakpart en el distrito I (debajo del Várkert Bazár).\n\nPaso 2 (Punto de referencia): Busca el enorme muro de contención de piedra a lo largo del Danubio que corre junto a las vías del tranvía.\n\nPaso 3 (Ubicación exacta): ¡Abre bien los ojos! Está escondida en una de las grietas verticales y profundas del muro de piedra, tienes que mirar entre las piedras."
+    },
+    "kutyavasar_01": {
+      "name": "Érase una vez el mercado de perros en Buda",
+      "location": "Esquina de Batthyány utca 26. / Hattyú utca (Nevenincs tér)",
+      "description": "Seis cachorritos de bronce en miniatura (diferentes razas húngaras, en parte en una cesta, en parte cerca) y una moneda del Rey Matías incrustada en el suelo. El grupo de estatuas conmemora el famoso proverbio húngaro y el cuento popular sobre el Rey Matías.",
+      "funFact": "Según la leyenda, el Rey Matías compró una vez perros a un pobre hombre en Buda por mucho dinero, pero cuando al día siguiente los hombres ricos codiciosos también trajeron perros para vender, el rey los echó diciendo que 'solo hubo una vez un mercado de perros en Buda' (es decir, una oportunidad así no se repetirá). La moneda también está vinculada a esta historia.",
+      "howToFind": "Paso 1 (Zona): Ve a la esquina de Batthyány utca y Hattyú utca en el distrito I (área de Batthyány u. 26., la llamada Nevenincs tér).\n\nPaso 2 (Punto de referencia): Busca la pequeña plaza / los macizos de flores frente al Vízivárosi Klub.\n\nPaso 3 (Ubicación exacta): Los perros están sentados en los bordes de piedra y en una cesta, y la moneda está incrustada en los adoquines cerca de ellos."
+    },
+    "romai_legios_01": {
+      "name": "In vino veritas (Legionario romano)",
+      "location": "Óbuda, anfiteatro de Nagyszombat utca",
+      "description": "Un soldado de la época romana (legionario) que descansa despreocupadamente sobre los restos de piedra del antiguo anfiteatro, apoyado en un ánfora de vino. El título de la estatua es 'In vino veritas' (En el vino está la verdad).",
+      "funFact": "La estatua evoca el antiguo patrimonio romano de Aquincum. Al diseñarla, el artista también fundió un gemelo, que colocó en el anfiteatro romano de Pula en Croacia.",
+      "howToFind": "Paso 1 (Zona): Ve al distrito III (Óbuda), al anfiteatro militar romano de Nagyszombat utca.\n\nPaso 2 (Punto de referencia): Camina a lo largo de las piedras de las ruinas romanas originales que rodean la arena cubierta de hierba.\n\nPaso 3 (Ubicación exacta): Está tumbado con indiferencia en lo alto de uno de los grandes bloques de piedra que quedan."
+    },
+    "aranka_bela_01": {
+      "name": "Tía Aranka y Tío Béla",
+      "location": "Pasaréti tér",
+      "description": "La estatua conmemora a la icónica y querida pareja de floristas de Pasaréti tér, la tía Aranka y el tío Béla, que vendieron flores en el quiosco local durante décadas.",
+      "funFact": "Esta es una de las estatuas de Kolodko más conmovedoras, que se realizó en su totalidad gracias a la colaboración de la comunidad local y las donaciones de los residentes como tributo a la memoria de la pareja.",
+      "howToFind": "Paso 1 (Zona): Viaja a Pasaréti tér en el distrito II.\n\nPaso 2 (Punto de referencia): Busca las cercanías de la terminal de autobuses y del antiguo quiosco de flores (ahora cerrado).\n\nPaso 3 (Ubicación exacta): La pareja está sentada en el borde de la valla de piedra baja/macizo de flores junto al quiosco."
+    },
+    "garfield_01": {
+      "name": "Garfield",
+      "location": "Dembinszky utca 4.",
+      "description": "Una miniestatua del gato perezoso y amante de la lasaña, Garfield, el héroe de cómic de fama mundial de Jim Davis, cómodamente tumbado en la parte superior de un muro de ladrillo.",
+      "funFact": "La estatua fue creada en 2023 con motivo del 45º aniversario de la creación de Garfield. Se eligió la valla de la Universidad de Medicina Veterinaria porque la institución es el centro de tratamiento de pequeños animales.",
+      "howToFind": "Paso 1 (Zona): Encuentra el número 4 de Dembinszky utca en el distrito VII.\n\nPaso 2 (Punto de referencia): Detente en la alta valla de ladrillo rojo de la Universidad de Medicina Veterinaria.\n\nPaso 3 (Ubicación exacta): Se encuentra en uno de los gruesos pilares de piedra de la valla."
+    },
+    "roth_miksa_01": {
+      "name": "Miksa Róth",
+      "location": "Nefelejcs utca 26.",
+      "description": "Un busto en miniatura del pintor sobre vidrio y artista de mosaicos húngaro de fama mundial Miksa Róth. La estatua está colocada detrás del marco de una vidriera, evocando la obra de la vida del maestro.",
+      "funFact": "La estatua tiene una pequeña lámpara incorporada que ilumina la ventana desde atrás, creando exactamente el mismo efecto que si la luz del sol brillara a través de los cristales tintados de Miksa Róth, independientemente de la hora del día.",
+      "howToFind": "Paso 1 (Zona): Ve al número 26 de Nefelejcs utca en el distrito VII.\n\nPaso 2 (Punto de referencia): Entra en la Casa Conmemorativa y Colección Miksa Róth (Atención: es una estatua DE INTERIOR, solo se puede visitar durante el horario de apertura).\n\nPaso 3 (Ubicación exacta): Se puede ver en el estudio de la planta baja, sobre un mueble de madera de época (vitrina)."
+    },
+    "lisa_simpson_02": {
+      "name": "Lisa Simpson (Amarillo Húngaro)",
+      "location": "Fővám tér 13.",
+      "description": "Una miniestatua de Lisa Simpson, la niña activista climática de la familia Simpson, encadenada a un poste amarillo de la parada del tranvía. El título de la estatua es 'Amarillo Húngaro'.",
+      "funFact": "La estatua es una referencia satírica a las acciones de desobediencia civil de los activistas climáticos, mientras que el color amarillo es un homenaje a las icónicas líneas de tranvía de Budapest (2, 4, 6).",
+      "howToFind": "Paso 1 (Zona): Dirígete desde Fővám tér en el distrito IX hacia el paseo superior del Danubio que conduce al edificio Bálna.\n\nPaso 2 (Punto de referencia): Busca el extremo abierto del paso subterráneo del tranvía desde el lado del Bálna y la fila de bancos que miran hacia el Danubio.\n\nPaso 3 (Ubicación exacta): Está encadenada al poste (estatua de color amarillo) en el extremo de la barandilla de metal que separa el paseo peatonal y el paso subterráneo del tranvía."
+    },
+    "ferenc_jozsef_01": {
+      "name": "Francisco José en hamaca",
+      "location": "Puente de la Libertad",
+      "description": "Una miniestatua del emperador de Austria y rey de Hungría Francisco José descansando en una cómoda hamaca entre las barras de hierro del puente que lleva su nombre (el actual Puente de la Libertad / Szabadság híd).",
+      "funFact": "La estatua captura la atmósfera relajada y libre de los picnics de verano 'Szabihíd', cuando los ciudadanos se apropian del puente cerrado al tráfico. Francisco José clavó personalmente el último remache de plata cuando se inauguró el puente en 1896.",
+      "howToFind": "Paso 1 (Zona): Pasea por el Puente de la Libertad (Szabadság híd).\n\nPaso 2 (Punto de referencia): Detente en el tramo más cercano a la cabecera de Pest y observa la estructura metálica verde del puente sobre la acera peatonal.\n\nPaso 3 (Ubicación exacta): Descansa en una diminuta hamaca tendida en uno de los elementos de soporte en forma de V de la estructura metálica."
+    },
+    "fules_01": {
+      "name": "Auriculares",
+      "location": "Komor Marcell utca 1. (Müpa)",
+      "description": "Unos auriculares en miniatura fundidos en bronce (auriculares de estudio) descansando sobre la barandilla del Palacio de las Artes (Müpa), evocando el mundo de la música y la acústica.",
+      "funFact": "Una peculiaridad de la estatua es que en su inauguración emitió realmente música para los transeúntes con la ayuda de un altavoz incorporado. Un símbolo del barrio cultural entre el Müpa y el Teatro Nacional.",
+      "howToFind": "Paso 1 (Zona): Ve al número 1 de Komor Marcell utca en el distrito IX.\n\nPaso 2 (Punto de referencia): Busca la entrada principal del Palacio de las Artes (Müpa) desde el lado del Danubio.\n\nPaso 3 (Ubicación exacta): Los auriculares 'cuelgan' de la barandilla metálica de la amplia escalinata que conduce a la entrada principal."
+    },
+    "szurikata_01": {
+      "name": "Suricato",
+      "location": "Bókay János utca 51.",
+      "description": "La miniestatua de un miembro vigilante de la familia de los suricatos de pie sobre sus patas traseras. El simpático animalito hace guardia en la valla de la clínica infantil, brindando esperanza y una sonrisa a los niños convalecientes.",
+      "funFact": "La estatua fue erigida en cooperación con la Fundación Suricato (Szurikáta Alapítvány, una organización que ayuda a los niños con diabetes) para llamar la atención sobre la diabetes tipo 1 en la infancia.",
+      "howToFind": "Paso 1 (Zona): Encuentra el número 51 de Bókay János utca en el distrito VIII.\n\nPaso 2 (Punto de referencia): Detente en la valla de rejas metálicas de la calle de la Clínica Infantil Nº 1.\n\nPaso 3 (Ubicación exacta): Está parado (haciendo guardia) en el zócalo de piedra de la valla, muy cerca de la entrada."
+    },
+    "uzenet_01": {
+      "name": "Mensaje (Putin y el buque de guerra ruso)",
+      "location": "Paseo de Moscú (Moszkva sétány)",
+      "description": "Un buque de guerra ruso en miniatura sobre un pedestal de piedra en forma de dedo corazón. El título de la estatua es 'Mensaje', que conmemora el famoso acto de resistencia de los guardias fronterizos ucranianos en la Isla de las Serpientes.",
+      "funFact": "La estatua es una de las declaraciones políticas más agudas de Mihály Kolodko contra la guerra iniciada por Rusia contra Ucrania. Tras su colocación, la estatua dio la vuelta a la prensa internacional de todo el mundo.",
+      "howToFind": "Paso 1 (Zona): Pasea por el distrito XIII, en el tramo debajo de la cabecera de Pest del puente Árpád.\n\nPaso 2 (Punto de referencia): Busca el Paseo de Moscú (Moszkva sétány), y en particular el parapeto de piedra junto a la carretera asfaltada a orillas del Danubio.\n\nPaso 3 (Ubicación exacta): El barco se encuentra sobre la mano tallada en piedra en la parte superior de uno de los pilares de piedra del parapeto."
+    },
+    "szent_miklos_01": {
+      "name": "San Nicolás de la suerte",
+      "location": "Hunyadvár utca 43/c.",
+      "description": "Una diminuta estatua de bronce de San Nicolás, portador de buena suerte (el santo patrón de los niños y los viajeros), descansando con su saco de regalos en el alféizar de la ventana del centro cultural.",
+      "funFact": "Rápidamente se extendió la creencia entre los lugareños de que si tocas o acaricias la estatua de San Nicolás, te traerá buena suerte en los exámenes y en la vida cotidiana.",
+      "howToFind": "Paso 1 (Zona): Viaja al distrito XVI (Sashalom), al número 43/c de Hunyadvár utca.\n\nPaso 2 (Punto de referencia): Detente en la entrada principal del Centro Cultural Corvin (Corvin Művelődési Ház).\n\nPaso 3 (Ubicación exacta): Descansa en el alféizar exterior de la taquilla (o ventanilla de información)."
+    },
+    "chuck_norris_01": {
+      "name": "Chuck Norris atado",
+      "location": "Puente Megyeri",
+      "description": "Una miniestatua del héroe de acción Chuck Norris atado de pies y manos. La obra hace una referencia humorística a la votación en Internet de 2006 para dar nombre al Puente Megyeri, donde la gente de Internet votó a favor de que el puente llevara el nombre de Chuck Norris.",
+      "funFact": "Aunque Chuck Norris ganó la encuesta, por ley un puente no podía llevar el nombre de una persona viva y extranjera, por lo que finalmente se convirtió en el Puente Megyeri. Kolodko expuso la estatua el Día de los Inocentes (1 de abril), y el héroe de acción parece invencible incluso atado.",
+      "howToFind": "Paso 1 (Zona): Visita la cabecera de Pest del Puente Megyeri.\n\nPaso 2 (Punto de referencia): Sube al lado sur del camino peatonal/ciclista del puente.\n\nPaso 3 (Ubicación exacta): Está atado a la enorme estructura metálica de soporte del panel informativo de cristal con la inscripción 'Pest' pegada a la barandilla."
+    },
+    "holdjaro_01": {
+      "name": "Vehículo Lunar",
+      "location": "Esquina de Hold utca y Aulich utca",
+      "description": "Una miniestatua de un Vehículo Lunar (Lunar Roving Vehicle) que contiene un pequeño astronauta con traje espacial, aparcado sobre una semiesfera de hormigón en forma de Luna.",
+      "funFact": "La estatua tiene un doble significado: por un lado, es un homenaje al ingeniero de la NASA de origen húngaro Ferenc Pavlics, que diseñó la rueda del vehículo lunar, y por otro lado, es una referencia a Hold utca (Calle de la Luna), donde Kolodko vivió inicialmente tras mudarse a Budapest.",
+      "howToFind": "Paso 1 (Zona): Dirígete al distrito V, a la esquina de Hold utca y Aulich utca.\n\nPaso 2 (Punto de referencia): Detente en la esquina de la calle cerca de la Llama Eterna de Batthyány (Batthyány-örökmécses).\n\nPaso 3 (Ubicación exacta): Está aparcado en lo alto de una de las semiesferas de hormigón (que simbolizan la Luna) colocadas para evitar el aparcamiento en la calle."
+    },
+    "micimacko_01": {
+      "name": "Winnie the Pooh",
+      "location": "Damjanich utca 27.",
+      "description": "Una miniestatua de Winnie the Pooh merendando de su tarro de miel, sentado en la pared de una casa junto a la placa conmemorativa de Frigyes Karinthy.",
+      "funFact": "La colocación de la estatua es un tributo lingüístico e histórico: el cuento de Milne, famoso en todo el mundo, fue traducido en borrador por la hermana de Frigyes Karinthy, Emília (Mici) Karinthy, pero fue Frigyes quien lo pulió hasta convertirlo en una obra maestra inmortal de la literatura húngara (y de ella obtuvo el nombre de 'Micimackó').",
+      "howToFind": "Paso 1 (Zona): Camina hasta el número 27 de Damjanich utca en el distrito VII.\n\nPaso 2 (Punto de referencia): Encuentra la placa conmemorativa de Karinthy en la pared de la casa.\n\nPaso 3 (Ubicación exacta): Está sentado con su tarro de miel en la superficie de ladrillo justo debajo de la placa conmemorativa, a la altura de los ojos."
+    },
+    "yoda_01": {
+      "name": "Maestro Yoda",
+      "location": "Szent Gellért tér",
+      "description": "Una miniestatua verde del sabio Maestro Jedi del universo de Star Wars, Yoda, sentado meditando en la barandilla metálica del paso subterráneo del metro.",
+      "funFact": "Yoda es un símbolo de sabiduría y fuerza interior. En el mundo bullicioso y apresurado del paso subterráneo del metro, la estatua anima a los viajeros a detenerse un momento y encontrar la paz interior.",
+      "howToFind": "Paso 1 (Zona): Viaja a Szent Gellért tér en el distrito XI.\n\nPaso 2 (Punto de referencia): Baja al bullicioso paso subterráneo de la línea de metro M4.\n\nPaso 3 (Ubicación exacta): Está sentado meditando en la parte inferior del ancho separador metálico entre las escaleras mecánicas que conducen a la superficie."
+    },
+    "paddington_01": {
+      "name": "Paddington y el oso de Masha",
+      "location": "Medve utca 5-7.",
+      "description": "El personaje de cuento británico, el oso Paddington, montado a lomos del oso de Masha (el héroe de la popular serie de dibujos animados rusa) en Medve utca (Calle del Oso).",
+      "funFact": "La estatua tiene un mensaje geopolítico satírico: la voz de doblaje británica original (en la versión local) del oso Paddington fue el presidente ucraniano Volodymyr Zelenskyy durante su carrera como actor. La convivencia de los dos osos reflexiona sobre el tema de la guerra y la paz.",
+      "howToFind": "Paso 1 (Zona): Visita el número 5-7 de Medve utca en el distrito II.\n\nPaso 2 (Punto de referencia): Detente frente a la entrada del edificio de oficinas/moderno que da a la calle.\n\nPaso 3 (Ubicación exacta): Cabalgan sobre la repisa de piedra baja (en el borde del parterre) frente al edificio."
+    },
+    "leo_es_fred_01": {
+      "name": "Leo y Fred",
+      "location": "BudaPart (Lágymányosi öböl)",
+      "description": "Los famosos personajes de dibujos animados de Sándor Reisenbüchler y József Tóth, Leo el león y Fred el domador, acampados con un carromato de circo a orillas del Danubio.",
+      "funFact": "La estatua conmemora el distrito de ocio de principios de siglo de la bahía de Lágymányos, la 'Pequeña Constantinopla', donde antiguamente circos y clubes entretenían al público de Pest y Buda.",
+      "howToFind": "Paso 1 (Zona): Pasea por la zona de BudaPart en el distrito XI (Bahía de Lágymányos / Lágymányosi-öböl).\n\nPaso 2 (Punto de referencia): Busca el paseo junto a la orilla en el punto de encuentro entre la zona verde de la presa de Kopaszi (Kopaszi-gát) y el nuevo complejo residencial.\n\nPaso 3 (Ubicación exacta): Se encuentran a la sombra de los árboles en el alto muro de piedra (muro de contención) que bordea el paseo ribereño."
+    },
+    "meditalo_nyul_01": {
+      "name": "Conejo meditando (Conejo Zen)",
+      "location": "Margitsziget (punta sur)",
+      "description": "Una miniestatua de un conejo meditando en la posición del loto, en completa paz Zen, junto a las escaleras del Danubio en el extremo sur de la Isla Margarita.",
+      "funFact": "La estatua es una respuesta humorística a un anterior 'ataque de conejos' en la Isla Margarita que recibió mucha atención de la prensa, cuando el aumento de conejos en la isla causó alarma. El artista domó a la figura transformándola en una isla de tranquilidad.",
+      "howToFind": "Paso 1 (Zona): Camina hasta el extremo más meridional de la Isla Margarita (Margitsziget).\n\nPaso 2 (Punto de referencia): Al sur de la entrada de la isla debajo del Puente Margarita, busca una escalera pintada de amarillo que baja hacia el Danubio.\n\nPaso 3 (Ubicación exacta): Medita en la posición del loto en el escalón más bajo / en la base de la escalera amarilla que conduce al agua."
+    },
+    "penzfujo_01": {
+      "name": "Hombrecito soplando dinero",
+      "location": "Szabadság tér",
+      "description": "Un hombrecito en miniatura que utiliza un soplador de hojas para reunir viejos billetes de pengő. La estatua conmemora la introducción del florín (forint) en 1946 y la derrota de la hiperinflación.",
+      "funFact": "La estatua situada frente al edificio del Banco Nacional de Hungría alude a la peor hiperinflación del mundo, cuando el valor del pengő se reducía a la mitad en cuestión de horas, y billetes de veinte mil billones eran barridos en las calles.",
+      "howToFind": "Paso 1 (Zona): Dirígete al distrito V, a la esquina de Bank utca y Hold utca (parte trasera del Banco Nacional de Hungría).\n\nPaso 2 (Punto de referencia): Busca el enorme plátano de sombra en la esquina rodeado por una valla de hierro forjado negro.\n\nPaso 3 (Ubicación exacta): El hombrecito está de pie sobre la repisa de piedra de la valla que rodea el árbol, y los diminutos pengős están esparcidos sobre la piedra frente a él."
+    },
+    "targoncas_01": {
+      "name": "Conductor de carretilla elevadora",
+      "location": "Szabadság tér",
+      "description": "Un obrero en miniatura que justo está moviendo un bloque de piedra con su carretilla elevadora junto al controvertido monumento.",
+      "funFact": "La estatua fue colocada en Szabadság tér por Kolodko como una acción de guerrilla, en respuesta a los debates políticos y sobre los monumentos públicos que tienen lugar en la plaza y a las constantes remodelaciones.",
+      "howToFind": "Paso 1 (Zona): Pasea por Szabadság tér en el distrito V.\n\nPaso 2 (Punto de referencia): Encuentra el Monumento a las Víctimas de la Ocupación Alemana y su enorme base de piedra.\n\nPaso 3 (Ubicación exacta): En la esquina derecha de la base del monumento, en la planta baja (nivel de la acera), está empujando el bloque de piedra."
+    },
+    "hanti_vadas_01": {
+      "name": "Cazador Janty",
+      "location": "Puente Rákóczi (cabecera de Buda)",
+      "description": "Una diminuta figura de bronce de un cazador ugrofinés (Janty) que lleva un ciervo sobre sus hombros a los pies del puente.",
+      "funFact": "La estatua llama la atención sobre las raíces ugrofinesas de la lengua húngara y la antigua armonía con la naturaleza, en medio de los palacios de cristal y los edificios de oficinas del moderno Infopark.",
+      "howToFind": "Paso 1 (Zona): Ve al distrito XI, a la cabecera de Buda del Puente Rákóczi.\n\nPaso 2 (Punto de referencia): Busca la rampa de acceso peatonal/ciclista al puente, frente a la torre del MOL Campus.\n\nPaso 3 (Ubicación exacta): Camina con el ciervo por la parte superior del enorme parapeto de piedra que acompaña a la rampa."
+    },
+    "pinokkio_01": {
+      "name": "Pinocho",
+      "location": "Széchenyi István tér",
+      "description": "Una miniestatua de bronce de Pinocho, el héroe de cuento cuya nariz creció debido a las mentiras, frente al edificio de la Academia de Ciencias.",
+      "funFact": "En la era de las noticias falsas (fake news), la estatua es un símbolo de la factualidad de la ciencia, la búsqueda de la verdad y el espíritu de la Academia.",
+      "howToFind": "Paso 1 (Zona): Visita Széchenyi István tér en el distrito V.\n\nPaso 2 (Punto de referencia): Ve a la parada del tranvía 2 (del lado de la Academia).\n\nPaso 3 (Ubicación exacta): La figura está incrustada en una de las juntas (hueco entre bloques de piedra) del muro de piedra (muro de contención) cerca de la parada del tranvía."
+    },
+    "eredeti_usanka_01": {
+      "name": "Ushanka soviética (Perdida/Destruida)",
+      "location": "Szabadság tér",
+      "description": "La primera miniestatua de la Ushanka soviética, que representaba un gorro militar en Szabadság tér.",
+      "funFact": "La estatua provocó una tormenta política: en enero de 2020 un diputado la derribó del pilar de piedra con un hacha y la arrojó al Danubio. En su lugar, Kolodko colocó más tarde la estatua 'Hacha sobre cojín decorativo'.",
+      "howToFind": "Paso 1 (Zona): Szabadság tér, distrito V.\n\nPaso 2 (Punto de referencia): La valla que rodea el Monumento militar soviético.\n\nPaso 3 (Ubicación exacta): La estatua YA NO SE ENCUENTRA en el lugar (fue arrojada al Danubio, hoy en su lugar se encuentra la estatua 'Hacha sobre cojín decorativo')."
+    },
+    "piszoar_01": {
+      "name": "Urinario (Marcel Duchamp) (Perdido/Robado)",
+      "location": "Városliget",
+      "description": "Una versión en miniatura de bronce de la famosa obra de arte dadaísta de Marcel Duchamp ('Fuente' / Urinario).",
+      "funFact": "La estatua aludía a las raíces del arte contemporáneo, pero lamentablemente, unas semanas después de su colocación, desconocidos la retiraron ilegalmente y la robaron.",
+      "howToFind": "Paso 1 (Zona): Városliget, distrito XIV.\n\nPaso 2 (Punto de referencia): Los paseos alrededor del Castillo de Vajdahunyad.\n\nPaso 3 (Ubicación exacta): La estatua YA NO SE ENCUENTRA en el lugar (desconocidos la robaron poco después de su colocación)."
+    },
+    "eredeti_lisa_simpson_01": {
+      "name": "Lisa Simpson (Original) (Perdida/Robada)",
+      "location": "Jászai Mari tér",
+      "description": "La primera miniestatua de Lisa Simpson en Budapest, que se encontraba en la parada del tranvía 2.",
+      "funFact": "La estatua fue robada de Jászai Mari tér poco después de su colocación. Mihály Kolodko no se rindió y más tarde colocó su reemplazo en Fővám tér bajo el nombre de 'Amarillo Húngaro'.",
+      "howToFind": "Paso 1 (Zona): Jászai Mari tér, distrito XIII.\n\nPaso 2 (Punto de referencia): La estación terminal del tranvía 2.\n\nPaso 3 (Ubicación exacta): La estatua YA NO SE ENCUENTRA en el lugar (fue robada, pero el artista colocó una nueva en Fővám tér)."
+    },
+    "dron_01": {
+      "name": "Dron / Tornillo sueco",
+      "location": "Bem rakpart / Angelo Rotta rakpart (cerca del Puente Margarita)",
+      "description": "Miniestatua estilizada de un dron de bronce, coronada con tres coronas (en referencia al escudo de armas de Suecia). Reflexiona sobre el mundo de la tecnología moderna y los drones de guerra en forma humorística.",
+      "funFact": "Anteriormente se podía ver la estatua en la exposición de Vác bajo el nombre Dron/Tornillo sueco. 'Aterrizó' en la sección del Bem rakpart cerca del puente Margarita en el verano de 2025.",
+      "howToFind": "Paso 1 (Zona): Ve al muelle Bem (Bem rakpart), hacia la cabecera de Buda del puente Margarita (Angelo Rotta rakpart).\n\nPaso 2 (Punto de referencia): Busca el parapeto de piedra cerca de la parada del tranvía.\n\nPaso 3 (Ubicación exacta): El dron 'aterriza' en la cima del parapeto."
+    },
+    "piszkos_fred_01": {
+      "name": "El Capitán Fred el Sucio",
+      "location": "Széchenyi István tér (junto a la Academia Húngara de Ciencias)",
+      "description": "Miniestatua de bronce del legendario héroe de novela de Jenő Rejtő (P. Howard), el Capitán Fred el Sucio. Con una pipa en la boca, está sentado relajadamente sobre un baúl de viaje/baúl de barco a orillas del Danubio.",
+      "funFact": "Se colocó en la Navidad de 2025. La elección de la ubicación es un contraste deliberado: a los pies de la Academia (MTA) que representa la alta cultura, aparece la figura icónica del humor de Pest y la literatura pulp.",
+      "howToFind": "Paso 1 (Zona): Ve a Széchenyi István tér, al edificio de la Academia Húngara de Ciencias.\n\nPaso 2 (Punto de referencia): Busca el paseo del Danubio / el parapeto de piedra en el lado de la Academia.\n\nPaso 3 (Ubicación exacta): Está sentado encima del baúl junto a un elemento/pilar de piedra, en dirección al Puente de las Cadenas."
+    },
+    "dr_bubo_01": {
+      "name": "El Doctor Búho y el Conejo",
+      "location": "Valla del Hospital Infantil Bethesda (esquina Hermina út - Bethesda utca)",
+      "description": "Rinde homenaje al doctor búho y a su paciente paranoico más famoso de la serie de dibujos animados de culto húngara '¡El siguiente, por favor!'. La composición de dos elementos se colocó en la valla con motivo del 160º aniversario del Hospital Infantil Bethesda, abriendo simbólicamente un consultorio para los pequeños pacientes.",
+      "funFact": "La composición se inauguró en agosto de 2026 y, de manera excepcional, fue revelada por uno de los perros de terapia del hospital, Tangó. Debajo de Búho (Bubó), que está sentado en lo alto del pilar de la valla, se puede ver al conejito asustado que solo está esperando la consulta. De todos modos, en el Bethesda hay una gran tradición con esta figura: el pasillo del pabellón de cirugía ya había sido pintado con escenas del Doctor Búho en 2012 a petición de los niños.",
+      "howToFind": "Paso 1 (Zona): Ve al Hospital Infantil Bethesda en el distrito XIV, cerca del Városliget.\n\nPaso 2 (Punto de referencia): Busca la valla en la esquina de Hermina út y Bethesda utca.\n\nPaso 3 (Ubicación exacta): Encontrarás la composición de dos partes en la valla: el Doctor Búho está sentado en lo alto del pilar de la valla, mientras que el conejito que espera recuperarse está situado justo debajo de él, en la parte inferior de la valla."
+    },
+    "ii_erzsebet_01": {
+      "name": "Isabel II (Empire / Yellow Submarine)",
+      "location": "Ya no en un espacio público (Anteriormente: Millenáris Park)",
+      "description": "La reina británica Isabel II, vestida con ropa elegante, saluda de pie sobre un submarino. La obra hace referencia a la canción 'Yellow Submarine' de los Beatles y al hecho de que la reina condecoró a los miembros de la banda en 1965.",
+      "funFact": "La estatua se colocó originalmente de forma temporal en uno de los pequeños lagos del Millenáris Park en octubre de 2024, durante el Art Market Budapest. Como se trataba de una pieza de exposición 'de guerrilla', más tarde se trasladó a la Casa Pannónia en Vác para la exposición 'El tiburón del Danubio'.",
+      "howToFind": "ATENCIÓN: ¡Esta estatua no es visible en un espacio público actualmente!\n\nPaso 1 (Zona): Originalmente estaba en el Edificio B del Millenáris Park (desde el lado de Lövőház utca).\n\nPaso 2 (Punto de referencia): Había que buscar el estanque junto al Edificio B.\n\nPaso 3 (Ubicación exacta): Estaba en medio del lago (fue una colocación temporal)."
+    },
+    "veszprem_erno_01": {
+      "name": "Ernő, el guardia",
+      "location": "Veszprém, Vár utca 2.",
+      "description": "Ernő, el guardia del Castillo, simboliza el pasado histórico y la protección en Veszprém. La estatua viste el uniforme de la Guardia de la Corona Real Húngara, conmemorando el hecho de que en 1944 la Santa Corona y la Santa Diestra fueron custodiadas en Veszprém durante un mes.",
+      "funFact": "La estatua recibió su nombre del comandante de la guardia de la corona Ernő Pajtás en una votación pública. La letra 'B' en la gorra de la estatua se refiere al hijo del cliente (el propietario de la empresa A1-Sped Kft.), llamado Balázs.",
+      "howToFind": "Paso 1 (Zona): Visita Veszprém, al principio de la histórica calle Vár utca.\n\nPaso 2 (Punto de referencia): Busca la imponente Puerta de los Héroes (Hősök kapuja), que sirve de entrada al Barrio del Castillo.\n\nPaso 3 (Ubicación exacta): Hace guardia en la base del pilar oeste de la puerta, junto al muro de piedra."
+    },
+    "veszprem_odon_01": {
+      "name": "Ödön, el músico callejero",
+      "location": "Veszprém, Kossuth Lajos utca",
+      "description": "Ödön, el músico callejero, conmemora el presente y la vibrante vida musical de Veszprém. La figura con un instrumento, sentada sobre una maleta, es el símbolo del Festival de Música Callejera de Veszprém y del título de 'Ciudad de la Música' de la UNESCO de la ciudad.",
+      "funFact": "La letra 'A' en la gorra de la figura indica la inicial de un miembro de la familia del empresario de Veszprém que encargó la estatua (Andrea).",
+      "howToFind": "Paso 1 (Zona): Pasea por el centro de Veszprém, en el tramo peatonal de Kossuth Lajos utca.\n\nPaso 2 (Punto de referencia): Busca la zona del centro de eventos Hangvilla.\n\nPaso 3 (Ubicación exacta): Cerca del mobiliario urbano, está sentado en su maleta sobre un muro bajo/banco de piedra."
+    },
+    "veszprem_leonora_01": {
+      "name": "LeoNóra, la niña y el león",
+      "location": "Veszprém, Kollégium utca",
+      "description": "LeoNóra, una niña sentada en el lomo de un león jugueteando con un teléfono inteligente, representa el futuro, el valor y la paz de la infancia. La estatua también hace referencia a los años de infancia de Santa Margarita de la Casa de Árpád en Veszprém.",
+      "funFact": "La letra 'T' visible en el pecho de la niña es la inicial del tercer hijo del cliente (Tamás). La estatua se colocó en las inmediaciones de las ruinas de Margarita.",
+      "howToFind": "Paso 1 (Zona): Encuentra la pintoresca Kollégium utca en Veszprém.\n\nPaso 2 (Punto de referencia): Da un paseo cerca de las ruinas de Margarita hasta el pequeño puente que cruza el arroyo Séd.\n\nPaso 3 (Ubicación exacta): Está sentada sobre el lomo del león en la enorme barandilla de hierro y piedra del puente."
+    },
+    "vac_anyam_tyukja_01": {
+      "name": "La gallina de mi madre (El perro Morzsa)",
+      "location": "Vác, Széchenyi utca 42.",
+      "description": "Representa a los personajes principales del icónico poema de Sándor Petőfi 'La gallina de mi madre' (el perro Morzsa y la gallina). Petőfi escribió el poema en la casa de sus padres en Vác, y la estatua también evoca la pasión del poeta por los viajes en tren.",
+      "funFact": "La ubicación de la estatua está conectada deliberadamente con el ferrocarril: se colocó en la plaza frente a la Estación de Tren de Vác, uniendo los recuerdos literarios de Vác y la historia de los ferrocarriles húngaros (la línea Pest-Vác fue la primera línea ferroviaria húngara).",
+      "howToFind": "Paso 1 (Zona): Viaja a Vác, al número 42 de Széchenyi utca (Estación de tren).\n\nPaso 2 (Punto de referencia): Detente en el espacio abierto frente a la entrada principal de la Estación de Tren de Vác.\n\nPaso 3 (Ubicación exacta): Están sentados uno al lado del otro en el borde del parterre elevado de piedra/cemento que decora la plaza."
+    },
+    "vac_maria_terezia_01": {
+      "name": "El éxtasis de María Teresa",
+      "location": "Vác, Kőkapu (Arco de Trionfo)",
+      "description": "Capta un momento aterrorizado y extático de la reina húngara María Teresa. Según la leyenda, durante su visita a Vác en 1764, la monarca no se atrevió a pasar bajo el Arco de Triunfo (Kőkapu) erigido en su honor en 2 semanas, porque temía que se derrumbara, por lo que se llevó la mano al corazón.",
+      "funFact": "El posicionamiento de la miniestatua crea un punto fotográfico perfecto: si se mira desde el ángulo correcto, el Arco de Triunfo original de Vác se perfila exactamente en el fondo.",
+      "howToFind": "Paso 1 (Zona): Visita Vác, la zona alrededor del famoso Kőkapu (Arco de Triunfo).\n\nPaso 2 (Punto de referencia): Busca el pequeño paseo tipo parque junto al Arco de Triunfo.\n\nPaso 3 (Ubicación exacta): Está tumbada en la parte superior de un pilar bajo de metal/piedra (colocado de tal manera que el Arco de Triunfo se vea de fondo)."
+    },
+    "vac_csuzli_01": {
+      "name": "Tirachinas (Ferenc Sajdik)",
+      "location": "Vác, Március 15. tér",
+      "description": "Una miniestatua creada en honor al artista gráfico y caricaturista galardonado con el premio Kossuth, Ferenc Sajdik, que representa a una figura tensando un tirachinas.",
+      "funFact": "Ferenc Sajdik está vinculado a la ciudad de Vác por mil lazos: la Casa Pannónia en la plaza principal alberga una colección permanente y una exposición que presenta el trabajo de toda la vida del artista.",
+      "howToFind": "Paso 1 (Zona): Pasea por el corazón de Vác, en la plaza Március 15. tér (Plaza Principal).\n\nPaso 2 (Punto de referencia): Encuentra la entrada a la Casa Pannónia (Colección Sajdik).\n\nPaso 3 (Ubicación exacta): Tensa el tirachinas en la parte superior del pilar de piedra tallada que se encuentra justo enfrente de la entrada."
+    },
+    "vac_betoncapak_01": {
+      "name": "Tiburones de cemento (Tiburones del Danubio)",
+      "location": "Vác, Orillas del Danubio",
+      "description": "Un grupo de esculturas ecológicas 'Tiburones de cemento', realizadas utilizando residuos de plástico y metal pescados del río Danubio.",
+      "funFact": "La estatua llama la atención sobre la protección del medio ambiente y la limpieza del Danubio. Fue creada con el apoyo del Museo Ignác Tragor como un proyecto de arte ecológico.",
+      "howToFind": "Paso 1 (Zona): Pasea por el paseo del Danubio en Vác.\n\nPaso 2 (Punto de referencia): Busca la sección más natural, rocosa/acuática de la orilla del río junto al paseo pavimentado.\n\nPaso 3 (Ubicación exacta): Las aletas de tiburón en sí 'nadan' entre las piedras, parcialmente en el agua o en las inmediaciones del nivel del agua."
+    },
+    "tihany_gomboc_artur_01": {
+      "name": "Artúr Gombóc",
+      "location": "Tihany, Pisky sétány",
+      "description": "El pájaro amante del chocolate del popular cuento 'Pom Pom' de István Csukás y Ferenc Sajdik, Artúr Gombóc, con una barrita de chocolate 'Balaton' entre sus alas.",
+      "funFact": "Es una de las estatuas fuera de Budapest más populares entre los turistas y los niños: los visitantes dejan regularmente chocolates y dulces de verdad entre las garras de Artúr Gombóc.",
+      "howToFind": "Paso 1 (Zona): Visita Tihany, el famoso paseo Pisky (Pisky sétány).\n\nPaso 2 (Punto de referencia): Camina por el tramo panorámico entre la Abadía y la colina del Eco (Visszhang-domb).\n\nPaso 3 (Ubicación exacta): Está sentado en la parte superior del muro de basalto que mira hacia el lago Balaton, con el chocolate entre sus garras."
+    },
+    "szigliget_kempingezok_01": {
+      "name": "Campistas del Balaton",
+      "location": "Szigliget, Castillo de Szigliget",
+      "description": "Una miniestatua de un coche de camping Volkswagen Golf tirando de una diminuta caravana en lo alto de los muros del castillo.",
+      "funFact": "La estatua evoca la época dorada de las acampadas en el lago Balaton en los años 70 y 80 y la sensación de las vacaciones retro en las rocas del castillo de Szigliget.",
+      "howToFind": "ATENCIÓN: La estatua está en el nivel superior del castillo, por lo que ¡EXCLUSIVAMENTE se puede visitar durante el horario de apertura del Castillo de Szigliget y con una entrada comprada!\n\nPaso 1 (Zona): Sube al Castillo de Szigliget (con una entrada adquirida).\n\nPaso 2 (Punto de referencia): Sube al nivel más alto del castillo, al mirador de la Torre Benedictina (Bencés torony).\n\nPaso 3 (Ubicación exacta): El cochecito está 'aparcado' en lo alto del muro de piedra de la torre que da a Badacsony y ofrece una gran vista."
+    },
+    "hortobagy_csontvary_01": {
+      "name": "Tivadar Csontváry Kosztka",
+      "location": "Hortobágy, Puente de Nueve Arcos",
+      "description": "Una miniestatua del pintor Tivadar Csontváry Kosztka mientras crea con un bote de pintura en spray en medio de la puszta.",
+      "funFact": "Conmemora el famoso cuadro de Csontváry 'Tormenta en la puszta de Hortobágy'. La estatua forma parte de la serie internacional Csontváry de Kolodko (Múnich, Mostar, Hortobágy).",
+      "howToFind": "Paso 1 (Zona): Viaja a Hortobágy, al centro de la Puszta.\n\nPaso 2 (Punto de referencia): Da un paseo por el famoso monumento histórico del Puente de Nueve Arcos (Kilenclyukú híd).\n\nPaso 3 (Ubicación exacta): Camina sobre el parapeto de ladrillo (barandilla de piedra) del puente, de cara a la puszta infinita."
+    },
+    "esztergom_pumukli_01": {
+      "name": "Pumuki (Pumuckl)",
+      "location": "Esztergom, Paseo Kis-Duna",
+      "description": "Una miniestatua de Pumuki, el duende travieso pelirrojo, escondido en el hueco del muro de piedra.",
+      "funFact": "El motivo de la elección de la ubicación: la inolvidable voz de doblaje húngara de Pumuki, el actor Kornél Pusztaszeri, nació en la ciudad de Esztergom.",
+      "howToFind": "Paso 1 (Zona): Pasea por Esztergom por el encantador paseo Kis-Duna.\n\nPaso 2 (Punto de referencia): Busca la zona cercana al edificio del Instituto de Santa Isabel (Szent Erzsébet Gimnázium) y el alto muro de piedra.\n\nPaso 3 (Ubicación exacta): Está sentado en un hueco/agujero abierto en el macizo muro de piedra."
+    },
+    "gyula_lo_01": {
+      "name": "Caballo en la piscina",
+      "location": "Gyula, Baños del Castillo de Gyula (Gyulai Várfürdő)",
+      "description": "Un caballo de bronce en miniatura bañándose en el agua termal en la sala cubierta de los baños curativos.",
+      "funFact": "La estatua conmemora el antiguo edificio del Picadero de los Baños del Castillo de Gyula, donde antes estaban los caballos de los condes de Almásy, y que hoy funciona como piscina termal curativa.",
+      "howToFind": "Paso 1 (Zona): Visita Gyula, los Baños del Castillo de Gyula (Atención: estatua de INTERIOR, ¡solo se puede visitar con la entrada a los baños!).\n\nPaso 2 (Punto de referencia): Busca el edificio cubierto del Picadero (Lovarda) dentro de las instalaciones.\n\nPaso 3 (Ubicación exacta): El pequeño caballo de bronce se baña directamente en el agua/borde de una de las piscinas termales históricas."
+    },
+    "nyirbator_sohordo_01": {
+      "name": "Comerciante de sal (Nyírbátor)",
+      "location": "Nyírbátor, Paseo de Historia de la Ciudad",
+      "description": "Una miniestatua de un comerciante de sal en homenaje a la histórica Ruta de la Sal, que representa a un hombre que lleva un barril de sal a la espalda.",
+      "funFact": "Esta estatua forma parte de una ruta de esculturas transfronteriza que consta de 5 piezas en Hungría (y 5 en Transcarpatia) que marca la ruta de transporte de la sal de la Transilvania medieval.",
+      "howToFind": "Paso 1 (Zona): Visita el centro de Nyírbátor, el Paseo de Historia de la Ciudad (Várostörténeti sétány).\n\nPaso 2 (Punto de referencia): Camina por las zonas pavimentadas renovadas de la plaza principal cerca de los bancos y el mobiliario urbano.\n\nPaso 3 (Ubicación exacta): Camina con el barril de sal a la espalda por uno de los bancos/muretes bajos de piedra."
+    },
+    "nagykallo_sohordo_01": {
+      "name": "Comerciante de sal (Nagykálló)",
+      "location": "Nagykálló, Főtér (Plaza Principal)",
+      "description": "Una miniestatua de un comerciante de sal en homenaje a la histórica Ruta de la Sal, que representa a un hombre que lleva un barril de sal a la espalda.",
+      "funFact": "Esta estatua forma parte de una ruta de esculturas transfronteriza que consta de 5 piezas en Hungría (y 5 en Transcarpatia) que marca la ruta de transporte de la sal de la Transilvania medieval.",
+      "howToFind": "Paso 1 (Zona): Ve al corazón de Nagykálló, a la Plaza Principal (Főtér).\n\nPaso 2 (Punto de referencia): Observa las zonas ajardinadas centrales pavimentadas y los elementos del espacio público.\n\nPaso 3 (Ubicación exacta): Lleva el barril de sal sobre uno de los bancos de piedra bajos / pavimento decorativo."
+    },
+    "vasarosnameny_sohordo_01": {
+      "name": "Comerciante de sal (Vásárosnamény)",
+      "location": "Vásárosnamény, Parque frente al Ayuntamiento",
+      "description": "Una miniestatua de un comerciante de sal en homenaje a la histórica Ruta de la Sal, que representa a un hombre que lleva un barril de sal a la espalda.",
+      "funFact": "Esta estatua forma parte de una ruta de esculturas transfronteriza que consta de 5 piezas en Hungría (y 5 en Transcarpatia) que marca la ruta de transporte de la sal de la Transilvania medieval.",
+      "howToFind": "Paso 1 (Zona): Dirígete al centro de Vásárosnamény, al parque frente al Ayuntamiento.\n\nPaso 2 (Punto de referencia): Da un paseo por los cuidados senderos del parque, prestando atención a los bordillos y a las zonas de descanso.\n\nPaso 3 (Ubicación exacta): La pequeña figura de bronce se encuentra en un banco revestido de piedra o en un muro de contención."
+    },
+    "csenger_sohordo_01": {
+      "name": "Comerciante de sal (Csenger)",
+      "location": "Csenger, Centro",
+      "description": "Una miniestatua de un comerciante de sal en homenaje a la histórica Ruta de la Sal, que representa a un hombre que lleva un barril de sal a la espalda.",
+      "funFact": "Esta estatua forma parte de una ruta de esculturas transfronteriza que consta de 5 piezas en Hungría (y 5 en Transcarpatia) que marca la ruta de transporte de la sal de la Transilvania medieval.",
+      "howToFind": "Paso 1 (Zona): Visita el centro de Csenger decorado con edificios de estilo Makovecz.\n\nPaso 2 (Punto de referencia): Pasea por la pavimentación de piedra de las plazas centrales y los paseos.\n\nPaso 3 (Ubicación exacta): Se encuentra sobre uno de los muretes de piedra bajos, conmemorando la histórica ruta de la sal."
+    },
+    "tiszabecs_sohordo_01": {
+      "name": "Comerciante de sal (Tiszabecs)",
+      "location": "Tiszabecs",
+      "description": "Una miniestatua de un comerciante de sal en homenaje a la histórica Ruta de la Sal, que representa a un hombre que lleva un barril de sal a la espalda.",
+      "funFact": "Esta estatua forma parte de una ruta de esculturas transfronteriza que consta de 5 piezas en Hungría (y 5 en Transcarpatia) que marca la ruta de transporte de la sal de la Transilvania medieval.",
+      "howToFind": "Paso 1 (Zona): Viaja hasta el pueblo fronterizo de Tiszabecs.\n\nPaso 2 (Punto de referencia): Busca el centro del pueblo o los monumentos conmemorativos cerca de la orilla del río Tisza.\n\nPaso 3 (Ubicación exacta): Lleva el pesado barril de sal a su espalda estando sobre un bajo pedestal de piedra o banco."
+    },
+    "geszteredi_csardas_01": {
+      "name": "Csárdás triple de Geszteréd",
+      "location": "Geszteréd, Kossuth utca (en el memorial)",
+      "description": "La miniestatua de Mihály Kolodko conmemora la famosa csárdás triple de Geszteréd. La estatua representa a tres figuras bailando el baile tradicional húngaro, la csárdás. La obra de arte fue creada a través de la cooperación de la comunidad local para preservar las tradiciones.",
+      "funFact": "La estatua va acompañada de una placa de mármol con un pensamiento del violinista local János Keserű. También se ha conservado una grabación de archivo de 1955 de los pasos de la csárdás triple de Geszteréd, que inspiró la obra.",
+      "howToFind": "Paso 1 (Zona): Busca en el centro de Geszteréd, por la zona de Fő utca y Kossuth utca.\n\nPaso 2 (Punto de referencia): Encuentra un pequeño memorial bellamente diseñado con un pedestal de granito/mármol.\n\nPaso 3 (Ubicación exacta): Las tres diminutas figuras de bronce danzantes giran sobre este pedestal de piedra en su pequeño escenario."
+    },
+    "kallay_janos_peter_01": {
+      "name": "Conde János Péter Kállay",
+      "location": "Biri, Sport utca 47.",
+      "description": "Una obra dedicada al fundador de Biri, el conde János Péter Kállay de Nagykálló (1735–1810), que forma parte del grupo escultórico \"La Biblioteca del Conde\". La composición consta de 12 grandes libros de piedra tallada (obra del escultor de piedra György Sárga), en uno de los cuales está sentada una escultura de bronce en miniatura del conde, realizada por Kolodko.",
+      "funFact": "El conde se consideraba extremadamente culto, incluso para los estándares del siglo XVIII. Tenía una enorme biblioteca en la finca que hoy funciona como ayuntamiento, y leía a los enciclopedistas franceses en su idioma original. Es por eso que la estatua lo representa en la cima de una biblioteca.",
+      "howToFind": "Paso 1 (Zona): Ve al pueblo de Biri y encuentra Sport utca.\n\nPaso 2 (Punto de referencia): Examina la zona verde junto al campo de fútbol local y las instalaciones deportivas.\n\nPaso 3 (Ubicación exacta): ¡Busca los enormes libros de piedra que hay en el suelo! Al lado de los once libros tumbados hay uno de pie, en cuya cima se sienta la miniestatua."
+    },
+    "munich_csontvary_01": {
+      "name": "Tivadar Csontváry Kosztka",
+      "location": "Múnich, Alemania",
+      "description": "Una miniestatua del pintor Tivadar Csontváry Kosztka en Múnich, creando como un grafitero con un bote de pintura en spray en la mano en la capital bávara.",
+      "funFact": "La estatua es la gemela exacta de la estatua de Csontváry en el Puente de Nueve Arcos en Hortobágy. Csontváry comenzó sus estudios de arte en Múnich, en la escuela libre de Simon Hollósy.",
+      "howToFind": "Paso 1: En el centro de Múnich, pasea por Prinzregentenstraße cerca del Ángel de la Paz (Friedensengel). Paso 2: Busca el parapeto de piedra de la terraza escalonada. Paso 3: La estatua de bronce está colocada en el parapeto de piedra, a la altura de los transeúntes."
+    },
+    "munich_pumukli_01": {
+      "name": "Pumuki (Pumuckl)",
+      "location": "Múnich, Alemania",
+      "description": "Una miniestatua del duende travieso más famoso y adorable de la televisión bávara-alemana, Pumuki (Pumuckl).",
+      "funFact": "Kolodko escondió la estatua en Múnich en 2022, rindiendo homenaje al famoso libro de cuentos y serie de televisión (El Maestro Eder y Pumuki) ambientado en Múnich.",
+      "howToFind": "Paso 1: En Múnich, vale la pena mantener los ojos abiertos por los muros de piedra y los bordes de los puentes cerca del río Isar. Paso 2: Busca al pequeño duende de bronce con su característico pelo alborotado."
+    },
+    "munich_oktoberfest_01": {
+      "name": "Oktoberfest (Ein Hoch auf das Oktoberfest!)",
+      "location": "Múnich, Alemania",
+      "description": "Una mano de bronce que asoma por el asfalto sosteniendo en alto una jarra de cerveza bávara tradicional.",
+      "funFact": "El artista colocó la estatua en el lugar del festival de la cerveza más grande del mundo, la Theresienwiese, en 2020 (desafortunadamente, según los informes, desde entonces ha sido dañada varias veces o ha desaparecido).",
+      "howToFind": "Paso 1: Visita el enorme espacio abierto de Theresienwiese en Múnich. Paso 2: Busca la estatua 'saliendo' de la grieta en el hormigón/asfalto."
+    },
+    "landshut_rakoczi_01": {
+      "name": "Francisco Rákóczi II (Landshut)",
+      "location": "Landshut, Alemania",
+      "description": "Una diminuta estatua de bronce del príncipe Francisco Rákóczi II descansando cómodamente junto a un manantial en la ciudad bávara de Landshut.",
+      "funFact": "La estatua fue colocada junto a la Fuente de Rákóczi (Rákóczi-Quelle) local en 2020. El manantial está conectado a la historia húngara, a los kuruc que una vez pasaron por aquí y al propio príncipe.",
+      "howToFind": "Paso 1: Ve a la calle 'Am Schallermoos' en la ciudad de Landshut. Paso 2: Camina hasta el agua de la Fuente de Rákóczi (Rákóczi-Quelle). Paso 3: La estatua está sentada sobre las piedras alrededor del caño de agua."
+    },
+    "nuremberg_ajtosi_01": {
+      "name": "Adalbert Ajtósi (Albrecht Dürer el Viejo)",
+      "location": "Núremberg, Alemania",
+      "description": "Un monumento en miniatura al orfebre y padre del famoso pintor alemán Albrecht Dürer (Adalbert Ajtósi).",
+      "funFact": "Kolodko creó la estatua en 2021, para el 550º aniversario del nacimiento de Adalbert Ajtósi. El nombre no es accidental: la familia Dürer es originaria del pueblo de Ajtós (en alemán 'Türer' -> Dürer) cerca de Gyula.",
+      "howToFind": "ATENCIÓN: La estatua está en el patio interior del museo, por lo que ¡solo se puede visitar durante el horario de apertura del Castillo de Tucher!\n\nPaso 1 (Zona): Visita el centro histórico de Núremberg, en el Castillo de Tucher (Museum Tucherschloss).\n\nPaso 2 (Punto de referencia): Entra en el patio interior abierto del museo.\n\nPaso 3 (Ubicación exacta): La estatua te da la bienvenida en una de las superficies de piedra del patio del castillo."
+    },
+    "prague_rakoczi_01": {
+      "name": "Francisco Rákóczi II",
+      "location": "Praga, República Checa",
+      "description": "Una miniestatua que representa al joven Francisco Rákóczi II.",
+      "funFact": "Conmemora los años de estudiante del príncipe en Praga (1691–1692). La pequeña estatua fue inaugurada con la ayuda del Instituto Liszt de Praga, complementando la placa conmemorativa de Rákóczi ya existente.",
+      "howToFind": "Paso 1: En Praga, dirígete a la Plaza de la Ciudad Pequeña (Malostranské náměstí). Paso 2: Busca el edificio del antiguo colegio de los jesuitas. Paso 3: En las inmediaciones de la placa conmemorativa de Rákóczi fijada a la pared, puedes encontrar la diminuta figura de bronce en la pared o en su borde."
+    },
+    "vienna_alex_delarge_01": {
+      "name": "Alex DeLarge (La Naranja Mecánica)",
+      "location": "Viena (Wien), Austria",
+      "description": "Una miniestatua del personaje principal sociópata de la película de culto de Stanley Kubrick 'La Naranja Mecánica' (Alex, interpretado por Malcolm McDowell) con un bastón y un bombín.",
+      "funFact": "En la película y en el libro, Alex era un admirador fanático de la música de Beethoven (solo le llamaba 'el querido y viejo Ludwig van'). Por lo tanto, Kolodko lo colocó con brillante genialidad justo en el pedestal del monumento a Beethoven en Viena en 2023.",
+      "howToFind": "Paso 1: Pasea hasta la Beethovenplatz, situada cerca del Stadtpark de Viena. Paso 2: Detente en el enorme monumento a Beethoven del siglo XIX que se eleva en el centro de la plaza. Paso 3: Encontrarás la estatua en la piedra de la izquierda que cierra los escalones frente al monumento principal."
+    },
+    "venice_selfie_01": {
+      "name": "Selfie en Venecia",
+      "location": "Venecia (Venezia), Italia",
+      "description": "La estatua representa al león alado de San Marcos, o a un típico turista con aletas, tomándose una foto a sí mismo sobre el canal con un palo selfie.",
+      "funFact": "La obra de arte muestra un espejo distorsionado del turismo de masas moderno y superficial. Desafortunadamente, según las noticias, la obra desapareció de su lugar original en 2024, por lo que probablemente se convirtió en la presa de alguien.",
+      "howToFind": "Paso 1: Visita la Iglesia de Santa Maria della Pietà. Paso 2: Ve a la zona costera del puerto frente a la iglesia. Paso 3: Originalmente, la estatua se tomaba una foto a sí misma aquí en las piedras hacia el mar, hoy (desde 2024) solo encontrarás su lugar vacío."
+    },
+    "pula_legionarius_01": {
+      "name": "In vino veritas (Legionario romano)",
+      "location": "Pula, Croacia",
+      "description": "La miniestatua de un soldado legionario romano intoxicado por la hiedra que descansa descuidadamente con un ánfora a los pies del antiguo anfiteatro.",
+      "funFact": "La estatua es una copia exacta de la estatua del soldado romano en Óbuda (Budapest). Las dos obras forman una especie de puente histórico invisible entre las dos antiguas provincias romanas.",
+      "howToFind": "Paso 1: Visita el famoso anfiteatro romano (Arena de Pula) en el centro de Pula. Paso 2: Pasea por los muros de piedra en ruinas exteriores del edificio. Paso 3: La miniestatua yace en la hierba entre las piedras de los muros."
+    },
+    "rijeka_piszkos_fred_01": {
+      "name": "Cuchillo en el marinero (El Capitán Fred el Sucio)",
+      "location": "Rijeka (Fiume), Croacia",
+      "description": "Una obra que inmortaliza la primera escena de la novela de Jenő Rejtő. Hay un marinero pintado en la pared (grafiti) de cuya espalda sobresale un cuchillo minúsculo real hecho de bronce.",
+      "funFact": "La estatua alude a la icónica frase de apertura de la literatura pulp húngara ('– ¡Señor! ¡He venido a por mi cuchillo! / – ¿Dónde lo dejó? / – En algún marinero.'). Kolodko llevó así el humor de Pest a la costa.",
+      "howToFind": "Paso 1: Pasea por el puerto de Rijeka (Rijeka Luka) o por las calles del centro de la ciudad cerca del mar. Paso 2: Busca una sección de la pared en la que haya un marinero dibujado con líneas negras simples. Paso 3: La daga con mango de nácar clavada en su espalda es una miniestatua física y tangible."
+    },
+    "rijeka_carpathia_01": {
+      "name": "Barco de vapor Carpathia",
+      "location": "Rijeka (Fiume), Croacia",
+      "description": "Una miniestatua que inmortaliza el salvavidas del transatlántico RMS Carpathia que rescató a los supervivientes del Titanic.",
+      "funFact": "El Carpathia zarpó de Fiume (Rijeka) con una tripulación húngara antes de la noche fatal, y el museo marítimo de Fiume exhibe el único salvavidas original del Titanic en Europa. A esto rinde homenaje la pequeña obra de arte colocada en 2024.",
+      "howToFind": "Paso 1: Ve al paseo marítimo del puerto de Rijeka. Paso 2: Presta atención a las juntas de los gruesos muros de piedra y los muelles a lo largo de la costa. Paso 3: El salvavidas fundido en bronce está amarrado con estilo sobre las piedras."
+    },
+    "lendva_lecso_01": {
+      "name": "Caldero (Ratatouille)",
+      "location": "Lendava (Lendva), Eslovenia",
+      "description": "La figura de Remy, la rata experta en gastronomía muy conocida del cuento de Pixar, con una cuchara de madera en la mano mientras trastea en un grafiti que dice 'Bogrács' (Caldero).",
+      "funFact": "Lendava es conocida por su famoso Festival del Bogrács (Caldero), por lo que Kolodko creó el gemelo de la estatua de Ratatouille de Budapest aquí en 2022 en honor a las artes culinarias locales.",
+      "howToFind": "Paso 1: Visita el centro de la ciudad de Lendava, en los alrededores de la Galería-Museo local y el teatro. Paso 2: Busca un moderno muro de contención en el que esté rociada la palabra 'Bogrács'. Paso 3: La pequeña rata de bronce está sentada en la repisa justo delante de la inscripción."
+    },
+    "mostar_csontvary_01": {
+      "name": "Tivadar Csontváry Kosztka (Mostar)",
+      "location": "Mostar, Bosnia y Herzegovina",
+      "description": "La miniestatua de Csontváry, que representa al genio de la pintura mientras evoca su espíritu en la ciudad de los Balcanes con un bote de pintura en spray.",
+      "funFact": "Fue aquí donde Csontváry pintó su icónica obra maestra 'Puente Romano en Mostar' en 1903. Kolodko colocó la estatua en el verano de 2023, con motivo del 170º aniversario del nacimiento del gran pintor.",
+      "howToFind": "Paso 1: Visita el monumento emblemático de Mostar, el Puente Viejo (Stari Most). Paso 2: Desciende a las orillas del río Neretva al sur del puente (hacia abajo), en la orilla más cercana al lado croata. Paso 3: Encontrarás la estatua en una de las rocas frente al agua a unos cien metros del Puente Viejo."
+    },
+    "stockholm_nobel_01": {
+      "name": "Alfred Nobel",
+      "location": "Estocolmo, Suecia",
+      "description": "Una diminuta estatua de bronce que representa el retrato de Alfred Nobel, el inventor de la dinamita y fundador del premio científico mundialmente famoso.",
+      "funFact": "Hungría cuenta con uno de los mayores números de científicos galardonados con el Premio Nobel en relación con su población, por lo que la estatua fue creada como un símbolo de respeto cultural y científico sueco-húngaro.",
+      "howToFind": "Paso 1: Dirígete al barrio diplomático de Östermalm en Estocolmo, en concreto al edificio de Dag Hammarskjölds väg 10. Paso 2: Encuentra la valla de hierro forjado de la Embajada de Hungría. Paso 3: La estatua está directamente en la valla que da a la calle."
+    },
+    "stockholm_karlsson_01": {
+      "name": "Karlsson en el tejado (Mini Karlsson)",
+      "location": "Estocolmo, Suecia",
+      "description": "El héroe de cuento de Astrid Lindgren, Karlsson, que vuela con una hélice en la espalda con un toque moderno: con un mando a distancia de un dron en la mano y gafas de realidad virtual en la cabeza.",
+      "funFact": "Kolodko transportó al héroe de los cuentos de hadas tradicionales suecos al siglo XXI y colocó la estatua en uno de los miradores más hermosos de Estocolmo con vistas al mar en 2023.",
+      "howToFind": "Paso 1: Sube al distrito de Södermalm en Estocolmo, a la calle Fjällgatan. Paso 2: Pasea hasta los alrededores del número 44 de Fjällgatan, en la terraza del mirador. Paso 3: La figura está sentada en la gruesa cornisa de piedra."
+    },
+    "istanbul_barabas_01": {
+      "name": "Barabás (Los chicos de la calle Paul)",
+      "location": "Estambul, Turquía",
+      "description": "Una estatua de bronce que representa a Barabás, uno de los personajes de la novela de Ferenc Molnár, que está sentado en el enorme sello tallado en piedra de la Asociación de Masilla.",
+      "funFact": "Una de las creaciones extranjeras más recientes: se inauguró en enero de 2026 durante la Temporada Cultural Húngaro-Turca. La novela es lectura obligatoria en Turquía, por lo que los lugareños la recibieron con gran alegría.",
+      "howToFind": "Paso 1: Cerca de la bulliciosa calle peatonal de Estambul, alrededor de Istiklal Caddesi (distrito de Beyoğlu), busca el Instituto Liszt local. Paso 2: Sobre el panel informativo con código QR colocado en el frente de la calle, la estatua está sentada en una sección de la pared / pilar."
+    },
+    "seoul_liszt_01": {
+      "name": "Franz Liszt (Seúl)",
+      "location": "Seúl, Corea del Sur",
+      "description": "Una miniestatua del compositor Franz Liszt en Seúl, sentado esperando sobre una maleta.",
+      "funFact": "Hay un enorme culto a la música clásica húngara en Corea del Sur. Esta estatua es una copia exacta de la estatua de Liszt en el aeropuerto de Budapest (la número 4 por número de serie), con la que Kolodko también regaló una alegría al público asiático.",
+      "howToFind": "Paso 1: Visita el Centro Cultural Húngaro (Instituto Liszt) local en el centro de Seúl. Paso 2: La estatua descansa sobre el banco de piedra/pedestal junto a la entrada del instituto."
+    },
+    "princeton_einstein_01": {
+      "name": "Albert Einstein",
+      "location": "Princeton (Nueva Jersey), EE. UU.",
+      "description": "Una miniestatua del físico Albert Einstein en Princeton, sentado en un banco de piedra reflexionando sobre los misterios del universo.",
+      "funFact": "Esta es la primera miniestatua pública del artista en Estados Unidos. Einstein pasó los últimos más de veinte años de su vida en la Universidad de Princeton, y Kolodko le llevó este recuerdo en 2019.",
+      "howToFind": "Paso 1: Viaja al campus de la Universidad de Princeton, en el estado de Nueva Jersey. Paso 2: Visita los paseos del Parque Marquand frente a la antigua casa de Einstein. Paso 3: La estatua está sentada en uno de los bancos de piedra de descanso/pedestales bajos."
+    },
+    "freddie_montserrat_01": {
+      "name": "Freddie Mercury y Montserrat Caballé",
+      "location": "Barcelona (España), Montjuïc",
+      "description": "Una miniestatua doble en conmemoración del legendario líder de Queen, Freddie Mercury, y de la mundialmente famosa cantante de ópera española, Montserrat Caballé. El dúo hizo historia con la icónica canción de los Juegos Olímpicos de Barcelona de 1992 ('Barcelona').",
+      "funFact": "Como parte de una acción de auténtica guerrilla, Kolodko colocó las estatuas en España en enero de 2026, fijándolas silenciosamente a la barandilla de una escalera de piedra. Freddie aparece con el puño cerrado y Montserrat con los brazos abiertos y una capa.",
+      "howToFind": "Paso 1 (Zona): En Barcelona, dirígete a la montaña de Montjuïc, concretamente a la zona de la Fuente Mágica (Font Màgica) y el CaixaForum.\n\nPaso 2 (Punto de referencia): Busca las antiguas escaleras rústicas de piedra que conducen a los edificios.\n\nPaso 3 (Ubicación exacta): Debes buscar las dos pequeñas estatuas, vueltas la una hacia la otra, en la ancha barandilla de mampostería de piedra de una de las escaleras."
+    },
+    "svejk_olomouc_01": {
+      "name": "El buen soldado Švejk (Olomouc)",
+      "location": "Olomouc (República Checa), Krapkova utca",
+      "description": "Una réplica en miniatura de bronce del famoso soldado checo Švejk en la ciudad de Olomouc. La figura, que pacíficamente sostiene una bola de masa (knédli) en lugar de un arma, se colocó frente al pub 'U Kuděje' en 2016. La elección del lugar no es accidental: el escritor checo Matěj Kuděj era un amigo cercano y compañero de copas de Jaroslav Hašek (el creador de Švejk).",
+      "funFact": "La estatua es tan diminuta y se funde tanto con su entorno junto a la terraza del pub que, según los lugareños, solo se dan cuenta de ella quienes ya van de camino hacia dentro a por una buena pinta de cerveza.",
+      "howToFind": "Paso 1 (Zona): En Olomouc, camina hacia el parque Čechovy sady en Krapkova utca.\n\nPaso 2 (Punto de referencia): Encuentra el popular pub local llamado 'U Kuděje'.\n\nPaso 3 (Ubicación exacta): La estatua está sentada afuera, en la simple barandilla de metal junto a la entrada/acera."
+    },
+    "svejk_lipnice_01": {
+      "name": "El buen soldado Švejk (Lipnice)",
+      "location": "Lipnice nad Sázavou (República Checa)",
+      "description": "Un clon del Švejk de Kolodko en el pueblo checo donde Jaroslav Hašek pasó los últimos años de su vida, donde escribió la mayor parte de la novela y donde se encuentra su tumba. La estatua se inauguró en 2017 debajo de la placa conmemorativa local a Hašek.",
+      "funFact": "La placa en el pedestal de la estatuilla reza en varios idiomas: 'Soldado Josef Švejk - mensajero de paz'. La estatua fue erigida conjuntamente por Kolodko y la Sociedad Internacional Hašek.",
+      "howToFind": "Paso 1 (Zona): Visita el centro de la ciudad checa de Lipnice nad Sázavou.\n\nPaso 2 (Punto de referencia): Busca el monumento a Hašek y la famosa posada 'U České koruny' (A la Corona Checa), que una vez fue propiedad de Hašek.\n\nPaso 3 (Ubicación exacta): La figura de bronce se encuentra en las inmediaciones de la placa conmemorativa y las inscripciones."
+    },
+    "svejk_humenne_01": {
+      "name": "El buen soldado Švejk (Humenné)",
+      "location": "Humenné (Eslovaquia), Zona de la estación de tren",
+      "description": "Una miniestatua del buen soldado en la ciudad eslovaca de Humenné. Este asentamiento juega un papel importante en la novela: Švejk y su unidad pasaron por aquí en su camino hacia el frente oriental. La miniestatua de Kolodko es un homenaje a la famosa 'parada de Humenné'.",
+      "funFact": "En Humenné, los fans de la novela ya habían erigido una gran estatua de Švejk (cerca de un pozo), pero el Švejk 'de guerrilla' con bola de masa de Kolodko es una sorpresa mucho más pequeña y escondida para los viajeros que llegan en tren.",
+      "howToFind": "Paso 1 (Zona): Dirígete a la estación de tren de Humenné (Železničná stanica Humenné).\n\nPaso 2 (Punto de referencia): Examina las barandillas y los pilares metálicos que hay alrededor de los andenes y del edificio de la estación.\n\nPaso 3 (Ubicación exacta): El pequeño Švejk con su equipaje (y la bola de masa) está sentado sobre uno de los tubos metálicos de la infraestructura ferroviaria."
+    },
+    "svejk_przemysl_01": {
+      "name": "El buen soldado Švejk (Przemyśl)",
+      "location": "Przemyśl (Polonia)",
+      "description": "Una miniestatua de Švejk en Polonia. Przemyśl es un lugar clave en el libro: según la historia, nuestro héroe se puso accidentalmente un uniforme ruso abandonado a la orilla del río, lo que provocó que las tropas austrohúngaras lo confundieran con un espía ruso y lo tomaran prisionero en la ciudad fortaleza.",
+      "funFact": "En la plaza principal de Przemyśl, un Švejk de tamaño natural lleva mucho tiempo sentado en una caja de municiones, pero el mensajero de la paz de Kolodko, la miniestatua de la bola de masa, llegó a la ciudad como muestra de la amistad polaco-húngaro-ucraniana.",
+      "howToFind": "Paso 1 (Zona): Dirígete al centro histórico de Przemyśl y a las orillas del río San.\n\nPaso 2 (Punto de referencia): Busca los monumentos del antiguo sistema de fortificaciones o las barandillas que rodean la plaza principal (Rynek).\n\nPaso 3 (Ubicación exacta): La pacífica y sonriente figura se sienta sobre un elemento de metal parecido al cañón de un arma."
+    },
+    "svejk_kielce_01": {
+      "name": "El buen soldado Švejk (Kielce)",
+      "location": "Kielce (Polonia)",
+      "description": "Otro clon del Švejk de Kolodko en Polonia. La estatua se entregó en un marco ceremonial en junio de 2017, en estrecha colaboración con la Sociedad de Fans de Švejk local, que cultiva activamente la memoria del pacífico soldado checo de la Primera Guerra Mundial.",
+      "funFact": "A la inauguración asistieron también descendientes de Jaroslav Hašek. Esta estatua también forma parte de la red de 'estatuas hermanas' en Ucrania (Uzhhorod) y del mismo modo sostiene una bola de masa (knédli) en su mano en lugar de un arma.",
+      "howToFind": "Paso 1 (Zona): Busca en el centro de la ciudad de Kielce, en la zona de atracción de las calles peatonales.\n\nPaso 2 (Punto de referencia): Encuentra un pedestal de metal o de piedra con una placa conmemorativa donde suelen reunirse las asociaciones literarias/históricas locales.\n\nPaso 3 (Ubicación exacta): La miniatura de bronce está sentada sobre una placa con la inscripción (Wojak Józef Szwejk – poslaniec pokoju)."
+    }
+  }
+}
