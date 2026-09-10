@@ -289,7 +289,6 @@
       "meditalo_nyul_01": {
         "coordinates": { "lat": 47.515676043714706, "lng": 19.04421553271402 },
         "yearInstalled": 2026,
-        "isDestroyed": true,
         "district": 13,
         "category": "cartoon"
       },
@@ -302,7 +301,6 @@
       "targoncas_01": {
         "coordinates": { "lat": 47.503141904493475, "lng": 19.050643801231416 },
         "yearInstalled": 2026,
-        "isDestroyed": true,
         "district": 5,
         "category": "history"
       },
@@ -630,6 +628,13 @@
         "yearInstalled": 2017,
         "district": 0,
         "category": "popculture"
+      },
+      "vienna_hydroplane_01": {
+        "coordinates": { "lat": 48.225866, "lng": 16.405807 },
+        "yearInstalled": 2026,
+        "isDestroyed": true,
+        "district": 0,
+        "category": "history"
       }
     }
   }
