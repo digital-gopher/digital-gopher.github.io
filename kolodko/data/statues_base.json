@@ -157,6 +157,7 @@
       "among_us_01": {
         "coordinates": { "lat": 47.512389837696816, "lng": 19.079826287316706 },
         "yearInstalled": 2023,
+        "isDestroyed": true,
         "district": 14,
         "category": "popculture"
       },
