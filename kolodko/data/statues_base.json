@@ -176,6 +176,7 @@
       "usanka_02": {
         "coordinates": { "lat": 47.50925662662561, "lng": 19.04531606015655 },
         "yearInstalled": 2020,
+        "isDestroyed": true,
         "district": 5,
         "category": "history"
       },
@@ -290,6 +291,7 @@
       "meditalo_nyul_01": {
         "coordinates": { "lat": 47.515676043714706, "lng": 19.04421553271402 },
         "yearInstalled": 2026,
+        "isDestroyed": true,
         "district": 13,
         "category": "cartoon"
       },
@@ -302,6 +304,7 @@
       "targoncas_01": {
         "coordinates": { "lat": 47.503141904493475, "lng": 19.050643801231416 },
         "yearInstalled": 2026,
+        "isDestroyed": true,
         "district": 5,
         "category": "history"
       },
@@ -363,6 +366,12 @@
         "yearInstalled": 2026,
         "district": 14,
         "category": "cartoon"
+      },
+      "zsigmondy_01": {
+        "coordinates": { "lat": 47.518656799999995, "lng": 19.0823791 },
+        "yearInstalled": 2026,
+        "district": 14,
+        "category": "history"
       }
     }
   },
