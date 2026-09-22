@@ -510,6 +510,7 @@
       "munich_oktoberfest_01": {
         "coordinates": { "lat": 48.131100, "lng": 11.549400 },
         "yearInstalled": 2020,
+        "isDestroyed": true,
         "district": 0,
         "category": "culture"
       },
@@ -540,6 +541,7 @@
       "venice_selfie_01": {
         "coordinates": { "lat": 45.434300, "lng": 12.338800 },
         "yearInstalled": 2022,
+        "isDestroyed": true,
         "district": 0,
         "category": "popculture"
       },
@@ -606,6 +608,7 @@
       "freddie_montserrat_01": {
         "coordinates": { "lat": 41.3712, "lng": 2.1523 },
         "yearInstalled": 2026,
+        "isDestroyed": true,
         "district": 0,
         "category": "popculture"
       },
