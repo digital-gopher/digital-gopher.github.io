@@ -642,6 +642,12 @@
         "district": 0,
         "category": "popculture"
       },
+      "rijeka_leo_01": {
+        "coordinates": { "lat": 45.332140171695045, "lng": 14.455565435863917 },
+        "yearInstalled": 2024,
+        "district": 0,
+        "category": "cartoon"
+      },
       "vienna_hydroplane_01": {
         "coordinates": { "lat": 48.225866, "lng": 16.405807 },
         "yearInstalled": 2026,
